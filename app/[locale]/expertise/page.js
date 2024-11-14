@@ -5,7 +5,6 @@ import React from 'react'
 const page = () => {
   return (
     <main>
-<Hero isEdmr={false} title={"Areas of Expertise"} />
 <AreaOfExpertise />
     </main>
   )
