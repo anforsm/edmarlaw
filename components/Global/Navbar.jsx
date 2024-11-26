@@ -6,31 +6,44 @@ import LinkI from "next-intl/link";
 import { useTranslations } from "next-intl";
 import Drawer from "./Drawer";
 import { usePathname, useRouter } from "next/navigation";
+import Image from "next/image";
 const Navbar = () => {
   const t = useTranslations("Index");
   const [isOpen, setIsOpen] = useState(false);
   const toggleDrawer = () => {
     setIsOpen(!isOpen);
   };
-  const asPath  = usePathname();
+  const asPath = usePathname();
 
   const getNewPath = (locale) => {
     if (locale === "en") {
-      return (asPath.startsWith("/en/") || asPath.startsWith("/en")) ? asPath.substring(3) : asPath === "/en" ? "/" : asPath;
+      return asPath.startsWith("/en/") || asPath.startsWith("/en")
+        ? asPath.substring(3)
+        : asPath === "/en"
+        ? "/"
+        : asPath;
     } else {
-      return (asPath.startsWith("/en/")|| asPath.startsWith("/en")) ? `/${locale}${asPath.substring(3)}` : `/${locale}${asPath}`;
+      return asPath.startsWith("/en/") || asPath.startsWith("/en")
+        ? `/${locale}${asPath.substring(3)}`
+        : `/${locale}${asPath}`;
     }
   };
   return (
-    <nav className={styles.outer}>
-      <div className={styles.container}>
-        <div className={styles.row}>
-          <div className={styles.image}>
+    <nav className="flex w-full">
+      <div className="w-full flex">
+        <div className="w-full flex justify-between">
+          <div className="w-full flex items-center py-8">
             <Link href={"/"}>
-              <img src="/logo2.png" alt="" />
+              <Image
+                className="max-h-[48px]"
+                width={100}
+                height={48}
+                src="/logo2.png"
+                alt=""
+              />
             </Link>
           </div>
-          <div className={styles.sublist}>
+          <div className="flex w-full items-center justify-end gap-x-4">
             <Link href={"/expertise"}>
               <span>{t("Area of Expertise")}</span>
             </Link>
@@ -57,20 +70,23 @@ const Navbar = () => {
                 </option>
               </select>
             </div> */}
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-              <LinkI href={getNewPath("en")} locale="en" >
+            <div className="text-[#00adee]">
+              {/* <LinkI href={getNewPath("en")} locale="en">
                 <p>EN</p>
-              </LinkI>
-              <LinkI href={getNewPath("se")} locale="se" >
+              </LinkI> */}
+              <LinkI href={getNewPath("se")} locale="se">
                 <p>SE</p>
               </LinkI>
             </div>
           </div>
-          <div className={`navbar__hamburger ${isOpen ? 'open' : ''}`} onClick={toggleDrawer}>
-          <div className="navbar__hamburger-line" />
-          <div className="navbar__hamburger-line" />
-          <div className="navbar__hamburger-line" />
-        </div>
+          <div
+            className={`navbar__hamburger ${isOpen ? "open" : ""}`}
+            onClick={toggleDrawer}
+          >
+            <div className="navbar__hamburger-line" />
+            <div className="navbar__hamburger-line" />
+            <div className="navbar__hamburger-line" />
+          </div>
         </div>
       </div>
       {isOpen && <Drawer onClose={() => setIsOpen(false)} />}

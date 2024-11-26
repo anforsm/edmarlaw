@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif !important;
+  font-family: "Lato", sans-serif !important;
 }
+/* 
 
 .slick-prev {
   left: 3% !important;
@@ -247,8 +251,9 @@ table {
   margin-bottom: 24px;
   width: 100%;
 }
- th, td {
-  border: 1px solid rgba(0,0,0,.1);
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.1);
   font-weight: 400;
   text-align: left;
   padding: 8px 15px;
@@ -270,7 +275,7 @@ table {
 
 .dropdown select {
   appearance: none;
-  padding: 10px 30px 10px 20px; /* Added padding-right to create a gap */
+  padding: 10px 30px 10px 20px; /* Added padding-right to create a gap
   font-size: 16px;
   border: none;
   border-radius: 4px;
@@ -285,7 +290,7 @@ table {
 }
 
 .dropdown::after {
-  content: '\25BE';
+  content: "\25BE";
   position: absolute;
   top: 50%;
   right: 10px;
@@ -294,23 +299,23 @@ table {
   pointer-events: none;
 }
 
-/* Style the dropdown options */
+/* Style the dropdown options 
 .dropdown select option {
   padding: 8px;
   background-color: #f7f7f7;
   color: #333;
 }
 
-/* Define font icons for flags */
+/* Define font icons for flags 
 .dropdown select option[value="en"]::before {
-  content: '\f024';
+  content: "\f024";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 10px;
 }
 
 .dropdown select option[value="sv"]::before {
-  content: '\f11d';
+  content: "\f11d";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 10px;
@@ -364,7 +369,7 @@ table {
 .drawer__item:last-child {
   margin-bottom: 0;
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   .navbar__hamburger {
     display: flex;
     flex-direction: column;
@@ -374,5 +379,4 @@ table {
     cursor: pointer;
     padding: 4px;
   }
-  
-}
+} */

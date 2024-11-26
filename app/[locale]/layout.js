@@ -17,7 +17,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale}>
-      <body>
+      <body className="max-w-5xl mx-auto">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
           {children}

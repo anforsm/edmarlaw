@@ -15,14 +15,15 @@ const Drawer = ({ onClose }) => {
       return asPath.startsWith("/en/") || asPath.startsWith("/en")
         ? asPath.substring(3)
         : asPath === "/en"
-        ? "/"
-        : asPath;
+          ? "/"
+          : asPath;
     } else {
       return asPath.startsWith("/en/") || asPath.startsWith("/en")
         ? `/${locale}${asPath.substring(3)}`
         : `/${locale}${asPath}`;
     }
   };
+
   return (
     <div className="drawer">
       <div
