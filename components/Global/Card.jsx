@@ -3,14 +3,17 @@ import React from "react";
 
 export default function Card({ title, description, icon }) {
   return (
-    <div className="flex flex-col gap-y-6 border border-gray-200 pb-6 rounded col-span-4 p-4">
+    <div className="flex flex-col gap-y-6 border border-[#CBCDD0] rounded col-span-4 p-4">
       <div>
-        <Image src={icon} alt={title} width={36} height={36} />
+        {/* <Image src={icon} alt={title} width={36} height={36} /> */}
+        {icon}
       </div>
       <div className="flex flex-col gap-y-2">
-        <div>{title}</div>
-        <p>{description}</p>
-        <div>Läs mer</div>
+        <h4 className="font-semibold text-lg">{title}</h4>
+        <p>
+          {description} Lorem ipsum dolor, sit amet consectetur adipisicing elit
+        </p>
+        <div className="font-semibold text-sm">Läs mer</div>
       </div>
     </div>
   );

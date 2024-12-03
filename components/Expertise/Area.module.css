@@ -1,8 +1,7 @@
 /* GridComponent.module.css */
-
 .gridContainer {
   display: flex;
-  width: 90%;
+  /* width: 90%; */
   margin: auto;
   gap: 4rem;
   padding: 4rem 0;
@@ -10,7 +9,7 @@
 }
 
 .gridList {
-  width: 30%;
+  /* width: 30%; */
   padding-right: 10px;
   position: sticky;
   top: 15%;
@@ -61,8 +60,9 @@
 }
 
 .gridContent {
-  width: 70%;
+  /* width: 70%; */
   padding: 10px;
+  padding-bottom: 16rem;
 }
 /*
   .gridContent h2 {

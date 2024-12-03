@@ -20,7 +20,7 @@
   object-fit: contain;
 }
 .descriptionDIv {
-  width: 50%;
+  /* width: 50%; */
 }
 .container h1 {
   font-size: 32px;

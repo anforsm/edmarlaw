@@ -1,13 +1,9 @@
-import AreaOfExpertise from '@/components/Expertise/AreaOfExpertise'
-import Hero from '@/components/Global/Hero'
-import React from 'react'
+import AreaOfExpertise from "@/components/Expertise/AreaOfExpertise";
+import Hero from "@/components/Global/Hero";
+import React from "react";
 
 const page = () => {
-  return (
-    <main>
-<AreaOfExpertise />
-    </main>
-  )
-}
+  return <AreaOfExpertise />;
+};
 
-export default page
+export default page;

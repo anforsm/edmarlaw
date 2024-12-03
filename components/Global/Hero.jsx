@@ -6,26 +6,24 @@ import Image from "next/image";
 const Hero = ({ title, isEdmr, logoImg }) => {
   const t = useTranslations("Index");
   return (
-    <section className={"grid grid-cols-12"}>
+    <section className={"grid grid-cols-12 px-4"}>
       <div className="col-span-6 flex flex-col gap-y-11">
         <h1 className="font-[300] text-[60px] leading-[72px] text-[#00ADEE]">
           Navigating Legal Waters with Excellence
         </h1>
-        <p>
+        <p className="text-[16px]">
           Advokatfirman EdmarLaw hjälper främst IT-bolag och teknikintensiva
           bolag, och har specialistkompetens sedan 25 år inom IT-rätt, dataskydd
           (GDPR), avtalsrätt, immaterialrätt och e-handel.
         </p>
         <div className="flex w-full gap-x-11">
-          <div className="w-full py-4 px-8 h-min  bg-black rounded-md">
-            <div className="text-white font-bold text-[18px] leading-[23.4px]">
+          <div className="w-full py-4 px-8 h-min bg-black rounded-md">
+            <div className="text-white font-bold leading-[23.4px]">
               Verksamhetsområden
             </div>
           </div>
-          <div className="w-full py-4 px-8 h-min rounded-md border flex items-center justify-center">
-            <div className="text-black font-bold text-[18px] leading-[23.4px]">
-              Om EdmarLaw
-            </div>
+          <div className="w-full py-4 px-8 h-min font-bold rounded-md border-[#00ADEE] border flex items-center justify-center">
+            <div className="text-black">Om EdmarLaw</div>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import styles from "./Navbar.module.css";
+import "./Navbar.css";
 import Link from "next/link";
 import LinkI from "next-intl/link";
 import { useTranslations } from "next-intl";
@@ -11,6 +11,7 @@ const Navbar = () => {
   const t = useTranslations("Index");
   const [isOpen, setIsOpen] = useState(false);
   const toggleDrawer = () => {
+    document.body.style.overflow = !isOpen ? "hidden" : "auto";
     setIsOpen(!isOpen);
   };
   const asPath = usePathname();
@@ -28,22 +29,23 @@ const Navbar = () => {
         : `/${locale}${asPath}`;
     }
   };
+
   return (
-    <nav className="flex w-full">
+    <nav className="flex w-full px-8 md:px-4 shadow z-50 h-28 overflow-x-hidden relative">
       <div className="w-full flex">
-        <div className="w-full flex justify-between">
-          <div className="w-full flex items-center py-8">
-            <Link href={"/"}>
+        <div className="w-full flex justify-between items-center">
+          <div className="w-full flex items-center max-h-12">
+            <Link href={"/"} className="h-full w-full">
               <Image
-                className="max-h-[48px]"
-                width={100}
-                height={48}
+                className="h-12 w-44 object-contain"
+                width={200}
+                height={200}
                 src="/logo2.png"
                 alt=""
               />
             </Link>
           </div>
-          <div className="flex w-full items-center justify-end gap-x-4">
+          <div className="md:flex hidden w-full items-center justify-end gap-x-4">
             <Link href={"/expertise"}>
               <span>{t("Area of Expertise")}</span>
             </Link>
@@ -79,17 +81,30 @@ const Navbar = () => {
               </LinkI>
             </div>
           </div>
-          <div
-            className={`navbar__hamburger ${isOpen ? "open" : ""}`}
-            onClick={toggleDrawer}
-          >
-            <div className="navbar__hamburger-line" />
-            <div className="navbar__hamburger-line" />
-            <div className="navbar__hamburger-line" />
+          <div className={`${isOpen ? "open" : ""}`} onClick={toggleDrawer}>
+            <svg
+              width="21"
+              height="18"
+              viewBox="0 0 21 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0H21V2.25H0V0ZM0 7.5H21V9.75H0V7.5ZM21 15V17.25H0V15H21Z"
+                fill="#1D1D1D"
+              />
+            </svg>
           </div>
         </div>
       </div>
-      {isOpen && <Drawer onClose={() => setIsOpen(false)} />}
+      {isOpen && (
+        <Drawer
+          onClose={() => {
+            setIsOpen(false);
+            document.body.style.overflow = "auto";
+          }}
+        />
+      )}
     </nav>
   );
 };

@@ -80,3 +80,16 @@ object-fit: contain;
     box-shadow: 1px 2px 15px #11111128;
   }
 } */
+
+.animate-slide-in {
+  animation: slide-in 0.5s ease-in-out;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
