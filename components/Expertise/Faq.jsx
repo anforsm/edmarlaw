@@ -36,9 +36,6 @@ const Faq = () => {
   useEffect(() => {
     setTimeout(() => {
       if (indx && search) {
-        console.log("is it here");
-        console.log({ indx });
-
         // Set the state based on the "index" parameter
         const index = parseInt(indx);
         switch (index) {
@@ -83,7 +80,6 @@ const Faq = () => {
   }, [indx, search]);
   useEffect(() => {
     if (indx && search) {
-      console.log({ h: search });
       setTimeout(() => {
         const selectedAreaDiv = document.getElementById(`index-${indx}`);
         if (selectedAreaDiv) {

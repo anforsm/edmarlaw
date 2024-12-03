@@ -282,10 +282,7 @@ const AreaOfExpertise = () => {
   }, []);
 
   useEffect(() => {
-    console.log("checking");
-    console.log(visibleItems[0]?.split("-")[1]);
     if (checkScroll) {
-      console.log("setting");
       if (visibleItems[0]?.split("-")[1]) {
         setScrollIndex(Number(visibleItems[0]?.split("-")[1]));
       }
@@ -295,9 +292,7 @@ const AreaOfExpertise = () => {
   useEffect(() => {
     const onScroll = () => {
       // if (!checkScroll) {
-      console.log("checkScroll", checkScroll);
       window.requestAnimationFrame(() => {
-        console.log("animation");
         // setCheckScroll(true);
       });
       // Wait until scrolling is finished
@@ -315,7 +310,6 @@ const AreaOfExpertise = () => {
 
   useEffect(() => {
     window.requestAnimationFrame(() => {
-      console.log("animation");
       // setCheckScroll(true);
     });
   });

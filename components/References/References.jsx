@@ -17,8 +17,6 @@ const References = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const t = useTranslations("REF");
-  console.log({ pathname });
-  console.log({ searchParams });
   return (
     <div className={styles.container}>
       <div className={styles.column}>
