@@ -17,7 +17,7 @@ import { useTranslations } from "next-intl";
 import Faq from "./Faq";
 import { useSearchParams } from "next/navigation";
 import ExpertiseMobile from "./ExpertiseMobile";
-
+//
 export const areasOfExpertise = [
   {
     title: "AI",
