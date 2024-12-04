@@ -1,6 +1,5 @@
 import React from "react";
 const ReferencesPage = () => {
-  //
   return (
     <div className="flex flex-col px-6 sm:gap-y-12 gap-y-0 pb-12">
       <h1 className="text-[60px] font-[300] leading-[76px] tracking-[2%] text-[#00ADEE] pt-14">
