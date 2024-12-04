@@ -1,7 +1,7 @@
 import React from "react";
 const ReferencesPage = () => {
   return (
-    <div className="flex flex-col px-6 gap-y-12 pb-12">
+    <div className="flex flex-col px-6 sm:gap-y-12 gap-y-0 pb-12">
       <h1 className="text-[60px] font-[300] leading-[76px] tracking-[2%] text-[#00ADEE] pt-14">
         Referenser
       </h1>
@@ -24,7 +24,7 @@ const ReferencesPage = () => {
         />
         <div
           id="separator"
-          className="w-full my-12 sm:hidden border-b bg-gray-200"
+          className="w-full my-0 sm:hidden border-b bg-gray-200"
         ></div>
         <QuoteBlock
           body={
@@ -48,7 +48,7 @@ const ReferencesPage = () => {
         />
         <div
           id="separator"
-          className="w-full my-12 sm:hidden border-b bg-gray-200"
+          className="w-full my-0 sm:hidden border-b bg-gray-200"
         ></div>
         <QuoteBlock
           body={
@@ -72,7 +72,7 @@ const ReferencesPage = () => {
         />
         <div
           id="separator"
-          className="w-full my-12 sm:hidden border-b bg-gray-200"
+          className="w-full my-0 sm:hidden border-b bg-gray-200"
         ></div>
         <QuoteBlock
           body={
