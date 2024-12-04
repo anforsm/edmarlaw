@@ -26,17 +26,8 @@ const Drawer = ({ onClose }) => {
 
   return (
     <div
-      className={`w-dvw h-dvh bg-white absolute top-28 left-0 flex flex-col animate-slide-in`}
+      className={`w-screen h-screen bg-white fixed top-28 z-10 left-0 flex flex-col animate-slide-in`}
     >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "flex-end",
-        }}
-      >
-        <AiOutlineClose onClick={onClose} />
-      </div>
       <div className={"flex flex-col gap-y-4"}>
         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
           {!asPath.startsWith("/en/") || asPath.startsWith("/en") ? (

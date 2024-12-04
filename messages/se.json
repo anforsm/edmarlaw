@@ -24,27 +24,21 @@
     "quote2": "With her background, Malin has in-depth knowledge about our core business, both the technology and the agreement structures. The fact that she is so easy to reach and shares the passion for new technology makes the collaboration particularly easy!",
     "author2": "Mathias Strand",
     "position2": "Head of legal Microsoft Western Europe",
-
     "quote3": "Att kunna immaterialrätt är bara en grundförutsättning. Man måste förstå på en nivå som kräver ett genuint intresse för internet, dataspel, esport och digital kultur. Det gör Malin, och i kombination med sin juridiska skicklighet levererar hon vad som krävs i den snabbrörliga, komplexa och digitala värld som utgör vår affärsmiljö.",
     "author3": "Stefan Magnusson",
     "position3": "Vice President DreamHack AB",
-
     "quote4": "Malin is so engaged; readily available with wise input in the midst of complicated negotiations. She gives us key questions to consider and is a great resource to discuss with. She reviews and analyses agreement documents for us and comes back with a simple bullet list for us to focus on.",
     "author4": "Mattias Unosson",
     "position4": "CEO Exmet AB",
-
     "quote5": "Malin har bland annat tagit fram heltäckande allmänna villkor både på svenska och engelska för vår molntjänst. Hennes stöd i avtalsfrågor är mycket uppskattat då hon är lätt att nå, snabb och pedagogisk när hon svarar på frågor.",
     "author5": "Patrik Andersson",
     "position5": "Product Manager Genero Solutions AB",
-
     "quote6": "Malin är ett bra bollplank i förhandlingar! Med sin bakgrund inom IT, så är hon väl insatt i de specifika frågeställningarna och förstår i detalj hur olika skrivningar och tolkningar ska hanteras. Hon inger också ett solitt intryck när hon deltar i förhandlingar.",
     "author6": "Anders Båth",
     "position6": "Sr VP eBuilder",
-
     "quote7": "Det första Malin gjorde för oss var en källkodsanalys, så att vi fick full koll på vår kod. Det har hjälpt oss oerhört mycket i kundförhandlingar eftersom kunderna vill ha vissa garantier. Genom att Malin förstår de tekniska bitarna så är det lätt att prata samma språk.",
     "author7": "Johan Gustafsson",
     "position7": "CEO Unomaly",
-
     "quote8": "Det har varit en fröjd att arbeta med dig och din enorma kompetens! Jag hoppas verkligen att vi får chansen att jobba med dig mer inom kort! (inte bara för att det förhoppningsvis betyder att vi sålt mer :)",
     "author8": "Jakob Johansson",
     "position8": "Sr VP eBuilder",
@@ -62,7 +56,6 @@
     "Terms of Use, Terms of Service": "Produktvillkor, tjänstevillkor",
     "Privacy assessments": "Dataskyddsanalyser och konsekvensbedömningar",
     "Privacy terms": "Personuppgiftspolicies",
-
     "Joint Development": "Utvecklingssamarbeten",
     "Online Services (PaaS, SaaS, cloud services etc)": "Onlinetjänster (PaaS, SaaS, molntjänster, etc.)",
     "System Deliveries": "Systemleverans",
@@ -160,7 +153,6 @@
     "processD4": "Den som är personuppgiftsansvarig bör också följa upp att personuppgiftsbiträdet faktiskt behandlar personuppgifterna i enlighet med instruktionerna i personuppgiftsbiträdesavtalet. Det kan man göra antingen genom ett besök hos personuppgiftsbiträdet, genom rapporter från personuppgiftsbiträdet eller genom löpande avstämning.",
     "processD3": "Det ställs många krav på den som är personuppgiftsansvarig. För att behandlingen av personuppgifter ska vara laglig krävs inte bara ett personuppgiftsbiträdesavtal. De registrerade måste också informeras, exempelvis i personuppgiftspolicyn, om att deras personuppgifter delas med personuppgiftsbiträden och vilka dessa biträden är. Information om personuppgiftsbiträden måste även dokumenteras i den personuppgiftsansvariges register över personuppgiftsbehandlingar. EdmarLaw kan assistera genom hela processen, från due diligence av personuppgiftsbiträden till upprättande av avtal och uppföljning.",
     "Data Protection Officer": "Dataskyddsombud",
-
     "officer1": "Vissa typer av organisationer måste tillsätta ett dataskyddsombud enligt GDPR, men alla organisationer tjänar på att ha tilldelat en person ansvaret för dessa frågor. Offentliga verksamheter (exempelvis myndigheter), organisationer vars kärnverksamhet består i att hantera stora mängder personuppgifter, och organisationer som hanterar större mängder av känsliga personuppgifter måste alla ha dataskyddsombud. Dataskyddsombudet kan vara en intern eller extern resurs. Det ska ha de yrkesmässiga kvalifikationer som krävs, liksom sakkunskap om lagstiftning och praxis kring dataskydd. Dataskyddsombudet måste hålla sig uppdaterad på området.",
     "officer2": "Det är styrelsens och ledningsgruppens ansvar att se till att dataskyddsombudet har resurser och möjligheter att på ett objektivt sätt utföra sitt arbete. GDPR är tydlig med att dataskyddsombudet ska kunna arbeta fritt utan att riskera kritik i samband med kontroller av personuppgiftsbehandlingen. Det kan ändå vara svårt att som anställd komma med synpunkter som medför förseningar och kostnader för organisationen. Samtidigt som en anställd kan ha god inblick i organisationens verksamhet, kan den dra sig för att komma med impopulära invändningar. Därför kan det vara att föredra att anlita en extern konsult som dataskyddsombud.",
     "officer3": "Dataskyddsombudet ska involveras i alla frågor som rör skyddet av personuppgifter, samarbeta och samråda med tillsynsmyndigheten, samt informera och utbilda anställda i dataskydd."
@@ -180,7 +172,6 @@
     "Licensing of security products and services": "Licensiering av säkerhetsprodukter och -tjänster",
     "Contracts regarding development and implementation of IT systems": "Avtal om utveckling och implementeringar av IT-system",
     "Outsourcing of IT services": "Outsourcing av IT-tjänster",
-
     "International joint development": "Internationella utvecklingssamarbeten",
     "Implementation of IT-system for payment solutions": "Implementering av IT-system för betaltjänster",
     "Regulations around technical platforms": "Regelverk kring tekniska plattformar",
@@ -304,7 +295,6 @@
   },
   "Publication": {
     "BUY": "BUY",
-
     "gdpr": "Ny upplaga av Internetpublicering – med ett omfattande avsnitt om GDPR!",
     "Internet publishing and Social Media": "Internetpublicering och sociala medier",
     "purpose": "Norstedts Juridik har gett ut sjunde upplagan av Malin Edmars bok Internetpublicering och sociala medier. 1999 kom första upplagan och i denna sjunde omarbetade upplaga ingår 70 sidor om GDPR, skrivna på samma lättfattliga sätt som boken i övrigt, med många exempel och praktisk orientering.",

@@ -9,7 +9,8 @@ import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 const Navbar = () => {
   const t = useTranslations("Index");
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
+  console.log(isOpen);
   const toggleDrawer = () => {
     document.body.style.overflow = !isOpen ? "hidden" : "auto";
     setIsOpen(!isOpen);
@@ -31,7 +32,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex w-full px-8 md:px-4 z-50 h-28 overflow-x-hidden relative">
+    <nav className="flex w-full px-8 md:px-4 bg-white z-50 h-28">
       <div className="w-full flex">
         <div className="w-full flex justify-between items-center">
           <div className="w-full flex items-center max-h-12">
@@ -49,9 +50,9 @@ const Navbar = () => {
             <Link href={"/expertise"}>
               <span>{t("Area of Expertise")}</span>
             </Link>
-            <Link href={"/gdpr"}>
+            {/* <Link href={"/gdpr"}>
               <span>{t("GDPR")}</span>
-            </Link>
+            </Link> */}
             <Link href={"/references"}>
               <span>{t("REFERENCES")}</span>
             </Link>

@@ -42,7 +42,7 @@ const References = () => {
 
   return (
     <div className={"flex flex-col relative items-center px-4"}>
-      <div className="absolute h-full bg-gray-100 w-full !max-w-none !w-screen tech-background"></div>
+      <div className="absolute h-full bg-gray-100 !max-w-none !w-screen tech-background"></div>
       <div className="flex w-full justify-start pt-14">
         <h1 className="text-3xl text-black z-50 font-bold">
           {t("references_header")}

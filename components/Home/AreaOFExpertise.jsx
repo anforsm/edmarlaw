@@ -195,12 +195,12 @@ const AreaOFExpertise = () => {
   // Render the data in your React component using the map function
 
   return (
-    <div className={"p-4"}>
-      <h1 className="text-3xl text-black font-semibold">
+    <div className={"p-4 sm:px-0 px-6 bg-[rgba(252,254,255,1)]"}>
+      <h1 className="sm:text-3xl px-6 text-[#1D1D1D] font-semibold text-[28px] leading-[39.2px]">
         {t("expertiseTitle")}
       </h1>
       <br />
-      <div className="grid grid-cols-12 gap-10 pt-6">
+      <div className="sm:grid sm:grid-cols-12 flex flex-col sm:gap-10 gap-y-4 pt-6 sm:px-6">
         {areasOfExpertise.map((item, index) => (
           // <Link href={`/expertise?section=${item.text}&index=${index}`} key={index} className={styles.gridItem}>
           //   <img src={item.logo} alt="" />

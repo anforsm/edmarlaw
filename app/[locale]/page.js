@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-y-12 h-full min-h-screen">
       <Hero title={"edmar"} logoImg={"logo"} isEdmr={true} />
-      <References />
+      {/* <References /> */}
       <AreaOFExpertise />
       <Publisher />
     </main>
