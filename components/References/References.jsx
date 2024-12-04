@@ -3,15 +3,6 @@ import React from "react";
 import styles from "./References.module.css";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import FirstRef from "@/util/Svgs/FirstRef";
-import Ref2 from "@/util/Svgs/Ref2";
-import Ref3 from "@/util/Svgs/Ref3";
-import Ref4 from "@/util/Svgs/Ref4";
-import Ref5 from "@/util/Svgs/Ref5";
-import Ref6 from "@/util/Svgs/Ref6";
-import Ref7 from "@/util/Svgs/Ref7";
-import Ref8 from "@/util/Svgs/Ref8";
-import Ref9 from "@/util/Svgs/Ref9";
 import { useTranslations } from "next-intl";
 const ReferencesPage = () => {
   const pathname = usePathname();
