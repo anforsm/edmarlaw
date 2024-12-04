@@ -9,7 +9,7 @@ import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 const Navbar = () => {
   const t = useTranslations("Index");
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   console.log(isOpen);
   const toggleDrawer = () => {
     document.body.style.overflow = !isOpen ? "hidden" : "auto";
