@@ -1,13 +1,5 @@
-"use client";
 import React from "react";
-import styles from "./References.module.css";
-import Link from "next/link";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useTranslations } from "next-intl";
 const ReferencesPage = () => {
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const t = useTranslations("REF");
   return (
     <div className="flex flex-col px-6 gap-y-12 pb-12">
       <h1 className="text-[60px] font-[300] leading-[76px] tracking-[2%] text-[#00ADEE] pt-14">
