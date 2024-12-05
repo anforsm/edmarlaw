@@ -1,4 +1,5 @@
 import React from "react";
+import AreaOFExpertise from "../Home/AreaOFExpertise";
 const ReferencesPage = () => {
   return (
     <div className="flex flex-col px-6 sm:gap-y-12 gap-y-0 pb-12">
@@ -80,6 +81,7 @@ const ReferencesPage = () => {
           }
         />
       </div>
+      <AreaOFExpertise size={"sm"} />
     </div>
   );
 };

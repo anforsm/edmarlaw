@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import Card from "../Global/Card";
 
-const AreaOFExpertise = () => {
+const AreaOFExpertise = ({ size }) => {
   const t = useTranslations("Index");
   const areasOfExpertise = [
     {
@@ -195,7 +195,12 @@ const AreaOFExpertise = () => {
   // Render the data in your React component using the map function
 
   return (
-    <div className={"p-4 sm:px-0 px-6 bg-[rgba(252,254,255,1)]"}>
+    <div
+      data-size={size}
+      className={
+        "p-4 sm:px-0 data-[size=sm]:px-0 px-6 bg-[rgba(252,254,255,1)]"
+      }
+    >
       <h1 className="sm:text-3xl px-6 text-[#1D1D1D] font-semibold text-[28px] leading-[39.2px]">
         {t("expertiseTitle")}
       </h1>
@@ -207,6 +212,7 @@ const AreaOFExpertise = () => {
           //   <span>{t(item.text)}</span>
           // </Link>
           <Card
+            size={size}
             key={item.text}
             title={item.title}
             description={item.text}
