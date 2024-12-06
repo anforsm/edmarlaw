@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./Hero.module.css";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
 const Hero = ({ title, isEdmr, logoImg }) => {
   const t = useTranslations("Index");
   return (
@@ -15,14 +16,20 @@ const Hero = ({ title, isEdmr, logoImg }) => {
           <p className="text-[16px] leading-[23.68px] pb-14">{t("intro")}</p>
         </div>
         <div className="sm:flex gap-x-11 sm:flex-row flex-col hidden">
-          <div className="sm:w-fit w-full py-4 sm:px-8 px-6 h-min bg-black rounded-md text-center">
+          <Link
+            href={"/expertise"}
+            className="sm:w-fit w-full py-4 sm:px-8 px-6 h-min bg-black rounded-md text-center"
+          >
             <div className="text-white font-bold leading-[23.4px]">
               {t("expertiseTitle")}
             </div>
-          </div>
-          <div className="sm:w-fit w-full sm:py-4 sm:px-8 h-min text-[18px] py-4 leading-[23.4px] font-bold rounded-md border-[#00ADEE] border flex items-center justify-center">
+          </Link>
+          <Link
+            href={"/about-us"}
+            className="sm:w-fit w-full sm:py-4 sm:px-8 h-min text-[18px] py-4 leading-[23.4px] font-bold rounded-md border-[#00ADEE] border flex items-center justify-center"
+          >
             <div className="text-black">{t("aboutTitle")}</div>
-          </div>
+          </Link>
         </div>
       </div>
       <div className="basis-1/2 flex justify-end">
@@ -35,14 +42,20 @@ const Hero = ({ title, isEdmr, logoImg }) => {
         ></Image>
       </div>
       <div className="sm:hidden gap-x-11 sm:flex-row flex-col flex gap-y-6 pt-10">
-        <div className="sm:w-fit w-full py-4 sm:px-8 px-6 h-min bg-black rounded-md text-center">
+        <Link
+          href={"/expertise"}
+          className="sm:w-fit w-full py-4 sm:px-8 px-6 h-min bg-black rounded-md text-center"
+        >
           <div className="text-white font-bold leading-[23.4px]">
             {t("expertiseTitle")}
           </div>
-        </div>
-        <div className="sm:w-fit w-full sm:py-4 sm:px-8 h-min text-[18px] py-4 leading-[23.4px] font-bold rounded-md border-[#00ADEE] border flex items-center justify-center">
+        </Link>
+        <Link
+          href={"/about-us"}
+          className="sm:w-fit w-full sm:py-4 sm:px-8 h-min text-[18px] py-4 leading-[23.4px] font-bold rounded-md border-[#00ADEE] border flex items-center justify-center"
+        >
           <div className="text-black">{t("aboutTitle")}</div>
-        </div>
+        </Link>
       </div>
     </div>
   );

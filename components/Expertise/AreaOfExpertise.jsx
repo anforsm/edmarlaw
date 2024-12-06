@@ -225,6 +225,37 @@ const AreaOfExpertise = () => {
     }
   }, []);
 
+  const SECTION_NUMBER_MAP = {
+    ai: 0,
+    it: 1,
+    law: 2,
+    copyright: 3,
+    privacy: 4,
+    outsourcing: 5,
+    ecom: 6,
+    domain: 7,
+  };
+
+  useEffect(() => {
+    //check for url params
+    const urlParams = new URLSearchParams(window.location.search);
+    const section = urlParams.get("section");
+    if (section) {
+      setSelectedArea({ title: section });
+      const selectedAreaDiv = document.getElementById(
+        `area2-${SECTION_NUMBER_MAP[section]}`
+      );
+      if (selectedAreaDiv) {
+        const offset = 100; // Adjust the offset value as needed
+        const top = selectedAreaDiv.offsetTop - offset;
+        window.scrollTo({
+          top,
+          behavior: "instant",
+        });
+      }
+    }
+  }, []);
+
   const [selectedArea, setSelectedArea] = useState({
     title: "IT Law",
     image: "/techlogo.png",

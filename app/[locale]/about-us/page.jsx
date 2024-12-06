@@ -31,7 +31,7 @@ const page = () => {
             licensiering av AI-tjänster, know-how och patent.
           </p>
         </div>
-        <div className="sm:w-1/2 flex justify-end">
+        <div className="sm:w-1/2 flex justify-end py-10 sm:py-0">
           <Image
             className="object-contain h-[500px]"
             src={"/a4045cf875daea70061093bcdaf907c9.jpeg"}

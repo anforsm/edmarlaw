@@ -29,11 +29,14 @@ const Publisher = () => {
           <p className="text-[16px] leading-[23.68px]">
             {t("publisherDescription")}
           </p>
-          <button className="bg-[#1D1D1D] text-white sm:px-10 sm:py-5 py-4 rounded-[6px] sm:w-fit text-center w-full">
+          <Link
+            href={"/"}
+            className="bg-[#1D1D1D] text-white sm:px-10 sm:py-5 py-4 rounded-[6px] sm:w-fit text-center w-full"
+          >
             <span className="text-[16px] font-bold leading-6">
               {t("publisherViewAllPublications")}
             </span>
-          </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -221,6 +221,7 @@ const AreaOFExpertise = ({ size }) => {
           //   <span>{t(item.text)}</span>
           // </Link>
           <Card
+            link={`/expertise?section=${item.description}`}
             size={size}
             key={item.text}
             title={item.title}
