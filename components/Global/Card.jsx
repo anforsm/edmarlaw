@@ -1,11 +1,12 @@
 import Image from "next/image";
 import React from "react";
-
+import { useTranslations } from "next-intl";
 export default function Card({ title, description, icon, size }) {
   const SIZE_MAP = {
     sm: { width: 80, height: 57 },
     default: { width: 57, height: 40 },
   };
+  const t = useTranslations("Cards");
   return (
     <div
       data-size={size}
@@ -22,13 +23,10 @@ export default function Card({ title, description, icon, size }) {
       </div>
       <div className="flex flex-col gap-y-2">
         <h4 className="font-semibold text-lg">{title}</h4>
+        {size !== "sm" && <p>{t(description)}</p>}
         {size !== "sm" && (
-          <p>
-            {description} Lorem ipsum dolor, sit amet consectetur adipisicing
-            elit
-          </p>
-        )}
-        {size !== "sm" && <div className="font-semibold text-sm">Läs mer</div>}{" "}
+          <div className="font-semibold text-sm">Läs mer</div>
+        )}{" "}
       </div>
     </div>
   );

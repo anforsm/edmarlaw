@@ -32,7 +32,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex w-full px-8 md:px-4 bg-white z-50 h-28">
+    <nav className="flex w-full px-6 md:px-4 bg-white z-50 h-28">
       <div className="w-full flex">
         <div className="w-full flex justify-between items-center">
           <div className="w-full flex items-center max-h-12">
@@ -50,9 +50,9 @@ const Navbar = () => {
             <Link href={"/expertise"}>
               <span>{t("Area of Expertise")}</span>
             </Link>
-            {/* <Link href={"/gdpr"}>
+            <Link href={"/gdpr"}>
               <span>{t("GDPR")}</span>
-            </Link> */}
+            </Link>
             <Link href={"/references"}>
               <span>{t("REFERENCES")}</span>
             </Link>
@@ -82,7 +82,10 @@ const Navbar = () => {
               </LinkI>
             </div>
           </div>
-          <div className={`${isOpen ? "open" : ""}`} onClick={toggleDrawer}>
+          <div
+            className={`${isOpen ? "open" : ""} sm:hidden flex`}
+            onClick={toggleDrawer}
+          >
             <svg
               width="21"
               height="18"

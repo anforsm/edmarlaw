@@ -3,6 +3,7 @@
     "intro": "Advokatfirman EdmarLaw hjälper främst IT-bolag och teknikintensiva bolag, och har specialistkompetens sedan 25 år inom IT-rätt, dataskydd (GDPR), avtalsrätt, immaterialrätt och e-handel.",
     "references_header": "Referenser",
     "expertiseTitle": "Verksamhetsområden",
+    "aboutTitle": "Om EdmarLaw",
     "AI": "AI",
     "IT Law": "IT-rätt",
     "Contract Law": "Avtalsrätt",
@@ -102,7 +103,8 @@
     "TelDesc1": "Kommunikation av tal, musik, bild, text och andra data är ofta integrerade i olika tjänster på nätet. Även om telekommarknaden är avreglerad, finns ett omfattande och dynamiskt EU-rättsligt regelverk för elektronisk kommunikation. Huvuddelarna tas upp i den svenska lagen om elektronisk kommunikation.",
     "TelDesc2": "Lagen om elektronisk kommunikation gäller för teleoperatörer och andra tillhandahållare av elektroniska kommunikationstjänster och elektroniska kommunikationsnät. I lagen finns krav på lagring av trafikuppgifter för brottsbekämpningsändamål (de ska raderas eller avidentifieras efter sex månader), och andra typer av data som t.ex. behövs för betalning eller för marknadsföring (de ska tas bort när de inte längre behövs).",
     "TelDesc3": "Frågor som autentisering, behörighetskontroll, kommunikationssäkerhet, rutiner för säkerhetskopiering och skydd mot obehörig trafik och skadlig programvara berör inte bara telekomoperatörernas verksamhet utan även molntjänstleverantörer.",
-    "TelDesc4": "EdmarLaw har kunskapen, branschkännedomen och vanan att biträda telekom- och internetoperatörer vid bl.a. avtalsförhandlingar och regulatoriska frågor, ansvars- och yttrandefrihetsfrågor."
+    "TelDesc4": "EdmarLaw har kunskapen, branschkännedomen och vanan att biträda telekom- och internetoperatörer vid bl.a. avtalsförhandlingar och regulatoriska frågor, ansvars- och yttrandefrihetsfrågor.",
+    "expertiseTitleShort": "Expertis"
   },
   "GDPR": {
     "What is GDPR?": "Vad är GDPR?",
@@ -317,5 +319,15 @@
     "twilight3": "I denna bok lyfter vi fram immaterialrätten i gränslandet till andra rättsområden. Författarna, som samtliga är verksamma vid Advokatfirman Fylgia, har tagit fasta på immaterialrättens ökade betydelse och bredd, och tar upp immaterialrättens förhållande till flera angränsande rättsområden. Boken berör också olika typer av immateriella rättigheter, alltifrån upphovsrätt och varumärken till patent och likhetsavbildning.",
     "In Swedish only": "In Swedish only",
     "Buy": "Köp"
+  },
+  "Cards": {
+    "ai": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognition software",
+    "law": "IT-system, molntjänster, IoT, mjukvara, open source",
+    "contract": "Alla typer av avtal för IT-branschen, med stor insyn i branschpraxis",
+    "copyright": "Rättigheter till mjukvara, koncept, know-how, design",
+    "privacy": "Dataskyddsanalyser, DPIA, TIA, personuppgiftspolicy, privacy by design",
+    "outsourcing": "Avtal för outsourcing och olika typer av molntjänster",
+    "ecom": "allmänna villkor, reklam, sociala medier, distribution",
+    "domain": "Domännamnsregistreringar och domännamnstvister"
   }
 }

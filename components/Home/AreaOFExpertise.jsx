@@ -10,6 +10,7 @@ const AreaOFExpertise = ({ size }) => {
   const areasOfExpertise = [
     {
       title: "AI",
+      description: "ai",
       image: "/techlogo.png",
       svg: (
         <svg
@@ -28,6 +29,7 @@ const AreaOFExpertise = ({ size }) => {
     },
     {
       title: "IT Law",
+      description: "law",
       image: "/techlogo.png",
       svg: (
         <svg
@@ -46,6 +48,7 @@ const AreaOFExpertise = ({ size }) => {
     },
     {
       title: "Contract Law",
+      description: "contract",
       image: "/techlogo.png",
       svg: (
         <svg
@@ -64,6 +67,7 @@ const AreaOFExpertise = ({ size }) => {
     },
     {
       title: "Copyright",
+      description: "copyright",
       image: "/techlogo.png",
       svg: (
         <svg
@@ -82,6 +86,7 @@ const AreaOFExpertise = ({ size }) => {
     },
     {
       title: "GDPR",
+      description: "privacy",
       image: "/techlogo.png",
       svg: (
         <svg
@@ -100,6 +105,7 @@ const AreaOFExpertise = ({ size }) => {
     },
     {
       title: "Privacy Law",
+      description: "privacy",
       image: "/techlogo.png",
       svg: (
         <svg
@@ -118,6 +124,7 @@ const AreaOFExpertise = ({ size }) => {
     },
     {
       title: "Outsourcing",
+      description: "outsourcing",
       image: "/techlogo.png",
       svg: (
         <svg
@@ -136,6 +143,7 @@ const AreaOFExpertise = ({ size }) => {
     },
     {
       title: "E-commerce",
+      description: "ecom",
       image: "/techlogo.png",
       svg: (
         <svg
@@ -159,6 +167,7 @@ const AreaOFExpertise = ({ size }) => {
     // },
     {
       title: "Domain Names",
+      description: "domain",
       image: "/techlogo.png",
       svg: (
         <svg
@@ -215,7 +224,7 @@ const AreaOFExpertise = ({ size }) => {
             size={size}
             key={item.text}
             title={item.title}
-            description={item.text}
+            description={item.description}
             icon={item.svg}
           />
         ))}

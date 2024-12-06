@@ -12,20 +12,16 @@ const Hero = ({ title, isEdmr, logoImg }) => {
           <h1 className="font-[300] sm:text-[60px] text-[48px] sm:leading-[72px] leading-[57.6px] text-[#00ADEE]">
             Navigating Legal Waters with Excellence
           </h1>
-          <p className="text-[16px] leading-[23.68px] pb-14">
-            Advokatfirman EdmarLaw hjälper främst IT-bolag och teknikintensiva
-            bolag, och har specialistkompetens sedan 25 år inom IT-rätt,
-            dataskydd (GDPR), avtalsrätt, immaterialrätt och e-handel.
-          </p>
+          <p className="text-[16px] leading-[23.68px] pb-14">{t("intro")}</p>
         </div>
         <div className="sm:flex gap-x-11 sm:flex-row flex-col hidden">
           <div className="sm:w-fit w-full py-4 sm:px-8 px-6 h-min bg-black rounded-md text-center">
             <div className="text-white font-bold leading-[23.4px]">
-              Verksamhetsområden
+              {t("expertiseTitle")}
             </div>
           </div>
           <div className="sm:w-fit w-full sm:py-4 sm:px-8 h-min text-[18px] py-4 leading-[23.4px] font-bold rounded-md border-[#00ADEE] border flex items-center justify-center">
-            <div className="text-black">Om EdmarLaw</div>
+            <div className="text-black">{t("aboutTitle")}</div>
           </div>
         </div>
       </div>
@@ -41,11 +37,11 @@ const Hero = ({ title, isEdmr, logoImg }) => {
       <div className="sm:hidden gap-x-11 sm:flex-row flex-col flex gap-y-6 pt-10">
         <div className="sm:w-fit w-full py-4 sm:px-8 px-6 h-min bg-black rounded-md text-center">
           <div className="text-white font-bold leading-[23.4px]">
-            Verksamhetsområden
+            {t("expertiseTitle")}
           </div>
         </div>
         <div className="sm:w-fit w-full sm:py-4 sm:px-8 h-min text-[18px] py-4 leading-[23.4px] font-bold rounded-md border-[#00ADEE] border flex items-center justify-center">
-          <div className="text-black">Om EdmarLaw</div>
+          <div className="text-black">{t("aboutTitle")}</div>
         </div>
       </div>
     </div>

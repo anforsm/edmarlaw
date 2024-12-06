@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
 import AreaOFExpertise from "../Home/AreaOFExpertise";
+import { useTranslations } from "next-intl";
 const ReferencesPage = () => {
+  const t = useTranslations("REF");
   return (
     <div className="flex flex-col px-6 sm:gap-y-12 gap-y-0 pb-12">
       <h1 className="text-[60px] font-[300] leading-[76px] tracking-[2%] text-[#00ADEE] pt-14">
@@ -8,17 +11,19 @@ const ReferencesPage = () => {
       </h1>
       <div className="py-12 border-b border-gray-200">
         <QuoteBlock
+          t={t}
+          author={"Adam Berg"}
+          authorPosition={"Co-founding Partner, Looklet AB<"}
           size={"large"}
-          body={
-            "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her."
-          }
+          body={"first"}
         />
       </div>
       <div className="flex sm:flex-row flex-col w-full flex-wrap sm:flex-nowrap gap-y-10 py-12 border-b gap-x-10 border-gray-200">
         <QuoteBlock
-          body={
-            "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her."
-          }
+          t={t}
+          author={"Mathias Strand"}
+          authorPosition={"Head of Legal, Microsoft Western Europe"}
+          body={"second"}
           authorBody={`
             Microsoft AB is a wholly owned subsidiary to Microsoft Corporation, a multi national software business based in Redmond, Washington, USA. The corporation is one of the largest in the software industry today. Microsoft develops, manufactures and licenses many software products for a number of different computer systems, and Microsoft AB ensures that adaptations and support functions as well as launches of products and services are localized for the region. Microsoft AB has 600 employees and consultants with offices in Kista.
             `}
@@ -28,54 +33,62 @@ const ReferencesPage = () => {
           className="w-full my-0 sm:hidden border-b bg-gray-200"
         ></div>
         <QuoteBlock
-          body={
-            "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her."
-          }
+          t={t}
+          author={"Stefan Magnusson"}
+          authorPosition={"Vice President, DreamHack AB"}
+          body={"third"}
         />
       </div>
       <div className="flex w-full flex-wrap gap-y-10 py-12 border-b border-gray-200">
         <QuoteBlock
+          t={t}
+          author={"Anders Båth"}
+          authorPosition={"Senior Vice President, eBuilder"}
           size={"large"}
-          body={
-            "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her."
-          }
+          body={"eBuilder"}
         />
       </div>
       <div className="flex sm:flex-row flex-col w-full flex-wrap sm:flex-nowrap gap-y-10 py-12 border-b gap-x-10 border-gray-200">
         <QuoteBlock
-          body={
-            "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her."
-          }
+          t={t}
+          author={"Mattias Unosson"}
+          authorPosition={"CEO, Exmet AB"}
+          body={"exmet"}
         />
         <div
           id="separator"
           className="w-full my-0 sm:hidden border-b bg-gray-200"
         ></div>
         <QuoteBlock
-          body={
-            "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her."
-          }
+          t={t}
+          author={"Patrik Andersson"}
+          authorPosition={"Product Manager, Genero Solutions AB"}
+          body={"genero"}
         />
       </div>
       <div className="flex w-full flex-wrap gap-y-10 py-12 border-b border-gray-200">
         <QuoteBlock
+          t={t}
+          author={"Brian Kennan"}
+          authorPosition={"Director, Executive Development, Amazon.com, Inc."}
           size={"large"}
-          body={
-            "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her."
-          }
+          body={"gleechi"}
         />
       </div>
       <div className="flex sm:flex-row flex-col w-full flex-wrap sm:flex-nowrap gap-y-10 py-12 gap-x-10">
         <QuoteBlock
-          body={
-            "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her."
-          }
+          t={t}
+          author={"Johan Gustafsson"}
+          authorPosition={"CEO, Unomaly"}
+          body={"unomly"}
         />
         <div
           id="separator"
           className="w-full my-0 sm:hidden border-b bg-gray-200"
         ></div>
         <QuoteBlock
+          t={t}
+          author={""}
           body={
             "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her."
           }
@@ -88,7 +101,7 @@ const ReferencesPage = () => {
 
 export default ReferencesPage;
 
-function QuoteBlock({ size, body, authorBody }) {
+function QuoteBlock({ size, body, authorBody, author, authorPosition, t }) {
   return (
     <div
       data-size={size}
@@ -98,13 +111,11 @@ function QuoteBlock({ size, body, authorBody }) {
         <QuoteSvg size={size} />
       </div>
       <div className="font-[500] text-[16px] leading-[28px] tracking-[1%] body">
-        {body}
+        {t(body)}
       </div>
       <div className="flex flex-col text-sm gap-y-2">
-        <div className="font-semibold">Brian Kennan</div>
-        <div className="">
-          Director, Executive Development, Amazon.com, Inc.
-        </div>
+        <div className="font-semibold">{author}</div>
+        <div className="">{authorPosition}</div>
         {authorBody && <div className="text-[#4F4F4F]">{authorBody}</div>}
       </div>
     </div>

@@ -3,6 +3,7 @@
     "intro": "The law firm EdmarLaw primarily assists IT companies and technology intensive businesses and has 25 years of experience in IT Law, Data Protection (GDPR), Contract Law, Intellectual Property Law and E-commerce.",
     "references_header": "References",
     "expertiseTitle": "Areas of Expertise",
+    "aboutTitle": "About EdmarLaw",
     "AI": "AI",
     "IT Law": "IT Law",
     "Contract Law": "Contract Law",
@@ -25,33 +26,26 @@
     "quote1": "Malin understands the technical aspects as well. That really adds to her excellent negotiating skills.",
     "author1": "Adam Berg",
     "position1": "Co-founding Partner, Looklet AB",
-
     "Terms and Conditions": "Terms and Conditions",
     "Privacy Policy": "Privacy Policy",
     "quote2": "With her background, Malin has in-depth knowledge about our core business, both the technology and the agreement structures. The fact that she is so easy to reach and shares the passion for new technology makes the collaboration particularly easy!",
     "author2": "Mathias Strand",
     "position2": "Head of legal Microsoft Western Europe",
-
     "quote3": "To have in-depth knowledge of intellectual property rights is just a prerequisite. You need to understand at a level which requires a genuine interest for the internet, gaming, esport and digital culture. Malin has this, and in combination with her legal skills, she delivers what is needed in our fast paced, complex and digital world.",
     "author3": "Stefan Magnusson",
     "position3": "Vice President DreamHack AB",
-
     "quote4": "Malin is so engaged; readily available with wise input in the midst of complicated negotiations. She gives us key questions to consider and is a great resource to discuss with. She reviews and analyses agreement documents for us and comes back with a simple bullet list for us to focus on.",
     "author4": "Mattias Unosson",
     "position4": "CEO Exmet AB",
-
     "quote5": "Malin has i.a. created our terms and conditions in Swedish as well as English for our cloud services. Her support in negotiations is highly appreciated as she is easy to reach, quick and pedagogical when answering our questions",
     "author5": "Patrik Andersson",
     "position5": "Product Manager Genero Solutions AB",
-
     "quote6": "Malin is a great resource in negotiations! With her background in IT, she is well prepared for the specific questions and understands in detail how various conditions and interpretations shall be handled. She also gives a solid impression when participating in negotiations.",
     "author6": "Anders Båth",
     "position6": "Sr VP eBuilder",
-
     "quote7": "The first thing Malin did for us was a source code analysis, to give us full control over our code. That has helped us immensely in customer negotiations, since customers need certain warranties. Because Malin understands the technical aspects as well, we’re talking the same language.",
     "author7": "Johan Gustafsson",
     "position7": "CEO Unomaly",
-
     "quote8": "It has been a pleasure working with you and your tremendous competence! I really hope we get to work together again soon! (not only because it means that we hopefully have increased our business:)",
     "author8": "Jakob Johansson",
     "position8": "Sr VP eBuilder",
@@ -64,11 +58,9 @@
     "Terms of Use, Terms of Service": "Terms of Use, Terms of Service",
     "Privacy assessments": "Privacy assessments",
     "Privacy terms": "Privacy terms",
-
     "Joint Development": "Joint Development",
     "Online Services (PaaS, SaaS, cloud services etc)": "Online Services (PaaS, SaaS, cloud services etc)",
     "System Deliveries": "System Deliveries",
-
     "Maintenance of software, IoT, IT systems": "Maintenance of software, IoT, IT systems",
     "Copyright and other intellectual property rights": "Copyright and other intellectual property rights",
     "Processing, including transfer of Personal Data": "Processing, including transfer of Personal Data",
@@ -112,7 +104,8 @@
     "TelDesc2": "The Electronic Communication Law applies to telecom operators and other providers of electronic communication services and electronic communication networks. It requires data retention for crime prevention purposes (the data shall be deleted or de-identified after six months) and other types of data used for payment services or for marketing purposes (the data shall be deleted when no longer needed).",
     "TelDesc3": "Questions such as authentication, access control, communication security, routines for backup copying and protection against unauthorized traffic and harmful software does not merely apply to the operations of telecom operators, but to any cloud service providers.",
     "TelDesc4": "EdmarLaw has the competence, the industry knowledge and the experience to assist telecom and internet operators in i.a. contract negotiations and regulatory aspects, liability issues and freedom of speech.",
-    "References": "References"
+    "References": "References",
+    "expertiseTitleShort": "Expertise"
   },
   "GDPR": {
     "What is GDPR?": "What is GDPR?",
@@ -188,7 +181,7 @@
     "Drafting terms and conditions for customers and users": "Drafting terms and conditions for customers and users"
   },
   "About": {
-    "Publications":"Publications",
+    "Publications": "Publications",
     "About the law firm EdmarLaw": "About the law firm EdmarLaw",
     "first": "EdmarLaw has 25 years of experience from reviewing, analyzing, drafting and negotiating most types of agreements in the field of IT and high-tech. EdmarLaw has extensive experience of legal counseling regarding data protection, drafting of development agreements, customer agreements, terms of use, data protection assessments, and the overall processing of personal data, contracting around the development and implementation of IT systems, as well as all aspects of online services, cloud services (PaaS, SaaS) and e-commerce, licensing of software, know-how and patents .",
     "second": "EdmarLaw provides extensive services in English as many of its clients are North American or European businesses.",
@@ -199,7 +192,7 @@
     "desc2": "Malin has written four books, i.a. the Swedish book Internet publishing and social media, which is now in its seventh edition (Norstedts Juridik, 2021), and has been part of the Swedish governmental ICT committee for several years, where she got the opportunity to influence the implementation of laws on privacy, electronic communication and e-commerce. When Malin drafts agreements, negotiates or writes books, she always has the technology in focus, and makes sure that she understands the technology first, before applying the law to it. Malin is also passionate about making the law understandable. You shouldn’t need to hire lawyers to understand what you agreed on. That is probably one reason why her books are so popular and are used as course literature at several universities in Sweden.",
     "Education": "Education",
     "here": "here",
-    "Member of the following associations":"Member of the following associations",
+    "Member of the following associations": "Member of the following associations",
     "Experience": "Experience",
     "unii": "University of Uppsala and University of Stockholm. LLM 1996.",
     "Law firm EdmarLaw 2016-": "Law firm EdmarLaw 2016-",
@@ -325,5 +318,15 @@
     "twilight3": "In this book we highlight intellectual property at the border to other areas of law. The authors focus on the increased importance of intellectual property and the relationship to several neighboring jurisdictions. The book also touches on the different types of intellectual property, from copyright and trademarks to patents and plagiarism.",
     "In Swedish only": "In Swedish only",
     "Buy": "Buy"
+  },
+  "Cards": {
+    "ai": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognition software",
+    "law": "IT systems, cloud services, IoT, software, open source",
+    "contract": "All types of agreements for the IT industry, conditions according to industry practice",
+    "copyright": "Rights to software, concepts, know-how, design",
+    "privacy": "Privacy impact assessments, DPIA, TIA, privacy policy, privacy by design",
+    "outsourcing": "Agreements on outsourcing and various types of cloud services",
+    "ecom": "General terms, advertising, social media, distribution",
+    "domain": "Domain name registrations and domain name disputes"
   }
 }

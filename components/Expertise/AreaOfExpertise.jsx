@@ -21,6 +21,7 @@ import ExpertiseMobile from "./ExpertiseMobile";
 export const areasOfExpertise = [
   {
     title: "AI",
+    subheader: "ai",
     image: "/techlogo.png",
     svg: (
       <svg
@@ -40,6 +41,7 @@ export const areasOfExpertise = [
   },
   {
     title: "IT Law",
+    subheader: "law",
     image: "/techlogo.png",
     svg: (
       <svg
@@ -59,6 +61,7 @@ export const areasOfExpertise = [
   },
   {
     title: "Contract Law",
+    subheader: "contract",
     image: "/techlogo.png",
     svg: (
       <svg
@@ -78,6 +81,7 @@ export const areasOfExpertise = [
   },
   {
     title: "Copyright",
+    subheader: "copyright",
     image: "/techlogo.png",
     svg: (
       <svg
@@ -97,6 +101,7 @@ export const areasOfExpertise = [
   },
   {
     title: "Privacy Law",
+    subheader: "privacy",
     image: "/techlogo.png",
     svg: (
       <svg
@@ -117,6 +122,7 @@ export const areasOfExpertise = [
   },
   {
     title: "Outsourcing",
+    subheader: "outsourcing",
     image: "/techlogo.png",
     svg: (
       <svg
@@ -136,6 +142,7 @@ export const areasOfExpertise = [
   },
   {
     title: "E-commerce",
+    subheader: "ecom",
     image: "/techlogo.png",
     svg: (
       <svg
@@ -160,6 +167,7 @@ export const areasOfExpertise = [
   // },
   {
     title: "Domain Names",
+    subheader: "domain",
     image: "/techlogo.png",
     svg: (
       <svg
@@ -195,6 +203,8 @@ export const areasOfExpertise = [
 ];
 const AreaOfExpertise = () => {
   const t = useTranslations("Index");
+  const tCard = useTranslations("Cards");
+
   const searchParams = useSearchParams();
 
   const indx = searchParams.get("index");
@@ -393,7 +403,7 @@ const AreaOfExpertise = () => {
                   fontSize: 18,
                 }}
               >
-                Expertis
+                {t("expertiseTitleShort")}
               </h2>
             </div>
             <div
@@ -490,7 +500,7 @@ const AreaOfExpertise = () => {
                   textDecorationSkipInk: "none",
                 }}
               >
-                {"Placeholder text here lorem lorem lirum larum"}
+                {tCard(val.subheader)}
               </h3>
               {val.description}
             </div>

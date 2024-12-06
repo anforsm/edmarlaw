@@ -31,7 +31,7 @@ const Publisher = () => {
           </p>
           <button className="bg-[#1D1D1D] text-white sm:px-10 sm:py-5 py-4 rounded-[6px] sm:w-fit text-center w-full">
             <span className="text-[16px] font-bold leading-6">
-              Se alla publikationer
+              {t("publisherViewAllPublications")}
             </span>
           </button>
         </div>

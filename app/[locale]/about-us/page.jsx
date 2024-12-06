@@ -81,7 +81,7 @@ const page = () => {
                 används som kurslitteratur vid flera universitet i Sverige.
               </p>
             </div>
-            <div className="bg-white sm:pl-4 sm:p-16 sm:pr-32 p-4 h-fit flex flex-col gap-y-2">
+            <div className="bg-white rounded sm:pl-4 sm:p-16 sm:pr-32 p-4 h-fit flex flex-col gap-y-2">
               <h3 className="text-2xl">Malin Edmar</h3>
               <Link className="underline" href="mailto:malin@edmarlaw.se">
                 malin@edmarlaw.se
