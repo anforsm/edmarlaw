@@ -32,7 +32,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex w-full px-6 md:px-4 bg-white z-50 h-28">
+    <nav className="flex w-full px-4 bg-white z-50 h-28 relative items-center justify-center">
+      <div className="absolute h-full !max-w-none !w-screen shadow-sm pointer-events-none"></div>
       <div className="w-full flex">
         <div className="w-full flex justify-between items-center">
           <div className="w-full flex items-center max-h-12">

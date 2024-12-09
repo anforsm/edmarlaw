@@ -7,13 +7,15 @@ import Link from "next/link";
 const Hero = ({ title, isEdmr, logoImg }) => {
   const t = useTranslations("Index");
   return (
-    <div className="flex gap-x-0 px-6 justify-between flex-col sm:flex-row">
-      <div className="flex flex-col basis-1/2">
+    <div className="flex px-6 justify-between flex-col sm:flex-row gap-x-6 pt-14">
+      <div className="flex flex-col basis-1/2 pb-14 py-0 sm:py-14">
         <div className="flex flex-col gap-y-6">
           <h1 className="font-[300] sm:text-[60px] text-[48px] sm:leading-[72px] leading-[57.6px] text-[#00ADEE]">
             Navigating Legal Waters with Excellence
           </h1>
-          <p className="text-[16px] leading-[23.68px] pb-14">{t("intro")}</p>
+          <p className="text-[16px] leading-[23.68px] sm:pb-14 sm:pr-9">
+            {t("intro")}
+          </p>
         </div>
         <div className="sm:flex gap-x-11 sm:flex-row flex-col hidden">
           <Link
@@ -34,8 +36,8 @@ const Hero = ({ title, isEdmr, logoImg }) => {
       </div>
       <div className="basis-1/2 flex justify-end">
         <Image
-          className=""
-          src={"/Featured Image.png"}
+          className="object-contain w-full"
+          src={"/hero-image.png"}
           alt="Bild på Malin Edmar"
           width={400}
           height={600}

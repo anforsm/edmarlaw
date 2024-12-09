@@ -25,7 +25,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale} className={lato.className}>
-      <body className="md:max-w-5xl md:mx-auto h-full min-h-screen flex flex-col items-center">
+      <body className="md:max-w-6xl md:mx-auto h-full min-h-screen flex flex-col items-center">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
           {children}

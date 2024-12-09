@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function ExpertiseMobile({ data }) {
   return (
     <div className="bg-[rgba(252,254,255,1)] w-full h-full px-4 py-14 flex flex-1 flex-col z-10 md:hidden">
-      <h1 className="text-2xl text-[#00ADEE] font-[300] pb-10">
+      <h1 className="text-[32px] text-[#00ADEE] font-[300] pb-10">
         Verksamhetsområden
       </h1>
       <ul className="flex flex-col gap-y-4 w-full flex-1">
@@ -31,7 +31,7 @@ function ExpandCard({ title, description }) {
         className="flex items-center justify-between cursor-pointer"
         onClick={() => setIsOpen((prev) => !prev)}
       >
-        <h2 className="text-lg font-medium">{title}</h2>
+        <h2 className="text-[22px] font-bold text-[#00ADEE]">{title}</h2>
         <svg
           className={`w-5 h-5 text-gray-500 transform transition-transform duration-200 ${
             isOpen ? "rotate-180" : ""

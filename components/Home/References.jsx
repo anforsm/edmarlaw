@@ -72,7 +72,7 @@ const References = () => {
     <div className={"flex flex-col relative items-center px-4 w-full"}>
       <div className="absolute h-full bg-gray-100 !max-w-none !w-screen tech-background"></div>
       <div className="flex w-full justify-start pt-14">
-        <h1 className="text-3xl text-black z-50 font-bold px-6">
+        <h1 className="text-[40px] text-black z-50 font-bold px-6">
           {t("references_header")}
         </h1>
       </div>
@@ -81,18 +81,18 @@ const References = () => {
       <Carousel
         opts={{ loop: true }}
         setApi={setApi}
-        className="max-w-sm sm:max-w-5xl sm:px-24 sm:py-8 pt-10"
+        className="max-w-[18rem] sm:max-w-6xl sm:px-24 sm:py-8 pt-10"
       >
         <CarouselContent className="w-full -ml-1">
-          <CarouselSlide
-            body={t("quote1")}
-            author={t("author1")}
-            position={t("position1")}
-          />
           <CarouselSlide
             body={t("quote2")}
             author={t("author2")}
             position={t("position2")}
+          />
+          <CarouselSlide
+            body={t("quote1")}
+            author={t("author1")}
+            position={t("position1")}
           />
           <CarouselSlide
             body={t("quote3")}

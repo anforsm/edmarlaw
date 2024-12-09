@@ -1,22 +1,9 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import styles from "./Area.module.css"; // Import the CSS module
+import styles from "./AiArea.module.css"; // Import the CSS module
 import { AiOutlineRight } from "react-icons/ai";
-import TelecomLawDescription from "./Sections/TelecomLawDescription";
-import DesignLawDescription from "./Sections/DesignLawDescription";
-import TrademarkLawDescription from "./Sections/TrademarkLawDescription";
-import DomainNamesDescription from "./Sections/DomainNamesDescription";
-import MarketingLawDescription from "./Sections/MarketingLawDescription";
-import EcommerceDescription from "./Sections/EcommerceDescription";
-import OutsourcingDescription from "./Sections/OutsourcingDescription";
-import CopyrightDescription from "./Sections/CopyrightDescription";
-import PrivacyLawDescription from "./Sections/PrivacyLawDescription";
-import ContractLawDescription from "./Sections/ContractLawDescription";
-import ITLawDescription from "./Sections/ITLawDescription";
 import { useTranslations } from "next-intl";
-import Faq from "./Faq";
 import { useSearchParams } from "next/navigation";
-import ExpertiseMobile from "./ExpertiseMobile";
 
 export const areasOfExpertise = [
   {
@@ -37,7 +24,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    description: <ITLawDescription />,
+    // description: <ITLawDescription />,
   },
   {
     title: "IT Law",
@@ -57,7 +44,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    description: <ITLawDescription />, // Replace with the appropriate component for IT Law
+    // description: <ITLawDescription />, // Replace with the appropriate component for IT Law
   },
   {
     title: "Contract Law",
@@ -77,7 +64,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    description: <ContractLawDescription />, // Replace with the appropriate component for Contract Law
+    // description: <ContractLawDescription />, // Replace with the appropriate component for Contract Law
   },
   {
     title: "Copyright",
@@ -97,7 +84,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    description: <CopyrightDescription />, // Replace with the appropriate component for Copyright
+    // description: <CopyrightDescription />, // Replace with the appropriate component for Copyright
   },
   {
     title: "Privacy Law",
@@ -118,7 +105,7 @@ export const areasOfExpertise = [
       </svg>
     ),
 
-    description: <PrivacyLawDescription />, // Replace with the appropriate component for Privacy Law
+    // description: <PrivacyLawDescription />, // Replace with the appropriate component for Privacy Law
   },
   {
     title: "Outsourcing",
@@ -138,7 +125,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    description: <OutsourcingDescription />, // Replace with the appropriate component for Outsourcing
+    // description: <OutsourcingDescription />, // Replace with the appropriate component for Outsourcing
   },
   {
     title: "E-commerce",
@@ -158,7 +145,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    description: <EcommerceDescription />, // Replace with the appropriate component for E-commerce
+    // description: <EcommerceDescription />, // Replace with the appropriate component for E-commerce
   },
   // {
   //   title: "Marketing Law",
@@ -183,7 +170,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    description: <DomainNamesDescription />, // Replace with the appropriate component for Domain Names
+    // description: <DomainNamesDescription />, // Replace with the appropriate component for Domain Names
   },
   // {
   //   title: "Trademark Law",
@@ -201,7 +188,7 @@ export const areasOfExpertise = [
   //   description: <TelecomLawDescription />, // Replace with the appropriate component for Telecom Law
   // },
 ];
-const AreaOfExpertise = () => {
+const AiPage = () => {
   const t = useTranslations("Index");
   const tCard = useTranslations("Cards");
 
@@ -259,7 +246,7 @@ const AreaOfExpertise = () => {
   const [selectedArea, setSelectedArea] = useState({
     title: "IT Law",
     image: "/techlogo.png",
-    description: <ITLawDescription />, // Replace with the appropriate component for IT Law
+    // description: <ITLawDescription />, // Replace with the appropriate component for IT Law
   });
 
   const [checkScroll, setCheckScroll] = useState(true);
@@ -372,7 +359,6 @@ const AreaOfExpertise = () => {
 
   return (
     <>
-      <ExpertiseMobile data={areasOfExpertise}></ExpertiseMobile>
       <div className={"md:!flex !hidden gap-x-10 pl-10"}>
         <div className="flex-1 w-full pb-96 pt-[6.5rem] relative border-r">
           <div className={styles.gridList}>
@@ -533,7 +519,11 @@ const AreaOfExpertise = () => {
               >
                 {tCard(val.subheader)}
               </h3>
-              {val.description}
+              {/* {val.description} */}
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam, quos.
+              </p>
             </div>
           ))}
         </div>
@@ -545,4 +535,4 @@ const AreaOfExpertise = () => {
   );
 };
 
-export default AreaOfExpertise;
+export default AiPage;

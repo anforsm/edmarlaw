@@ -78,7 +78,7 @@ export const GDPR = () => {
     setSelectedArea(area);
     const selectedAreaDiv = document.getElementById(`area-${index}`);
     if (selectedAreaDiv) {
-      const offset = 96 // Adjust the offset value as needed
+      const offset = 96; // Adjust the offset value as needed
       const top = selectedAreaDiv.offsetTop - offset;
       window.scrollTo({
         top,
@@ -87,7 +87,6 @@ export const GDPR = () => {
     }
   };
 
-  
   return (
     <>
       <div className={styles.container}>
@@ -111,7 +110,7 @@ export const GDPR = () => {
               ))}
             </ul>
           </div>
-          <div className={styles.gridContent}  ref={scrollContainerRef}>
+          <div className={styles.gridContent} ref={scrollContainerRef}>
             {areasOfExpertise.map((val, index) => (
               <div key={index} id={`area-${index}`}>
                 {val.description}

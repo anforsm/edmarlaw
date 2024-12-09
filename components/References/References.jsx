@@ -13,7 +13,7 @@ const ReferencesPage = () => {
         <QuoteBlock
           t={t}
           author={"Adam Berg"}
-          authorPosition={"Co-founding Partner, Looklet AB<"}
+          authorPosition={"Co-founding Partner, Looklet AB"}
           size={"large"}
           body={"first"}
         />
