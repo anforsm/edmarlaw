@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import styles from "./styles.module.css";
 import { useTranslations } from "next-intl";
@@ -12,7 +12,7 @@ const ITLawDescription = () => {
         <strong>{t("Typical assignments:")}</strong>
       </p>
       <br />
-      <ul>
+      <ul className="list-disc">
         <li>{t("Licenses")}</li>
         <li>{t("Terms of Use, Terms of Service")}</li>
         <li>{t("Privacy assessments")}</li>
@@ -29,13 +29,9 @@ const ITLawDescription = () => {
         <li>{t("Trademark rights")}</li>
       </ul>
       <br />
-      <p>
-        {t("itDescription2")}
-      </p>
+      <p>{t("itDescription2")}</p>
       <br />
-      <p>
-      {t("itDescription3")}
-      </p>
+      <p>{t("itDescription3")}</p>
     </div>
   );
 };

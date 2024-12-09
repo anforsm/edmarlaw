@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import About from "@/components/About/About";
 import Associations from "@/components/About/Associations";
 import MalinEdmar from "@/components/About/MalinEdmar";
@@ -10,7 +10,6 @@ import React from "react";
 const page = () => {
   return (
     <main>
-      <Hero isEdmr={false} title={"Publications"} />
       <Publications />
     </main>
   );

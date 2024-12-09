@@ -11,7 +11,7 @@ const page = () => {
           <h1 className="sm:text-6xl text-[32px] font-light text-[#00adee] pb-6">
             Advokatfirman EdmarLaw
           </h1>
-          <p className="sm:text-base text-[18px] font-semibold">
+          <p className="sm:text-[22px] text-[18px] font-bold">
             Advokatfirman EdmarLaw har mer än 25 års erfarenhet av att granska,
             upprätta och förhandla de flesta typer av avtal som förekommer på
             IT-området. {" "}
@@ -26,20 +26,22 @@ const page = () => {
             licensiering av AI-tjänster, know-how och patent.
           </p>
         </div>
-        <div className="sm:w-1/2 flex justify-end py-10 sm:py-0">
+        <div className="sm:w-1/2 flex justify-end sm:py-0">
           <Image
             className="object-contain h-[500px]"
-            src={"/a4045cf875daea70061093bcdaf907c9.jpeg"}
+            src={"/edmarhero.png"}
             alt="Bild på Malin Edmar"
-            width={400}
-            height={600}
+            width={800}
+            height={1200}
           ></Image>
         </div>
       </div>
       <div className="bg-[#F5F5F5] relative flex flex-col items-center">
         <div className="absolute h-full bg-[#F5F5F5] !max-w-none !w-screen"></div>
         <div className="z-10 relative pt-20">
-          <h1 className="text-3xl pb-12">Malin Edmar Advokat och grundare</h1>
+          <h1 className="sm:text-[40px] text-[28px] pb-12 font-bold sm:leading-[52px] leading-[40px]">
+            Malin Edmar <br /> Advokat och grundare
+          </h1>
           <div className="flex flex-col sm:flex-row gap-x-14">
             <div className="flex flex-col sm:pb-0 pb-14">
               <p>
@@ -76,17 +78,17 @@ const page = () => {
                 används som kurslitteratur vid flera universitet i Sverige.
               </p>
             </div>
-            <div className="bg-white rounded sm:pl-4 sm:p-16 sm:pr-32 p-4 h-fit flex flex-col gap-y-2">
-              <h3 className="text-2xl">Malin Edmar</h3>
-              <Link className="underline" href="mailto:malin@edmarlaw.se">
-                malin@edmarlaw.se
+            <div className="bg-white rounded sm:pl-4 sm:p-16 sm:pr-32 p-4 h-fit flex flex-col gap-y-2 sm:w-fit">
+              <h3 className="text-[28px] w-max font-[500]">Malin Edmar</h3>
+              <Link className="underline" href="mailto:info@edmarlaw.se">
+                info@edmarlaw.se
               </Link>
               <Link href="tel:+46707111111">+46 707 111 11 11</Link>
             </div>
           </div>
           <div>
             <div className="sm:pt-36 pt-14">
-              <h4 className="text-3xl">Erfarenhet</h4>
+              <h4 className="text-[32px] font-bold">Erfarenhet</h4>
               <div className="flex flex-col gap-y-4 pt-8">
                 <TableRow company={"GitHub, Inc"} year={"2021-2023"} />
                 <TableRow company={"Advokatfirman EdmarLaw"} year={"2016 - "} />
@@ -117,7 +119,7 @@ const page = () => {
               </div>
             </div>
             <div className="sm:pt-36 pt-14">
-              <h4 className="text-3xl">Publikationer</h4>
+              <h4 className="text-[32px] font-bold">Publikationer</h4>
               <div className="flex flex-col gap-y-4 pt-8">
                 <div className="flex flex-col">
                   <TableRow

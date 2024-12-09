@@ -23,12 +23,12 @@ export default function Card({ title, description, icon, size, link }) {
         {/* <Image src={icon} alt={title} width={36} height={36} /> */}
         {icon}
       </div>
-      <div className="flex flex-col gap-y-2">
-        <h4 className="font-semibold text-lg">{title}</h4>
-        {size !== "sm" && <p>{t(description)}</p>}
-        {size !== "sm" && (
-          <div className="font-semibold text-sm">Läs mer</div>
-        )}{" "}
+      <div className="flex flex-col gap-y-2 h-full justify-between">
+        <div className="flex flex-col gap-y-2">
+          <h4 className="font-semibold text-lg">{title}</h4>
+          {size !== "sm" && <p>{t(description)}</p>}
+        </div>
+        {size !== "sm" && <div className="font-semibold text-sm">Läs mer</div>}
       </div>
     </Link>
   );

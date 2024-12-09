@@ -92,7 +92,7 @@ export const GDPR = () => {
       <div className={styles.container}>
         <div className={styles.gridContainer}>
           <div className={styles.gridList}>
-            <ul>
+            <ul className="pt-56">
               {areasOfExpertise.map((area, index) => (
                 <li
                   key={index}

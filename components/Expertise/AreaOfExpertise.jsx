@@ -17,6 +17,7 @@ import { useTranslations } from "next-intl";
 import Faq from "./Faq";
 import { useSearchParams } from "next/navigation";
 import ExpertiseMobile from "./ExpertiseMobile";
+import AiExpertise from "./Sections/AiExpertise";
 
 export const areasOfExpertise = [
   {
@@ -37,7 +38,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    description: <ITLawDescription />,
+    description: <AiExpertise />,
   },
   {
     title: "IT Law",

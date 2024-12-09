@@ -1,5 +1,4 @@
 .container {
-  width: 75%;
   margin: auto;
   padding: 4rem 0;
   display: flex;
@@ -66,23 +65,23 @@
 .imageDiv {
   width: 125%;
 }
-@media only screen and (max-width:600px) {
-    .forwardFlex {
-        flex-direction: column;
-    }
-    .reverseFlex {
-        flex-direction: column;
-    }
-    .container {
-        width: 90%;
-    }
-    .imageDiv {
-        width: 100%;
-    }
-    .container h1 {
-        font-size: 24px;
-    }
-    .container p {
-        text-align: justify;
-    }
+@media only screen and (max-width: 600px) {
+  .forwardFlex {
+    flex-direction: column;
   }
+  .reverseFlex {
+    flex-direction: column;
+  }
+  .container {
+    width: 90%;
+  }
+  .imageDiv {
+    width: 100%;
+  }
+  .container h1 {
+    font-size: 24px;
+  }
+  .container p {
+    text-align: justify;
+  }
+}

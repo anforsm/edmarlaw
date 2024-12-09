@@ -37,10 +37,10 @@ const Hero = ({ title, isEdmr, logoImg }) => {
       <div className="basis-1/2 flex justify-end">
         <Image
           className="object-contain w-full"
-          src={"/hero-image.png"}
+          src={"/edmarhero2.png"}
           alt="Bild på Malin Edmar"
-          width={400}
-          height={600}
+          width={800}
+          height={1200}
         ></Image>
       </div>
       <div className="sm:hidden gap-x-11 sm:flex-row flex-col flex gap-y-6 pt-10">

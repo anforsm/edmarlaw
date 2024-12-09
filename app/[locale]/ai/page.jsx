@@ -4,6 +4,15 @@ import styles from "./AiArea.module.css"; // Import the CSS module
 import { AiOutlineRight } from "react-icons/ai";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
+import AiDescription from "./Sections/ai";
+import EuDescription from "./Sections/eu";
+import EuDescription2 from "./Sections/eu2";
+import AIGDPR from "./Sections/aigdpr";
+import AiActSystem from "./Sections/AiActSystem";
+import AiSystem from "./Sections/AiSystem";
+import AiSystem2 from "./Sections/AiSystem2";
+import AiModels from "./Sections/aimodels";
+import AiOffice from "./Sections/AiOffice";
 
 export const areasOfExpertise = [
   {
@@ -24,7 +33,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    // description: <ITLawDescription />,
+    description: <AiDescription />,
   },
   {
     title: "IT Law",
@@ -44,7 +53,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    // description: <ITLawDescription />, // Replace with the appropriate component for IT Law
+    description: <EuDescription />, // Replace with the appropriate component for IT Law
   },
   {
     title: "Contract Law",
@@ -64,7 +73,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    // description: <ContractLawDescription />, // Replace with the appropriate component for Contract Law
+    description: <EuDescription2 />, // Replace with the appropriate component for Contract Law
   },
   {
     title: "Copyright",
@@ -84,7 +93,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    // description: <CopyrightDescription />, // Replace with the appropriate component for Copyright
+    description: <AIGDPR />, // Replace with the appropriate component for Copyright
   },
   {
     title: "Privacy Law",
@@ -105,7 +114,7 @@ export const areasOfExpertise = [
       </svg>
     ),
 
-    // description: <PrivacyLawDescription />, // Replace with the appropriate component for Privacy Law
+    description: <AiActSystem />, // Replace with the appropriate component for Privacy Law
   },
   {
     title: "Outsourcing",
@@ -125,7 +134,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    // description: <OutsourcingDescription />, // Replace with the appropriate component for Outsourcing
+    description: <AiSystem />, // Replace with the appropriate component for Outsourcing
   },
   {
     title: "E-commerce",
@@ -145,7 +154,7 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    // description: <EcommerceDescription />, // Replace with the appropriate component for E-commerce
+    description: <AiSystem2 />, // Replace with the appropriate component for E-commerce
   },
   // {
   //   title: "Marketing Law",
@@ -170,7 +179,27 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-    // description: <DomainNamesDescription />, // Replace with the appropriate component for Domain Names
+    description: <AiModels />, // Replace with the appropriate component for Domain Names
+  },
+  {
+    title: "Domain Names",
+    subheader: "domain",
+    image: "/techlogo.png",
+    svg: (
+      <svg
+        width="18"
+        height="16"
+        viewBox="0 0 18 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9 15C9.5 15 10.25 14.5625 10.9062 13.2188C11.2188 12.5938 11.5 11.8438 11.6875 11H6.3125C6.46875 11.8438 6.75 12.5938 7.0625 13.2188C7.71875 14.5625 8.46875 15 9 15ZM6.125 10H11.8438C11.9375 9.375 12 8.71875 12 8C12 7.3125 11.9375 6.65625 11.8438 6H6.125C6.03125 6.65625 6 7.3125 6 8C6 8.71875 6.03125 9.375 6.125 10ZM6.3125 5H11.6875C11.5 4.15625 11.2188 3.4375 10.9062 2.8125C10.25 1.46875 9.5 1 9 1C8.46875 1 7.71875 1.46875 7.0625 2.8125C6.75 3.4375 6.46875 4.15625 6.3125 5ZM12.875 6C12.9375 6.65625 13 7.3125 13 8C13 8.71875 12.9375 9.375 12.875 10H15.6875C15.875 9.375 16 8.71875 16 8C16 7.3125 15.875 6.65625 15.6875 6H12.875ZM15.3125 5C14.5 3.3125 13.0312 2 11.2188 1.375C11.875 2.25 12.4062 3.53125 12.6875 5H15.3125ZM5.28125 5C5.59375 3.53125 6.09375 2.25 6.75 1.375C4.9375 2 3.46875 3.3125 2.65625 5H5.28125ZM2.28125 6C2.09375 6.65625 2 7.3125 2 8C2 8.71875 2.09375 9.375 2.28125 10H5.125C5.03125 9.375 5 8.71875 5 8C5 7.3125 5.03125 6.65625 5.125 6H2.28125ZM11.2188 14.6562C13.0312 14.0312 14.5 12.7188 15.3125 11H12.6875C12.4062 12.5 11.875 13.75 11.2188 14.6562ZM6.75 14.6562C6.09375 13.75 5.59375 12.5 5.28125 11H2.65625C3.46875 12.7188 4.9375 14.0312 6.75 14.6562ZM9 16C6.125 16 3.5 14.5 2.0625 12C0.625 9.53125 0.625 6.5 2.0625 4C3.5 1.53125 6.125 0 9 0C11.8438 0 14.4688 1.53125 15.9062 4C17.3438 6.5 17.3438 9.53125 15.9062 12C14.4688 14.5 11.8438 16 9 16Z"
+          fill="#00ADEE"
+        />
+      </svg>
+    ),
+    description: <AiOffice />, // Replace with the appropriate component for Domain Names
   },
   // {
   //   title: "Trademark Law",
@@ -189,7 +218,7 @@ export const areasOfExpertise = [
   // },
 ];
 const AiPage = () => {
-  const t = useTranslations("Index");
+  const t = useTranslations("Ai");
   const tCard = useTranslations("Cards");
 
   const searchParams = useSearchParams();
@@ -317,30 +346,30 @@ const AiPage = () => {
     }
   }, [visibleItems, checkScroll]);
 
-  useEffect(() => {
-    const onScroll = () => {
-      // if (!checkScroll) {
-      window.requestAnimationFrame(() => {
-        // setCheckScroll(true);
-      });
-      // Wait until scrolling is finished
-      // }
-    };
+  //   useEffect(() => {
+  //     const onScroll = () => {
+  //       // if (!checkScroll) {
+  //       window.requestAnimationFrame(() => {
+  //         // setCheckScroll(true);
+  //       });
+  //       // Wait until scrolling is finished
+  //       // }
+  //     };
 
-    const contentContainer = document.querySelector(".Area_gridContent__66ewb");
+  //     const contentContainer = document.querySelector(".Area_gridContent__66ewb");
 
-    contentContainer.addEventListener("scroll", onScroll);
+  //     // contentContainer.addEventListener("scroll", onScroll);
 
-    return () => {
-      contentContainer.removeEventListener("scroll", onScroll);
-    };
-  }, [checkScroll]);
+  //     return () => {
+  //       contentContainer.removeEventListener("scroll", onScroll);
+  //     };
+  //   }, [checkScroll]);
 
-  useEffect(() => {
-    window.requestAnimationFrame(() => {
-      // setCheckScroll(true);
-    });
-  });
+  //   useEffect(() => {
+  //     window.requestAnimationFrame(() => {
+  //       // setCheckScroll(true);
+  //     });
+  //   });
 
   const [isMobile, setIsMobile] = useState(false);
 
@@ -420,7 +449,7 @@ const AiPage = () => {
                   fontSize: 18,
                 }}
               >
-                {t("expertiseTitleShort")}
+                {/* {t("expertiseTitleShort")} */}
               </h2>
             </div>
             <div
@@ -472,7 +501,7 @@ const AiPage = () => {
                     <div className={styles.row}>
                       {/* <img src={area.image} alt="" /> */}
                       {area.svg}
-                      <span>{t(area.title)}</span>
+                      {/* <span>{t(area.title)}</span> */}
                     </div>
                   </li>
                 ))}
@@ -499,7 +528,7 @@ const AiPage = () => {
                   color: "#00ADEE",
                 }}
               >
-                {t(val.title)}
+                {/* {t(val.title)} */}
               </h2>{" "}
               <br />
               <h3
@@ -517,13 +546,9 @@ const AiPage = () => {
                   textDecorationSkipInk: "none",
                 }}
               >
-                {tCard(val.subheader)}
+                {/* {tCard(val.subheader)} */}
               </h3>
-              {/* {val.description} */}
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quos.
-              </p>
+              {val.description}
             </div>
           ))}
         </div>

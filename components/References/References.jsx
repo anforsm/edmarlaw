@@ -3,7 +3,7 @@ import React from "react";
 import AreaOFExpertise from "../Home/AreaOFExpertise";
 import { useTranslations } from "next-intl";
 const ReferencesPage = () => {
-  const t = useTranslations("REF");
+  const t = useTranslations("Index");
   return (
     <div className="flex flex-col px-6 sm:gap-y-12 gap-y-0 pb-12">
       <h1 className="text-[60px] font-[300] leading-[76px] tracking-[2%] text-[#00ADEE] pt-14">
@@ -12,10 +12,10 @@ const ReferencesPage = () => {
       <div className="py-12 border-b border-gray-200">
         <QuoteBlock
           t={t}
-          author={"Adam Berg"}
-          authorPosition={"Co-founding Partner, Looklet AB"}
+          author={"Brian Kennan"}
+          authorPosition={"Director, Executive Development, Amazon.com, Inc."}
           size={"large"}
-          body={"first"}
+          body={"quote9"}
         />
       </div>
       <div className="flex sm:flex-row flex-col w-full flex-wrap sm:flex-nowrap gap-y-10 py-12 border-b gap-x-10 border-gray-200">
@@ -23,10 +23,9 @@ const ReferencesPage = () => {
           t={t}
           author={"Mathias Strand"}
           authorPosition={"Head of Legal, Microsoft Western Europe"}
-          body={"second"}
+          body={"quote2"}
           authorBody={`
-            Microsoft AB is a wholly owned subsidiary to Microsoft Corporation, a multi national software business based in Redmond, Washington, USA. The corporation is one of the largest in the software industry today. Microsoft develops, manufactures and licenses many software products for a number of different computer systems, and Microsoft AB ensures that adaptations and support functions as well as launches of products and services are localized for the region. Microsoft AB has 600 employees and consultants with offices in Kista.
-            `}
+            Microsoft AB is a wholly owned subsidiary to Microsoft Corporation, a multi national software business based in Redmond, Washington, USA. The corporation is one of the largest in the software industry today. Microsoft develops, manufactures and licenses many software products for a number of different computer systems, and Microsoft AB ensures that adaptations and support functions as well as launches of products and services are localized for the region. Microsoft AB has 600 employees and consultants with offices in Kista.`}
         />
         <div
           id="separator"
@@ -36,16 +35,16 @@ const ReferencesPage = () => {
           t={t}
           author={"Stefan Magnusson"}
           authorPosition={"Vice President, DreamHack AB"}
-          body={"third"}
+          body={"quote3"}
         />
       </div>
       <div className="flex w-full flex-wrap gap-y-10 py-12 border-b border-gray-200">
         <QuoteBlock
           t={t}
-          author={"Anders Båth"}
-          authorPosition={"Senior Vice President, eBuilder"}
+          author={"Adam Berg"}
+          authorPosition={"Co-founding Partner, Looklet AB"}
           size={"large"}
-          body={"eBuilder"}
+          body={"quote1"}
         />
       </div>
       <div className="flex sm:flex-row flex-col w-full flex-wrap sm:flex-nowrap gap-y-10 py-12 border-b gap-x-10 border-gray-200">
@@ -53,7 +52,7 @@ const ReferencesPage = () => {
           t={t}
           author={"Mattias Unosson"}
           authorPosition={"CEO, Exmet AB"}
-          body={"exmet"}
+          body={"quote4"}
         />
         <div
           id="separator"
@@ -63,24 +62,24 @@ const ReferencesPage = () => {
           t={t}
           author={"Patrik Andersson"}
           authorPosition={"Product Manager, Genero Solutions AB"}
-          body={"genero"}
+          body={"quote5"}
         />
       </div>
       <div className="flex w-full flex-wrap gap-y-10 py-12 border-b border-gray-200">
         <QuoteBlock
           t={t}
-          author={"Brian Kennan"}
-          authorPosition={"Director, Executive Development, Amazon.com, Inc."}
+          author={"Johan Gustafsson"}
+          authorPosition={"CEO, Unomaly"}
+          body={"quote7"}
           size={"large"}
-          body={"gleechi"}
         />
       </div>
       <div className="flex sm:flex-row flex-col w-full flex-wrap sm:flex-nowrap gap-y-10 py-12 gap-x-10">
         <QuoteBlock
           t={t}
-          author={"Johan Gustafsson"}
-          authorPosition={"CEO, Unomaly"}
-          body={"unomly"}
+          author={"Anders Båth"}
+          authorPosition={"Senior Vice President, eBuilder"}
+          body={"quote6"}
         />
         <div
           id="separator"
@@ -88,10 +87,9 @@ const ReferencesPage = () => {
         ></div>
         <QuoteBlock
           t={t}
-          author={""}
-          body={
-            "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her."
-          }
+          author={"Jakob Johansson"}
+          body={"quote8"}
+          authorPosition={"Sr VP eBuilder"}
         />
       </div>
       <AreaOFExpertise size={"sm"} />
@@ -105,16 +103,16 @@ function QuoteBlock({ size, body, authorBody, author, authorPosition, t }) {
   return (
     <div
       data-size={size}
-      className="flex peer flex-col gap-y-10 sm:[&>.body]:data-[size=large]:text-3xl text-lg data-[size=large]:basis-[100%] basis-1/2"
+      className="flex peer flex-col gap-y-10 sm:[&>.body]:data-[size=large]:text-3xl [&>.test]:data-[size=large]:leading-[40px] text-[22px] data-[size=large]:basis-[100%] basis-1/2"
     >
       <div className="flex w-full">
         <QuoteSvg size={size} />
       </div>
-      <div className="font-[500] text-[16px] leading-[28px] tracking-[1%] body">
+      <div className="font-[700] text-[22px] leading-[32px] tracking-[1%] body test">
         {t(body)}
       </div>
       <div className="flex flex-col text-sm gap-y-2">
-        <div className="font-semibold">{author}</div>
+        <div className="font-bold">{author}</div>
         <div className="">{authorPosition}</div>
         {authorBody && <div className="text-[#4F4F4F]">{authorBody}</div>}
       </div>

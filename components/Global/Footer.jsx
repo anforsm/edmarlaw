@@ -66,7 +66,6 @@ const Footer = () => {
             /> */}
             <svg
               width="1082"
-              height="60"
               viewBox="0 0 1082 178"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

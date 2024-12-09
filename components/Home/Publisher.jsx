@@ -28,6 +28,9 @@ const Publisher = () => {
           </h1>
           <p className="text-[16px] leading-[23.68px]">
             {t("publisherDescription")}
+            <br />
+            <br />
+            {t("publisherDescription2")}
           </p>
           <Link
             href={"/"}

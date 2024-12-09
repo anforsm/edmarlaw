@@ -65,7 +65,8 @@ const areasOfExpertise = [
   // },
 ];
 const AreaOfExpertise = () => {
-  const t = useTranslations("GDPR");
+  const t = useTranslations("Index");
+  const tCard = useTranslations("GDPR");
   const searchParams = useSearchParams();
 
   const indx = searchParams.get("index");
@@ -198,7 +199,7 @@ const AreaOfExpertise = () => {
     <>
       {/* <ExpertiseMobile data={areasOfExpertise}></ExpertiseMobile> */}
       <div className={"md:!flex !hidden gap-x-10 pl-10"}>
-        <div className="flex-1 w-full pb-96 relative">
+        <div className="flex-1 w-full pb-96 pt-[6.5rem] relative border-r">
           <div className={styles.gridList}>
             <div
               style={{
@@ -258,7 +259,7 @@ const AreaOfExpertise = () => {
                   fontSize: 18,
                 }}
               >
-                Expertis
+                {t("expertiseTitleShort")}
               </h2>
             </div>
             <div
@@ -321,9 +322,9 @@ const AreaOfExpertise = () => {
         <div className={styles.gridContent}>
           {areasOfExpertise.map((val, index) => (
             <div
-              className="watch"
+              className="watch border-b"
               style={{
-                padding: "28px 0",
+                padding: "80px 0",
               }}
               key={index}
               id={`area2-${index}`}
@@ -355,7 +356,7 @@ const AreaOfExpertise = () => {
                   textDecorationSkipInk: "none",
                 }}
               >
-                {"Placeholder text here lorem lorem lirum larum"}
+                {tCard(val.subheader)}
               </h3>
               {val.description}
             </div>
