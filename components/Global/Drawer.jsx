@@ -40,17 +40,21 @@ const Drawer = ({ onClose }) => {
         }
       >
         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-          {!asPath.startsWith("/en/") || asPath.startsWith("/en") ? (
+          {asPath.startsWith("/en") ? (
+            <LinkI
+              className="text-[#00adee]"
+              href={getNewPath("se")}
+              locale="se"
+            >
+              <p>SE</p>
+            </LinkI>
+          ) : (
             <LinkI
               className="text-[#00adee]"
               href={getNewPath("en")}
               locale="en"
             >
               <p>EN</p>
-            </LinkI>
-          ) : (
-            <LinkI href={getNewPath("se")} locale="se">
-              <p>SE</p>
             </LinkI>
           )}
         </div>
