@@ -28,9 +28,13 @@ const Drawer = ({ onClose }) => {
 
   return (
     <div
-      className={`w-screen h-screen bg-white fixed top-28 z-10 left-0 flex flex-col animate-slide-in`}
+      className={`w-screen min-h-screen h-full bg-white fixed top-28 z-10 left-0 flex flex-col animate-slide-in`}
     >
-      <div className={"flex flex-col gap-y-10 px-6 text-[16px]"}>
+      <div
+        className={
+          "flex flex-col gap-y-10 px-6 overflow-y-scroll text-[16px] pb-44 md:pb-0 pt-8"
+        }
+      >
         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
           {!asPath.startsWith("/en/") || asPath.startsWith("/en") ? (
             <LinkI
@@ -79,7 +83,7 @@ const Drawer = ({ onClose }) => {
               isOpenDropdown ? "opacity-100 mt-4" : "max-h-0 opacity-0"
             }`}
           >
-            <div className="text-black border-l flex flex-col gap-y-4">
+            <div className="text-black border-l flex flex-col h-full overscroll-auto gap-y-4">
               <Link
                 onClick={onClose}
                 className=" py-2 px-3"
