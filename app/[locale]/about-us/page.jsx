@@ -14,7 +14,7 @@ const page = () => {
           <p className="lg:text-[22px] text-[18px] font-bold">
             Advokatfirman EdmarLaw har mer än 25 års erfarenhet av att granska,
             upprätta och förhandla de flesta typer av avtal som förekommer på
-            IT-området. {" "}
+            IT-området.
           </p>
           <p>
             Bland annat har EdmarLaw omfattande erfarenhet av
@@ -28,8 +28,8 @@ const page = () => {
         </div>
         <div className="lg:w-1/2 flex justify-end lg:py-0">
           <Image
-            className="object-contain h-[500px]"
-            src={"/edmarhero.png"}
+            className="object-contain lg:h-[500px] lg:py-0 py-10"
+            src={"/edmarbild.png"}
             alt="Bild på Malin Edmar"
             width={800}
             height={1200}

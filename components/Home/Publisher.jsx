@@ -2,12 +2,12 @@
 import React from "react";
 import styles from "./Publisher.module.css";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 
 const Publisher = () => {
   const t = useTranslations("Index");
-
+  const locale = useLocale();
   return (
     <div className="lg:grid lg:grid-cols-12 gapx px-6 lg:py-36 flex flex-col gap-y-12 lg:gap-y-0 pb-40">
       <div className={"lg:col-span-6 lg:grid lg:grid-cols-12"}>
@@ -33,7 +33,7 @@ const Publisher = () => {
             {t("publisherDescription2")}
           </p>
           <Link
-            href={"/"}
+            href={`/${locale}/about-us/publications`}
             className="bg-[#1D1D1D] text-white lg:px-10 lg:py-5 py-4 rounded-[6px] lg:w-fit text-center w-full"
           >
             <span className="text-[16px] font-bold leading-6">

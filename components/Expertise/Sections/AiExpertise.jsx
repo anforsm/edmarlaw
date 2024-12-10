@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
 import styles from "./styles.module.css";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 const AiExpertise = () => {
   const t = useTranslations("Ai");
   const t2 = useTranslations("AiAct");
+  const locale = useLocale();
   return (
     <div className={styles.container}>
       <p>{t("p1")}</p>
@@ -18,7 +19,7 @@ const AiExpertise = () => {
       <br />
       <p>{t2("p2")}</p>
       <br />
-      <Link className="text-black underline font-bold" href={t2("link")}>
+      <Link className="text-black underline font-bold" href={`/${locale}/ai`}>
         {t2("link")}
       </Link>
     </div>

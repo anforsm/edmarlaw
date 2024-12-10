@@ -23,7 +23,10 @@ export default function Card({ title, description, icon, size, link }) {
         {/* <Image src={icon} alt={title} width={36} height={36} /> */}
         {icon}
       </div>
-      <div className="flex flex-col gap-y-2 h-full justify-between">
+      <div
+        data-size={size}
+        className="flex flex-col gap-y-2 h-full data-[size=sm]:justify-center justify-between"
+      >
         <div className="flex flex-col gap-y-2">
           <h4 className="font-semibold text-lg">{title}</h4>
           {size !== "sm" && <p>{t(description)}</p>}

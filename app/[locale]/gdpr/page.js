@@ -90,9 +90,6 @@ const AreaOfExpertise = () => {
   const [checkScroll, setCheckScroll] = useState(true);
 
   const handleAreaClick = (area, index) => {
-    // setCheckScroll(false)
-    setSelectedArea(area);
-    setScrollIndex(index);
     const selectedAreaDiv = document.getElementById(`area2-${index}`);
     if (selectedAreaDiv) {
       const offset = 100; // Adjust the offset value as needed
@@ -174,24 +171,12 @@ const AreaOfExpertise = () => {
     };
   }, [checkScroll]);
 
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    checkMobile();
-    window.addEventListener("resize", checkMobile);
-
-    return () => {
-      window.removeEventListener("resize", checkMobile);
-    };
-  }, []);
-
   return (
     <>
-      <ExpertiseMobile data={areasOfExpertise}></ExpertiseMobile>
+      <ExpertiseMobile
+        data={areasOfExpertise}
+        translate={"GDPR"}
+      ></ExpertiseMobile>
       <div className={"md:!flex !hidden gap-x-10 pl-10"}>
         <div className="flex-1 w-full pb-96 pt-[6.5rem] relative border-r">
           <div className={styles.gridList}>

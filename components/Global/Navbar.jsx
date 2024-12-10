@@ -33,9 +33,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex w-full px-6 lg:px-6 xl:px-2 bg-white z-50 h-28 sticky top-0 items-center justify-center">
-      <div className="absolute h-full !max-w-none !w-screen shadow-sm pointer-events-none"></div>
-      <div className="w-full flex">
+    <nav className="flex w-full px-6 lg:px-6 xl:px-2 bg-white z-[10000] h-28 sticky top-0 items-center justify-center">
+      <div className="absolute bg-white h-full !max-w-none !w-screen shadow-sm pointer-events-none z-[9999]"></div>
+      <div className="w-full flex z-[10001]">
         <div className="w-full flex justify-between items-center">
           <div className="w-full flex items-center max-h-12">
             <Link href={"/"} className="h-full w-full">
