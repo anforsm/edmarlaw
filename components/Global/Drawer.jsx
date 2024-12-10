@@ -80,28 +80,60 @@ const Drawer = ({ onClose }) => {
             }`}
           >
             <div className="text-black border-l flex flex-col gap-y-4">
-              <Link className=" py-2 px-3" href={"/expertise?section=AI"}>
+              <Link
+                onClick={onClose}
+                className=" py-2 px-3"
+                href={"/expertise?section=AI"}
+              >
                 {t("AI")}
               </Link>
-              <Link className=" py-2 px-3" href={"/expertise?section=AI"}>
+              <Link
+                onClick={onClose}
+                className=" py-2 px-3"
+                href={"/expertise?section=AI"}
+              >
                 {t("IT Law")}
               </Link>
-              <Link className=" py-2 px-3" href={"/expertise?section=AI"}>
+              <Link
+                onClick={onClose}
+                className=" py-2 px-3"
+                href={"/expertise?section=AI"}
+              >
                 {t("Contract Law")}
               </Link>
-              <Link className=" py-2 px-3" href={"/expertise?section=AI"}>
+              <Link
+                onClick={onClose}
+                className=" py-2 px-3"
+                href={"/expertise?section=AI"}
+              >
                 {t("Copyright")}
               </Link>
-              <Link className=" py-2 px-3" href={"/expertise?section=AI"}>
+              <Link
+                onClick={onClose}
+                className=" py-2 px-3"
+                href={"/expertise?section=AI"}
+              >
                 {t("Privacy Law")}
               </Link>
-              <Link className=" py-2 px-3" href={"/expertise?section=AI"}>
+              <Link
+                onClick={onClose}
+                className=" py-2 px-3"
+                href={"/expertise?section=AI"}
+              >
                 {t("Outsourcing")}
               </Link>
-              <Link className=" py-2 px-3" href={"/expertise?section=AI"}>
+              <Link
+                onClick={onClose}
+                className=" py-2 px-3"
+                href={"/expertise?section=AI"}
+              >
                 {t("E-commerce")}
               </Link>
-              <Link className=" py-2 px-3" href={"/expertise?section=AI"}>
+              <Link
+                onClick={onClose}
+                className=" py-2 px-3"
+                href={"/expertise?section=AI"}
+              >
                 {t("Domain Names")}
               </Link>
             </div>
