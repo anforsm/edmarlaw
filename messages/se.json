@@ -475,5 +475,16 @@
   },
   "AiOffice": {
     "AiOfficeDesc": "EU-kommissionen har inrättat ett AI Office för att säkerställa genomförandet av AI-förordningen och stötta medlemsländernas myndigheter i sin tillämpning av AI-förordningen. Alltifrån teknikspecialister till jurister och ekonomer arbetar där. AI Office kommer även se till att reglerna för General purpose AI-modeller efterlevs. I samarbete med AI-utvecklare, forskarsamhället och andra berörda parter kommer AI Office utarbeta code of conducts, genomföra testning och utvärdering av general purpose AI-modeller, begära information samt även tillämpa sanktioner vid behov."
+  },
+  "AiPageHeaders": {
+    "Ai1": "Artificiell intelligens – AI",
+    "AiEu": "Vad är AI-förordningen (AI Act)?",
+    "AiEu2": "Varför vill EU reglera användningen av artificiell intelligens?",
+    "AiActGdpr": "Gäller AI-förordningen för vår verksamhet?",
+    "AiActSystem": "Hur skiljer sig AI-förordningen för olika AI-system?",
+    "AiSystem": "Hur vet jag om ett AI-system är högrisk?",
+    "AiSystem2": "Vilka skyldigheter har leverantörer av AI-system med hög risk?",
+    "AiModels": "Hur regleras AI-modeller?",
+    "AiOffice": "AI Office"
   }
 }
