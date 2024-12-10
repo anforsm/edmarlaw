@@ -290,9 +290,6 @@ const AiPage = () => {
   const [checkScroll, setCheckScroll] = useState(true);
 
   const handleAreaClick = (area, index) => {
-    // setCheckScroll(false)
-    setSelectedArea(area);
-    setScrollIndex(index);
     const selectedAreaDiv = document.getElementById(`area2-${index}`);
     if (selectedAreaDiv) {
       const offset = 100; // Adjust the offset value as needed

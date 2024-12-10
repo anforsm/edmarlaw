@@ -409,5 +409,71 @@
     "subHeader": "Domännamnsregistreringar och domännamnstvister",
     "p1": "Internetnärvaro är avgörande för all typ av verksamhet. Domännamnen är en betydelsefull marknadsföringskanal, en säkerhetsaspekt och en kvalitetsstämpel. Ett företags eller en organisations domännamn bär därför ofta på stora värden, både förtroendemässiga och ekonomiska, och det är viktigt att det finns en medvetenhet i hanteringen av dem.",
     "p2": "EdmarLaw bistår såväl med domännamnsregistrering som hantering av domännamnstvister, liksom även i strategiska frågor kring användningen av domännamn."
+  },
+  "AiPage": {
+    "aiDesc1": "Artificiell intelligens (AI) är idag en del av vardagen. Många företag ser möjligheten att med hjälp av AI förenkla arbetet, öka produktiviteten och hjälpa till att förbättra kundrelationer. Vanliga typer av AI system är chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines och predictive analytics tools.",
+    "aiDesc2": "En chatbot är en programvara som använder artificiell intelligens för att simulera mänsklig konversation. ChatGPT från OpenAI är ett välkänt exempel på en chatbot. Företag kan integrera den med sina befintliga system genom API:er och anpassa den för att bättre passa den specifika branschen eller syftet med verksamheten.",
+    "aiDescSubheader": "AI-modeller och AI-verktyg",
+    "aiDesc3": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg applikationer eller plattformar (t.ex. databaser, molnplattformar eller IoT-enheter) som använder dessa modeller för att utföra uppgifter. Till exempel kan en maskininlärningsmodell integreras i ett verktyg för predictive analytics, vilket gör det möjligt för företag att förutsäga trender baserat på historiska data. Datakvaliteten, modellen du använder och den typ av deployment du väljer är avgörande för att skapa ett bra AI-system.",
+    "aiDesc4": "EdmarLaw kan hjälpa dig oavsett om du utvecklar AI-system eller vill använda dem i arbetet. Vi har lång erfarenhet av att licensiera AI-teknik och hjälpa till med juridiska frågor kring AI-utvecklingsarbetet och livscykeln."
+  },
+  "AiActEu1": {
+    "AiActEu1Desc": "EU:s förordning om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter i samband med AI-utvecklingen."
+  },
+  "AiActEu2": {
+    "AiActEuDesc": "AI-system har en stark potential att skapa samhällsnytta och ekonomisk tillväxt i världen. EU anser dock att vissa AI-system kan skapa nya risker relaterade till användarnas säkerhet och grundläggande rättigheter. Vissa kraftfulla AI-modeller som används i stor utsträckning kan till och med utgöra systemrisker.",
+    "AiActEuDesc2": "För att undvika att myndigheter, företag och medborgare inte litar på AI-teknik drog EU slutsatsen att det behövs lagstiftning kring AI, där både fördelar och risker hanteras på lämpligt sätt."
+  },
+  "AiActGdpr": {
+    "AiActGdprDesc": "I likhet med GDPR gäller AI-förordningen för både offentliga och privata aktörer inom och utanför EU om AI-systemet görs tillgängligt på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU. AI-förordningen gäller för både leverantörer/providers (t.ex. en utvecklare av en chatbot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
+    "AiActGdprDescListHeader": "Det finns några undantag när förordningen inte är tillämplig:",
+    "AiActGdprDescList1": "om forskning, utveckling och prototypverksamhet äger rum innan ett AI-system släpps på marknaden, eller",
+    "AiActGdprDescList2": "om AI-system uteslutande är utformade för militära, försvarsrelaterade eller nationella säkerhetsändamål."
+  },
+  "AiActSystem": {
+    "AiActSystemDesc": "AI-förordningen är uppdelad utifrån ett riskbaserat synsätt.",
+    "AiActSystemList1": "Oacceptabel risk",
+    "AiActSystemDesc2": "AI-system som kränker de grundläggande rättigheterna anses vara särskilt skadliga. Användning av sådana AI-system kommer att förbjudas. Exempel på sådana brott mot de grundläggande rättigheterna är:",
+    "AiActSystemDesc3": "Utnyttjande av personers sårbarheter, manipulation och användning av subliminala tekniker;",
+    "AiActSystemDesc4": "Social poängsättning för offentliga och privata ändamål;",
+    "AiActSystemDesc5": "Individuellt prediktivt polisarbete som enbart bygger på profilering av människor;",
+    "AiActSystemDesc6": "Generell skrapning av internet av ansiktsbilder eller övervakningskameror för att bygga upp eller utöka databaser;",
+    "AiActSystemDesc7": "Igenkänning av känslor på arbetsplatsen och utbildningsinstitutioner, såvida det inte är av medicinska skäl eller säkerhetsskäl (t.ex. övervakning av tröttheten hos en pilot).",
+    "AiActSystemDesc8": "Biometrisk kategorisering av fysiska personer för att härleda ras, politiska åsikter, medlemskap i fackförening, religiös eller filosofisk övertygelse eller sexuell läggning. Men det kommer fortfarande vara möjligt att märka eller filtrera dataset och kategorisera data på brottsbekämpningsområdet.",
+    "AiActSystemDesc9": "Brottsbekämpande myndigheters biometriska identifiering på distans i realtid på allmän plats, med vissa undantag (där det anses högrisksystem).",
+    "AiActSystemList2Subheader": "Hög risk",
+    "AiActSystemList2Desc": "AI-system som har en negativ inverkan på människors säkerhet eller deras grundläggande rättigheter anses utgöra högrisksystem. Det finns en lista i AI-förordningen över dessa AI-system med hög risk (listan uppdateras löpande utifrån teknikutvecklingen). Exempel på högrisksystem är:",
+    "AiActSystemList2Desc2": "AI-system som bedömer om någon kan få en viss medicinsk behandling (AI-baserad medicinsk programvara),",
+    "AiActSystemList2Desc3": "AI-system som bedömer om någon kan få ett visst jobb eller lån för att köpa en lägenhet.",
+    "AiActSystemList2Desc4": "AI-system som används av polisen för att profilera människor eller bedöma deras risk för att begå ett brott",
+    "AiActSystemList2Desc5": "AI-system som driver robotar, drönare eller medicinsk utrustning.",
+    "AiActSystemList2Subheader2": "Minimal risk",
+    "AiActSystemList2Desc6": "Majoriteten av AI-systemen kan i dag utvecklas och användas utan särskilda skyldigheter enligt AI-förordningen. Men vi rekommenderar att man tillämpar kraven för trustworthy AI och implementerar en AI code of conduct när man använder AI-teknik.",
+    "AiActSystemList2Desc7": "Det är viktigt att säkerställa transparens kring användningen av AI. AI-förordningen innehåller därför krav på transparens för vissa AI-system där det finns en tydlig risk för manipulation eller deepfake. Chatbots och sociala medier är typiska exempel där användare bör göras medvetna om att de inte interagerar med en människa.",
+    "general": "Allmänt",
+    "generalDesc": "Det är viktigt att säkerställa transparens kring användningen av AI. AI-förordningen innehåller därför krav på transparens för vissa AI-system där det finns en tydlig risk för manipulation eller deepfake. Chatbots och sociala medier är typiska exempel där användare bör göras medvetna om att de inte interagerar med en människa. Transparenskravet liknar det i GDPR, det vill säga ett informationskrav, och vi rekommenderar att ni dokumenterar er användning av AI och informerar era användare på samma sätt som ni skulle göra avseende verksamhetens användning av personuppgifter. Ni kan använda samma tillvägagångssätt; Skulle användaren förvänta sig att dess personuppgifter används för detta ändamål? Skulle användaren förvänta sig att AI används i det här scenariot? Om inte, bör du informera användarna om detta. EU:s AI Office (se nedan) kommer upprätta rekommendationer för hur man kan märka AI-genererat innehåll."
+  },
+  "AiSystem": {
+    "AiSystem1": "Riskklassificeringen utgår från det avsedda syftet med ett AI-system, dvs. utifrån den funktion AI-systemet har, dess specifika syfte och de modaliteter som systemet används i. I Annex III till AI-förordningen beskrivs de områden där användningen av AI kan vara särskilt känslig och därför klassificeras som högrisk:",
+    "AiList1": "AI-system som används som säkerhetskomponenter i viss kritisk infrastruktur, till exempel inom vägtrafik och försörjning av vatten, gas, värme och el.",
+    "AiList2": "AI-system som används inom utbildning och yrkesutbildning, t.ex. för att utvärdera läranderesultat och styra inlärningsprocessen och övervakning av fusk.",
+    "AiList3": "AI-system som används vid hantering av anställning och arbetstagare liksom i viss mån egenföretagande, t.ex. för att placera riktade platsannonser, för att analysera och filtrera jobbansökningar och för att utvärdera kandidater.",
+    "AiList4": "AI-system som används för tillgång till väsentliga privata och offentliga tjänster och förmåner (t.ex. hälso- och sjukvård), kreditprövning av fysiska personer samt riskbedömning och prissättning i förhållande till liv- och sjukförsäkringar.",
+    "AiList5": "AI-system som används på områdena brottsbekämpning, migration och gränskontroll, i den mån det inte redan är förbjudet, samt inom rättskipning och demokratiska processer.",
+    "AiList6": "AI-system som används för biometrisk identifiering, biometrisk kategorisering och känsloigenkänning, i den mån det inte är förbjudet."
+  },
+  "AiSystem2": {
+    "AiSystem2Desc": "Vilka skyldigheter har leverantörer av AI-system med hög risk?",
+    "AiSystem2Desc2": "Innan en leverantör gör ett AI-system med hög risk tillgängligt på EU-marknaden eller på annat sätt tar det i bruk måste en konsekvensbedömning göras för att visa att AI-systemet uppfyller de obligatoriska kraven på trustworthy AI (t.ex. kvaliteten på datan, dokumentation och spårbarhet, transparens, mänsklig tillsyn, noggrannhet, cybersäkerhet och robusthet).",
+    "AiSystem2Desc3": "AI-system som fungerar som säkerhetskomponenter i produkter som omfattas av den EU-lagstiftning som listas i Annex I till AI-förordningen kommer vid konsekvensbedömning alltid anses utgöra högrisksystem. Och alla biometriska system, oavsett tillämpning, kommer behöva genomgå en konsekvensbedömning av tredje part.",
+    "AiSystem2Desc4": "Leverantörer av AI-system med hög risk kommer också behöva införa kvalitets- och riskhanteringssystem för att säkerställa att de uppfyller kraven och minimerar riskerna för användare och berörda personer, även sedan en produkt har släppts på marknaden."
+  },
+  "AiModels": {
+    "AiModelsDesc": "Hur regleras AI-modeller?",
+    "AiModelsDesc2": "General purpose AI-modeller, inklusive de stora generativ AI-modellerna, kan användas för en mängd olika uppgifter och utgör idag grunden för många AI-system. EU har därför dragit slutsatsen att en leverantör av ett AI-system som integrerar en allmän AI-modell ska få tillgång till all information som behövs för att själv kunna säkerställa att systemet är säkert och förenligt med AI-förordningen. Enligt AI-förordningen är leverantörer av sådana modeller därför skyldiga att lämna ut information till systemleverantörer i senare led. En sådan transparens gör det möjligt att förstå modellerna bättre. Modell-leverantörer måste även ha processer på plats som visar att de följer upphovsrättslagen när de tränar sina modeller.",
+    "AiModelsDesc3": "Vissa av dessa modeller kan medföra systemrisker om de är mycket kapabla eller används i stor utsträckning. Kraftfulla modeller kan till exempel orsaka allvarliga olyckor eller missbrukas för långtgående cyberattacker. Många individer kan påverkas om en modell sprider skadlig information i många program. Detta är delvis vad EU:s AI-förordning syftar till att hantera."
+  },
+  "AiOffice": {
+    "AiOfficeDesc": "EU-kommissionen har inrättat ett AI Office för att säkerställa genomförandet av AI-förordningen och stötta medlemsländernas myndigheter i sin tillämpning av AI-förordningen. Alltifrån teknikspecialister till jurister och ekonomer arbetar där. AI Office kommer även se till att reglerna för General purpose AI-modeller efterlevs. I samarbete med AI-utvecklare, forskarsamhället och andra berörda parter kommer AI Office utarbeta code of conducts, genomföra testning och utvärdering av general purpose AI-modeller, begära information samt även tillämpa sanktioner vid behov."
   }
 }
