@@ -1,74 +1,91 @@
-"use client";
-import { motion, useAnimation } from "motion/react";
+import React from "react";
+import { motion, Transition, SVGMotionProps } from "framer-motion";
 
-const lineVariants = {
-  normal: {
-    rotate: 0,
-    y: 0,
-    opacity: 1,
-  },
-  animate: (custom) => ({
-    rotate: custom === 1 ? 45 : custom === 3 ? -45 : 0,
-    y: custom === 1 ? 6 : custom === 3 ? -6 : 0,
-    opacity: custom === 2 ? 0 : 1,
-    transition: {
-      type: "spring",
-      stiffness: 260,
-      damping: 20,
+const MenuButton = ({
+  isOpen = false,
+  width = 24,
+  height = 24,
+  strokeWidth = 2,
+  color = "#000",
+  transition = null,
+  lineProps = null,
+  ...props
+}) => {
+  const variant = isOpen ? "opened" : "closed";
+  const top = {
+    closed: {
+      rotate: 0,
+      translateY: 0,
     },
-  }),
-};
-
-const MenuButton = ({ open }) => {
-  const controls = useAnimation();
+    opened: {
+      rotate: 45,
+      translateY: 2,
+    },
+  };
+  const center = {
+    closed: {
+      opacity: 1,
+    },
+    opened: {
+      opacity: 0,
+    },
+  };
+  const bottom = {
+    closed: {
+      rotate: 0,
+      translateY: 0,
+    },
+    opened: {
+      rotate: -45,
+      translateY: -2,
+    },
+  };
+  lineProps = {
+    stroke: color,
+    strokeWidth: strokeWidth,
+    vectorEffect: "non-scaling-stroke",
+    initial: "closed",
+    animate: variant,
+    transition,
+    ...lineProps,
+  };
+  const unitHeight = 4;
+  const unitWidth = (unitHeight * width) / height;
 
   return (
-    <div
-      className="cursor-pointer select-none p-2 hover:bg-accent rounded-md transition-colors duration-200 flex items-center justify-center"
-      onClick={() =>
-        !open ? controls.start("animate") : controls.start("normal")
-      }
+    <motion.svg
+      viewBox={`0 0 ${unitWidth} ${unitHeight}`}
+      overflow="visible"
+      preserveAspectRatio="none"
+      width={width}
+      height={height}
+      {...props}
     >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="28"
-        height="28"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <motion.line
-          x1="4"
-          y1="6"
-          x2="20"
-          y2="6"
-          variants={lineVariants}
-          animate={controls}
-          custom={1}
-        />
-        <motion.line
-          x1="4"
-          y1="12"
-          x2="20"
-          y2="12"
-          variants={lineVariants}
-          animate={controls}
-          custom={2}
-        />
-        <motion.line
-          x1="4"
-          y1="18"
-          x2="20"
-          y2="18"
-          variants={lineVariants}
-          animate={controls}
-          custom={3}
-        />
-      </svg>
-    </div>
+      <motion.line
+        x1="0"
+        x2={unitWidth}
+        y1="0"
+        y2="0"
+        variants={top}
+        {...lineProps}
+      />
+      <motion.line
+        x1="0"
+        x2={unitWidth}
+        y1="2"
+        y2="2"
+        variants={center}
+        {...lineProps}
+      />
+      <motion.line
+        x1="0"
+        x2={unitWidth}
+        y1="4"
+        y2="4"
+        variants={bottom}
+        {...lineProps}
+      />
+    </motion.svg>
   );
 };
 

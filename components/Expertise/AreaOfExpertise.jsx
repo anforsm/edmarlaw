@@ -26,7 +26,7 @@ export const areasOfExpertise = [
     image: "/techlogo.png",
     svg: (
       <svg
-        width="16"
+        width="18"
         height="17"
         viewBox="0 0 16 17"
         fill="none"
@@ -46,7 +46,7 @@ export const areasOfExpertise = [
     image: "/techlogo.png",
     svg: (
       <svg
-        width="16"
+        width="18"
         height="16"
         viewBox="0 0 20 14"
         fill="none"
@@ -66,7 +66,7 @@ export const areasOfExpertise = [
     image: "/techlogo.png",
     svg: (
       <svg
-        width="12"
+        width="18"
         height="16"
         viewBox="0 0 12 16"
         fill="none"
@@ -106,7 +106,7 @@ export const areasOfExpertise = [
     image: "/techlogo.png",
     svg: (
       <svg
-        width="16"
+        width="18"
         height="16"
         viewBox="0 0 16 16"
         fill="none"
@@ -127,7 +127,7 @@ export const areasOfExpertise = [
     image: "/techlogo.png",
     svg: (
       <svg
-        width="14"
+        width="18"
         height="17"
         viewBox="0 0 14 17"
         fill="none"

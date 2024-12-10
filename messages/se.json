@@ -7,7 +7,7 @@
     "AI": "AI",
     "IT Law": "IT-rätt",
     "Contract Law": "Avtalsrätt",
-    "Privacy Law": "Dataskydd",
+    "Privacy Law": "Dataskydd (GDPR)",
     "Telecom Law": "Telekomlagstiftning",
     "Design Law": "Mönsterrätt och designskydd",
     "Trademark Law": "Varumärkesrätt och firmarätt",
@@ -325,14 +325,15 @@
     "Buy": "Köp"
   },
   "Cards": {
-    "ai": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognition software",
+    "ai": "Chatbots, virtual assistants, predictive analytics tools, image eller speech recognition software",
     "law": "IT-system, molntjänster, IoT, mjukvara, open source",
     "contract": "Alla typer av avtal för IT-branschen, med stor insyn i branschpraxis",
     "copyright": "Rättigheter till mjukvara, koncept, know-how, design",
     "privacy": "Dataskyddsanalyser, DPIA, TIA, personuppgiftspolicy, privacy by design",
     "outsourcing": "Avtal för outsourcing och olika typer av molntjänster",
     "ecom": "allmänna villkor, reklam, sociala medier, distribution",
-    "domain": "Domännamnsregistreringar och domännamnstvister"
+    "domain": "Domännamnsregistreringar och domännamnstvister",
+    "readMore": "Läs mer"
   },
   "Ai": {
     "subHeader": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognition software",

@@ -31,7 +31,9 @@ export default function Card({ title, description, icon, size, link }) {
           <h4 className="font-semibold text-lg">{title}</h4>
           {size !== "sm" && <p>{t(description)}</p>}
         </div>
-        {size !== "sm" && <div className="font-semibold text-sm">Läs mer</div>}
+        {size !== "sm" && (
+          <div className="font-semibold text-sm">{t("readMore")}</div>
+        )}
       </div>
     </Link>
   );

@@ -386,7 +386,7 @@ const AreaOFExpertise = ({ size }) => {
               <Card
                 link={`/expertise?section=${item.description}`}
                 size={size}
-                key={item.text}
+                key={item.title}
                 title={item.title}
                 description={item.description}
                 icon={item.svg}
@@ -396,7 +396,7 @@ const AreaOFExpertise = ({ size }) => {
               <Card
                 link={`${item.link}`}
                 size={size}
-                key={item.text}
+                key={item.title}
                 title={item.title}
                 description={item.description}
                 icon={item.icon}

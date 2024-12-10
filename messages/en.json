@@ -337,7 +337,8 @@
     "privacy": "Privacy impact assessments, DPIA, TIA, privacy policy, privacy by design",
     "outsourcing": "Agreements on outsourcing and various types of cloud services",
     "ecom": "General terms, advertising, social media, distribution",
-    "domain": "Domain name registrations and domain name disputes"
+    "domain": "Domain name registrations and domain name disputes",
+    "readMore": "Read more"
   },
   "Ai": {
     "subHeader": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognitionsoftware",

@@ -233,7 +233,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 48.6287 29.9999)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="42.4178"
@@ -242,7 +242,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 42.4178 29.9999)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="36.2108"
@@ -251,7 +251,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 36.2108 29.9999)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="29.9998"
@@ -260,7 +260,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 29.9998 29.9999)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="23.7928"
@@ -269,7 +269,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 23.7928 42.4194)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="23.7928"
@@ -278,7 +278,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 23.7928 29.9999)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="23.7928"
@@ -287,7 +287,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 23.7928 17.5806)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="17.5818"
@@ -296,7 +296,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 17.5818 36.2096)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="17.5818"
@@ -305,7 +305,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 17.5818 29.9999)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="17.5818"
@@ -314,7 +314,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 17.5818 23.7903)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="11.3709"
@@ -323,7 +323,7 @@ function SamplePrevArrow({ onClick }) {
           transform="rotate(-180 11.3709 29.9999)"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
       </svg>
     </div>
@@ -349,7 +349,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="17.5822"
@@ -357,7 +357,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="23.7893"
@@ -365,7 +365,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="30.0002"
@@ -373,7 +373,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="36.2072"
@@ -381,7 +381,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="36.2072"
@@ -389,7 +389,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="36.2072"
@@ -397,7 +397,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="42.4182"
@@ -405,7 +405,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="42.4182"
@@ -413,7 +413,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="42.4182"
@@ -421,7 +421,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
         <circle
           cx="48.6291"
@@ -429,7 +429,7 @@ function SampleNextArrow({ onClick }) {
           r="2.05645"
           fill="#00ADEE"
           stroke="#00ADEE"
-          stroke-width="0.725806"
+          strokeWidth="0.725806"
         />
       </svg>
     </div>

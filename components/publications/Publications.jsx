@@ -10,7 +10,7 @@ const Publications = () => {
   const pathname = usePathname();
   return (
     <div className={styles.container}>
-      <h1 className="!text-[#00adee] !font-[300] !text-[60px]">
+      <h1 className="!text-[#00adee] !font-[300] !text-[60px] -ml-1">
         {tTitle("Publications")}
       </h1>
       <div className={styles.forwardFlex}>
@@ -63,7 +63,7 @@ const Publications = () => {
           <p>
             {t("Buy")}{" "}
             <Link
-              className="text-[#00adee]"
+              className="text-black underline"
               href="https://shop.nj.se/products/internetpublicering-och-sociala-medier-1"
               target="_blank"
             >
@@ -100,7 +100,7 @@ const Publications = () => {
               <p>
                 {t("Buy")}{" "}
                 <Link
-                  className="text-[#00adee]"
+                  className="text-black underline"
                   href="https://www.sweetandmaxwell.co.uk/Product/Dispute-Resolution/Domain-Names-Strategies-and-Legal-Aspects/Hardback-and-eBook-ProView/42960040"
                   target="_blank"
                 >
@@ -112,7 +112,7 @@ const Publications = () => {
               <p>
                 (Buy it in Swedish{" "}
                 <Link
-                  className="text-[#00adee]"
+                  className="text-black underline"
                   href="https://shop.nj.se/products/domannamn"
                   target="_blank"
                 >
@@ -125,7 +125,7 @@ const Publications = () => {
             <p>
               {t("Buy")}{" "}
               <Link
-                className="text-[#00adee]"
+                className="text-black underline"
                 href="https://shop.nj.se/products/domannamn"
                 target="_blank"
               >
@@ -154,7 +154,7 @@ const Publications = () => {
           <p>
             {t("Buy")}{" "}
             <Link
-              className="text-[#00adee]"
+              className="text-black underline"
               href="https://www.jure.se/ns/default.asp?url=visatitel.asp?tuid=17706"
               target="_blank"
             >

@@ -75,7 +75,7 @@
 }
 
 .speech-tail {
-  clip-path: inset(0.5px -10px -10px -10px);
+  clipPath: inset(0.5px -10px -10px -10px);
 }
 
 .slick-track {
@@ -94,7 +94,7 @@
 
 */
 .speech-tail {
-  clip-path: inset(0.5px -10px -10px -10px);
+  clippath: inset(0.5px -10px -10px -10px);
 }
 
 .tech-background {

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import LinkI from "next-intl/link";
 import "./Navbar.css";
@@ -25,6 +25,10 @@ const Drawer = ({ onClose }) => {
   };
 
   const [isOpenDropdown, setIsOpenDropdown] = useState(false);
+
+  useEffect(() => {
+    setIsOpenDropdown(false);
+  }, [asPath]);
 
   return (
     <div

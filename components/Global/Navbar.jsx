@@ -11,7 +11,7 @@ import { MenuButton } from "./MenuButton";
 const Navbar = () => {
   const t = useTranslations("Index");
   const [isOpen, setIsOpen] = useState(false);
-  console.log(isOpen);
+
   const toggleDrawer = () => {
     document.body.style.overflow = !isOpen ? "hidden" : "auto";
     setIsOpen(!isOpen);
@@ -38,7 +38,13 @@ const Navbar = () => {
       <div className="w-full flex z-[10001]">
         <div className="w-full flex justify-between items-center">
           <div className="w-full flex items-center max-h-12">
-            <Link href={"/"} className="h-full w-full">
+            <Link
+              onClick={() => {
+                setIsOpen(false);
+              }}
+              href={"/"}
+              className="h-full w-full"
+            >
               <Image
                 className="h-12 w-44 object-contain"
                 width={200}
@@ -79,19 +85,22 @@ const Navbar = () => {
               </select>
             </div> */}
             <div className="text-[#00adee]">
-              {/* <LinkI href={getNewPath("en")} locale="en">
-                <p>EN</p>
-              </LinkI> */}
-              <LinkI href={getNewPath("se")} locale="se">
-                <p>SE</p>
-              </LinkI>
+              {asPath.startsWith("/en") ? (
+                <LinkI href={getNewPath("se")} locale="se">
+                  <p>SE</p>
+                </LinkI>
+              ) : (
+                <LinkI href={getNewPath("en")} locale="en">
+                  <p>EN</p>
+                </LinkI>
+              )}
             </div>
           </div>
           <div
             className={`${isOpen ? "open" : ""} md:hidden flex`}
             onClick={toggleDrawer}
           >
-            <MenuButton open={isOpen}></MenuButton>
+            <MenuButton isOpen={isOpen}></MenuButton>
           </div>
         </div>
       </div>
