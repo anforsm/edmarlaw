@@ -146,22 +146,9 @@ const Drawer = ({ onClose }) => {
         <Link onClick={onClose} href={"/gdpr"}>
           <span>{t("GDPR")}</span>
         </Link>
-        {/* <div class="dropdown">
-              <select>
-                <option value="en">
-                  <LinkI href={"/"} locale="en">
-                    English
-                  </LinkI>
-                </option>
-                <option value="sv">
-                  <LinkI href={"/"} locale="sv">
-                    Sweeden
-                  </LinkI>
-                </option>
-              </select>
-            </div> */}
       </div>
     </div>
   );
 };
+
 export default Drawer;

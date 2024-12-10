@@ -31,7 +31,7 @@ const Navbar = () => {
         : `/${locale}${asPath}`;
     }
   };
-
+  //
   return (
     <nav className="flex w-full px-6 lg:px-6 xl:px-2 bg-white z-[10000] h-28 sticky top-0 items-center justify-center">
       <div className="absolute bg-white h-full !max-w-none !w-screen shadow-sm pointer-events-none z-[9999]"></div>
