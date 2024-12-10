@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 import Drawer from "./Drawer";
 import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
+import { MenuButton } from "./MenuButton";
 const Navbar = () => {
   const t = useTranslations("Index");
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex w-full px-6 lg:px-2 bg-white z-50 h-28 relative items-center justify-center">
+    <nav className="flex w-full px-6 lg:px-6 xl:px-2 bg-white z-50 h-28 sticky top-0 items-center justify-center">
       <div className="absolute h-full !max-w-none !w-screen shadow-sm pointer-events-none"></div>
       <div className="w-full flex">
         <div className="w-full flex justify-between items-center">
@@ -48,8 +49,11 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="md:flex hidden w-full items-center justify-end gap-x-4">
-            <Link href={"/expertise"}>
+            <Link className="w-max flex" href={"/expertise"}>
               <span>{t("Area of Expertise")}</span>
+            </Link>
+            <Link href={"/ai"}>
+              <span>{t("AI")}</span>
             </Link>
             <Link href={"/gdpr"}>
               <span>{t("GDPR")}</span>
@@ -57,7 +61,7 @@ const Navbar = () => {
             <Link href={"/references"}>
               <span>{t("REFERENCES")}</span>
             </Link>
-            <Link href={"/about-us"}>
+            <Link className="flex w-max" href={"/about-us"}>
               <span>{t("ABOUT")}</span>
             </Link>
             {/* <div class="dropdown">
@@ -84,21 +88,10 @@ const Navbar = () => {
             </div>
           </div>
           <div
-            className={`${isOpen ? "open" : ""} lg:hidden flex`}
+            className={`${isOpen ? "open" : ""} md:hidden flex`}
             onClick={toggleDrawer}
           >
-            <svg
-              width="21"
-              height="18"
-              viewBox="0 0 21 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0 0H21V2.25H0V0ZM0 7.5H21V9.75H0V7.5ZM21 15V17.25H0V15H21Z"
-                fill="#1D1D1D"
-              />
-            </svg>
+            <MenuButton open={isOpen}></MenuButton>
           </div>
         </div>
       </div>

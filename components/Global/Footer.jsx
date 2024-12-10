@@ -13,7 +13,7 @@ const Footer = () => {
 
       <div className={"px-4 z-10 w-full pt-16"}>
         <div className="flex flex-col md:gap-y-16 md:pt-16">
-          <div className="flex flex-col md:flex-row md:gap-x-16 gap-y-8">
+          <div className="flex flex-col md:flex-row md:gap-x-14 gap-y-8">
             <a style={{ color: "black" }} href="tel:+46767742220">
               +46 76-774 2220
             </a>
@@ -43,7 +43,7 @@ const Footer = () => {
             </a>
           </div>
           {/* <hr /> */}
-          <div className="flex flex-col md:flex-row md:gap-x-16 pt-8 lg:pt-0 gap-y-8">
+          <div className="flex flex-col md:flex-row md:gap-x-16 pt-8 sm:pt-0 gap-y-8">
             <p>
               {" "}
               <Link style={{ color: "" }} href={"/terms"}>

@@ -52,7 +52,7 @@
     "Areas of Expertise": "Verksamhetsområden",
     "GDPR": "GDPR",
     "REFERENCES": "Referenser",
-    "ABOUT": "Om oss",
+    "ABOUT": "Om EdmarLaw",
     "itDescription": "EdmarLaw har 25 års erfarenhet av att granska, upprätta och förhandla de flesta typer av avtal som förekommer på IT- och teknikområdet. EdmarLaw har omfattande erfarenhet av dataskydd, utveckling och implementering av IT-system, licensiering av molntjänster (PaaS, SaaS etc.) och AI-tjänster, såväl embedded software (internet of things), som software, know-how och patent, liksom utveckling, samarbete och distribution av produkter och tjänster inom teknikindustrin. Många av EdmarLaws klienter är amerikanska eller europeiska företag, vilket innebär att EdmarLaw bedriver en stor del av sin rådgivning, förhandling och upprättande av avtal på engelska.",
     "Licenses": "Licenser",
     "Terms of Use, Terms of Service": "Produktvillkor, tjänstevillkor",
@@ -106,7 +106,8 @@
     "TelDesc3": "Frågor som autentisering, behörighetskontroll, kommunikationssäkerhet, rutiner för säkerhetskopiering och skydd mot obehörig trafik och skadlig programvara berör inte bara telekomoperatörernas verksamhet utan även molntjänstleverantörer.",
     "TelDesc4": "EdmarLaw har kunskapen, branschkännedomen och vanan att biträda telekom- och internetoperatörer vid bl.a. avtalsförhandlingar och regulatoriska frågor, ansvars- och yttrandefrihetsfrågor.",
     "expertiseTitleShort": "Expertis",
-    "ReadMoreGdpr": "Läs mer om GDPR"
+    "ReadMoreGdpr": "Läs mer om GDPR",
+    "MainTitle": "Navigera i juridikens vatten med excellens"
   },
   "GDPR": {
     "What is GDPR?": "Vad är GDPR?",
@@ -338,6 +339,7 @@
     "p2": "EdmarLaw kan hjälpa er oavsett om ni utvecklar AI-system eller vill använda dem i er arbetsmiljö. Vi har stor erfarenhet av licensiering av AI-teknik och hjälper till med juridiska frågor vid AI-utvecklingsarbetet och under dess livscykel."
   },
   "AiAct": {
+    "subHeader": "Ai Act",
     "p1": "EU:s AI Act om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter. I likhet med GDPR gäller AI-lagen för både offentliga och privata aktörer inom och utanför EU om AI-systemet släpps ut på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU.",
     "p2": "AI Act gäller för både leverantörer/providers (t.ex. en utvecklare av en chattrobot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
     "link": "Mer om EdmarLaw, AI och AI Act."

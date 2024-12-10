@@ -114,7 +114,8 @@
     "aiDesc3": "EdmarLaw kan hjälpa er oavsett om ni utvecklar AI-system eller vill använda dem i er arbetsmiljö. Vi har stor erfarenhet av licensiering av AI-teknik och hjälper till med juridiska frågor vid AI-utvecklingsarbetet och under dess livscykel.",
     "aiDesc4": "EU:s AI Act om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter. I likhet med GDPR gäller AI-lagen för både offentliga och privata aktörer inom och utanför EU om AI-systemet släpps ut på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU. AI Act gäller för både leverantörer/providers (t.ex. en utvecklare av en chattrobot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
     "aiLink": "Mer om EdmarLaw, AI och AI Act.",
-    "ReadMoreGdpr": "Read more about GDPR"
+    "ReadMoreGdpr": "Read more about GDPR",
+    "MainTitle": "Navigating Legal Waters with Excellence"
   },
   "GDPR": {
     "What is GDPR?": "What is GDPR?",
@@ -344,6 +345,7 @@
     "p2": "EdmarLaw can assist you whether you develop AI systems or want to use them in your work environment. We have extensive experience licensing AI technology and help with legal issues in the AI development work and life cycle."
   },
   "AiAct": {
+    "subHeader": "Ai Act",
     "p1": "The EU AI Act is the world&#39;s first AI law. The purpose of it is to address risks to health, safety and fundamental rights. Similar to the GDPR, the AI Act applies to both public and private actors inside and outside the EU if the AI system is placed on the EU market, or its use has an impact on people located in the EU.",
     "p2": "The obligations of the AI Act can affect both providers (e.g. a developer of a chatbot) and deployers of AI systems (e.g. a customer using this tool).",
     "link": "More on EdmarLaw, AI and the AI Act."
@@ -412,5 +414,91 @@
     "subHeader": "Domain name registrations and domain name disputes",
     "p1": "Presence on the internet is essential to any business. Domain names are important marketing channels and encompass both security aspects and quality assurances. A company’s domain name(s) are therefore usually quite valuable to the company, and it is important to keep an ongoing strategic approach when dealing with domain names.",
     "p2": "EdmarLaw provides assistance with domain name registrations, as well as domain name disputes and strategic advice with regards to domain names."
+  },
+  "AiPage": {
+    "header": "Artificial Intelligence – AI",
+    "aiDesc1": "Artificial intelligence (AI) has become a big part of everyday life. Businesses are realizing the power of AI to make work easier, boost productivity, and help enhance client and customer relationships. AI can help us with learning, reasoning, solving problems and making decisions – all tasks which until recently would require humans. Common examples of AI software are chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines and predictive analytics tools.",
+    "aiDesc2": "A chatbot is a software using artificial intelligence to simulate human conversation. ChatGPT by OpenAI is a well-known example of a chatbot. Businesses can integrate it with their existing systems through APIs, and customize it to better fit the specific industry or purpose of the business.",
+    "aiDescSubheader": "AI models and AI tools",
+    "aiDesc3": "While AI models are the underlying algorithms that process data, AI tools are applications or platforms (such as databases, cloud platforms, or IoT devices) that utilize these models to perform tasks. For instance, a machine learning model can be integrated into a software tool for predictive analytics, enabling businesses to forecast trends based on historical data. The data quality, the model you use and the deployment method you choose is essential to create a good AI system.",
+    "aiDesc4": "EdmarLaw can assist you whether you develop AI systems or want to use them at work. We have extensive experience licensing AI technology and helping with legal issues in the AI development work and life cycle."
+  },
+  "AiActEu1": {
+    "header": "What is the AI Act?",
+    "AiActEu1Desc": "The EU AI Act is the world's first AI law. The purpose of it is to address risks to health, safety and fundamental rights in the development of AI."
+  },
+  "AiActEu2": {
+    "header": "Why did the EU want to regulate use of Artificial Intelligence?",
+    "AiActEuDesc": "AI systems have a strong potential to bring societal benefits and economic growth to the world. That said, the European Union believes that certain AI systems may create new risks related to user safety and fundamental rights. Some powerful AI models that are widely used could even pose systemic risks.",
+    "AiActEuDesc2": "To avoid a lack of trust in AI technologies by public authorities, businesses and citizens, the EU concluded that legislation around AI was needed, where both benefits and risks were adequately addressed."
+  },
+  "AiActGdpr": {
+    "header": "Does the AI Act apply to our business?",
+    "AiActGdprDesc": "Similar to the GDPR, the AI Act applies to both public and private actors inside and outside the EU if the AI system is placed on the EU market, or its use has an impact on people located in the EU. The obligations of the AI Act can affect both providers (e.g., a developer of a chatbot) and deployers of AI systems (e.g., a customer using this tool).",
+    "AiActGdprDescListHeader": "There are some exceptions when the regulation does not apply:",
+    "AiActGdprDescList1": "if research, development and prototyping activities take place before an AI system is released on the market, or",
+    "AiActGdprDescList2": "if AI systems are exclusively designed for military, defense or national security purposes."
+  },
+  "AiActSystem": {
+    "header": "How does the AI Act differentiate between AI systems?",
+    "AiActSystemDesc": "The AI Act has a risk-based approach.",
+    "AiActSystemList1": "Unacceptable risk",
+    "AiActSystemDesc2": "AI systems that violate fundamental rights are considered particularly harmful. Uses of such AI systems will be banned. Examples of such violation of fundamental rights are:",
+    "AiActSystemDesc3": "Exploitation of vulnerabilities of persons, manipulation and use of subliminal techniques;",
+    "AiActSystemDesc4": "Social scoring for public and private purposes;",
+    "AiActSystemDesc5": "Individual predictive policing based solely on profiling people;",
+    "AiActSystemDesc6": "Untargeted scraping of internet or CCTV for facial images to build-up or expand databases;",
+    "AiActSystemDesc7": "Emotion recognition in the workplace and education institutions, unless for medical or safety reasons (i.e., monitoring the tiredness levels of a pilot);",
+    "AiActSystemDesc8": "Biometric categorization of natural persons to deduce or infer their race, political opinions, trade union membership, religious or philosophical beliefs or sexual orientation. Labelling or filtering of datasets and categorizing data in the field of law enforcement will still be possible;",
+    "AiActSystemDesc9": "Real-time remote biometric identification in publicly accessible spaces by law enforcement, subject to narrow exceptions (see below).",
+    "AiActSystemList2Subheader": "High risk",
+    "AiActSystemList2Desc": "AI systems with an adverse impact on people’s safety or their fundamental rights are considered to be high-risk. There’s a list in the AI Act of these high-risk AI systems, and it is subject to frequent review based on technology advances. Examples are:",
+    "AiActSystemList2Desc2": "AI systems that assess whether somebody is able to receive a certain medical treatment (AI-based medical software),",
+    "AiActSystemList2Desc3": "AI systems that assess whether somebody is able to get a certain job or loan to buy an apartment.",
+    "AiActSystemList2Desc4": "AI systems used by the police for profiling people or assessing their risk of committing a crime",
+    "AiActSystemList2Desc5": "AI systems operating robots, drones, or medical devices.",
+    "AiActSystemList2Subheader2": "Minimal risk",
+    "AiActSystemList2Desc6": "The majority of AI systems today can be developed and used without particular obligations under the AI Act. But we recommend that you apply the requirements for trustworthy AI and implement an AI code of conduct when using AI technologies.",
+    "AiActSystemList2Desc7": "It is important to ensure transparency around the use of AI. The AI Act therefore includes transparency requirements for some AI applications, where there is a clear risk of manipulation or deep fakes. Chatbots and social media are typical examples where users should be made aware that they are interacting with a machine.",
+    "AiActSystemList2Subheader3": "General",
+    "AiActSystemList2Desc8": "It is important to ensure transparency around the use of AI. The AI Act therefore includes transparency requirements for some AI applications, where there is a clear risk of manipulation or deep fakes. Chatbots and social media are typical examples where users should be made aware that they are interacting with a machine. The transparency requirement is similar to that in GDPR, i.e. an information requirement, and we recommend that you document your use of AI and inform your users in the same way as you would regarding your business’ use of personal data. You can apply the same approach; would the user expect its personal data to be used for this purpose? Would the user expect AI to be used in this scenario? If not, then you should inform the users about this. The EU AI Office (see below) will provide further guidelines for labelling AI generated content."
+  },
+  "AiSystem": {
+    "header": "How do I know if an AI system is high-risk?",
+    "AiSystem1": "The risk classification is based on the intended purpose of an AI system, i.e., depending on the function performed by the AI system, its specific purpose and modalities the system is used in. Annex III of the AI Act describes areas where the use of AI can be particularly sensitive and therefore classified as high-risk:",
+    "AiList1": "AI systems used as safety components in certain critical infrastructures, for instance in the fields of road traffic and the supply of water, gas, heating and electricity.",
+    "AiList2": "AI systems used in education and vocational training, e.g., to evaluate learning outcomes and steer the learning process and monitoring of cheating.",
+    "AiList3": "AI systems used in employment and workers management and access to self-employment, e.g., to place targeted job advertisements, to analyze and filter job applications, and to evaluate candidates.",
+    "AiList4": "AI systems used in the access to essential private and public services and benefits (e.g., healthcare), creditworthiness evaluation of natural persons, and risk assessment and pricing in relation to life and health insurance.",
+    "AiList5": "AI systems used in the fields of law enforcement, migration and border control, insofar as not already prohibited, as well as in administration of justice and democratic processes.",
+    "AiList6": "AI systems used for biometric identification, biometric categorization and emotion recognition, insofar as not prohibited."
+  },
+  "AiSystem2": {
+    "header": "What are the obligations for providers of high-risk AI systems?",
+    "AiSystem2Desc": "What are the obligations for providers of high-risk AI systems?",
+    "AiSystem2Desc2": "Before placing a high-risk AI system on the EU market or otherwise putting it into service, providers must subject it to a conformity assessment, to demonstrate that the AI system complies with the mandatory requirements for trustworthy AI (e.g., data quality, documentation and traceability, transparency, human oversight, accuracy, cybersecurity and robustness).",
+    "AiSystem2Desc3": "AI systems that serve as safety components of products covered by the EU legislation listed in Annex I of the AI Act will always be deemed high-risk when subject to third-party conformity assessment under that legislation. And all biometric systems, regardless of their application, will require third-party conformity assessment.",
+    "AiSystem2Desc4": "Providers of high-risk AI systems will also have to implement quality and risk management systems to ensure their compliance with the new requirements and minimize risks for users and affected persons, even after a product is placed on the market."
+  },
+  "AiModels": {
+    "header": "How are general-purpose AI models regulated?",
+    "AiModelsDesc": "How are general-purpose AI models regulated?",
+    "AiModelsDesc2": "General-purpose AI models, including the large generative AI models, can be used for a variety of tasks and are becoming the basis for many AI systems in the EU. Consequently, the EU has concluded that it is crucial that a provider of an AI system integrating a general-purpose AI model has access to all necessary information to ensure the system is safe and compliant with the AI Act. The AI Act therefore obliges providers of such models to disclose certain information to downstream system providers. Such transparency enables a better understanding of these models. Model providers also need to have policies in place to ensure that that they respect copyright law when training their models.",
+    "AiModelsDesc3": "Some of these models could carry systemic risks if they are very capable or widely used. For example, powerful models could cause serious accidents or be misused for far-reaching cyberattacks. Many individuals could be affected if a model propagates harmful biases across many applications. This, in part, is what the EU AI Act aims to contain."
+  },
+  "AiOffice": {
+    "header": "AI Office",
+    "AiOfficeDesc": "The EU Commission has established an AI Office to ensure the implementation of the AI Act, supporting the authorities in member states. The staff includes both technology specialists, lawyers, policy specialists and economists. The AI Office will also directly enforce the rules for general-purpose AI models. In cooperation with AI developers, the scientific community and other stakeholders, the AI Office will coordinate the drafting of codes of practice, conduct testing and evaluation of general-purpose AI models, request information, as well as apply sanctions when necessary."
+  },
+  "AiPageHeaders": {
+    "Ai1": "Artificial Intelligence – AI",
+    "AiEu": "What is the AI Act?",
+    "AiEu2": "Why did the EU want to regulate use of Artificial Intelligence?",
+    "AiActGdpr": "Does the AI Act apply to our business?",
+    "AiActSystem": "How does the AI Act differentiate between AI systems?",
+    "AiSystem": "How do I know if an AI system is high-risk?",
+    "AiSystem2": "What are the obligations for providers of high-risk AI systems?",
+    "AiModels": "How are general-purpose AI models regulated?",
+    "AiOffice": "AI Office"
   }
 }

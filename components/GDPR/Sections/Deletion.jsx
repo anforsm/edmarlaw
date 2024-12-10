@@ -5,7 +5,7 @@ const Deletion = () => {
   const t = useTranslations("GDPR");
   return (
     <div>
-      <h1>{t("Deletion of Personal Data and Keeping a Data Register")}</h1>
+      <br />
       <br />
       <p>{t("delete1")}</p> <br />
       <p>{t("delete2")}</p>

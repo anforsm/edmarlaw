@@ -5,7 +5,7 @@ const Privacy = () => {
   const t = useTranslations("GDPR");
   return (
     <div>
-      <h1>{t("Privacy by Design")}</h1>
+      <br />
       <br />
       <p>{t("privacy1")}</p> <br />
       <p>{t("privacy2")}</p> <br />

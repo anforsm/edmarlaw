@@ -41,12 +41,6 @@ export const areasOfExpertise = [
     description: <AiExpertise />,
   },
   {
-    title: "Ai Act",
-    subHeader: "aiAct",
-    svg: null,
-    description: null,
-  },
-  {
     title: "IT Law",
     subheader: "law",
     image: "/techlogo.png",
@@ -192,21 +186,6 @@ export const areasOfExpertise = [
     ),
     description: <DomainNamesDescription />, // Replace with the appropriate component for Domain Names
   },
-  // {
-  //   title: "Trademark Law",
-  //   image: "/techlogo.png",
-  //   description: <TrademarkLawDescription />, // Replace with the appropriate component for Trademark Law
-  // },
-  // {
-  //   title: "Design Law",
-  //   image: "/techlogo.png",
-  //   description: <DesignLawDescription />, // Replace with the appropriate component for Design Law
-  // },
-  // {
-  //   title: "Telecom Law",
-  //   image: "/techlogo.png",
-  //   description: <TelecomLawDescription />, // Replace with the appropriate component for Telecom Law
-  // },
 ];
 const AreaOfExpertise = () => {
   const t = useTranslations("Index");

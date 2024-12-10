@@ -11,6 +11,7 @@ import Deletion from "@/components/GDPR/Sections/Deletion";
 import Incident from "@/components/GDPR/Sections/Incident";
 import Process from "@/components/GDPR/Sections/Process";
 import DataProtection from "@/components/GDPR/Sections/DataProtection";
+import ExpertiseMobile from "@/components/Expertise/ExpertiseMobile";
 
 const areasOfExpertise = [
   {
@@ -65,8 +66,7 @@ const areasOfExpertise = [
   // },
 ];
 const AreaOfExpertise = () => {
-  const t = useTranslations("Index");
-  const tCard = useTranslations("GDPR");
+  const t = useTranslations("GDPR");
   const searchParams = useSearchParams();
 
   const indx = searchParams.get("index");
@@ -174,12 +174,6 @@ const AreaOfExpertise = () => {
     };
   }, [checkScroll]);
 
-  useEffect(() => {
-    window.requestAnimationFrame(() => {
-      // setCheckScroll(true);
-    });
-  });
-
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -197,7 +191,7 @@ const AreaOfExpertise = () => {
 
   return (
     <>
-      {/* <ExpertiseMobile data={areasOfExpertise}></ExpertiseMobile> */}
+      <ExpertiseMobile data={areasOfExpertise}></ExpertiseMobile>
       <div className={"md:!flex !hidden gap-x-10 pl-10"}>
         <div className="flex-1 w-full pb-96 pt-[6.5rem] relative border-r">
           <div className={styles.gridList}>
@@ -259,7 +253,7 @@ const AreaOfExpertise = () => {
                   fontSize: 18,
                 }}
               >
-                {t("expertiseTitleShort")}
+                GDPR
               </h2>
             </div>
             <div
@@ -310,7 +304,6 @@ const AreaOfExpertise = () => {
                   >
                     <div className={styles.row}>
                       {/* <img src={area.image} alt="" /> */}
-                      {area.svg}
                       <span>{t(area.title)}</span>
                     </div>
                   </li>
@@ -339,25 +332,7 @@ const AreaOfExpertise = () => {
                 }}
               >
                 {t(val.title)}
-              </h2>{" "}
-              <br />
-              <h3
-                style={{
-                  fontSize: 20,
-                  padding: "0 16px 24px 0",
-                  fontWeight: 400,
-                  //styleName: Subheading;
-                  fontSize: "22px",
-                  fontWeight: 700,
-                  color: "#1D1D1D",
-                  lineHeight: "30.8px",
-                  textAlign: "left",
-                  textUnderlinePosition: "from-font",
-                  textDecorationSkipInk: "none",
-                }}
-              >
-                {tCard(val.subheader)}
-              </h3>
+              </h2>
               {val.description}
             </div>
           ))}

@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import styles from "./AiArea.module.css"; // Import the CSS module
+import styles from "../../../components/Expertise/Area.module.css";
 import { AiOutlineRight } from "react-icons/ai";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
@@ -13,10 +13,11 @@ import AiSystem from "./Sections/AiSystem";
 import AiSystem2 from "./Sections/AiSystem2";
 import AiModels from "./Sections/aimodels";
 import AiOffice from "./Sections/AiOffice";
+import ExpertiseMobile from "@/components/Expertise/ExpertiseMobile";
 
 export const areasOfExpertise = [
   {
-    title: "AI",
+    title: "Ai1",
     subheader: "ai",
     image: "/techlogo.png",
     svg: (
@@ -34,9 +35,10 @@ export const areasOfExpertise = [
       </svg>
     ),
     description: <AiDescription />,
+    subHeader: "AI",
   },
   {
-    title: "IT Law",
+    title: "AiEu",
     subheader: "law",
     image: "/techlogo.png",
     svg: (
@@ -54,9 +56,10 @@ export const areasOfExpertise = [
       </svg>
     ),
     description: <EuDescription />, // Replace with the appropriate component for IT Law
+    subHeader: "IT Law",
   },
   {
-    title: "Contract Law",
+    title: "AiEu2",
     subheader: "contract",
     image: "/techlogo.png",
     svg: (
@@ -74,9 +77,10 @@ export const areasOfExpertise = [
       </svg>
     ),
     description: <EuDescription2 />, // Replace with the appropriate component for Contract Law
+    subHeader: "Contract Law",
   },
   {
-    title: "Copyright",
+    title: "AiActGdpr",
     subheader: "copyright",
     image: "/techlogo.png",
     svg: (
@@ -94,9 +98,10 @@ export const areasOfExpertise = [
       </svg>
     ),
     description: <AIGDPR />, // Replace with the appropriate component for Copyright
+    subHeader: "Copyright",
   },
   {
-    title: "Privacy Law",
+    title: "AiActSystem",
     subheader: "privacy",
     image: "/techlogo.png",
     svg: (
@@ -115,10 +120,11 @@ export const areasOfExpertise = [
     ),
 
     description: <AiActSystem />, // Replace with the appropriate component for Privacy Law
+    subHeader: "Privacy Law",
   },
   {
-    title: "Outsourcing",
-    subheader: "outsourcing",
+    title: "AiSystem",
+    subheader: "aiSystem",
     image: "/techlogo.png",
     svg: (
       <svg
@@ -137,7 +143,7 @@ export const areasOfExpertise = [
     description: <AiSystem />, // Replace with the appropriate component for Outsourcing
   },
   {
-    title: "E-commerce",
+    title: "AiSystem2",
     subheader: "ecom",
     image: "/techlogo.png",
     svg: (
@@ -155,6 +161,7 @@ export const areasOfExpertise = [
       </svg>
     ),
     description: <AiSystem2 />, // Replace with the appropriate component for E-commerce
+    subHeader: "E-commerce",
   },
   // {
   //   title: "Marketing Law",
@@ -162,7 +169,7 @@ export const areasOfExpertise = [
   //   description: <MarketingLawDescription />, // Replace with the appropriate component for Marketing Law
   // },
   {
-    title: "Domain Names",
+    title: "AiModels",
     subheader: "domain",
     image: "/techlogo.png",
     svg: (
@@ -180,9 +187,10 @@ export const areasOfExpertise = [
       </svg>
     ),
     description: <AiModels />, // Replace with the appropriate component for Domain Names
+    subHeader: "Domain Names",
   },
   {
-    title: "Domain Names",
+    title: "AiOffice",
     subheader: "domain",
     image: "/techlogo.png",
     svg: (
@@ -200,6 +208,7 @@ export const areasOfExpertise = [
       </svg>
     ),
     description: <AiOffice />, // Replace with the appropriate component for Domain Names
+    subHeader: "Domain Names",
   },
   // {
   //   title: "Trademark Law",
@@ -218,7 +227,7 @@ export const areasOfExpertise = [
   // },
 ];
 const AiPage = () => {
-  const t = useTranslations("Ai");
+  const t = useTranslations("AiPageHeaders");
   const tCard = useTranslations("Cards");
 
   const searchParams = useSearchParams();
@@ -346,31 +355,6 @@ const AiPage = () => {
     }
   }, [visibleItems, checkScroll]);
 
-  //   useEffect(() => {
-  //     const onScroll = () => {
-  //       // if (!checkScroll) {
-  //       window.requestAnimationFrame(() => {
-  //         // setCheckScroll(true);
-  //       });
-  //       // Wait until scrolling is finished
-  //       // }
-  //     };
-
-  //     const contentContainer = document.querySelector(".Area_gridContent__66ewb");
-
-  //     // contentContainer.addEventListener("scroll", onScroll);
-
-  //     return () => {
-  //       contentContainer.removeEventListener("scroll", onScroll);
-  //     };
-  //   }, [checkScroll]);
-
-  //   useEffect(() => {
-  //     window.requestAnimationFrame(() => {
-  //       // setCheckScroll(true);
-  //     });
-  //   });
-
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -388,6 +372,10 @@ const AiPage = () => {
 
   return (
     <>
+      <ExpertiseMobile
+        data={areasOfExpertise}
+        translate={"AiPageHeaders"}
+      ></ExpertiseMobile>
       <div className={"md:!flex !hidden gap-x-10 pl-10"}>
         <div className="flex-1 w-full pb-96 pt-[6.5rem] relative border-r">
           <div className={styles.gridList}>
@@ -449,7 +437,7 @@ const AiPage = () => {
                   fontSize: 18,
                 }}
               >
-                {/* {t("expertiseTitleShort")} */}
+                AI
               </h2>
             </div>
             <div
@@ -500,8 +488,7 @@ const AiPage = () => {
                   >
                     <div className={styles.row}>
                       {/* <img src={area.image} alt="" /> */}
-                      {area.svg}
-                      {/* <span>{t(area.title)}</span> */}
+                      <span>{t(area.title)}</span>
                     </div>
                   </li>
                 ))}
@@ -528,7 +515,7 @@ const AiPage = () => {
                   color: "#00ADEE",
                 }}
               >
-                {/* {t(val.title)} */}
+                {t(val.title)}
               </h2>{" "}
               <br />
               <h3

@@ -10,8 +10,8 @@ const Hero = ({ title, isEdmr, logoImg }) => {
     <div className="flex px-6 justify-between flex-col lg:flex-row gap-x-6 pt-14">
       <div className="flex flex-col basis-1/2 pb-14 py-0 lg:py-14">
         <div className="flex flex-col gap-y-6">
-          <h1 className="font-[300] lg:text-[60px] text-[48px] lg:leading-[72px] leading-[57.6px] text-[#00ADEE]">
-            Navigating Legal Waters with Excellence
+          <h1 className="font-[300] xl:w-4/5 lg:text-[60px] text-[48px] lg:leading-[72px] leading-[57.6px] text-[#00ADEE]">
+            {t("MainTitle")}
           </h1>
           <p className="text-[16px] leading-[23.68px] lg:pb-14 lg:pr-9">
             {t("intro")}

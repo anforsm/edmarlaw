@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import { useTranslations } from "next-intl";
 const AiDescription = () => {
-  const t = useTranslations("Ai");
+  const t = useTranslations("AiPage");
   return (
     <div className={styles.container}>
       <p>{t("aiDesc1")}</p> <br />
