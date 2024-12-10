@@ -32,7 +32,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex w-full px-6 sm:px-2 bg-white z-50 h-28 relative items-center justify-center">
+    <nav className="flex w-full px-6 lg:px-2 bg-white z-50 h-28 relative items-center justify-center">
       <div className="absolute h-full !max-w-none !w-screen shadow-sm pointer-events-none"></div>
       <div className="w-full flex">
         <div className="w-full flex justify-between items-center">
@@ -84,7 +84,7 @@ const Navbar = () => {
             </div>
           </div>
           <div
-            className={`${isOpen ? "open" : ""} sm:hidden flex`}
+            className={`${isOpen ? "open" : ""} lg:hidden flex`}
             onClick={toggleDrawer}
           >
             <svg

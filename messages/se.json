@@ -333,75 +333,78 @@
     "domain": "Domännamnsregistreringar och domännamnstvister"
   },
   "Ai": {
-    "aiDesc1": "Artificiell intelligens (AI) är idag en del av vardagen. Många företag ser möjligheten att med hjälp av AI förenkla arbetet, öka produktiviteten och hjälpa till att förbättra kundrelationer. Vanliga typer av AI system är chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines och predictive analytics tools.",
-    "aiDesc2": "En chatbot är en programvara som använder artificiell intelligens för att simulera mänsklig konversation. ChatGPT från OpenAI är ett välkänt exempel på en chatbot. Företag kan integrera den med sina befintliga system genom API:er och anpassa den för att bättre passa den specifika branschen eller syftet med verksamheten.",
-    "aiDescSubheader": "AI-modeller och AI-verktyg",
-    "aiDesc3": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg applikationer eller plattformar (t.ex. databaser, molnplattformar eller IoT-enheter) som använder dessa modeller för att utföra uppgifter. Till exempel kan en maskininlärningsmodell integreras i ett verktyg för predictive analytics, vilket gör det möjligt för företag att förutsäga trender baserat på historiska data. Datakvaliteten, modellen du använder och den typ av deployment du väljer är avgörande för att skapa ett bra AI-system.",
-    "aiDesc4": "EdmarLaw kan hjälpa dig oavsett om du utvecklar AI-system eller vill använda dem i arbetet. Vi har lång erfarenhet av att licensiera AI-teknik och hjälpa till med juridiska frågor kring AI-utvecklingsarbetet och livscykeln."
+    "subHeader": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognition software",
+    "p1": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg applikationer eller plattformar (t.ex. databaser, molnplattformar eller IoT-enheter) som använder dessa modeller för att utföra uppgifter. Vanliga typer av AI system är chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines och predictive analytics tools.",
+    "p2": "EdmarLaw kan hjälpa er oavsett om ni utvecklar AI-system eller vill använda dem i er arbetsmiljö. Vi har stor erfarenhet av licensiering av AI-teknik och hjälper till med juridiska frågor vid AI-utvecklingsarbetet och under dess livscykel."
   },
   "AiAct": {
-    "aiAct1": "",
-    "aiActTitle1": "",
-    "aiAct2": "",
-    "aiAct3": ""
+    "p1": "EU:s AI Act om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter. I likhet med GDPR gäller AI-lagen för både offentliga och privata aktörer inom och utanför EU om AI-systemet släpps ut på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU.",
+    "p2": "AI Act gäller för både leverantörer/providers (t.ex. en utvecklare av en chattrobot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
+    "link": "Mer om EdmarLaw, AI och AI Act."
   },
-  "AiActEu1": {
-    "AiActEu1Desc": "EU:s förordning om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter i samband med AI-utvecklingen."
+  "ItLaw": {
+    "subHeader": "IT-system, molntjänster, IoT, mjukvara, open source",
+    "p1": "EdmarLaw har över 25 års erfarenhet av att granska, upprätta och förhandla de flesta typer av avtal som förekommer på IT- och teknikområdet. Det kan gälla utveckling och implementering av IT-system, mjukvara, embedded software (internet of things), både open source och proprietära licenser, liksom know-how och konceptlicenser.",
+    "listHeader": "Vanliga frågor och uppdrag",
+    "list1": "Licenser",
+    "list2": "Produktvillkor, tjänstevillkor",
+    "list3": "Outsourcing",
+    "list4": "Utvecklingssamarbeten",
+    "list5": "Molntjänster (PaaS, SaaS, etc.)",
+    "list6": "Systemleveranser",
+    "list7": "E-handel",
+    "list8": "Underhåll av mjukvara, IoT, IT-system",
+    "list9": "Upphovsrätt och annan immaterialrätt",
+    "list10": "Behandling av personuppgifter, dataskyddsaspekter",
+    "list11": "Domännamnsstrategier",
+    "list12": "Varumärkesfrågor"
   },
-  "AiActEu2": {
-    "AiActEuDesc": "AI-system har en stark potential att skapa samhällsnytta och ekonomisk tillväxt i världen. EU anser dock att vissa AI-system kan skapa nya risker relaterade till användarnas säkerhet och grundläggande rättigheter. Vissa kraftfulla AI-modeller som används i stor utsträckning kan till och med utgöra systemrisker.",
-    "AiActEuDesc2": "För att undvika att myndigheter, företag och medborgare inte litar på AI-teknik drog EU slutsatsen att det behövs lagstiftning kring AI, där både fördelar och risker hanteras på lämpligt sätt."
+  "ContractLaw": {
+    "subHeader": "Alla typer av avtal för IT-branschen, med stor insyn i branschpraxis",
+    "p1": "EdmarLaw upprättar, granskar, analyserar, reviderar och förhandlar alla typer av avtal för IT- branschen; såsom till exempel avtal om licenser och outsourcing, tjänstevillkor och produktvillkor liksom kundavtal, utvecklingsavtal (för såväl hårdvara som mjukvara), konsultavtal, samarbetsavtal och distributionsavtal. EdmarLaw bedriver sin verksamhet tvåspråkigt – mer än hälften av de avtal som upprättas och förhandlingar som bedrivs är på engelska.",
+    "p2": "Avtal kan i regel upprättas i vilken form som helst, även muntligt. Det finns inte heller några hinder för elektroniska avtal, så länge motparten kan identifieras på ett tillförlitligt sätt - avtalets juridiska giltighet måste kunna bevisas i efterhand. Men för att ett avtal ska vara både affärsmässigt och heltäckande är det avgörande att känna till praxis i branschen, och vilka villkor som är typiska. EdmarLaw kan med sin gedigna erfarenhet tillämpa branschpraxis vid upprättande och förhandling av avtal.",
+    "p3": "Oavsett om man är köpare eller säljare utgör avtalet grunden för en lyckad affär. Att i efterhand försöka reda ut vad parternas intentioner varit från början när ett projekt gått snett och avtalsvillkoren är svårtydda kan bli oerhört tungt för båda parter. En tvist kan lätt uppstå. I de flesta fall är parterna rörande överens i inledningsskedet av sin relation, och ivriga att sätta igång med samarbetet. Båda parter tycker att de vet vad som ska levereras respektive vad som ska köpas och betalas för. Att avtala om det kan därför kännas överflödigt i denna fas. Men avtalet är faktiskt inte till för situationen när allt går bra - avtalet är till för situationen när det riskerar att gå snett eller när man börjar inse att man tycker olika. Då ska avtalet fungera som ett rättesnöre, eller en manual, för parterna. Vikten av ett tydligt avtal som överenskoms i den fas när parterna är rörande överens och känner en positiv anda inför relationen är därför A och O för ett lyckat genomfört samarbete."
   },
-  "AiActGdpr": {
-    "AiActGdprDesc": "I likhet med GDPR gäller AI-förordningen för både offentliga och privata aktörer inom och utanför EU om AI-systemet görs tillgängligt på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU. AI-förordningen gäller för både leverantörer/providers (t.ex. en utvecklare av en chatbot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
-    "AiActGdprDescListHeader": "Det finns några undantag när förordningen inte är tillämplig:",
-    "AiActGdprDescList1": "om forskning, utveckling och prototypverksamhet äger rum innan ett AI-system släpps på marknaden, eller",
-    "AiActGdprDescList2": "om AI-system uteslutande är utformade för militära, försvarsrelaterade eller nationella säkerhetsändamål."
+  "Copyright": {
+    "subHeader": "Rättigheter till mjukvara, koncept, know-how, design",
+    "p1": "Upphovsrättsliga tillgångar som till exempel datorprogram, databaser, design, ritningar, bilder, musik och andra typer av verk eller koncept kan utgöra oerhört viktiga tillgångar i ett företag eller organisation. EdmarLaw har mer än tjugofem års erfarenhet av upphovsrättsliga och andra immaterialrättsliga frågor och är van att hantera och säkra upp olika typer av tillgångar.",
+    "p2": "Den digitala miljön, med en sammansmältning av olika medier, snabb och världsvid datorkommunikation och spridning av utrustning till både arbetsplatser och privata hem, har gjort att upphovsrättsfrågorna fått större betydelse. Bara marknaden för datorspel omsätter långt mer än filmbranschen. Men det handlar inte enbart om tillväxt av marknader; själva grundförutsättningarna för produktion och exploatering av skyddade verk har förändrats genom digitaliseringen.",
+    "p3": "EdmarLaw biträder upphovsmän och rättighetshavare som vill skydda eller exploatera sin rätt, liksom hanterar intrång och intrångspåståenden."
   },
-  "AiActSystem": {
-    "AiActSystemDesc": "AI-förordningen är uppdelad utifrån ett riskbaserat synsätt.",
-    "AiActSystemList1": "Oacceptabel risk",
-    "AiActSystemDesc2": "AI-system som kränker de grundläggande rättigheterna anses vara särskilt skadliga. Användning av sådana AI-system kommer att förbjudas. Exempel på sådana brott mot de grundläggande rättigheterna är:",
-    "AiActSystemDesc3": "Utnyttjande av personers sårbarheter, manipulation och användning av subliminala tekniker;",
-    "AiActSystemDesc4": "Social poängsättning för offentliga och privata ändamål;",
-    "AiActSystemDesc5": "Individuellt prediktivt polisarbete som enbart bygger på profilering av människor;",
-    "AiActSystemDesc6": "Generell skrapning av internet av ansiktsbilder eller övervakningskameror för att bygga upp eller utöka databaser;",
-    "AiActSystemDesc7": "Igenkänning av känslor på arbetsplatsen och utbildningsinstitutioner, såvida det inte är av medicinska skäl eller säkerhetsskäl (t.ex. övervakning av tröttheten hos en pilot).",
-    "AiActSystemDesc8": "Biometrisk kategorisering av fysiska personer för att härleda ras, politiska åsikter, medlemskap i fackförening, religiös eller filosofisk övertygelse eller sexuell läggning. Men det kommer fortfarande vara möjligt att märka eller filtrera dataset och kategorisera data på brottsbekämpningsområdet.",
-    "AiActSystemDesc9": "Brottsbekämpande myndigheters biometriska identifiering på distans i realtid på allmän plats, med vissa undantag (där det anses högrisksystem).",
-    "AiActSystemList2Subheader": "Hög risk",
-    "AiActSystemList2Desc": "AI-system som har en negativ inverkan på människors säkerhet eller deras grundläggande rättigheter anses utgöra högrisksystem. Det finns en lista i AI-förordningen över dessa AI-system med hög risk (listan uppdateras löpande utifrån teknikutvecklingen). Exempel på högrisksystem är:",
-    "AiActSystemList2Desc2": "AI-system som bedömer om någon kan få en viss medicinsk behandling (AI-baserad medicinsk programvara),",
-    "AiActSystemList2Desc3": "AI-system som bedömer om någon kan få ett visst jobb eller lån för att köpa en lägenhet.",
-    "AiActSystemList2Desc4": "AI-system som används av polisen för att profilera människor eller bedöma deras risk för att begå ett brott",
-    "AiActSystemList2Desc5": "AI-system som driver robotar, drönare eller medicinsk utrustning.",
-    "AiActSystemList2Subheader2": "Minimal risk",
-    "AiActSystemList2Desc6": "Majoriteten av AI-systemen kan i dag utvecklas och användas utan särskilda skyldigheter enligt AI-förordningen. Men vi rekommenderar att man tillämpar kraven för trustworthy AI och implementerar en AI code of conduct när man använder AI-teknik.",
-    "AiActSystemList2Desc7": "Det är viktigt att säkerställa transparens kring användningen av AI. AI-förordningen innehåller därför krav på transparens för vissa AI-system där det finns en tydlig risk för manipulation eller deepfake. Chatbots och sociala medier är typiska exempel där användare bör göras medvetna om att de inte interagerar med en människa.",
-    "general": "Allmänt",
-    "generalDesc": "Det är viktigt att säkerställa transparens kring användningen av AI. AI-förordningen innehåller därför krav på transparens för vissa AI-system där det finns en tydlig risk för manipulation eller deepfake. Chatbots och sociala medier är typiska exempel där användare bör göras medvetna om att de inte interagerar med en människa. Transparenskravet liknar det i GDPR, det vill säga ett informationskrav, och vi rekommenderar att ni dokumenterar er användning av AI och informerar era användare på samma sätt som ni skulle göra avseende verksamhetens användning av personuppgifter. Ni kan använda samma tillvägagångssätt; Skulle användaren förvänta sig att dess personuppgifter används för detta ändamål? Skulle användaren förvänta sig att AI används i det här scenariot? Om inte, bör du informera användarna om detta. EU:s AI Office (se nedan) kommer upprätta rekommendationer för hur man kan märka AI-genererat innehåll."
+  "PrivacyLaw": {
+    "subHeader": "Dataskyddsanalyser, DPIA, TIA, personuppgiftspolicy, privacy by design",
+    "p1": "EdmarLaw biträder ofta företag i dataskyddsfrågor; alltifrån att upprätta en personuppgiftspolicy, informations- och avtalstexter enligt GDPR liksom andra specifika dataskyddsrelaterade tjänster.",
+    "p2": "Företag, myndigheter och andra organisationers behov av att utvinna kunskap ur stora informationsmängder ökar ständigt. Samtidigt ökar kraven på behandlingen av personuppgifter. EU har redan en av världens hårdaste dataskyddslagstiftning. De ökade kraven kommer i takt med att det kommersiella värdet av personuppgifter växer. Att behandla personuppgifter och samtidigt värna om anställdas och kunders integritet och tydligt visa detta blir en allt tydligare konkurrensfördel.",
+    "p3": "EdmarLaw har en unik kombination av affärsförståelse, teknisk kompetens och juridiskt kunnande, som borgar för att tillsammans med er kunna skapa affärsnytta vid företagets eller organisationens användning av personuppgifter.",
+    "p4": "Som rådgivare åt flera av de största informationsleverantörerna på den svenska marknaden har EdmarLaw ett stort kunnande och förståelse för företags specifika behov när det gäller möjligheten att behandla personuppgifter i sin verksamhet.",
+    "p5": "Det är viktigt att verksamheten inte hindras av GDPRs hanteringskrav, utan att man kan se möjligheterna inom ramen för GDPR. EdmarLaw biträder ofta med att hitta praktiska lösningar på önskad personuppgiftsbehandling i en klients verksamhet. EdmarLaw hjälper sina klienter att vara proaktiva snarare än reaktiva när det gäller personuppgiftshantering.",
+    "p6": "EdmarLaw är även ombud vid såväl kontakter med Integritetsskyddsmyndigheten som i rättsliga processer vid domstol. På uppdrag av klienter genomför EdmarLaw konsekvensbedömningar, granskningar och analyser av företagens hantering av personuppgifter, liksom hjälper till att säkerställa att hanteringen sker i enlighet med gällande regler.",
+    "link": "Mer om EdmarLaw och GDPR här.",
+    "listHeader": "Vanliga frågor och uppdrag",
+    "list1": "dataskyddsanalyser och konsekvensbedömningar",
+    "list2": "hur man får använda personuppgifter",
+    "list3": "att upprätta eller granska personuppgiftspolicies",
+    "list4": "konsekvensbedömningar",
+    "list5": "inbyggt dataskydd (privacy by design) och dataskydd som standard (privacy by default)",
+    "list6": "legala grunder för behandling och när samtycke behövs",
+    "list7": "vilken information som ska lämnas till de registrerade",
+    "list8": "hur cookies ska hanteras",
+    "list9": ""
   },
-  "AiSystem": {
-    "AiSystem1": "Riskklassificeringen utgår från det avsedda syftet med ett AI-system, dvs. utifrån den funktion AI-systemet har, dess specifika syfte och de modaliteter som systemet används i. I Annex III till AI-förordningen beskrivs de områden där användningen av AI kan vara särskilt känslig och därför klassificeras som högrisk:",
-    "AiList1": "AI-system som används som säkerhetskomponenter i viss kritisk infrastruktur, till exempel inom vägtrafik och försörjning av vatten, gas, värme och el.",
-    "AiList2": "AI-system som används inom utbildning och yrkesutbildning, t.ex. för att utvärdera läranderesultat och styra inlärningsprocessen och övervakning av fusk.",
-    "AiList3": "AI-system som används vid hantering av anställning och arbetstagare liksom i viss mån egenföretagande, t.ex. för att placera riktade platsannonser, för att analysera och filtrera jobbansökningar och för att utvärdera kandidater.",
-    "AiList4": "AI-system som används för tillgång till väsentliga privata och offentliga tjänster och förmåner (t.ex. hälso- och sjukvård), kreditprövning av fysiska personer samt riskbedömning och prissättning i förhållande till liv- och sjukförsäkringar.",
-    "AiList5": "AI-system som används på områdena brottsbekämpning, migration och gränskontroll, i den mån det inte redan är förbjudet, samt inom rättskipning och demokratiska processer.",
-    "AiList6": "AI-system som används för biometrisk identifiering, biometrisk kategorisering och känsloigenkänning, i den mån det inte är förbjudet."
+  "Outsourcing": {
+    "subHeader": "Avtal för outsourcing och olika typer av molntjänster",
+    "p1": "Outsourcingavtal löper i allmänhet under lång tid och rör ofta tjänster som är mycket betydelsefulla för verksamheten. Såväl affären som juridiken kan vara komplex, och rådgivningen kan omfatta många olika rättsområden. För att outsourcingen ska bli bra krävs att affären är väl konstruerad och grundligt förberedd. Eftersom det är en långsiktig relation behöver utgångspunkten vara en balans mellan parterna, med gemensamma incitament präglat av ett gott samarbetsklimat.",
+    "p2": "Outsourcing är i princip alltid verksamhetskritiskt. Ingen av parterna har tid att lägga på feltolkningar och skeva förväntningar. Avtalen behöver därför vara en manual för samarbetet; det dokument som sätter förväntningarna på pränt. Det gör också att behovet av tydliga avtalsvillkor är särskilt stort vid outsourcing.",
+    "p3": "Outsourcingprojekt kräver såväl kompetens inom specialistområden som affärsmässigt fokus. EdmarLaw har gedigen erfarenhet av traditionell outsourcing och olika typer av molntjänster."
   },
-  "AiSystem2": {
-    "AiSystem2Desc": "Vilka skyldigheter har leverantörer av AI-system med hög risk?",
-    "AiSystem2Desc2": "Innan en leverantör gör ett AI-system med hög risk tillgängligt på EU-marknaden eller på annat sätt tar det i bruk måste en konsekvensbedömning göras för att visa att AI-systemet uppfyller de obligatoriska kraven på trustworthy AI (t.ex. kvaliteten på datan, dokumentation och spårbarhet, transparens, mänsklig tillsyn, noggrannhet, cybersäkerhet och robusthet).",
-    "AiSystem2Desc3": "AI-system som fungerar som säkerhetskomponenter i produkter som omfattas av den EU-lagstiftning som listas i Annex I till AI-förordningen kommer vid konsekvensbedömning alltid anses utgöra högrisksystem. Och alla biometriska system, oavsett tillämpning, kommer behöva genomgå en konsekvensbedömning av tredje part.",
-    "AiSystem2Desc4": "Leverantörer av AI-system med hög risk kommer också behöva införa kvalitets- och riskhanteringssystem för att säkerställa att de uppfyller kraven och minimerar riskerna för användare och berörda personer, även sedan en produkt har släppts på marknaden."
+  "Ecom": {
+    "subHeader": "allmänna villkor, reklam, sociala medier, distribution",
+    "p1": "Den globala aspekten på e-handel är gynnsam för såväl stora som små företag för att exportera sina varor och tjänster. Man behöver inte längre ta en marknad i taget utan når den globala marknaden på en gång. Samtidigt som e-handel erbjuder en enorm tillväxtpotential, så blir de olika lagarna som styr e-handeln både inom och utom EU fler och fler. Det är viktigt att ha förståelse för såväl de lagar och regler som gäller där bolaget har sitt säte, som den praxis, den reglering och de sedvanor som gäller i de länder e-handeln riktar sig mot.",
+    "p2": "EdmarLaw biträder e-handelsbolag med alltifrån distributionsavtal, allmänna villkor och personuppgiftshantering till marknadsrättsliga frågor inför kampanjer och användning av sociala medier för att nå fram med budskap."
   },
-  "AiModels": {
-    "AiModelsDesc": "Hur regleras AI-modeller?",
-    "AiModelsDesc2": "General purpose AI-modeller, inklusive de stora generativ AI-modellerna, kan användas för en mängd olika uppgifter och utgör idag grunden för många AI-system. EU har därför dragit slutsatsen att en leverantör av ett AI-system som integrerar en allmän AI-modell ska få tillgång till all information som behövs för att själv kunna säkerställa att systemet är säkert och förenligt med AI-förordningen. Enligt AI-förordningen är leverantörer av sådana modeller därför skyldiga att lämna ut information till systemleverantörer i senare led. En sådan transparens gör det möjligt att förstå modellerna bättre. Modell-leverantörer måste även ha processer på plats som visar att de följer upphovsrättslagen när de tränar sina modeller.",
-    "AiModelsDesc3": "Vissa av dessa modeller kan medföra systemrisker om de är mycket kapabla eller används i stor utsträckning. Kraftfulla modeller kan till exempel orsaka allvarliga olyckor eller missbrukas för långtgående cyberattacker. Många individer kan påverkas om en modell sprider skadlig information i många program. Detta är delvis vad EU:s AI-förordning syftar till att hantera."
-  },
-  "AiOffice": {
-    "AiOfficeDesc": "EU-kommissionen har inrättat ett AI Office för att säkerställa genomförandet av AI-förordningen och stötta medlemsländernas myndigheter i sin tillämpning av AI-förordningen. Alltifrån teknikspecialister till jurister och ekonomer arbetar där. AI Office kommer även se till att reglerna för General purpose AI-modeller efterlevs. I samarbete med AI-utvecklare, forskarsamhället och andra berörda parter kommer AI Office utarbeta code of conducts, genomföra testning och utvärdering av general purpose AI-modeller, begära information samt även tillämpa sanktioner vid behov."
+  "Domains": {
+    "subHeader": "Domännamnsregistreringar och domännamnstvister",
+    "p1": "Internetnärvaro är avgörande för all typ av verksamhet. Domännamnen är en betydelsefull marknadsföringskanal, en säkerhetsaspekt och en kvalitetsstämpel. Ett företags eller en organisations domännamn bär därför ofta på stora värden, både förtroendemässiga och ekonomiska, och det är viktigt att det finns en medvetenhet i hanteringen av dem.",
+    "p2": "EdmarLaw bistår såväl med domännamnsregistrering som hantering av domännamnstvister, liksom även i strategiska frågor kring användningen av domännamn."
   }
 }

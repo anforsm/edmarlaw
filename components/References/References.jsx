@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 const ReferencesPage = () => {
   const t = useTranslations("Index");
   return (
-    <div className="flex flex-col px-6 sm:gap-y-12 gap-y-0 pb-12">
+    <div className="flex flex-col px-6 lg:gap-y-12 gap-y-0 pb-12">
       <h1 className="text-[60px] font-[300] leading-[76px] tracking-[2%] text-[#00ADEE] pt-14">
         Referenser
       </h1>
@@ -18,7 +18,7 @@ const ReferencesPage = () => {
           body={"quote9"}
         />
       </div>
-      <div className="flex sm:flex-row flex-col w-full flex-wrap sm:flex-nowrap gap-y-10 py-12 border-b gap-x-10 border-gray-200">
+      <div className="flex lg:flex-row flex-col w-full flex-wrap lg:flex-nowrap gap-y-10 py-12 border-b gap-x-10 border-gray-200">
         <QuoteBlock
           t={t}
           author={"Mathias Strand"}
@@ -29,7 +29,7 @@ const ReferencesPage = () => {
         />
         <div
           id="separator"
-          className="w-full my-0 sm:hidden border-b bg-gray-200"
+          className="w-full my-0 lg:hidden border-b bg-gray-200"
         ></div>
         <QuoteBlock
           t={t}
@@ -47,7 +47,7 @@ const ReferencesPage = () => {
           body={"quote1"}
         />
       </div>
-      <div className="flex sm:flex-row flex-col w-full flex-wrap sm:flex-nowrap gap-y-10 py-12 border-b gap-x-10 border-gray-200">
+      <div className="flex lg:flex-row flex-col w-full flex-wrap lg:flex-nowrap gap-y-10 py-12 border-b gap-x-10 border-gray-200">
         <QuoteBlock
           t={t}
           author={"Mattias Unosson"}
@@ -56,7 +56,7 @@ const ReferencesPage = () => {
         />
         <div
           id="separator"
-          className="w-full my-0 sm:hidden border-b bg-gray-200"
+          className="w-full my-0 lg:hidden border-b bg-gray-200"
         ></div>
         <QuoteBlock
           t={t}
@@ -74,7 +74,7 @@ const ReferencesPage = () => {
           size={"large"}
         />
       </div>
-      <div className="flex sm:flex-row flex-col w-full flex-wrap sm:flex-nowrap gap-y-10 py-12 gap-x-10">
+      <div className="flex lg:flex-row flex-col w-full flex-wrap lg:flex-nowrap gap-y-10 py-12 gap-x-10">
         <QuoteBlock
           t={t}
           author={"Anders Båth"}
@@ -83,7 +83,7 @@ const ReferencesPage = () => {
         />
         <div
           id="separator"
-          className="w-full my-0 sm:hidden border-b bg-gray-200"
+          className="w-full my-0 lg:hidden border-b bg-gray-200"
         ></div>
         <QuoteBlock
           t={t}
@@ -103,7 +103,7 @@ function QuoteBlock({ size, body, authorBody, author, authorPosition, t }) {
   return (
     <div
       data-size={size}
-      className="flex peer flex-col gap-y-10 sm:[&>.body]:data-[size=large]:text-3xl [&>.test]:data-[size=large]:leading-[40px] text-[22px] data-[size=large]:basis-[100%] basis-1/2"
+      className="flex peer flex-col gap-y-10 lg:[&>.body]:data-[size=large]:text-3xl [&>.test]:data-[size=large]:leading-[40px] text-[22px] data-[size=large]:basis-[100%] basis-1/2"
     >
       <div className="flex w-full">
         <QuoteSvg size={size} />
@@ -133,7 +133,7 @@ function QuoteSvg({ size }) {
   return (
     <>
       <div
-        className="hidden sm:flex"
+        className="hidden lg:flex"
         style={{
           width: SIZE_MAP[size || "default"].width,
           height: SIZE_MAP[size || "default"].height,
@@ -147,7 +147,7 @@ function QuoteSvg({ size }) {
         </svg>
       </div>
       <div
-        className="flex sm:hidden"
+        className="flex lg:hidden"
         style={{
           width: MOBILE_SIZE_MAP[size || "default"].width,
           height: MOBILE_SIZE_MAP[size || "default"].height,

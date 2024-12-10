@@ -6,12 +6,12 @@ import Link from "next/link";
 const page = () => {
   return (
     <main className="w-full h-full flex flex-col px-6">
-      <div className="flex flex-col sm:flex-row py-16">
-        <div className="flex flex-col w-full sm:w-1/2 gap-6">
-          <h1 className="sm:text-6xl text-[32px] font-light text-[#00adee] pb-6">
+      <div className="flex flex-col lg:flex-row py-16">
+        <div className="flex flex-col w-full lg:w-1/2 gap-6">
+          <h1 className="lg:text-6xl text-[32px] font-light text-[#00adee] pb-6">
             Advokatfirman EdmarLaw
           </h1>
-          <p className="sm:text-[22px] text-[18px] font-bold">
+          <p className="lg:text-[22px] text-[18px] font-bold">
             Advokatfirman EdmarLaw har mer än 25 års erfarenhet av att granska,
             upprätta och förhandla de flesta typer av avtal som förekommer på
             IT-området. {" "}
@@ -26,7 +26,7 @@ const page = () => {
             licensiering av AI-tjänster, know-how och patent.
           </p>
         </div>
-        <div className="sm:w-1/2 flex justify-end sm:py-0">
+        <div className="lg:w-1/2 flex justify-end lg:py-0">
           <Image
             className="object-contain h-[500px]"
             src={"/edmarhero.png"}
@@ -39,11 +39,11 @@ const page = () => {
       <div className="bg-[#F5F5F5] relative flex flex-col items-center">
         <div className="absolute h-full bg-[#F5F5F5] !max-w-none !w-screen"></div>
         <div className="z-10 relative pt-20">
-          <h1 className="sm:text-[40px] text-[28px] pb-12 font-bold sm:leading-[52px] leading-[40px]">
+          <h1 className="lg:text-[40px] text-[28px] pb-12 font-bold lg:leading-[52px] leading-[40px]">
             Malin Edmar <br /> Advokat och grundare
           </h1>
-          <div className="flex flex-col sm:flex-row gap-x-14">
-            <div className="flex flex-col sm:pb-0 pb-14">
+          <div className="flex flex-col lg:flex-row gap-x-14">
+            <div className="flex flex-col lg:pb-0 pb-14">
               <p>
                 Malin Edmar har arbetat med avtalsfrågor samt IT-rättsliga och
                 immaterialrättsliga frågor sedan 1996. Hon driver ofta stora och
@@ -78,7 +78,7 @@ const page = () => {
                 används som kurslitteratur vid flera universitet i Sverige.
               </p>
             </div>
-            <div className="bg-white rounded sm:pl-4 sm:p-16 sm:pr-32 p-4 h-fit flex flex-col gap-y-2 sm:w-fit">
+            <div className="bg-white rounded lg:pl-4 lg:p-16 lg:pr-32 p-4 h-fit flex flex-col gap-y-2 lg:w-fit">
               <h3 className="text-[28px] w-max font-[500]">Malin Edmar</h3>
               <Link className="underline" href="mailto:info@edmarlaw.se">
                 info@edmarlaw.se
@@ -87,7 +87,7 @@ const page = () => {
             </div>
           </div>
           <div>
-            <div className="sm:pt-36 pt-14">
+            <div className="lg:pt-36 pt-14">
               <h4 className="text-[32px] font-bold">Erfarenhet</h4>
               <div className="flex flex-col gap-y-4 pt-8">
                 <TableRow company={"GitHub, Inc"} year={"2021-2023"} />
@@ -118,7 +118,7 @@ const page = () => {
                 />
               </div>
             </div>
-            <div className="sm:pt-36 pt-14">
+            <div className="lg:pt-36 pt-14">
               <h4 className="text-[32px] font-bold">Publikationer</h4>
               <div className="flex flex-col gap-y-4 pt-8">
                 <div className="flex flex-col">
@@ -127,7 +127,7 @@ const page = () => {
                     company={"Författare till boken"}
                     year={"Norstedts Juridik, 7 uppl., 2021"}
                   />
-                  <div className="sm:flex gap-x-2 underline hidden font-semibold">
+                  <div className="lg:flex gap-x-2 underline hidden font-semibold">
                     <Link href={"Internetpublicering och sociala medier"}>
                       Internetpublicering och sociala medier
                     </Link>
@@ -151,7 +151,7 @@ const page = () => {
                     company={"Edmar, Malin;"}
                     year={"Norstedts Juridik, 2015"}
                   />
-                  <div className="sm:flex gap-x-2 underline hidden font-semibold">
+                  <div className="lg:flex gap-x-2 underline hidden font-semibold">
                     <Link href={"Internetpublicering och sociala medier"}>
                       Internetpublicering och sociala medier
                     </Link>
@@ -175,7 +175,7 @@ const page = () => {
                     company={"Medförfattare till boken"}
                     year={"Norstedts Juridik, 2014"}
                   />
-                  <div className="sm:flex gap-x-2 underline hidden font-semibold">
+                  <div className="lg:flex gap-x-2 underline hidden font-semibold">
                     <Link href={"Internetpublicering och sociala medier"}>
                       Internetpublicering och sociala medier
                     </Link>
@@ -199,7 +199,7 @@ const page = () => {
                     company={"Redaktör och medförfattare till boken"}
                     year={"Jure, 2012"}
                   />
-                  <div className="sm:flex gap-x-2 underline hidden font-semibold">
+                  <div className="lg:flex gap-x-2 underline hidden font-semibold">
                     <Link href={"Internetpublicering och sociala medier"}>
                       Internetpublicering och sociala medier
                     </Link>
@@ -233,10 +233,10 @@ const page = () => {
 
 function TableRow({ company, year, link }) {
   return (
-    <div className="flex gap-x-8 flex-col sm:flex-row sm:gap-y-2">
-      <div className="sm:w-1/2 w-full font-semibold">{company}</div>
+    <div className="flex gap-x-8 flex-col lg:flex-row lg:gap-y-2">
+      <div className="lg:w-1/2 w-full font-semibold">{company}</div>
       {link && (
-        <div className="flex gap-x-2 underline sm:hidden font-semibold">
+        <div className="flex gap-x-2 underline lg:hidden font-semibold">
           <Link href={"Internetpublicering och sociala medier"}>
             Internetpublicering och sociala medier
           </Link>
@@ -254,7 +254,7 @@ function TableRow({ company, year, link }) {
           </svg>
         </div>
       )}
-      <div className="sm:w-1/2 w-full font-light italic">{year}</div>
+      <div className="lg:w-1/2 w-full font-light italic">{year}</div>
     </div>
   );
 }

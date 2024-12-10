@@ -369,17 +369,17 @@ const AreaOFExpertise = ({ size }) => {
   // Render the data in your React component using the map function
 
   return (
-    <div data-size={size} className={"p-6 sm:px-0"}>
+    <div data-size={size} className={"p-6 lg:px-0"}>
       <h1
         data-size={size}
-        className="sm:text-3xl data-[size=sm]:px-0 sm:px-6 px-0 text-[#1D1D1D] font-semibold text-[28px] leading-[39.2px]"
+        className="lg:text-3xl data-[size=sm]:px-0 lg:px-6 px-0 text-[#1D1D1D] font-semibold text-[28px] leading-[39.2px]"
       >
         {t("expertiseTitle")}
       </h1>
       <br />
       <div
         data-size={size}
-        className="sm:grid sm:grid-cols-12 flex flex-col sm:gap-10 gap-y-4 pt-6 sm:px-6 data-[size=sm]:px-0"
+        className="lg:grid lg:grid-cols-12 flex flex-col lg:gap-10 gap-y-4 pt-6 lg:px-6 data-[size=sm]:px-0"
       >
         {size !== "sm"
           ? areasOfExpertise.map((item, index) => (

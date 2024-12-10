@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 export default function Card({ title, description, icon, size, link }) {
   const SIZE_MAP = {
-    sm: { width: 80, height: 57 },
+    lg: { width: 80, height: 57 },
     default: { width: 57, height: 40 },
   };
   const t = useTranslations("Cards");
@@ -12,7 +12,7 @@ export default function Card({ title, description, icon, size, link }) {
     <Link
       href={link}
       data-size={size}
-      className="flex data-[size=sm]:flex-row data-[size=sm]:gap-x-4 data-[size=sm]:items-center flex-col gap-y-6 border border-[#CBCDD0] bg-white rounded sm:col-span-4 col-span-12 p-4"
+      className="flex data-[size=sm]:flex-row data-[size=sm]:gap-x-4 data-[size=sm]:items-center flex-col gap-y-6 border border-[#CBCDD0] bg-white rounded lg:col-span-4 col-span-12 p-4"
     >
       <div
       // style={{

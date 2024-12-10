@@ -41,6 +41,12 @@ export const areasOfExpertise = [
     description: <AiExpertise />,
   },
   {
+    title: "Ai Act",
+    subHeader: "aiAct",
+    svg: null,
+    description: null,
+  },
+  {
     title: "IT Law",
     subheader: "law",
     image: "/techlogo.png",

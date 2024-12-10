@@ -81,7 +81,7 @@ const References = () => {
       <Carousel
         opts={{ loop: true }}
         setApi={setApi}
-        className="max-w-[18rem] sm:max-w-6xl sm:px-24 sm:py-8 pt-10"
+        className="max-w-[18rem] lg:max-w-5xl md:max-w-2xl sm:max-w-2xl xl:max-w-6xl lg:px-24 lg:py-8 pt-10"
       >
         <CarouselContent className="w-full -ml-1">
           <CarouselSlide
@@ -161,11 +161,11 @@ export default References;
 function CarouselSlide({ body, author, position, className }) {
   return (
     <CarouselItem className="">
-      <div className="flex flex-col sm:justify-end h-full gap-y-11 w-full pl-1 p-2 sm:px-10 items-center">
+      <div className="flex flex-col lg:justify-end h-full gap-y-11 w-full pl-1 p-2 lg:px-10 items-center">
         {/* <div className="filler"></div> */}
         <div
           className={
-            "flex flex-col gap-y-2 bg-white w-full rounded-[50px] shadow-lg p-10 sm:p-14 relative slide-class"
+            "flex flex-col gap-y-2 bg-white w-full rounded-[50px] shadow-lg p-10 lg:p-14 relative slide-class"
             // "relative"
           }
         >
@@ -216,7 +216,7 @@ function CarouselSlide({ body, author, position, className }) {
 function SamplePrevArrow({ onClick }) {
   return (
     <div
-      className={`!flex !left-0 top-[97%] !basis-1/12 sm:top-1/2 sm:-translate-y-1/2 left-arrow-class absolute`}
+      className={`!flex !left-0 top-[97%] !basis-1/12 lg:top-1/2 lg:-translate-y-1/2 left-arrow-class absolute`}
       onClick={onClick}
     >
       <svg
@@ -333,7 +333,7 @@ function SamplePrevArrow({ onClick }) {
 function SampleNextArrow({ onClick }) {
   return (
     <div
-      className={`!flex !right-0 top-[97%] sm:top-1/2 sm:-translate-y-1/2 !basis-1/12 !justify-end right-arrow-class absolute`}
+      className={`!flex !right-0 top-[97%] lg:top-1/2 lg:-translate-y-1/2 !basis-1/12 !justify-end right-arrow-class absolute`}
       onClick={onClick}
     >
       <svg

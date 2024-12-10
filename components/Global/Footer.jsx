@@ -43,7 +43,7 @@ const Footer = () => {
             </a>
           </div>
           {/* <hr /> */}
-          <div className="flex flex-col md:flex-row md:gap-x-16 pt-8 sm:pt-0 gap-y-8">
+          <div className="flex flex-col md:flex-row md:gap-x-16 pt-8 lg:pt-0 gap-y-8">
             <p>
               {" "}
               <Link style={{ color: "" }} href={"/terms"}>

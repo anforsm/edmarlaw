@@ -4,10 +4,10 @@ import styles from "./styles.module.css";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 const AiExpertise = () => {
-  const t = useTranslations("Index");
+  const t = useTranslations("Ai");
   return (
     <div className={styles.container}>
-      <p>{t("aiDesc2")}</p>
+      <p>{t("subHeader")}</p>
       <br />
       <p>{t("aiDesc3")}</p>
       <br />
