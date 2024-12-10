@@ -383,10 +383,6 @@ const AreaOFExpertise = ({ size }) => {
       >
         {size !== "sm"
           ? areasOfExpertise.map((item, index) => (
-              // <Link href={`/expertise?section=${item.text}&index=${index}`} key={index} className={styles.gridItem}>
-              //   <img src={item.logo} alt="" />
-              //   <span>{t(item.text)}</span>
-              // </Link>
               <Card
                 link={`/expertise?section=${item.description}`}
                 size={size}
@@ -397,10 +393,6 @@ const AreaOFExpertise = ({ size }) => {
               />
             ))
           : newAreas.map((item, index) => (
-              // <Link href={`/expertise?section=${item.text}&index=${index}`} key={index} className={styles.gridItem}>
-              //   <img src={item.logo} alt="" />
-              //   <span>{t(item.text)}</span>
-              // </Link>
               <Card
                 link={`${item.link}`}
                 size={size}

@@ -368,7 +368,6 @@ const AiPage = () => {
   }, []);
 
   return (
-    //
     <>
       <ExpertiseMobile
         data={areasOfExpertise}
