@@ -1,91 +1,34 @@
 import React from "react";
 import { motion, Transition, SVGMotionProps } from "framer-motion";
 
-const MenuButton = ({
-  isOpen = false,
-  width = 24,
-  height = 24,
-  strokeWidth = 2,
-  color = "#000",
-  transition = null,
-  lineProps = null,
-  ...props
-}) => {
+const MenuButton = ({ isOpen = false }) => {
   const variant = isOpen ? "opened" : "closed";
-  const top = {
-    closed: {
-      rotate: 0,
-      translateY: 0,
-    },
-    opened: {
-      rotate: 45,
-      translateY: 2,
-    },
-  };
-  const center = {
-    closed: {
-      opacity: 1,
-    },
-    opened: {
-      opacity: 0,
-    },
-  };
-  const bottom = {
-    closed: {
-      rotate: 0,
-      translateY: 0,
-    },
-    opened: {
-      rotate: -45,
-      translateY: -2,
-    },
-  };
-  lineProps = {
-    stroke: color,
-    strokeWidth: strokeWidth,
-    vectorEffect: "non-scaling-stroke",
-    initial: "closed",
-    animate: variant,
-    transition,
-    ...lineProps,
-  };
-  const unitHeight = 4;
-  const unitWidth = (unitHeight * width) / height;
-
-  return (
-    <motion.svg
-      viewBox={`0 0 ${unitWidth} ${unitHeight}`}
-      overflow="visible"
-      preserveAspectRatio="none"
-      width={width}
-      height={height}
-      {...props}
+  return !isOpen ? (
+    <svg
+      width="21"
+      height="18"
+      viewBox="0 0 21 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <motion.line
-        x1="0"
-        x2={unitWidth}
-        y1="0"
-        y2="0"
-        variants={top}
-        {...lineProps}
+      <path
+        d="M0 0H21V2.25H0V0ZM0 7.5H21V9.75H0V7.5ZM21 15V17.25H0V15H21Z"
+        fill="#1D1D1D"
       />
-      <motion.line
-        x1="0"
-        x2={unitWidth}
-        y1="2"
-        y2="2"
-        variants={center}
-        {...lineProps}
+    </svg>
+  ) : (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M15.1719 2.42188L9.54688 8L15.125 13.5781L15.9219 14.375L14.375 15.9688L13.5781 15.1719L8 9.59375L2.42188 15.1719L1.625 15.9688L0.03125 14.375L0.828125 13.5781L6.40625 8L0.828125 2.42188L0.03125 1.625L1.625 0.03125L2.42188 0.828125L8 6.45312L13.5781 0.875L14.375 0.078125L15.9688 1.625L15.1719 2.42188Z"
+        fill="#1D1D1D"
       />
-      <motion.line
-        x1="0"
-        x2={unitWidth}
-        y1="4"
-        y2="4"
-        variants={bottom}
-        {...lineProps}
-      />
-    </motion.svg>
+    </svg>
   );
 };
 
