@@ -419,7 +419,7 @@ const AreaOfExpertise = () => {
                   display: "flex",
                   flexDirection: "column",
                   rowGap: "16px",
-                  width: "200px",
+                  width: "300px",
                 }}
               >
                 <div
