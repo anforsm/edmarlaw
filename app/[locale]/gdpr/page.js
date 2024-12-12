@@ -177,7 +177,7 @@ const AreaOfExpertise = () => {
         data={areasOfExpertise}
         translate={"GDPR"}
       ></ExpertiseMobile>
-      <div className={"md:!flex !hidden gap-x-10 pl-10"}>
+      <div className={"md:!flex !hidden gap-x-10 pl-4"}>
         <div className="flex-1 w-full pb-96 pt-[6.5rem] relative border-r">
           <div className={styles.gridList}>
             <div
