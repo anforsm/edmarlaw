@@ -213,8 +213,8 @@ const AreaOfExpertise = () => {
 
   const SECTION_NUMBER_MAP = {
     ai: 0,
-    it: 1,
-    law: 2,
+    law: 1,
+    contract: 2,
     copyright: 3,
     privacy: 4,
     outsourcing: 5,

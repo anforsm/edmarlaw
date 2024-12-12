@@ -203,7 +203,8 @@ const AreaOFExpertise = ({ size }) => {
 
   const newAreas = [
     {
-      title: "Licensiering av mjukvara",
+      title: "Licensing of software",
+      description: "copyright",
       icon: (
         <svg
           width="38"
@@ -221,7 +222,8 @@ const AreaOFExpertise = ({ size }) => {
       link: "/expertise?section=copyright",
     },
     {
-      title: "Licensiering av AI-tjänster",
+      title: "Licensing of AI services",
+      description: "ai",
       icon: (
         <svg
           width="36"
@@ -239,7 +241,8 @@ const AreaOFExpertise = ({ size }) => {
       link: "/expertise?section=ai",
     },
     {
-      title: "Licensiering av säkerhetsprodukter och -tjänster",
+      title: "Licensing of security products and services",
+      description: "law",
       icon: (
         <svg
           width="45"
@@ -257,7 +260,8 @@ const AreaOFExpertise = ({ size }) => {
       link: "/expertise?section=law",
     },
     {
-      title: "Avtal om utveckling och implementeringar av IT-system",
+      title: "Contracts regarding development and implementation of IT systems",
+      description: "contract",
       icon: (
         <svg
           width="27"
@@ -275,7 +279,8 @@ const AreaOFExpertise = ({ size }) => {
       link: "/expertise?section=contract",
     },
     {
-      title: "Outsourcing av IT-tjänster",
+      title: "Outsourcing of IT services",
+      description: "outsourcing",
       icon: (
         <svg
           width="32"
@@ -293,7 +298,8 @@ const AreaOFExpertise = ({ size }) => {
       link: "/expertise?section=outsourcing",
     },
     {
-      title: "Internationella utvecklingssamarbeten",
+      title: "International joint development",
+      description: "contract",
       icon: (
         <svg
           width="27"
@@ -311,7 +317,8 @@ const AreaOFExpertise = ({ size }) => {
       link: "/expertise?section=contract",
     },
     {
-      title: "Implementering av IT-system för betaltjänster",
+      title: "Implementation of IT-system for payment solutions",
+      description: "law",
       icon: (
         <svg
           width="49"
@@ -329,7 +336,8 @@ const AreaOFExpertise = ({ size }) => {
       link: "/expertise?section=law",
     },
     {
-      title: "Regelverk kring tekniska plattformar",
+      title: "Regulations around technical platforms",
+      description: "privacy",
       icon: (
         <svg
           width="36"
@@ -347,7 +355,8 @@ const AreaOFExpertise = ({ size }) => {
       link: "/expertise?section=privacy",
     },
     {
-      title: "Utformning av villkor för kunder och användare",
+      title: "Drafting terms and conditions for customers and users",
+      description: "ecom",
       icon: (
         <svg
           width="41"
@@ -367,6 +376,8 @@ const AreaOFExpertise = ({ size }) => {
   ];
 
   // Render the data in your React component using the map function
+
+  const tRef = useTranslations("REF");
 
   return (
     <div data-size={size} className={"p-6 data-[size=sm]:px-0 lg:px-0"}>
@@ -394,10 +405,10 @@ const AreaOFExpertise = ({ size }) => {
             ))
           : newAreas.map((item, index) => (
               <Card
-                link={`${item.link}`}
+                link={`/expertise?section=${item.description}`}
                 size={size}
                 key={item.title}
-                title={item.title}
+                title={tRef(item.title)}
                 description={item.description}
                 icon={item.icon}
               />
