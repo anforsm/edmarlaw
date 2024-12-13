@@ -15,16 +15,7 @@ const page = () => {
             {t("About the law firm EdmarLaw")}
           </h1>
           <p className="lg:text-[22px] text-[18px] font-bold">{tNew("p2")}</p>
-          <p>
-            {/* Bland annat har EdmarLaw omfattande erfarenhet av
-            personuppgiftshantering, att upprätta utvecklingsavtal, kundavtal,
-            allmänna villkor, genomföra dataskyddsanalyser och ta helhetsgrepp
-            på personuppgiftshanteringen, avtala om utveckling och
-            implementering av IT-system, liksom alla aspekter av onlinetjänster,
-            molntjänster (PaaS, SaaS) och e-handel, licensiering av mjukvara,
-            licensiering av AI-tjänster, know-how och patent. */}
-            {tNew("p3")}
-          </p>
+          <p>{tNew("p3")}</p>
         </div>
         <div className="lg:w-1/2 flex justify-end lg:py-0">
           <Image
