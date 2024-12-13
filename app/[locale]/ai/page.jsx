@@ -191,7 +191,6 @@ export const areasOfExpertise = [
     description: <AiModels />, // Replace with the appropriate component for Domain Names
   },
   {
-    // subHeader: "Domain Names",
     shortHeader: "AI Office",
     title: "AiOffice",
     subheader: "domain",
@@ -213,21 +212,6 @@ export const areasOfExpertise = [
     description: <AiOffice />, // Replace with the appropriate component for Domain Names
     subHeader: "Domain Names",
   },
-  // {
-  //   title: "Trademark Law",
-  //   image: "/techlogo.png",
-  //   description: <TrademarkLawDescription />, // Replace with the appropriate component for Trademark Law
-  // },
-  // {
-  //   title: "Design Law",
-  //   image: "/techlogo.png",
-  //   description: <DesignLawDescription />, // Replace with the appropriate component for Design Law
-  // },
-  // {
-  //   title: "Telecom Law",
-  //   image: "/techlogo.png",
-  //   description: <TelecomLawDescription />, // Replace with the appropriate component for Telecom Law
-  // },
 ];
 const AiPage = () => {
   const t = useTranslations("AiPageHeaders");
