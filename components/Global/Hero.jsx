@@ -37,7 +37,7 @@ const Hero = ({ title, isEdmr, logoImg }) => {
       <div className="basis-1/2 flex justify-end">
         <Image
           className="object-contain w-full"
-          src={"/edmarhero2.png"}
+          src={"/malinfrontpage.png"}
           alt="Bild på Malin Edmar"
           width={800}
           height={1200}

@@ -8,7 +8,7 @@ const DO = () => {
       <br />
       <br />
       <p>{t("doDesc")}</p> <br />
-      <ul>
+      <ul className="list-disc p-4">
         <li>{t("first")}</li>
         <li>{t("second")}</li>
         <li>{t("third")}</li>
@@ -17,9 +17,7 @@ const DO = () => {
         <li>{t("sixth")}</li>
       </ul>
       <br />
-      <p>
-        {t("seventh")} <span>here.</span>
-      </p>
+      <p>{t("seventh")}</p>
     </div>
   );
 };

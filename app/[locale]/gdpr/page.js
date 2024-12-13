@@ -21,6 +21,7 @@ const areasOfExpertise = [
   },
   {
     title: "DO_YOU",
+    smallHeader: "GDPR Requirements",
     image: "/techlogo.png",
     description: <DO />, // Replace with the appropriate component for Contract Law
   },
@@ -36,6 +37,7 @@ const areasOfExpertise = [
   },
   {
     title: "Deletion of Personal Data and Keeping a Data Register",
+    smallHeader: "Data Retention",
     image: "/techlogo.png",
     description: <Deletion />, // Replace with the appropriate component for Outsourcing
   },
@@ -289,7 +291,11 @@ const AreaOfExpertise = () => {
                   >
                     <div className={styles.row}>
                       {/* <img src={area.image} alt="" /> */}
-                      <span>{t(area.title)}</span>
+                      {area.smallHeader ? (
+                        <span>{t(area.smallHeader)}</span>
+                      ) : (
+                        <span>{t(area.title)}</span>
+                      )}
                     </div>
                   </li>
                 ))}
