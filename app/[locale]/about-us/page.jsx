@@ -16,7 +16,7 @@ const page = () => {
           </h1>
           <p className="lg:text-[22px] text-[18px] font-bold">{tNew("p2")}</p>
           <p>{tNew("p3")}</p>
-          <p>{tNew("p4") && tNew("p4")}</p>
+          {/* <p>{tNew("p4") && tNew("p4")}</p> */}
         </div>
         <div className="lg:w-1/2 flex justify-end lg:py-0">
           <Image
