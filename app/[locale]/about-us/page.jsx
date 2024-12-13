@@ -2,28 +2,28 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const page = () => {
+  const t = useTranslations("About");
+  const tNew = useTranslations("NewAbout");
   return (
     <main className="w-full h-full flex flex-col px-6">
       <div className="flex flex-col lg:flex-row py-16">
         <div className="flex flex-col w-full lg:w-1/2 gap-6">
           <h1 className="lg:text-6xl text-[32px] font-light text-[#00adee] pb-6">
-            Advokatfirman EdmarLaw
+            {t("About the law firm EdmarLaw")}
           </h1>
-          <p className="lg:text-[22px] text-[18px] font-bold">
-            Advokatfirman EdmarLaw har mer än 25 års erfarenhet av att granska,
-            upprätta och förhandla de flesta typer av avtal som förekommer på
-            IT-området.
-          </p>
+          <p className="lg:text-[22px] text-[18px] font-bold">{tNew("p2")}</p>
           <p>
-            Bland annat har EdmarLaw omfattande erfarenhet av
+            {/* Bland annat har EdmarLaw omfattande erfarenhet av
             personuppgiftshantering, att upprätta utvecklingsavtal, kundavtal,
             allmänna villkor, genomföra dataskyddsanalyser och ta helhetsgrepp
             på personuppgiftshanteringen, avtala om utveckling och
             implementering av IT-system, liksom alla aspekter av onlinetjänster,
             molntjänster (PaaS, SaaS) och e-handel, licensiering av mjukvara,
-            licensiering av AI-tjänster, know-how och patent.
+            licensiering av AI-tjänster, know-how och patent. */}
+            {tNew("p3")}
           </p>
         </div>
         <div className="lg:w-1/2 flex justify-end lg:py-0">
@@ -40,43 +40,19 @@ const page = () => {
         <div className="absolute h-full bg-[#F5F5F5] !max-w-none !w-screen"></div>
         <div className="z-10 relative pt-20">
           <h1 className="lg:text-[40px] text-[28px] pb-12 font-bold lg:leading-[52px] leading-[40px]">
-            Malin Edmar <br /> Advokat och grundare
+            {tNew("p5")} <br /> {tNew("p6")}
           </h1>
           <div className="flex flex-col lg:flex-row gap-x-14">
             <div className="flex flex-col lg:pb-0 pb-14">
-              <p>
-                Malin Edmar har arbetat med avtalsfrågor samt IT-rättsliga och
-                immaterialrättsliga frågor sedan 1996. Hon driver ofta stora och
-                komplicerade förhandlingar inom olika områden, inte sällan
-                förlikningsförhandlingar i samband med uppgörelser. Malin
-                upprättar och förhandlar ofta olika typer av avtal inom
-                IT-branschen eller avtal som rör immaterialrättsliga
-                frågor.Malin har bl.a. arbetat som jurist på Microsofts
-                huvudkontor i USA under fyra år och då biträtt vid
-                produktutveckling, produktlansering och lansering av
-                onlinetjänster. Hon har även arbetat på GitHub, Inc. i flera år
-                som Senior Commercial Counsel, med fokus på att upprätta och
-                förhandla kommersiellt gångbara, lättfattliga villkor för till
-                exempel PaaS, supporttjänster och samarbeten, och som Senior
-                Product Counsel, med fokus på att utveckling inom AI,
-                säkerhetstjänster, PaaS och utvecklingssamarbeten.
-              </p>
+              <p>{tNew("p7")}</p>
               <br />
-              <p>
-                Malin har också skrivit fyra böcker, bland annat boken
-                Internetpublicering och sociala medier som hittills har getts ut
-                i sju upplagor (Norstedts Juridik, 2021), och var med i
-                IT-kommissionens IT-rättsliga observatorium under flera år, där
-                hon fick möjlighet att påverka ny lagstiftning inom
-                personuppgiftshantering, telekommunikation, sociala medier och
-                e-handel. När Malin upprättar avtal, förhandlar eller skriver
-                böcker så har hon alltid tekniken i fokus, och ser till att
-                förstå den först innan hon tillämpar juridiken. Dessutom brinner
-                Malin för att göra juridiken begriplig – man ska inte behöva
-                anlita jurister för att förstå vad man har kommit överens om.
-                Det är förmodligen därför hennes böcker är så populära, och
-                används som kurslitteratur vid flera universitet i Sverige.
-              </p>
+              <p>{tNew("p8")}</p>
+              <br />
+              <p>{tNew("p9")}</p>
+              <br />
+              <p>{tNew("p10")}</p>
+              <br />
+              <p>{tNew("p11")}</p>
             </div>
             <div className="bg-white rounded lg:pl-4 lg:p-16 lg:pr-32 p-4 h-fit flex flex-col gap-y-2 lg:w-fit">
               <h3 className="text-[28px] w-max font-[500]">Malin Edmar</h3>

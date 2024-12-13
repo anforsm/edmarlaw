@@ -6,7 +6,7 @@ const AiModels = () => {
   const t = useTranslations("AiModels");
   return (
     <div className={styles.container}>
-      <p>{t("AiModelsDesc")}</p>
+      <p className="text-[28px] font-bold pb-4">{t("AiModelsDesc")}</p>
       <br />
       <p>{t("AiModelsDesc2")}</p>
       <br />

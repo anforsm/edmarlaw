@@ -110,7 +110,7 @@
     "expertiseTitleShort": "Expertise",
     "aiHeader": "Artificiell Intelligens (AI)",
     "aiDesc1": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognition software",
-    "aiDesc2": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg applikationer eller plattformar (t.ex. databaser, molnplattformar eller IoT-enheter) som använder dessa modeller för att utföra uppgifter. Vanliga typer av AI system är chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines och predictive analytics tools.",
+    "aiDesc2": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg applikationer eller plattformar som använder dessa modeller för att utföra uppgifter. Vanliga typer av AI system är chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines och predictive analytics tools.",
     "aiDesc3": "EdmarLaw kan hjälpa er oavsett om ni utvecklar AI-system eller vill använda dem i er arbetsmiljö. Vi har stor erfarenhet av licensiering av AI-teknik och hjälper till med juridiska frågor vid AI-utvecklingsarbetet och under dess livscykel.",
     "aiDesc4": "EU:s AI Act om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter. I likhet med GDPR gäller AI-lagen för både offentliga och privata aktörer inom och utanför EU om AI-systemet släpps ut på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU. AI Act gäller för både leverantörer/providers (t.ex. en utvecklare av en chattrobot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
     "aiLink": "Mer om EdmarLaw, AI och AI Act.",
@@ -342,7 +342,7 @@
   },
   "Ai": {
     "subHeader": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognitionsoftware",
-    "p1": "While AI models are the underlying algorithms that process data, AI tools are applications or platforms (such as databases, cloud platforms, or IoT devices) that utilize these models to perform tasks. For instance, a machine learning model can be integrated into a software tool for predictive analytics, enabling businesses to forecast trends based on historical data. The data quality, the model you use and the deployment method you choose are all essential to create a good AI system.",
+    "p1": "While AI models are the underlying algorithms that process data, AI tools are applications or platforms that utilize these models to perform tasks. For instance, a machine learning model can be integrated into a software tool for predictive analytics, enabling businesses to forecast trends based on historical data. The data quality, the model you use and the deployment method you choose are all essential to create a good AI system.",
     "p2": "EdmarLaw can assist you whether you develop AI systems or want to use them in your work environment. We have extensive experience licensing AI technology and help with legal issues in the AI development work and life cycle."
   },
   "AiAct": {
@@ -421,7 +421,7 @@
     "aiDesc1": "Artificial intelligence (AI) has become a big part of everyday life. Businesses are realizing the power of AI to make work easier, boost productivity, and help enhance client and customer relationships. AI can help us with learning, reasoning, solving problems and making decisions – all tasks which until recently would require humans. Common examples of AI software are chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines and predictive analytics tools.",
     "aiDesc2": "A chatbot is a software using artificial intelligence to simulate human conversation. ChatGPT by OpenAI is a well-known example of a chatbot. Businesses can integrate it with their existing systems through APIs, and customize it to better fit the specific industry or purpose of the business.",
     "aiDescSubheader": "AI models and AI tools",
-    "aiDesc3": "While AI models are the underlying algorithms that process data, AI tools are applications or platforms (such as databases, cloud platforms, or IoT devices) that utilize these models to perform tasks. For instance, a machine learning model can be integrated into a software tool for predictive analytics, enabling businesses to forecast trends based on historical data. The data quality, the model you use and the deployment method you choose is essential to create a good AI system.",
+    "aiDesc3": "While AI models are the underlying algorithms that process data, AI tools are applications or platforms that utilize these models to perform tasks. For instance, a machine learning model can be integrated into a software tool for predictive analytics, enabling businesses to forecast trends based on historical data. The data quality, the model you use and the deployment method you choose is essential to create a good AI system.",
     "aiDesc4": "EdmarLaw can assist you whether you develop AI systems or want to use them at work. We have extensive experience licensing AI technology and helping with legal issues in the AI development work and life cycle."
   },
   "AiActEu1": {
@@ -437,12 +437,12 @@
     "header": "Does the AI Act apply to our business?",
     "AiActGdprDesc": "Similar to the GDPR, the AI Act applies to both public and private actors inside and outside the EU if the AI system is placed on the EU market, or its use has an impact on people located in the EU. The obligations of the AI Act can affect both providers (e.g., a developer of a chatbot) and deployers of AI systems (e.g., a customer using this tool).",
     "AiActGdprDescListHeader": "There are some exceptions when the regulation does not apply:",
-    "AiActGdprDescList1": "if research, development and prototyping activities take place before an AI system is released on the market, or",
+    "AiActGdprDescList1": "if research, development and prototyping activities take place before an AI system is released on the market, or if AI systems are exclusively designed for military, defense or national security purposes.",
     "AiActGdprDescList2": "if AI systems are exclusively designed for military, defense or national security purposes."
   },
   "AiActSystem": {
     "header": "How does the AI Act differentiate between AI systems?",
-    "AiActSystemDesc": "The AI Act has a risk-based approach.",
+    "AiActSystemDesc": "The Ai Act has a risk-based approach for it's rules",
     "AiActSystemList1": "Unacceptable risk",
     "AiActSystemDesc2": "AI systems that violate fundamental rights are considered particularly harmful. Uses of such AI systems will be banned. Examples of such violation of fundamental rights are:",
     "AiActSystemDesc3": "Exploitation of vulnerabilities of persons, manipulation and use of subliminal techniques;",
@@ -466,7 +466,7 @@
   },
   "AiSystem": {
     "header": "How do I know if an AI system is high-risk?",
-    "AiSystem1": "The risk classification is based on the intended purpose of an AI system, i.e., depending on the function performed by the AI system, its specific purpose and modalities the system is used in. Annex III of the AI Act describes areas where the use of AI can be particularly sensitive and therefore classified as high-risk:",
+    "AiSystem1": "While this will be clarified over time, the risk classification is based on the intended purpose of an AI system, i.e., depending on the function performed by the AI system, its specific purpose and modalities the system is used in. Annex III of the AI Act describes areas where the use of AI can be particularly sensitive and therefore classified as high-risk:",
     "AiList1": "AI systems used as safety components in certain critical infrastructures, for instance in the fields of road traffic and the supply of water, gas, heating and electricity.",
     "AiList2": "AI systems used in education and vocational training, e.g., to evaluate learning outcomes and steer the learning process and monitoring of cheating.",
     "AiList3": "AI systems used in employment and workers management and access to self-employment, e.g., to place targeted job advertisements, to analyze and filter job applications, and to evaluate candidates.",
@@ -501,5 +501,29 @@
     "AiSystem2": "What are the obligations for providers of high-risk AI systems?",
     "AiModels": "How are general-purpose AI models regulated?",
     "AiOffice": "AI Office"
+  },
+  "AiHeadersNew": {
+    "AI": "Artificial Intelligence – AI",
+    "What is the AI Act?": "What is the AI Act?",
+    "Why regulate AI?": "Why regulate AI?",
+    "When does it apply?": "When does it apply?",
+    "Risk-based approach": "Risk-based approach",
+    "What is high-risk?": "What is high-risk?",
+    "What are the obligations?": "What are the obligations?",
+    "Gen-AI models": "Gen-AI models",
+    "AI Office": "AI Office"
+  },
+  "NewAbout": {
+    "p1": "The law firm EdmarLaw",
+    "p2": "EdmarLaw has more than 25 years of experience reviewing, analyzing, drafting and negotiating most types of agreements in the tech and IT industry.",
+    "p3": "The legal counseling of EdmarLaw often concerns GDPR, draft of development agreements, customer agreements, license agreements, terms of use, data protection assessments, and all aspects of cloud services (PaaS, SaaS) and e-commerce, software and AI services.",
+    "p4": "EdmarLaw provides most of its services in English since many of its clients are North American or European businesses. EdmarLaw has a well-established network of lawyers throughout the world, thanks to being a member of international networks, experiences from international assignments and assisting many international clients. EdmarLaw is therefore able to efficiently guide and assist in matters concerning several jurisdictions and business areas.",
+    "p5": "Malin Edmar",
+    "p6": "Attorney-at-law and founder",
+    "p7": "The founder and attorney-at-law Malin Edmar has been practicing contract law, IT law and intellectual property law since 1996. She often drives large and complex negotiations in various fields, as well as mediation negotiations.",
+    "p8": "Malin Edmar has worked at the headquarters of Microsoft Corporation in Redmond for several years and has continued assisting the company regarding commercial contracting, product development and product launches. She has also worked for GitHub, Inc., as Senior",
+    "p9": "Commercial Counsel, focusing on drafting and negotiating commercially viable, easy-to- understand terms for i.a. PaaS, support services and collaboration work, as well as Senior Product Counsel, focusing on AI services and security features, PaaS, and joint development.",
+    "p10": "This experience has not only made her passionate about new technology but also given her a very good understanding of the IT industry. She knows the typical product cycles of IT companies and understands their terminology – grasping the operations of her clients therefore comes naturally.",
+    "p11": "Malin has written four books, i.a. the Swedish book Internet publishing and social media, which is now in its seventh edition (Norstedts Juridik, 2021), and has been part of the Swedish governmental ICT committee for several years, where she got the opportunity to influence the implementation of laws on privacy, electronic communication and e-commerce. When Malin drafts agreements, negotiates or writes books, she always has the technology in focus, and makes sure that she understands the technology first, before applying the law to it. Malin is also passionate about making the law understandable. You shouldn’t need to hire lawyers to understand what you agreed on. That is probably one reason why her books are so popular and are used as course literature at several universities in Sweden."
   }
 }

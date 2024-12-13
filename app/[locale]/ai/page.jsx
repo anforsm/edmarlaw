@@ -36,8 +36,10 @@ export const areasOfExpertise = [
     ),
     description: <AiDescription />,
     subHeader: "AI",
+    shortHeader: "AI",
   },
   {
+    shortHeader: "What is the AI Act?",
     title: "AiEu",
     subheader: "law",
     image: "/techlogo.png",
@@ -59,6 +61,7 @@ export const areasOfExpertise = [
     subHeader: "IT Law",
   },
   {
+    shortHeader: "Why regulate AI?",
     title: "AiEu2",
     subheader: "contract",
     image: "/techlogo.png",
@@ -80,6 +83,7 @@ export const areasOfExpertise = [
     subHeader: "Contract Law",
   },
   {
+    shortHeader: "When does it apply?",
     title: "AiActGdpr",
     subheader: "copyright",
     image: "/techlogo.png",
@@ -101,6 +105,7 @@ export const areasOfExpertise = [
     subHeader: "Copyright",
   },
   {
+    shortHeader: "Risk-based approach",
     title: "AiActSystem",
     subheader: "privacy",
     image: "/techlogo.png",
@@ -118,11 +123,11 @@ export const areasOfExpertise = [
         />
       </svg>
     ),
-
     description: <AiActSystem />, // Replace with the appropriate component for Privacy Law
     subHeader: "Privacy Law",
   },
   {
+    shortHeader: "What is high-risk?",
     title: "AiSystem",
     subheader: "aiSystem",
     image: "/techlogo.png",
@@ -143,6 +148,7 @@ export const areasOfExpertise = [
     description: <AiSystem />, // Replace with the appropriate component for Outsourcing
   },
   {
+    shortHeader: "What are the obligations?",
     title: "AiSystem2",
     subheader: "ecom",
     image: "/techlogo.png",
@@ -169,6 +175,7 @@ export const areasOfExpertise = [
   //   description: <MarketingLawDescription />, // Replace with the appropriate component for Marketing Law
   // },
   {
+    shortHeader: "Gen-AI models",
     title: "AiModels",
     subheader: "domain",
     image: "/techlogo.png",
@@ -187,9 +194,10 @@ export const areasOfExpertise = [
       </svg>
     ),
     description: <AiModels />, // Replace with the appropriate component for Domain Names
-    subHeader: "Domain Names",
   },
   {
+    // subHeader: "Domain Names",
+    shortHeader: "AI Office",
     title: "AiOffice",
     subheader: "domain",
     image: "/techlogo.png",
@@ -286,6 +294,8 @@ const AiPage = () => {
     image: "/techlogo.png",
     // description: <ITLawDescription />, // Replace with the appropriate component for IT Law
   });
+
+  const tSidebar = useTranslations("AiHeadersNew");
 
   const [checkScroll, setCheckScroll] = useState(true);
 
@@ -451,7 +461,7 @@ const AiPage = () => {
                   display: "flex",
                   flexDirection: "column",
                   rowGap: "16px",
-                  width: "200px",
+                  width: "250px",
                 }}
               >
                 <div
@@ -485,7 +495,7 @@ const AiPage = () => {
                   >
                     <div className={styles.row}>
                       {/* <img src={area.image} alt="" /> */}
-                      <span>{t(area.title)}</span>
+                      <span>{tSidebar(area.shortHeader)}</span>
                     </div>
                   </li>
                 ))}

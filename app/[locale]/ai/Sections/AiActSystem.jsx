@@ -8,7 +8,7 @@ const AiActSystem = () => {
     <div className={styles.container}>
       <p>{t("AiActSystemDesc")}</p>
       <br />
-      <p>{t("AiActSystemList1")}</p>
+      <p className="font-bold text-[32px] pb-4">{t("AiActSystemList1")}</p>
       <br />
       <p>{t("AiActSystemDesc2")}</p>
       <br />
@@ -26,25 +26,32 @@ const AiActSystem = () => {
       <br />
       <p>{t("AiActSystemDesc9")}</p>
       <br />
-      <p>{t("AiActSystemList2Subheader")}</p>
-      <br />
-      <p>{t("AiActSystemList2Desc")}</p>
-      <br />
-      <p>{t("AiActSystemList2Desc2")}</p>
-      <br />
-      <p>{t("AiActSystemList2Desc3")}</p>
-      <br />
-      <p>{t("AiActSystemList2Desc4")}</p>
-      <br />
-      <p>{t("AiActSystemList2Desc5")}</p>
-      <br />
-      <p>{t("AiActSystemList2Subheader2")}</p>
+      <p className="text-[28px] font-bold pb-4">
+        {t("AiActSystemList2Subheader")}
+      </p>
+      <ul className="list-disc">
+        <li>{t("AiActSystemList2Desc")}</li>
+        <br />
+        <li>{t("AiActSystemList2Desc2")}</li>
+        <br />
+        <li>{t("AiActSystemList2Desc3")}</li>
+        <br />
+        <li>{t("AiActSystemList2Desc4")}</li>
+        <br />
+        <li>{t("AiActSystemList2Desc5")}</li>
+        <br />
+      </ul>
+      <p className="text-[32px] font-bold pt-12 pb-4">
+        {t("AiActSystemList2Subheader2")}
+      </p>
       <br />
       <p>{t("AiActSystemList2Desc6")}</p>
       <br />
       <p>{t("AiActSystemList2Desc7")}</p>
       <br />
-      <p>{t("AiActSystemList2Subheader3")}</p>
+      <p className="text-[32px] font-bold pt-12 pb-4">
+        {t("AiActSystemList2Subheader3")}
+      </p>
       <br />
       <p>{t("AiActSystemList2Desc8")}</p>
       <br />

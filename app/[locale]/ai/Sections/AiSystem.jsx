@@ -8,18 +8,20 @@ const AiSystem = () => {
     <div className={styles.container}>
       <p>{t("AiSystem1")}</p>
       <br />
-      <p>{t("AiList1")}</p>
-      <br />
-      <p>{t("AiList2")}</p>
-      <br />
-      <p>{t("AiList3")}</p>
-      <br />
-      <p>{t("AiList4")}</p>
-      <br />
-      <p>{t("AiList5")}</p>
-      <br />
-      <p>{t("AiList6")}</p>
-      <br />
+      <ul className="list-disc">
+        <li>{t("AiList1")}</li>
+        <br />
+        <li>{t("AiList2")}</li>
+        <br />
+        <li>{t("AiList3")}</li>
+        <br />
+        <li>{t("AiList4")}</li>
+        <br />
+        <li>{t("AiList5")}</li>
+        <br />
+        <li>{t("AiList6")}</li>
+        <br />
+      </ul>
     </div>
   );
 };
