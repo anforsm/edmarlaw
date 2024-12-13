@@ -169,11 +169,6 @@ export const areasOfExpertise = [
     description: <AiSystem2 />, // Replace with the appropriate component for E-commerce
     subHeader: "E-commerce",
   },
-  // {
-  //   title: "Marketing Law",
-  //   image: "/techlogo.png",
-  //   description: <MarketingLawDescription />, // Replace with the appropriate component for Marketing Law
-  // },
   {
     shortHeader: "Gen-AI models",
     title: "AiModels",
