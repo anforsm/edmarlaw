@@ -527,5 +527,16 @@
     "p9": "Commercial Counsel, focusing on drafting and negotiating commercially viable, easy-to- understand terms for i.a. PaaS, support services and collaboration work, as well as Senior Product Counsel, focusing on AI services and security features, PaaS, and joint development.",
     "p10": "This experience has not only made her passionate about new technology but also given her a very good understanding of the IT industry. She knows the typical product cycles of IT companies and understands their terminology – grasping the operations of her clients therefore comes naturally.",
     "p11": "Malin has written four books, i.a. the Swedish book Internet publishing and social media, which is now in its seventh edition (Norstedts Juridik, 2021), and has been part of the Swedish governmental ICT committee for several years, where she got the opportunity to influence the implementation of laws on privacy, electronic communication and e-commerce. When Malin drafts agreements, negotiates or writes books, she always has the technology in focus, and makes sure that she understands the technology first, before applying the law to it. Malin is also passionate about making the law understandable. You shouldn’t need to hire lawyers to understand what you agreed on. That is probably one reason why her books are so popular and are used as course literature at several universities in Sweden."
+  },
+  "NewCardTitles": {
+    "AI": "Artificial Intelligence – AI",
+    "IT Law": "IT Law",
+    "Contract Law": "Contract Law",
+    "Licensing of Software": "Copyright",
+    "GDPR": "GDPR",
+    "Privacy Law": "Privacy Law",
+    "Outsourcing": "Outsourcing",
+    "E-commerce": "E-commerce",
+    "Domain Names": "Domain Names"
   }
 }

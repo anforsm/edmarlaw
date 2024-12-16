@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import styles from "./Faq.module.css";
+import "./Faq.css";
 import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai";
 import { useTranslations } from "next-intl";
 
@@ -27,7 +27,7 @@ const Faq = () => {
 
   return (
     <div className="b-faq">
-      <div className={styles.container}>
+      <div>
         <div id="faq" className="b-faq_wrapper">
           <div className="b-faq_list">
             <div className={`b-faq_list_item ${expandedBullets[0] && "open"}`}>
@@ -39,11 +39,11 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("General")}
                 </span>
-                {expandedBullets[0] ? (
+                {/* {expandedBullets[0] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
+                )} */}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -51,7 +51,7 @@ const Faq = () => {
                 }`}
               >
                 <div>
-                  <p className="regular grey">
+                  <p className="regular grey pt-4">
                     {t("generel1")} <br /> <br />
                     {t("generel2")}
                   </p>
@@ -69,11 +69,11 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Collection of Personal Data")}
                 </span>
-                {expandedBullets[1] ? (
+                {/* {expandedBullets[1] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
+                )} */}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -82,10 +82,10 @@ const Faq = () => {
               >
                 <div>
                   <p className="regular grey">
-                    {t("personal1")} <br /> <br /> {t("personal2")} <br />{" "}
-                    <br /> {t("personal3")} <br /> <br /> {t("personal4")}{" "}
-                    <br /> <br /> {t("personal5")} <br /> <br />{" "}
-                    {t("personal6")} <br /> <br /> {t("personal7")}
+                    {t("personal1")} <br /> {t("personal2")} <br /> <br />{" "}
+                    {t("personal3")} <br /> {t("personal4")} <br /> <br />{" "}
+                    {t("personal5")} <br /> <br /> {t("personal6")} <br />{" "}
+                    <br /> {t("personal7")}
                   </p>
                 </div>
               </div>
@@ -100,11 +100,11 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("How we process personal data")}
                 </span>
-                {expandedBullets[2] ? (
+                {/* {expandedBullets[2] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
+                )} */}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -115,8 +115,8 @@ const Faq = () => {
                   <p className="regular grey">{t("process1")}</p>
                   <br />
                   <div style={{ overflowX: "scroll", width: "100%" }}>
-                    <table width="829">
-                      <tbody>
+                    <table className="table-fixed" width="829">
+                      <tbody className="[&>*>td]:border [&>*>td]:p-4">
                         <tr>
                           <td width="200">
                             <strong>Purpose of the processing</strong>
@@ -297,11 +297,11 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Transfers of personal data")}
                 </span>
-                {expandedBullets[3] ? (
+                {/* {expandedBullets[3] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
+                )} */}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -315,7 +315,7 @@ const Faq = () => {
                   <br />
                   <div style={{ overflowX: "scroll", width: "100%" }}>
                     <table width="821">
-                      <tbody>
+                      <tbody className="[&>*>td]:border [&>*>td]:p-4">
                         <tr>
                           <td width="198">
                             <strong>Subcontractor (name service)</strong>
@@ -405,11 +405,11 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Rights for registered")}
                 </span>
-                {expandedBullets[4] ? (
+                {/* {expandedBullets[4] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
+                )} */}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -465,11 +465,11 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Security")}
                 </span>
-                {expandedBullets[5] ? (
+                {/* {expandedBullets[5] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
+                )} */}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -490,11 +490,11 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Cookies")}
                 </span>
-                {expandedBullets[6] ? (
+                {/* {expandedBullets[6] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
+                )} */}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -518,11 +518,11 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Changes to this data protection policy")}
                 </span>
-                {expandedBullets[7] ? (
+                {/* {expandedBullets[7] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
+                )} */}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -545,11 +545,11 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Contact")}
                 </span>
-                {expandedBullets[8] ? (
+                {/* {expandedBullets[8] ? (
                   <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
                 ) : (
                   <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
+                )} */}
               </div>
               <div
                 className={`b-faq_list_item_content ${

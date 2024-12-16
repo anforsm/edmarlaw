@@ -81,7 +81,7 @@ const References = () => {
       <Carousel
         opts={{ loop: true }}
         setApi={setApi}
-        className="max-w-[18rem] lg:max-w-5xl md:max-w-2xl sm:max-w-2xl xl:max-w-6xl lg:px-24 lg:py-8 pt-10"
+        className="max-w-[18rem] lg:max-w-5xl md:max-w-2xl sm:max-w-[40rem] xl:max-w-6xl lg:px-24 lg:py-8 pt-10"
       >
         <CarouselContent className="w-full -ml-1">
           <CarouselSlide

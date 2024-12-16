@@ -151,6 +151,9 @@ const Drawer = ({ onClose }) => {
             </div>
           </div>
         </div>
+        <Link onClick={onClose} href={"/ai"}>
+          <span>{t("AI")}</span>
+        </Link>
         <Link onClick={onClose} href={"/gdpr"}>
           <span>{t("GDPR")}</span>
         </Link>

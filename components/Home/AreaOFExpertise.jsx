@@ -66,7 +66,7 @@ const AreaOFExpertise = ({ size }) => {
       ),
     },
     {
-      title: "Licensiering av mjukvara",
+      title: "Licensing of Software",
       description: "copyright",
       image: "/techlogo.png",
       svg: (
@@ -379,6 +379,8 @@ const AreaOFExpertise = ({ size }) => {
 
   const tRef = useTranslations("REF");
 
+  const tTest = useTranslations("NewCardTitles");
+
   return (
     <div data-size={size} className={"p-6 data-[size=sm]:px-0 lg:px-0"}>
       <h1
@@ -398,7 +400,7 @@ const AreaOFExpertise = ({ size }) => {
                 link={`/expertise?section=${item.description}`}
                 size={size}
                 key={item.title}
-                title={item.title}
+                title={tTest(item.title)}
                 description={item.description}
                 icon={item.svg}
               />

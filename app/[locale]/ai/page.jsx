@@ -213,6 +213,7 @@ export const areasOfExpertise = [
     subHeader: "Domain Names",
   },
 ];
+
 const AiPage = () => {
   const t = useTranslations("AiPageHeaders");
   const tCard = useTranslations("Cards");

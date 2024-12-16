@@ -8,7 +8,7 @@ const AIGDPR = () => {
     <div className={styles.container}>
       <p>{t("AiActGdprDesc")}</p>
       <br />
-      <p className="font-bold text-[32px] pb-4 pt-12 !leading-[48px]">
+      <p className="font-bold md:!text-[32px] !text-[22px] pb-4 pt-12 text-red-500 md:!leading-[42px] !leading-[32px]">
         {t("AiActGdprDescListHeader")}
       </p>
       <ul className="list-disc pl-2">

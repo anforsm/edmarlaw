@@ -1,8 +1,0 @@
-.container {
-    width: 90%;
-    margin: auto;
-}
-.container p {
-    counter-reset: #4f4f4f;
-    line-height: 26px;
-}

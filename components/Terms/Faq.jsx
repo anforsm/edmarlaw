@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import styles from "./Faq.module.css";
+import "./Faq.css";
 import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai";
 import { useTranslations } from "next-intl";
 const Faq = () => {
@@ -13,14 +13,14 @@ const Faq = () => {
   const [seventh, setSeventh] = useState(false);
   const [eigth, setEigth] = useState(false);
   const [ninth, setNinth] = useState(false);
-  const t = useTranslations("Terms")
+  const t = useTranslations("Terms");
   return (
     <div className="b-faq">
-      <div className={styles.container}>
+      <div className={"container"}>
         <div id="faq" className="b-faq_wrapper">
           <div className="b-faq_list">
             <div
-              className={`b-faq_list_item ${first && "open"}`}
+              className={`b-faq_list_item ${first && " open !max-h-none"}`}
               onClick={() => {
                 setFirst(!first);
                 setSecond(false);
@@ -38,11 +38,6 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Confidentiality and Information")}
                 </span>
-                {first ? (
-                  <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
-                ) : (
-                  <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -53,7 +48,7 @@ const Faq = () => {
                   <p className="regular grey">
                     {t("confDesc1")}
                     <br /> <br />
-                   {t("confDesc2")}
+                    {t("confDesc2")}
                   </p>
                   <br /> <br />
                 </div>
@@ -61,7 +56,7 @@ const Faq = () => {
             </div>
 
             <div
-              className={`b-faq_list_item ${second && "open"}`}
+              className={`b-faq_list_item ${second && "open max-h-none"}`}
               onClick={() => {
                 setSecond(!second);
                 setFirst(false);
@@ -79,11 +74,6 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Personal Data")}
                 </span>
-                {second ? (
-                  <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
-                ) : (
-                  <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -91,13 +81,22 @@ const Faq = () => {
                 }`}
               >
                 <div>
-                  <p className="regular grey">{t("personalDesc1")} <a href="https://www.advokatsamfundet.se/Advokatsamfundet-engelska/Rules-and-regulations/Code-of-Conduct/" target="_blank" style={{color:"00AEEF"}}>{t("personalDesc2")}</a></p>
+                  <p className="regular grey">
+                    {t("personalDesc1")}{" "}
+                    <a
+                      href="https://www.advokatsamfundet.se/Advokatsamfundet-engelska/Rules-and-regulations/Code-of-Conduct/"
+                      target="_blank"
+                      style={{ color: "00AEEF" }}
+                    >
+                      {t("personalDesc2")}
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
 
             <div
-              className={`b-faq_list_item ${third && "open"}`}
+              className={`b-faq_list_item ${third && "open !max-h-none"}`}
               onClick={() => {
                 setThird(!third);
                 setSecond(false);
@@ -115,11 +114,6 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Fees and Billing")}
                 </span>
-                {third ? (
-                  <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
-                ) : (
-                  <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -127,13 +121,15 @@ const Faq = () => {
                 }`}
               >
                 <div>
-                  <p className="regular grey">{t("feeDesc1")} <br /> <br /> {t("feeDesc2")}</p>
+                  <p className="regular grey">
+                    {t("feeDesc1")} <br /> <br /> {t("feeDesc2")}
+                  </p>
                 </div>
               </div>
             </div>
 
             <div
-              className={`b-faq_list_item ${fourth && "open"}`}
+              className={`b-faq_list_item ${fourth && "open max-h-none"}`}
               onClick={() => {
                 setFourth(!fourth);
                 setSecond(false);
@@ -151,11 +147,6 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Limitation of Liability")}
                 </span>
-                {fourth ? (
-                  <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
-                ) : (
-                  <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -169,7 +160,7 @@ const Faq = () => {
             </div>
 
             <div
-              className={`b-faq_list_item ${fifth && "open"}`}
+              className={`b-faq_list_item ${fifth && "open max-h-none"}`}
               onClick={() => {
                 setFifth(!fifth);
                 setSecond(false);
@@ -187,11 +178,6 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Other Advisors")}
                 </span>
-                {fifth ? (
-                  <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
-                ) : (
-                  <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -205,7 +191,7 @@ const Faq = () => {
             </div>
 
             <div
-              className={`b-faq_list_item ${six && "open"}`}
+              className={`b-faq_list_item ${six && "open max-h-none"}`}
               onClick={() => {
                 setSix(!six);
                 setSecond(false);
@@ -223,11 +209,6 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Intellectual Property Rights")}
                 </span>
-                {six ? (
-                  <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
-                ) : (
-                  <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -240,7 +221,7 @@ const Faq = () => {
               </div>
             </div>
             <div
-              className={`b-faq_list_item ${seventh && "open"}`}
+              className={`b-faq_list_item ${seventh && "open max-h-none"}`}
               onClick={() => {
                 setSeventh(!seventh);
                 setSix(false);
@@ -259,11 +240,6 @@ const Faq = () => {
                 <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Complaints, Time Limits and Dispute Resolution")}
                 </span>
-                {seventh ? (
-                  <AiOutlineMinusCircle style={{ fill: "#00AEEF" }} />
-                ) : (
-                  <AiOutlinePlusCircle style={{ fill: "#00AEEF" }} />
-                )}
               </div>
               <div
                 className={`b-faq_list_item_content ${
@@ -271,7 +247,9 @@ const Faq = () => {
                 }`}
               >
                 <div>
-                  <p className="regular grey">{t("compDesc1")} <br /> <br /> {t("compDesc2")}</p>
+                  <p className="regular grey">
+                    {t("compDesc1")} <br /> <br /> {t("compDesc2")}
+                  </p>
                 </div>
               </div>
             </div>

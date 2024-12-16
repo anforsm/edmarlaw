@@ -4,6 +4,7 @@ import AreaOFExpertise from "../Home/AreaOFExpertise";
 import { useTranslations } from "next-intl";
 const ReferencesPage = () => {
   const t = useTranslations("Index");
+  const tRef = useTranslations("REF");
   return (
     <div className="flex flex-col px-6 lg:gap-y-12 gap-y-0 pb-12">
       <h1 className="text-[60px] font-[300] leading-[76px] tracking-[2%] text-[#00ADEE] pt-14">
@@ -24,8 +25,7 @@ const ReferencesPage = () => {
           author={"Mathias Strand"}
           authorPosition={"Head of Legal, Microsoft Western Europe"}
           body={"quote2"}
-          authorBody={`
-            Microsoft AB is a wholly owned subsidiary to Microsoft Corporation, a multi national software business based in Redmond, Washington, USA. The corporation is one of the largest in the software industry today. Microsoft develops, manufactures and licenses many software products for a number of different computer systems, and Microsoft AB ensures that adaptations and support functions as well as launches of products and services are localized for the region. Microsoft AB has 600 employees and consultants with offices in Kista.`}
+          authorBody={tRef("second")}
         />
         <div
           id="separator"
@@ -34,6 +34,7 @@ const ReferencesPage = () => {
         <QuoteBlock
           t={t}
           author={"Stefan Magnusson"}
+          authorBody={tRef("third")}
           authorPosition={"Vice President, DreamHack AB"}
           body={"quote3"}
         />
@@ -42,6 +43,7 @@ const ReferencesPage = () => {
         <QuoteBlock
           t={t}
           author={"Adam Berg"}
+          authorBody={tRef("first")}
           authorPosition={"Co-founding Partner, Looklet AB"}
           size={"large"}
           body={"quote1"}
@@ -51,6 +53,7 @@ const ReferencesPage = () => {
         <QuoteBlock
           t={t}
           author={"Mattias Unosson"}
+          authorBody={tRef("exmet")}
           authorPosition={"CEO, Exmet AB"}
           body={"quote4"}
         />
@@ -62,6 +65,7 @@ const ReferencesPage = () => {
           t={t}
           author={"Patrik Andersson"}
           authorPosition={"Product Manager, Genero Solutions AB"}
+          authorBody={tRef("genero")}
           body={"quote5"}
         />
       </div>
@@ -69,6 +73,7 @@ const ReferencesPage = () => {
         <QuoteBlock
           t={t}
           author={"Johan Gustafsson"}
+          authorBody={tRef("unomly")}
           authorPosition={"CEO, Unomaly"}
           body={"quote7"}
           size={"large"}
@@ -79,6 +84,7 @@ const ReferencesPage = () => {
           t={t}
           author={"Anders Båth"}
           authorPosition={"Senior Vice President, eBuilder"}
+          authorBody={tRef("eBuilder")}
           body={"quote6"}
         />
         <div
@@ -88,8 +94,9 @@ const ReferencesPage = () => {
         <QuoteBlock
           t={t}
           author={"Jakob Johansson"}
+          authorBody={tRef("gleechi")}
           body={"quote8"}
-          authorPosition={"Sr VP eBuilder"}
+          authorPosition={t("position8")}
         />
       </div>
       <AreaOFExpertise size={"sm"} />
