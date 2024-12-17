@@ -122,7 +122,7 @@ function QuoteBlock({ size, body, authorBody, author, authorPosition, t }) {
         <div className="font-bold">{author}</div>
         <div className="">{authorPosition}</div>
         {authorBody && (
-          <div className="text-[#000000] italic">{authorBody}</div>
+          <div className="text-[#4F4F4F] italic">{authorBody}</div>
         )}
       </div>
     </div>
