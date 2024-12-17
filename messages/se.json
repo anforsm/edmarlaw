@@ -296,7 +296,7 @@
     "protect2": "Alla ändringar i denna personuppgiftspolicy kommer att offentliggöras på vår webbplats. Vänligen besök vår webbplats regelbundet för att hålla dig underrättad om eventuella förändringar.",
     "contact1": "",
     "contact2": "För ytterligare information om EdmarLaws personuppgiftshantering, eller om du har frågor, är du välkommen att kontakta EdmarLaw på:",
-    "contact3": "info@edmarlaw.se.",
+    "contact3": "malin.edmar@edmarlaw.se.",
     "contact4": "Är du missnöjd med hur vi behandlar dina personuppgifter bör du i första hand vända dig till EdmarLaw. Du kan även vända dig till Integritetsskyddsmyndigheten, +46 8 657 61 00,",
     "contact5": "datainspektionen@datainspektionen.se,",
     "contact6": "Box 8114, 104 20 Stockholm."
@@ -512,7 +512,10 @@
     "p8": "Malin Edmar har tjänstgjort på Microsoft Corporations huvudkontor i Seattle i flera år och fortsatt biträda bolaget med kommersiella avtal, produktutveckling och produktlansering. Hon har även arbetat på GitHub, Inc., dels som Senior Commercial Counsel, med fokus på att upprätta och förhandla kommersiellt gångbara, lättfattliga villkor för till exempel PaaS, supporttjänster och samarbeten, dels som Senior Product Counsel, med fokus på utveckling inom AI, säkerhetstjänster, PaaS och utvecklingssamarbeten.",
     "p9": "Dessa erfarenheter har inte bara gett henne ett passionerat intresse för ny teknik och innovation utan även mycket god branschkännedom. Hon förstår IT-bolagens typiska produktcykler och terminologi – en snabb insikt i klienternas verksamhet faller sig därför naturligt.",
     "p10": "Malin har också skrivit fyra böcker, bland annat boken Internetpublicering och sociala medier som hittills har getts ut i sju upplagor (Norstedts Juridik, 2021), och var med i IT- kommissionens IT-rättsliga observatorium under flera år, där hon fick möjlighet att påverka ny lagstiftning inom personuppgiftshantering, telekom, sociala medier och e-handel.",
-    "p11": "När Malin upprättar avtal, förhandlar eller skriver böcker så har hon alltid tekniken i fokus, och ser till att förstå den först innan hon tillämpar juridiken. Dessutom brinner Malin för att göra juridiken begriplig – man ska inte behöva anlita jurister för att förstå vad man har kommit överens om. Det är förmodligen därför hennes böcker är så populära, och används som kurslitteratur vid flera universitet i Sverige."
+    "p11": "När Malin upprättar avtal, förhandlar eller skriver böcker så har hon alltid tekniken i fokus, och ser till att förstå den först innan hon tillämpar juridiken. Dessutom brinner Malin för att göra juridiken begriplig – man ska inte behöva anlita jurister för att förstå vad man har kommit överens om. Det är förmodligen därför hennes böcker är så populära, och används som kurslitteratur vid flera universitet i Sverige.",
+    "Medförfattare till boken": "Medförfattare till boken",
+    "Författare till boken": "Författare till boken",
+    "Redaktör och medförfattare till boken": "Redaktör och medförfattare till boken"
   },
   "NewCardTitles": {
     "AI": "Artificiell intelligens – AI",

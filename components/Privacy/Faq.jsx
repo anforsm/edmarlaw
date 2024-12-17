@@ -537,7 +537,7 @@ const Faq = () => {
                   <br />
                   <p>
                     {t("contact2")}{" "}
-                    <a href="mailto:info@edmarlaw.se">{t("contact3")}</a>{" "}
+                    <a href="mailto:malin.edmar@edmarlaw.se">{t("contact3")}</a>{" "}
                   </p>{" "}
                   <br />
                   <p>

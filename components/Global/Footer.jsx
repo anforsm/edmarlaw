@@ -24,9 +24,9 @@ const Footer = () => {
                 alignItems: "center",
                 gap: "0.5rem",
               }}
-              href="mailto:info@edmarlaw.se"
+              href="mailto:malin.edmar@edmarlaw.se"
             >
-              <AiOutlineMail /> info@edmarlaw.se
+              <AiOutlineMail /> malin.edmar@edmarlaw.se
             </a>
             <div>Advokatfirman EdmarLaw AB</div>
             <a
