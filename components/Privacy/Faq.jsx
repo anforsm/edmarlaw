@@ -114,7 +114,7 @@ const Faq = () => {
                     <div className="div-fixed overflow-x-auto">
                       <div className="[&>*>div]:border [&>*>div]:p-4">
                         <div className="grid grid-cols-2 md:grid-cols-4">
-                          <div className="block md:hidden">
+                          <div className="hidden md:block">
                             <strong>Purpose of the processing</strong>
                           </div>
                           <div className="hidden md:block">
