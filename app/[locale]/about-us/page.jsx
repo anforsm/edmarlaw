@@ -53,7 +53,7 @@ const Page = () => {
               <Link className="underline" href="mailto:malin.edmar@edmarlaw.se">
                 malin.edmar@edmarlaw.se
               </Link>
-              <Link href="tel:+46707111111">+46 707 111 11 11</Link>
+              <Link href="tel:+46707111111">+46 76-774 2220</Link>
             </div>
           </div>
           <div>
