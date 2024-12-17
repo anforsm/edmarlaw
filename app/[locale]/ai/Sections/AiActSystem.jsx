@@ -13,7 +13,7 @@ const AiActSystem = () => {
       </p>
       <ul className="list-disc">
         <br />
-        <li>{t("AiActSystemDesc2")}</li>
+        <div>{t("AiActSystemDesc2")}</div>
         <br />
         <li>{t("AiActSystemDesc3")}</li>
         <br />
@@ -51,7 +51,7 @@ const AiActSystem = () => {
       <br />
       <p>{t("AiActSystemList2Desc6")}</p>
       <br />
-      <p>{t("AiActSystemList2Desc7")}</p>
+      {/* <p>{t("AiActSystemList2Desc7")}</p> */}
       <br />
       <p className=" md:!text-[32px] !text-[22px] font-bold pt-12 pb-4">
         {t("AiActSystemList2Subheader3")}

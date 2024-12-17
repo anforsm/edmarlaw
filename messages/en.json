@@ -429,7 +429,7 @@
   },
   "AiActEu1": {
     "header": "What is the AI Act?",
-    "AiActEu1Desc": "The EU AI Act is the world's first AI law. The purpose of it is to address risks to health, safety and fundamental rights in the development of AI."
+    "AiActEu1Desc": "The EU AI Act is the world's first AI law. The purpose of it is to address risks to health, safety and fundamental rights."
   },
   "AiActEu2": {
     "header": "Why did the EU want to regulate use of Artificial Intelligence?",
@@ -492,7 +492,7 @@
   },
   "AiOffice": {
     "header": "AI Office",
-    "AiOfficeDesc": "The EU Commission has established an AI Office to ensure the implementation of the AI Act, supporting the authorities in member states. The staff includes both technology specialists, lawyers, policy specialists and economists. The AI Office will also directly enforce the rules for general-purpose AI models. In cooperation with AI developers, the scientific community and other stakeholders, the AI Office will coordinate the drafting of codes of practice, conduct testing and evaluation of general-purpose AI models, request information, as well as apply sanctions when necessary."
+    "AiOfficeDesc": "The EU Commission has established an AI Office to ensure the implementation of the AI Act, supporting the authorities in member states. The staff includes both technology specialists, lawyers, policy specialists and economists. The AI Office will also directly enforce the rules for general-purpose AI models. In cooperation with AI developers, the scientific community and other stakeholders, the AI Office will coordinate the drafting of codes of practice, conduct testing and evaluation of general-purpose AI models, request information, as well as apply sanctions when necessary. Just like GDPR, the AI Act includes sanctions and considerable fines for breach of the AI Act requirements."
   },
   "AiPageHeaders": {
     "Ai1": "Artificial Intelligence – AI",
