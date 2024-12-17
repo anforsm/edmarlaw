@@ -349,7 +349,7 @@
   },
   "AiAct": {
     "subHeader": "Ai Act",
-    "p1": "The EU AI Act is the world&#39;s first AI law. The purpose of it is to address risks to health, safety and fundamental rights. Similar to the GDPR, the AI Act applies to both public and private actors inside and outside the EU if the AI system is placed on the EU market, or its use has an impact on people located in the EU.",
+    "p1": "The EU AI Act is the world's first AI law. The purpose of it is to address risks to health, safety and fundamental rights. Similar to the GDPR, the AI Act applies to both public and private actors inside and outside the EU if the AI system is placed on the EU market, or its use has an impact on people located in the EU.",
     "p2": "The obligations of the AI Act can affect both providers (e.g. a developer of a chatbot) and deployers of AI systems (e.g. a customer using this tool).",
     "link": "More on EdmarLaw, AI and the AI Act."
   },

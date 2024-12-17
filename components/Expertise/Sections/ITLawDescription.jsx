@@ -9,7 +9,9 @@ const ITLawDescription = () => {
       <p>{t("p1")}</p>
       <br />
       <p>
-        <strong>{t("listHeader")}</strong>
+        <strong className="text-[22px] md:text-[32px] leading-[28px] md:leading-[48px]">
+          {t("listHeader")}
+        </strong>
       </p>
       <br />
       <ul className="list-disc pl-2">

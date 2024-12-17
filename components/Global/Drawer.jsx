@@ -95,56 +95,56 @@ const Drawer = ({ onClose }) => {
               <Link
                 onClick={onClose}
                 className=" py-2 px-3"
-                href={"/expertise?section=AI"}
+                href={"/expertise?section=ai"}
               >
                 {t("AI")}
               </Link>
               <Link
                 onClick={onClose}
                 className=" py-2 px-3"
-                href={"/expertise?section=AI"}
+                href={"/expertise?section=law"}
               >
                 {t("IT Law")}
               </Link>
               <Link
                 onClick={onClose}
                 className=" py-2 px-3"
-                href={"/expertise?section=AI"}
+                href={"/expertise?section=contract"}
               >
                 {t("Contract Law")}
               </Link>
               <Link
                 onClick={onClose}
                 className=" py-2 px-3"
-                href={"/expertise?section=AI"}
+                href={"/expertise?section=copyright"}
               >
                 {t("Copyright")}
               </Link>
               <Link
                 onClick={onClose}
                 className=" py-2 px-3"
-                href={"/expertise?section=AI"}
+                href={"/expertise?section=privacy"}
               >
                 {t("Privacy Law")}
               </Link>
               <Link
                 onClick={onClose}
                 className=" py-2 px-3"
-                href={"/expertise?section=AI"}
+                href={"/expertise?section=outsourcing"}
               >
                 {t("Outsourcing")}
               </Link>
               <Link
                 onClick={onClose}
                 className=" py-2 px-3"
-                href={"/expertise?section=AI"}
+                href={"/expertise?section=ecom"}
               >
                 {t("E-commerce")}
               </Link>
               <Link
                 onClick={onClose}
                 className=" py-2 px-3"
-                href={"/expertise?section=AI"}
+                href={"/expertise?section=domain"}
               >
                 {t("Domain Names")}
               </Link>
