@@ -3,7 +3,7 @@
   margin: auto;
 }
 .container p {
-  counter-reset: #4f4f4f;
+  counter-reset: #000000;
   line-height: 26px;
 }
 .container {
@@ -11,7 +11,7 @@
   margin: auto;
 }
 .container p {
-  counter-reset: #4f4f4f;
+  counter-reset: #000000;
   line-height: 26px;
 }
 

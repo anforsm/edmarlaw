@@ -6,7 +6,7 @@ const Hero = () => {
   const t = useTranslations("Index");
   return (
     <section>
-      <h1 className="text-3xl">{t("Privacy Policy")}</h1>
+      <h1 className="text-3xl pl-6 pt-6">{t("Privacy Policy")}</h1>
     </section>
   );
 };

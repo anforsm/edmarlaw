@@ -37,13 +37,14 @@ const Navbar = () => {
       <div className="absolute bg-white h-full !max-w-none !w-screen shadow-sm pointer-events-none z-[9999]"></div>
       <div className="w-full flex z-[10001]">
         <div className="w-full flex justify-between items-center">
-          <div className="w-full flex items-center max-h-12">
+          <div className="flex items-center max-h-12">
             <Link
               onClick={() => {
+                document.body.style.overflow = "auto";
                 setIsOpen(false);
               }}
               href={"/"}
-              className="h-full w-full"
+              className="h-full w-fit"
             >
               <Image
                 className="h-12 w-44 object-contain"

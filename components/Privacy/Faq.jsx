@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import "./Faq.css";
-import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai";
 import { useTranslations } from "next-intl";
 
 let defaultExpanded = [
@@ -33,7 +32,6 @@ const Faq = () => {
             <div className={`b-faq_list_item ${expandedBullets[0] && "open"}`}>
               <div
                 className="b-faq_list_item_header flex middle between-xs"
-                role="button"
                 onClick={() => setExpanded(0)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
@@ -63,7 +61,6 @@ const Faq = () => {
             <div className={`b-faq_list_item ${expandedBullets[1] && "open"}`}>
               <div
                 className="b-faq_list_item_header flex middle between-xs"
-                role="button"
                 onClick={() => setExpanded(1)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
@@ -94,7 +91,6 @@ const Faq = () => {
             <div className={`b-faq_list_item ${expandedBullets[2] && "open"}`}>
               <div
                 className="b-faq_list_item_header flex middle between-xs"
-                role="button"
                 onClick={() => setExpanded(2)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
@@ -114,94 +110,94 @@ const Faq = () => {
                 <div>
                   <p className="regular grey">{t("process1")}</p>
                   <br />
-                  <div style={{ overflowX: "scroll", width: "100%" }}>
-                    <table className="table-fixed" width="829">
-                      <tbody className="[&>*>td]:border [&>*>td]:p-4">
-                        <tr>
-                          <td width="200">
+                  <div className="overflow-x-auto">
+                    <div className="div-fixed overflow-x-auto">
+                      <div className="[&>*>div]:border [&>*>div]:p-4">
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div className="block md:hidden">
                             <strong>Purpose of the processing</strong>
-                          </td>
-                          <td width="200">
+                          </div>
+                          <div className="hidden md:block">
                             <strong>Legal grounds for processing</strong>
-                          </td>
-                          <td width="200">
+                          </div>
+                          <div className="hidden md:block">
                             <strong>Categories of personal data</strong>
-                          </td>
-                          <td width="201">
+                          </div>
+                          <div className="hidden md:block">
                             <strong>Storage time</strong>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="200">
+                          </div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>
                             To carry out and administer the mission as well as
                             protect EdmarLaws clients’ interests.
-                          </td>
-                          <td width="200">
-                            In order to fulfill contractual obligations.
-                          </td>
-                          <td width="200">
+                          </div>
+                          <div>
+                            In order to fulfill condivactual obligations.
+                          </div>
+                          <div>
                             Name, email address, address, telephone number,
                             social security number, copies of identity
                             documents, employer as well as other data necessary
                             for the execution of our assignment.
-                          </td>
-                          <td width="201">
-                            For 10 years from a specific contract completion, or
-                            such longer time as the Mission’s nature
+                          </div>
+                          <div>
+                            For 10 years from a specific condivact completion,
+                            or such longer time as the Mission’s nature
                             necessitates.
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="200">
+                          </div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>
                             To perform mandatory conflict of interest checks and
-                            money laundering controls.
-                          </td>
-                          <td width="200">
+                            money laundering condivols.
+                          </div>
+                          <div>
                             EdmarLaws legitimate interest or, where appropriate,
                             to comply with applicable law.
-                          </td>
-                          <td width="200">
-                            Name, e-mail address, registration number, address,
+                          </div>
+                          <div>
+                            Name, e-mail address, regisdivation number, address,
                             telephone number.
-                          </td>
-                          <td width="201">
-                            In 10 years from a specific contract completion, or
+                          </div>
+                          <div>
+                            In 10 years from a specific condivact completion, or
                             such longer time as the Mission’s nature
                             necessitates.
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="200">
+                          </div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>
                             To manage the relationship with suppliers and other
                             parties than clients and counterparties.
-                          </td>
-                          <td width="200">
-                            In order to fulfill contractual commitments,
+                          </div>
+                          <div>
+                            In order to fulfill condivactual commitments,
                             EdmarLaws.
-                          </td>
-                          <td width="200">
-                            Name, e-mail address, registration number, address,
+                          </div>
+                          <div>
+                            Name, e-mail address, regisdivation number, address,
                             telephone number.
-                          </td>
-                          <td width="201">
+                          </div>
+                          <div>
                             During the term of this agreement and for one year
                             thereafter, unless a longer time is required to make
                             legal claims.
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="200">To manage job applications.</td>
-                          <td width="200">
+                          </div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>To manage job applications.</div>
+                          <div>
                             Other legitimate interests during initial storage
-                            period.&nbsp;Then further treatment be based on
+                            period.&nbsp;Then further diveatment be based on
                             consent.
-                          </td>
-                          <td width="200">
+                          </div>
+                          <div>
                             Name, email address, address, telephone number and
                             any other information which the applicant chooses to
                             submit in their application.
-                          </td>
-                          <td width="201">
+                          </div>
+                          <div>
                             For published vacancies:<p></p>
                             <p>
                               Until the position is filled, then with any
@@ -209,80 +205,72 @@ const Faq = () => {
                             </p>
                             <p>For unsolicited applications:</p>
                             <p>Consent for continued storage is appropriate.</p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="200">
-                            For accounting and billing purposes.
-                          </td>
-                          <td width="200">
-                            In order to carry out EdmarLaws contractual
+                          </div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>For accounting and billing purposes.</div>
+                          <div>
+                            In order to carry out EdmarLaws condivactual
                             commitments and to comply with applicable law.
-                          </td>
-                          <td width="200">
-                            Name, email address, address, registration number,
+                          </div>
+                          <div>
+                            Name, email address, address, regisdivation number,
                             telephone number.
-                          </td>
-                          <td width="201">
+                          </div>
+                          <div>
                             Until the debt is paid, and then for up to seven
                             years in accordance with Swedish accounting rules.
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="200">
+                          </div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>
                             To invite clients to events or to provide other
                             relevant information.
-                          </td>
-                          <td width="200">Other legitimate interests.</td>
-                          <td width="200">Email address.</td>
-                          <td width="201">
+                          </div>
+                          <div>Other legitimate interests.</div>
+                          <div>Email address.</div>
+                          <div>
                             As long as the EdmarLaw sends out such information,
                             unless the recipient declines.
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="200">
-                            To manage and assist those who contact us.
-                          </td>
-                          <td width="200">Other legitimate interests.</td>
-                          <td width="200">
-                            Name, email address, phone number.
-                          </td>
-                          <td width="201">
+                          </div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>To manage and assist those who contact us.</div>
+                          <div>Other legitimate interests.</div>
+                          <div>Name, email address, phone number.</div>
+                          <div>
                             As long as it is required to assist in the
                             contacting us.
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="200">
+                          </div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>
                             For statistical purposes related to how visitors use
                             the EdmarLaws website.
-                          </td>
-                          <td width="200">Other legitimate interests.</td>
-                          <td width="200">
+                          </div>
+                          <div>Other legitimate interests.</div>
+                          <div>
                             The categories listed under the heading Cookies.
-                          </td>
-                          <td width="201">6 months.</td>
-                        </tr>
-                        <tr>
-                          <td width="200">
+                          </div>
+                          <div>6 months.</div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>
                             In order to comply with applicable law, such as the
                             Bookkeeping Act.
-                          </td>
-                          <td width="200">
-                            In order to comply with applicable law.
-                          </td>
-                          <td width="200">
-                            Name, email address, address, registration number,
+                          </div>
+                          <div>In order to comply with applicable law.</div>
+                          <div>
+                            Name, email address, address, regisdivation number,
                             telephone number.
-                          </td>
-                          <td width="201">
+                          </div>
+                          <div>
                             In accordance with the law (according to Swedish
                             accounting rules for seven years).
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -291,7 +279,6 @@ const Faq = () => {
             <div className={`b-faq_list_item ${expandedBullets[3] && "open"}`}>
               <div
                 className="b-faq_list_item_header flex middle between-xs"
-                role="button"
                 onClick={() => setExpanded(3)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
@@ -313,80 +300,74 @@ const Faq = () => {
                     {t("transfer1")} <br /> <br /> {t("transfer2")}
                   </p>{" "}
                   <br />
-                  <div style={{ overflowX: "scroll", width: "100%" }}>
-                    <table width="821">
-                      <tbody className="[&>*>td]:border [&>*>td]:p-4">
-                        <tr>
-                          <td width="198">
-                            <strong>Subcontractor (name service)</strong>
-                          </td>
-                          <td width="198">
+                  <div>
+                    <div className="overflow-x-auto">
+                      <div className="[&>*>div]:border [&>*>div]:p-4">
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>
+                            <strong>Subcondivactor (name service)</strong>
+                          </div>
+                          <div>
                             <strong>
-                              Country/region where the service performed
+                              Coundivy/region where the service performed
                             </strong>
-                          </td>
-                          <td width="198">
+                          </div>
+                          <div>
                             <strong>
-                              Mechanism for transfer to a third country
+                              Mechanism for transfer to a third coundivy
                             </strong>
-                          </td>
-                          <td width="199">
+                          </div>
+                          <div>
                             <strong>Type of service</strong>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="198">Dropbox, Inc.</td>
-                          <td width="198">EU/EEA/United States</td>
-                          <td width="198">
+                          </div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>Dropbox, Inc.</div>
+                          <div>EU/EEA/United States</div>
+                          <div>
                             Certification according to EU-U.S. Data Privacy
                             Framework
-                          </td>
-                          <td width="199">
-                            Cloud computing, storage and backup
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="198">Google, Inc. (Google Analytics)</td>
-                          <td width="198">EU/EEA/ United States</td>
-                          <td width="198">
+                          </div>
+                          <div>Cloud computing, storage and backup</div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>Google, Inc. (Google Analytics)</div>
+                          <div>EU/EEA/ United States</div>
+                          <div>
                             Certification according to EU-U.S. Data Privacy
                             Framework
-                          </td>
-                          <td width="199">
-                            Statistics related to our Web site
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="198">K10 Redovisning i Kalmar AB</td>
-                          <td width="198">EU</td>
-                          <td width="198">–</td>
-                          <td width="199">Bookkeeping and accounting</td>
-                        </tr>
-                        <tr>
-                          <td width="198">Microsoft (Office 365)</td>
-                          <td width="198">EU/EEA/ United States</td>
-                          <td width="198">
+                          </div>
+                          <div>Statistics related to our Web site</div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>K10 Redovisning i Kalmar AB</div>
+                          <div>EU</div>
+                          <div>–</div>
+                          <div>Bookkeeping and accounting</div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>Microsoft (Office 365)</div>
+                          <div>EU/EEA/ United States</div>
+                          <div>
                             Certification according to EU-U.S. Data Privacy
                             Framework
-                          </td>
-                          <td width="199">
-                            Cloud computing, storage and backup
-                          </td>
-                        </tr>
-                        <tr>
-                          <td width="198">Netintegrate Sweden AB</td>
-                          <td width="198">EU</td>
-                          <td width="198">–</td>
-                          <td width="199">It Support</td>
-                        </tr>
-                        <tr>
-                          <td width="198">P &amp; K TimeApp AB (TimeApp)</td>
-                          <td width="198">EU</td>
-                          <td width="198">–</td>
-                          <td width="199">Time tracking and invoicing</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                          </div>
+                          <div>Cloud computing, storage and backup</div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>Netintegrate Sweden AB</div>
+                          <div>EU</div>
+                          <div>–</div>
+                          <div>It Support</div>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4">
+                          <div>P &amp; K TimeApp AB (TimeApp)</div>
+                          <div>EU</div>
+                          <div>–</div>
+                          <div>Time divacking and invoicing</div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <br />
                   <p>
@@ -399,7 +380,6 @@ const Faq = () => {
             <div className={`b-faq_list_item ${expandedBullets[4] && "open"}`}>
               <div
                 className="b-faq_list_item_header flex middle between-xs"
-                role="button"
                 onClick={() => setExpanded(4)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
@@ -459,7 +439,6 @@ const Faq = () => {
             <div className={`b-faq_list_item ${expandedBullets[5] && "open"}`}>
               <div
                 className="b-faq_list_item_header flex middle between-xs"
-                role="button"
                 onClick={() => setExpanded(5)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
@@ -484,7 +463,6 @@ const Faq = () => {
             <div className={`b-faq_list_item ${expandedBullets[6] && "open"}`}>
               <div
                 className="b-faq_list_item_header flex middle between-xs"
-                role="button"
                 onClick={() => setExpanded(6)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
@@ -512,7 +490,6 @@ const Faq = () => {
             <div className={`b-faq_list_item ${expandedBullets[7] && "open"}`}>
               <div
                 className="b-faq_list_item_header flex middle between-xs"
-                role="button"
                 onClick={() => setExpanded(7)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>
@@ -539,7 +516,6 @@ const Faq = () => {
             <div className={`b-faq_list_item ${expandedBullets[8] && "open"}`}>
               <div
                 className="b-faq_list_item_header flex middle between-xs"
-                role="button"
                 onClick={() => setExpanded(8)}
               >
                 <span className="regular" style={{ fontWeight: "600" }}>

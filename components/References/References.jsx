@@ -121,7 +121,7 @@ function QuoteBlock({ size, body, authorBody, author, authorPosition, t }) {
       <div className="flex flex-col text-sm gap-y-2">
         <div className="font-bold">{author}</div>
         <div className="">{authorPosition}</div>
-        {authorBody && <div className="text-[#4F4F4F]">{authorBody}</div>}
+        {authorBody && <div className="text-[#000000]">{authorBody}</div>}
       </div>
     </div>
   );

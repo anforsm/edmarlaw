@@ -28,7 +28,7 @@
   font-weight: 600;
 }
 .container p {
-  color: #4f4f4f;
+  /* color: #000000; */
   line-height: 26px;
 }
 .infoBox {
@@ -88,7 +88,7 @@
   transition: 200ms ease-out;
 }
 .secondRow ul li {
-  color: #4f4f4f;
+  /* color: #000000; */
   padding: 1rem 0;
   margin-left: 1rem;
 }
@@ -134,7 +134,7 @@
     font-weight: 600;
   }
   .container p {
-    color: #4f4f4f;
+    /* color: #000000; */
     line-height: 26px;
   }
   .infoBox {
@@ -195,7 +195,7 @@
     transition: 200ms ease-out;
   }
   .secondRow ul li {
-    color: #4f4f4f;
+    /* color: #000000; */
     padding: 1rem 0;
     margin-left: 1rem;
   }
