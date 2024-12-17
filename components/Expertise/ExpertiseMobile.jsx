@@ -6,6 +6,7 @@ import { useState } from "react";
 
 export default function ExpertiseMobile({ data, translate }) {
   const tExpertise = useTranslations("Index");
+  const tCard = useTranslations("Cards");
   const t = useTranslations(translate);
   const pathname = useSearchParams();
 
@@ -18,12 +19,13 @@ export default function ExpertiseMobile({ data, translate }) {
         {data.map((item) => {
           return (
             <ExpandCard
-              subHeader={item.subheader}
+              subHeader={item?.subheader}
+              subTitle={tCard(item?.subheader)}
               params={pathname.get("section")}
               t={t}
-              key={item.title}
-              title={item.title}
-              description={item.description}
+              key={item?.title}
+              title={item?.title}
+              description={item?.description}
             />
           );
         })}
@@ -32,7 +34,7 @@ export default function ExpertiseMobile({ data, translate }) {
   );
 }
 
-function ExpandCard({ title, description, t, params, subHeader }) {
+function ExpandCard({ title, description, t, params, subHeader, subTitle }) {
   const [isOpen, setIsOpen] = useState(
     () => params?.toLowerCase() === subHeader?.toLowerCase()
   );
@@ -83,6 +85,23 @@ function ExpandCard({ title, description, t, params, subHeader }) {
           isOpen ? "opacity-100 mt-4" : "max-h-0 opacity-0"
         }`}
       >
+        <h3
+          style={{
+            fontSize: 20,
+            padding: "0 16px 24px 0",
+            fontWeight: 400,
+            //styleName: Subheading;
+            fontSize: "22px",
+            fontWeight: 700,
+            color: "#1D1D1D",
+            lineHeight: "30.8px",
+            textAlign: "left",
+            textUnderlinePosition: "from-font",
+            textDecorationSkipInk: "none",
+          }}
+        >
+          {subTitle}
+        </h3>
         <div className="">{description}</div>
       </div>
     </div>
