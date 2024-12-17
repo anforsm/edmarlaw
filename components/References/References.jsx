@@ -94,9 +94,9 @@ const ReferencesPage = () => {
         <QuoteBlock
           t={t}
           author={"Jakob Johansson"}
+          authorPosition={t("position8")}
           authorBody={tRef("gleechi")}
           body={"quote8"}
-          authorPosition={t("position8")}
         />
       </div>
       <AreaOFExpertise size={"sm"} />
