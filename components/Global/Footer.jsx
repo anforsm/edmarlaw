@@ -45,7 +45,6 @@ const Footer = () => {
           {/* <hr /> */}
           <div className="flex flex-col md:flex-row md:gap-x-16 pt-8 sm:pt-0 gap-y-8">
             <p>
-              {" "}
               <Link style={{ color: "" }} href={"/terms"}>
                 {t("Terms and Conditions")}{" "}
               </Link>{" "}

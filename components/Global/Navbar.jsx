@@ -69,7 +69,7 @@ const Navbar = () => {
               <span>{t("REFERENCES")}</span>
             </Link>
             <Link className="flex w-max" href={"/about-us"}>
-              <span>{t("ABOUT")}</span>
+              <span>{t("aboutTitle")}</span>
             </Link>
             {/* <div class="dropdown">
               <select>
