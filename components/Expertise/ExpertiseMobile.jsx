@@ -57,7 +57,7 @@ function ExpandCard({ title, description, t }) {
           isOpen ? "opacity-100 mt-4" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="text-gray-600">{description}</div>
+        <div className="">{description}</div>
       </div>
     </div>
   );
