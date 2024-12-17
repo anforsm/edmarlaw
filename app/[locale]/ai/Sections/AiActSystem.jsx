@@ -7,58 +7,40 @@ const AiActSystem = () => {
   return (
     <div className={styles.container}>
       <p>{t("AiActSystemDesc")}</p>
-      <br />
-      <p className="font-bold md:!text-[32px] !text-[22px] pb-4">
+      <p className="font-bold md:!text-[32px] !text-[22px] pb-4 pt-12">
         {t("AiActSystemList1")}
       </p>
       <ul className="list-disc">
-        <br />
-        <div>{t("AiActSystemDesc2")}</div>
-        <br />
-        <li>{t("AiActSystemDesc3")}</li>
-        <br />
-        <li>{t("AiActSystemDesc4")}</li>
-        <br />
-        <li>{t("AiActSystemDesc5")}</li>
-        <br />
-        <li>{t("AiActSystemDesc6")}</li>
-        <br />
-        <li>{t("AiActSystemDesc7")}</li>
-        <br />
-        <li>{t("AiActSystemDesc8")}</li>
-        <br />
-        <li>{t("AiActSystemDesc9")}</li>
+        <div className="">{t("AiActSystemDesc2")}</div>
+        <div className="flex flex-col gap-y-2">
+          <li>{t("AiActSystemDesc3")}</li>
+          <li>{t("AiActSystemDesc4")}</li>
+          <li>{t("AiActSystemDesc5")}</li>
+          <li>{t("AiActSystemDesc6")}</li>
+          <li>{t("AiActSystemDesc7")}</li>
+          <li>{t("AiActSystemDesc8")}</li>
+          <li>{t("AiActSystemDesc9")}</li>
+        </div>
       </ul>
-      <br />
-      <p className=" md:!text-[32px] !text-[22px] font-bold pb-4">
+      <p className=" md:!text-[32px] !text-[22px] font-bold pt-12 pb-4">
         {t("AiActSystemList2Subheader")}
       </p>
-      <ul className="list-disc">
+      <ul className="list-disc flex flex-col gap-y-2">
         <div>{t("AiActSystemList2Desc")}</div>
-        <br />
         <li>{t("AiActSystemList2Desc2")}</li>
-        <br />
         <li>{t("AiActSystemList2Desc3")}</li>
-        <br />
         <li>{t("AiActSystemList2Desc4")}</li>
-        <br />
         <li>{t("AiActSystemList2Desc5")}</li>
-        <br />
       </ul>
       <p className=" md:!text-[32px] !text-[22px] font-bold pt-12 pb-4">
         {t("AiActSystemList2Subheader2")}
       </p>
-      <br />
       <p>{t("AiActSystemList2Desc6")}</p>
-      <br />
       {/* <p>{t("AiActSystemList2Desc7")}</p> */}
-      <br />
       <p className=" md:!text-[32px] !text-[22px] font-bold pt-12 pb-4">
         {t("AiActSystemList2Subheader3")}
       </p>
-      <br />
       <p>{t("AiActSystemList2Desc8")}</p>
-      <br />
     </div>
   );
 };
