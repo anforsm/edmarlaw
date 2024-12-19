@@ -115,7 +115,8 @@
     "aiDesc4": "EU:s AI Act om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter. I likhet med GDPR gäller AI-lagen för både offentliga och privata aktörer inom och utanför EU om AI-systemet släpps ut på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU. AI Act gäller för både leverantörer/providers (t.ex. en utvecklare av en chattrobot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
     "aiLink": "Mer om EdmarLaw, AI och AI Act.",
     "ReadMoreGdpr": "Read more about GDPR",
-    "MainTitle": "Navigating Legal Waters with Excellence"
+    "MainTitle": "Navigating Legal Waters with Excellence",
+    "Vanliga uppdrag": "Common assignments"
   },
   "GDPR": {
     "What is GDPR?": "What is GDPR?",
@@ -175,7 +176,7 @@
   "REF": {
     "first": "Looklet is a Swedish company, world leader in digital display for fashion. The company invests a lot in innovation and development of its product and has the world’s largest fashion and e-commerce companies as customers. Looklet builds entire photo studios for its customers and has developed both the hardware and software itself.  Looklet has offices in Stockholm, Paris and New York.",
     "second": "Microsoft AB is a wholly owned subsidiary to Microsoft Corporation, a multi national software business based in Redmond, Washington, USA. The corporation is one of the largest in the software industry today. Microsoft develops, manufactures and licenses many software products for a number of different computer systems, and Microsoft AB ensures that adaptations and support functions as well as launches of products and services are localized for the region. Microsoft AB has 600 employees and consultants with offices in Kista.",
-    "third": "DreamHack is the world’s largest computer festival. DreamHacks core and origin are the two huge festivals DreamHack Summer in June and DreamHack Winter in November with more than 20.000 computers connected in one LAN. DreamHack events are also organized in Spain, Rumania, France, Russia and England, during 2016 also in Germany and USA. During 2015, the events will have more than 130.000 visitors. DreamHack is also a production company focusing on gaming and esport, with close to 160 million viewers via TV and streams in 100 countries (2015).",
+    "third": "DreamHack is the world’s largest computer festival. DreamHacks core and origin are the two huge festivals DreamHack Summer in June and DreamHack Winter in November with more than 20.000 computers connected in one LAN.",
     "exmet": "Exmet AB develops patented technology for additive manufacturing techniques (3D printing) of  amorphous metal alloys and nano composites. The company was founded in 2009.",
     "genero": "Genero Solutions provides sales support and sales control as a cloud service to the largest players in  the Swedish food industry. The utility software of the company helps manage the entire sales process, including management, reporting, follow-up and optimization. The company has twenty employees at its Stockholm office.",
     "eBuilder": "eBuilder has developed a cloud service in ”Customer Care”, which makes it possible for customers to enhance and develop its customer relations. eBuilder has customers in more than 70 countries and its solution is applied by more than five million end users. The principal place of business is in Kista, Sweden, where fifty employees are located, although eBuilder has offices in China, Australia and Sri Lanka as well.",
@@ -349,7 +350,7 @@
     "p2": "EdmarLaw can assist you whether you develop AI systems or want to use them in your work environment. We have extensive experience licensing AI technology and help with legal issues in the AI development work and life cycle."
   },
   "AiAct": {
-    "subHeader": "Ai Act",
+    "subHeader": "AI Act",
     "p1": "The EU AI Act is the world's first AI law. The purpose of it is to address risks to health, safety and fundamental rights. Similar to the GDPR, the AI Act applies to both public and private actors inside and outside the EU if the AI system is placed on the EU market, or its use has an impact on people located in the EU.",
     "p2": "The obligations of the AI Act can affect both providers (e.g. a developer of a chatbot) and deployers of AI systems (e.g. a customer using this tool).",
     "link": "More on EdmarLaw, AI and the AI Act."
@@ -445,7 +446,7 @@
   },
   "AiActSystem": {
     "header": "How does the AI Act differentiate between AI systems?",
-    "AiActSystemDesc": "The Ai Act has a risk-based approach for it's rules",
+    "AiActSystemDesc": "The AI Act has a risk-based approach for it's rules",
     "AiActSystemList1": "Unacceptable risk",
     "AiActSystemDesc2": "AI systems that violate fundamental rights are considered particularly harmful. Uses of such AI systems will be banned. Examples of such violation of fundamental rights are:",
     "AiActSystemDesc3": "Exploitation of vulnerabilities of persons, manipulation and use of subliminal techniques;",

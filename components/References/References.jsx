@@ -8,7 +8,7 @@ const ReferencesPage = () => {
   return (
     <div className="flex flex-col px-6 lg:gap-y-12 gap-y-0 pb-12">
       <h1 className="text-[60px] font-[300] leading-[76px] tracking-[2%] text-[#00ADEE] pt-14">
-        Referenser
+        {t("References")}
       </h1>
       <div className="py-12 border-b border-gray-200">
         <QuoteBlock

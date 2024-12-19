@@ -108,7 +108,8 @@
     "TelDesc4": "EdmarLaw har kunskapen, branschkännedomen och vanan att biträda telekom- och internetoperatörer vid bl.a. avtalsförhandlingar och regulatoriska frågor, ansvars- och yttrandefrihetsfrågor.",
     "expertiseTitleShort": "Expertis",
     "ReadMoreGdpr": "Läs mer om GDPR",
-    "MainTitle": "Navigera i juridikens vatten med excellens"
+    "MainTitle": "Navigating Legal Waters with Excellence",
+    "Vanliga uppdrag": "Vanliga uppdrag"
   },
   "GDPR": {
     "What is GDPR?": "Vad är GDPR?",
@@ -168,7 +169,7 @@
   "REF": {
     "first": "Looklet är ett svenskt bolag som är världsledande inom digital display för mode. Bolaget investerar mycket i innovation och utveckling av sin produkt och har världens största mode- och e-handelsföretag som kunder. Looklet bygger hela fotostudios från grunden till sina kunder och har utvecklat både hård- och mjukvaran själva.  Looklet har kontor i Stockholm, Paris och New York.",
     "second": "Microsoft AB är ett helägt dotterbolag till Microsoft Corporation, ett multinationellt datorföretag baserat i Redmond, Washington, USA. Företaget är i dag världens största inom programvaruutveckling. Microsoft utvecklar, tillverkar och licensierar många programprodukter för ett flertal olika datorsystem, och Microsoft AB ser till att anpassningar, support, stödfunktioner liksom lanseringar av produkter och tjänster fungerar på den lokala marknaden. Microsoft AB har 600 anställda och konsulter med kontor i Kista.",
-    "third": "DreamHack är världens största datorfestival. DreamHacks kärna och ursprung är de två stora festivalerna DreamHack Summer i juni och DreamHack Winter i november med över 20.000 datorer sammankopplade i ett LAN. DreamHack-event finns också i Spanien, Rumänien, Frankrike, Ryssland och England, under 2016 även i Tyskland och USA. Under 2015 beräknas evenemangen ha över 130.000 besökare. DreamHack är också ett produktionsbolag med fokus på gaming och esport, med närmare 160 miljoner tittare via TV och streams i 100 länder (2015).",
+    "third": "DreamHack är världens största datorfestival. DreamHacks kärna och ursprung är de två stora festivalerna DreamHack Summer i juni och DreamHack Winter i november med över 20.000 datorer sammankopplade i ett LAN.",
     "exmet": "Exmet AB utvecklar patentskyddad teknologi för additiv tillverkningsteknik (3D printing) av amorfa metallegeringar och nanokompositer. Bolaget grundades år 2009.",
     "genero": "Genero Solutions tillhandahåller säljstöd och säljstyrning som molntjänst för de största aktörerna inom den svenska livsmedelshandeln. Bolagets verktyg hanterar hela säljprocessen, liksom styrning, rapportering, uppföljning och optimering. Företaget har ett tjugotal anställda vid kontoret i Stockholm.",
     "eBuilder": "eBuilder har utvecklat en molntjänst inom ”Customer Care” som gör det möjligt för dess kunder att förbättra och vidareutveckla sina kundrelationer. eBuilder har kunder i över 70 länder och deras lösning tillämpas av fler än fem miljoner slutanvändare. Bolagets säte är i Kista, där ett femtiotal anställda sitter, men de har även kontor i Kina, Australien och Sri Lanka.",
@@ -343,8 +344,8 @@
     "p2": "EdmarLaw kan hjälpa er oavsett om ni utvecklar AI-system eller vill använda dem i er arbetsmiljö. Vi har stor erfarenhet av licensiering av AI-teknik och hjälper till med juridiska frågor vid AI-utvecklingsarbetet och under dess livscykel."
   },
   "AiAct": {
-    "subHeader": "Ai Act",
-    "p1": "EU:s AI Act om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter. I likhet med GDPR gäller AI-lagen för både offentliga och privata aktörer inom och utanför EU om AI-systemet släpps ut på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU.",
+    "subHeader": "AI-förordningen",
+    "p1": "EU:s AI-förordning om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter. I likhet med GDPR gäller AI-lagen för både offentliga och privata aktörer inom och utanför EU om AI-systemet släpps ut på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU.",
     "p2": "AI Act gäller för både leverantörer/providers (t.ex. en utvecklare av en chattrobot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
     "link": "Mer om EdmarLaw, AI och AI Act."
   },

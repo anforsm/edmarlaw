@@ -17,8 +17,8 @@ const Publisher = () => {
             "/9789139023012_383x_internetpublicering-och-sociala-medier-en-juridisk-vagledning_haftad.png"
           }
           alt=""
-          width={400}
-          height={400}
+          width={1200}
+          height={1200}
         />
       </div>
       <div className={"col-span-6 flex justify-end"}>
