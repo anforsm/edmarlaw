@@ -30,6 +30,7 @@ const Footer = () => {
             </a>
             <div>Advokatfirman EdmarLaw AB</div>
             <a
+              className="pb-8 lg:pb-0"
               style={{
                 color: "black",
                 display: "flex",
@@ -55,7 +56,11 @@ const Footer = () => {
             </p>
             <p>© Advokatfirman EdmarLaw AB</p>
           </div>
-          <div className={"w-full flex justify-center pt-16 items-end"}>
+          <div
+            className={
+              "w-full flex justify-center pt-16 items-end md:px-0 px-10"
+            }
+          >
             {/* <Image
               className="w-full"
               width={1000}
@@ -64,7 +69,7 @@ const Footer = () => {
               alt=""
             /> */}
             <svg
-              width="1082"
+              width="600"
               viewBox="0 0 1082 178"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

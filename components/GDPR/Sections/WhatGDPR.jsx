@@ -6,7 +6,6 @@ const WhatGDPR = () => {
   return (
     <div>
       <br />
-      <br />
       <p>
         {t("what1")}
         <br /> <br /> {t("what2")}

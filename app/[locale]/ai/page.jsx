@@ -492,32 +492,23 @@ const AiPage = () => {
               <h2
                 data-id={`container-${index}`}
                 ref={(el) => (containerRefs.current[index] = el)}
-                style={{
-                  fontSize: 40,
-                  fontWeight: 700,
-                  color: "#00ADEE",
-                }}
+                style={
+                  val.title === "Ai1"
+                    ? {
+                        fontSize: 28,
+                        fontWeight: 700,
+                        color: "#00ADEE",
+                      }
+                    : {
+                        fontSize: 20,
+                        fontWeight: 700,
+                        color: "#000000",
+                      }
+                }
               >
                 {t(val.title)}
               </h2>{" "}
               <br />
-              <h3
-                style={{
-                  fontSize: 20,
-                  padding: "0 16px 24px 0",
-                  fontWeight: 400,
-                  //styleName: Subheading;
-                  fontSize: "22px",
-                  fontWeight: 700,
-                  color: "#1D1D1D",
-                  lineHeight: "30.8px",
-                  textAlign: "left",
-                  textUnderlinePosition: "from-font",
-                  textDecorationSkipInk: "none",
-                }}
-              >
-                {/* {tCard(val.subheader)} */}
-              </h3>
               {val.description}
             </div>
           ))}

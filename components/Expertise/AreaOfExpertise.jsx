@@ -476,7 +476,7 @@ const AreaOfExpertise = () => {
                 data-id={`container-${index}`}
                 ref={(el) => (containerRefs.current[index] = el)}
                 style={{
-                  fontSize: 40,
+                  fontSize: 28,
                   fontWeight: 700,
                   color: "#00ADEE",
                 }}
@@ -486,11 +486,10 @@ const AreaOfExpertise = () => {
               <br />
               <h3
                 style={{
-                  fontSize: 20,
+                  fontSize: "20px",
                   padding: "0 16px 24px 0",
                   fontWeight: 400,
                   //styleName: Subheading;
-                  fontSize: "22px",
                   fontWeight: 700,
                   color: "#1D1D1D",
                   lineHeight: "30.8px",

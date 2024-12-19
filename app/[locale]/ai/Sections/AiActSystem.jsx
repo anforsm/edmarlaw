@@ -7,13 +7,13 @@ const AiActSystem = () => {
   return (
     <div className={styles.container}>
       <p>{t("AiActSystemDesc")}</p>
-      <p className="font-bold md:!text-[32px] !text-[22px] pb-4 pt-12">
+      <p className="!font-semibold !text-[18px] pb-4 pt-12">
         {t("AiActSystemList1")}
       </p>
       <ul className="list-disc">
         <div className="">{t("AiActSystemDesc2")}</div>
         <div className="flex flex-col gap-y-2">
-          <li>{t("AiActSystemDesc3")}</li>
+          <li className="pt-2">{t("AiActSystemDesc3")}</li>
           <li>{t("AiActSystemDesc4")}</li>
           <li>{t("AiActSystemDesc5")}</li>
           <li>{t("AiActSystemDesc6")}</li>
@@ -22,7 +22,7 @@ const AiActSystem = () => {
           <li>{t("AiActSystemDesc9")}</li>
         </div>
       </ul>
-      <p className=" md:!text-[32px] !text-[22px] font-bold pt-12 pb-4">
+      <p className=" !text-[18px] !font-semibold pt-12 pb-4">
         {t("AiActSystemList2Subheader")}
       </p>
       <ul className="list-disc flex flex-col gap-y-2">
@@ -32,12 +32,12 @@ const AiActSystem = () => {
         <li>{t("AiActSystemList2Desc4")}</li>
         <li>{t("AiActSystemList2Desc5")}</li>
       </ul>
-      <p className=" md:!text-[32px] !text-[22px] font-bold pt-12 pb-4">
+      <p className="!text-[18px] !font-semibold pt-12 pb-4">
         {t("AiActSystemList2Subheader2")}
       </p>
       <p>{t("AiActSystemList2Desc6")}</p>
       {/* <p>{t("AiActSystemList2Desc7")}</p> */}
-      <p className=" md:!text-[32px] !text-[22px] font-bold pt-12 pb-4">
+      <p className="!text-[18px] !font-semibold pt-12 pb-4">
         {t("AiActSystemList2Subheader3")}
       </p>
       <p>{t("AiActSystemList2Desc8")}</p>

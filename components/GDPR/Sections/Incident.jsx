@@ -6,7 +6,6 @@ const Incident = () => {
   return (
     <div>
       <br />
-      <br />
       <p>{t("incident1")}</p>
       <br />
       <p>{t("incident2")}</p>

@@ -13,10 +13,8 @@ const Publisher = () => {
       <div className={"lg:col-span-6 lg:grid lg:grid-cols-12"}>
         <Image
           className="w-full h-full lg:col-span-8 shadow lg:shadow-none"
-          src={
-            "/9789139023012_383x_internetpublicering-och-sociala-medier-en-juridisk-vagledning_haftad.png"
-          }
-          alt=""
+          src={"/9789139311980.png"}
+          alt="Bokomslag"
           width={1200}
           height={1200}
         />

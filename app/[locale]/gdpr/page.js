@@ -316,11 +316,18 @@ const AreaOfExpertise = () => {
               <h2
                 data-id={`container-${index}`}
                 ref={(el) => (containerRefs.current[index] = el)}
-                style={{
-                  fontSize: 40,
-                  fontWeight: 700,
-                  color: "#00ADEE",
-                }}
+                style={
+                  val.title === "What is GDPR?"
+                    ? {
+                        fontSize: 28,
+                        fontWeight: 700,
+                        color: "#00ADEE",
+                      }
+                    : {
+                        fontSize: 20,
+                        fontWeight: 700,
+                      }
+                }
               >
                 {t(val.title)}
               </h2>

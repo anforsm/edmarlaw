@@ -6,7 +6,6 @@ const Privacy = () => {
   return (
     <div>
       <br />
-      <br />
       <p>{t("privacy1")}</p> <br />
       <p>{t("privacy2")}</p> <br />
       <p>{t("privacy3")}</p> <br />

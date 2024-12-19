@@ -6,8 +6,7 @@ const DO = () => {
   return (
     <div>
       <br />
-      <br />
-      <p>{t("doDesc")}</p> <br />
+      <p>{t("doDesc")}</p>
       <ul className="list-disc p-4">
         <li>{t("first")}</li>
         <li>{t("second")}</li>

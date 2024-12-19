@@ -86,6 +86,7 @@ const AreaOFExpertise = ({ size }) => {
     },
     {
       title: "GDPR",
+      gdprLink: true,
       description: "privacy",
       image: "/techlogo.png",
       svg: (
@@ -387,7 +388,7 @@ const AreaOFExpertise = ({ size }) => {
         data-size={size}
         className="lg:text-3xl data-[size=sm]:px-0 lg:px-6 px-0 text-[#1D1D1D] font-semibold text-[28px] leading-[39.2px]"
       >
-        {size === "sm" ? t("expertiseTitle") : t("Vanliga uppdrag")}
+        {size !== "sm" ? t("expertiseTitle") : t("Vanliga uppdrag")}
       </h1>
       <br />
       <div
@@ -397,7 +398,11 @@ const AreaOFExpertise = ({ size }) => {
         {size !== "sm"
           ? areasOfExpertise.map((item, index) => (
               <Card
-                link={`/expertise?section=${item.description}`}
+                link={
+                  item?.gdprLink
+                    ? `/gdpr`
+                    : `/expertise?section=${item.description}`
+                }
                 size={size}
                 key={item.title}
                 title={tTest(item.title)}

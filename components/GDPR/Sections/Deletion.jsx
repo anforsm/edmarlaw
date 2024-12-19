@@ -6,7 +6,6 @@ const Deletion = () => {
   return (
     <div>
       <br />
-      <br />
       <p>{t("delete1")}</p> <br />
       <p>{t("delete2")}</p>
     </div>

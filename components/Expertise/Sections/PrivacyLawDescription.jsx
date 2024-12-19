@@ -14,7 +14,7 @@ const PrivacyLawDescription = () => {
       <p>{t("p5")}</p> <br />
       <p>{t("p6")}</p>
       <br />
-      <p className="font-bold text-[32px] leading-[48px]">{t("listHeader")}</p>
+      <p className="font-bold text-[20px] leading-[28px]">{t("listHeader")}</p>
       <ul className="list-disc pl-2">
         <br />
         <li>{t("list1")}</li>

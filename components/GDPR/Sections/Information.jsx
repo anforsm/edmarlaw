@@ -6,14 +6,12 @@ const Information = () => {
   return (
     <div>
       <br />
-      <br />
-      <h3 className="font-bold lg:text-[32px] text-[22px] pb-4">
+      <h3 className="font-semi text-[20px] pb-4">
         {t("Requirements to provide information")}
       </h3>
       <p>{t("info1")}</p>
       <br />
-      <p className="lg:text-[28px] text-[22px] font-semibold">{t("info2")}</p>
-      <br />
+      <p className="text-[20px] !font-semibold">{t("info2")}</p>
       <ul className="list-disc p-4">
         <li>{t("infoList1")}</li>
         <li>{t("infoList2")}</li>
@@ -23,12 +21,9 @@ const Information = () => {
         <li>{t("infoList6")}</li>
         <li>{t("infoList7")}</li>
       </ul>
-      <br />
       <p>{t("info3")}</p>
       <br />
-      <h2 className="lg:text-[32px] text-[22px] font-bold">
-        {t("Data Records")}
-      </h2>
+      <h2 className="text-[20px] !font-semibold">{t("Data Records")}</h2>
       <br />
       <p>
         {t("data1")} <br /> <br />
