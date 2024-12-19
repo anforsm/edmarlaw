@@ -346,8 +346,8 @@
   "AiAct": {
     "subHeader": "AI-förordningen",
     "p1": "EU:s AI-förordning om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter. I likhet med GDPR gäller AI-lagen för både offentliga och privata aktörer inom och utanför EU om AI-systemet släpps ut på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU.",
-    "p2": "AI Act gäller för både leverantörer/providers (t.ex. en utvecklare av en chattrobot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
-    "link": "Mer om EdmarLaw, AI och AI Act."
+    "p2": "AI-förordningen gäller för både leverantörer/providers (t.ex. en utvecklare av en chattrobot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
+    "link": "Mer om EdmarLaw, AI och AI-förordningen"
   },
   "ItLaw": {
     "subHeader": "IT-system, molntjänster, IoT, mjukvara, open source",
