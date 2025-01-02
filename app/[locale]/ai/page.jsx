@@ -356,6 +356,7 @@ const AiPage = () => {
   return (
     <>
       <ExpertiseMobile
+        mainPageTitle={"AiPageTitle"}
         data={areasOfExpertise}
         translate={"AiPageHeaders"}
       ></ExpertiseMobile>

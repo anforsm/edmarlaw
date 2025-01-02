@@ -1,6 +1,6 @@
 {
   "Index": {
-    "intro": "The law firm EdmarLaw primarily assists IT companies and technology intensive businesses and has 25 years of experience in IT Law, Data Protection (GDPR), Contract Law, Intellectual Property Law and E-commerce.",
+    "intro": "The law firm EdmarLaw primarily assists IT companies and technology intensive businesses and has more than 25 years of experience in IT Law, Data Protection (GDPR), Contract Law, Intellectual Property Law and E-commerce.",
     "references_header": "References",
     "expertiseTitle": "Areas of Expertise",
     "aboutTitle": "About EdmarLaw",
@@ -116,7 +116,9 @@
     "aiLink": "Mer om EdmarLaw, AI och AI Act.",
     "ReadMoreGdpr": "Read more about GDPR",
     "MainTitle": "Navigating Legal Waters with Excellence",
-    "Vanliga uppdrag": "Common assignments"
+    "Vanliga uppdrag": "Common assignments",
+    "AiPageTitle": "Artificial Intelligence – AI",
+    "GDPRPageTitle": "GDPR"
   },
   "GDPR": {
     "What is GDPR?": "What is GDPR?",
@@ -175,12 +177,12 @@
   },
   "REF": {
     "first": "Looklet is a Swedish company, world leader in digital display for fashion. The company invests a lot in innovation and development of its product and has the world’s largest fashion and e-commerce companies as customers. Looklet builds entire photo studios for its customers and has developed both the hardware and software itself.  Looklet has offices in Stockholm, Paris and New York.",
-    "second": "Microsoft AB is a wholly owned subsidiary to Microsoft Corporation, a multi national software business based in Redmond, Washington, USA. The corporation is one of the largest in the software industry today. Microsoft develops, manufactures and licenses many software products for a number of different computer systems, and Microsoft AB ensures that adaptations and support functions as well as launches of products and services are localized for the region. Microsoft AB has 600 employees and consultants with offices in Kista.",
+    "second": "Microsoft AB is a wholly owned subsidiary to Microsoft Corporation, a multi national software business based in Redmond, Washington, USA. The corporation is one of the largest in the software industry today.",
     "third": "DreamHack is the world’s largest computer festival. DreamHacks core and origin are the two huge festivals DreamHack Summer in June and DreamHack Winter in November with more than 20.000 computers connected in one LAN.",
-    "exmet": "Exmet AB develops patented technology for additive manufacturing techniques (3D printing) of  amorphous metal alloys and nano composites. The company was founded in 2009.",
-    "genero": "Genero Solutions provides sales support and sales control as a cloud service to the largest players in  the Swedish food industry. The utility software of the company helps manage the entire sales process, including management, reporting, follow-up and optimization. The company has twenty employees at its Stockholm office.",
+    "exmet": "Exmet AB develops patented technology for additive manufacturing techniques (3D printing) of  amorphous metal alloys and nano composites.",
+    "genero": "Genero Solutions provides sales support and sales control as a cloud service to the largest players in  the Swedish food industry. The utility software of the company helps manage the entire sales process, including management, reporting, follow-up and optimization.",
     "eBuilder": "eBuilder has developed a cloud service in ”Customer Care”, which makes it possible for customers to enhance and develop its customer relations. eBuilder has customers in more than 70 countries and its solution is applied by more than five million end users. The principal place of business is in Kista, Sweden, where fifty employees are located, although eBuilder has offices in China, Australia and Sri Lanka as well.",
-    "unomly": "Unomaly has developed a ground breaking solution for automating analysis of data created by IT systems. The product is data driven, self taught and discovers all IT incidents universally by proving a divergent pattern. This enables discovery of all incidents without rules and long before operational disturbances appear. The company was founded in 2011 and has fifteen employees and customers in 10 countries.",
+    "unomly": "Unomaly has developed a ground breaking solution for automating analysis of data created by IT systems. The product is data driven, self taught and discovers all IT incidents universally by proving a divergent pattern. This enables discovery of all incidents without rules and long before operational disturbances appear.",
     "gleechi": "Gleechi sells a software solution to animate hands in gaming and virtual reality which can move and interact realistically. The software is based on 8 years of research in robotics and solves a well-known problem in 3D animation.",
     "Examples of typical assignments where the legal counsel of EdmarLaw has been requested": "Examples of typical assignments where the legal counsel of EdmarLaw has been requested",
     "Licensing of software": "Licensing of software",
@@ -339,6 +341,7 @@
     "contract": "All types of agreements for the IT industry, conditions according to industry practice",
     "copyright": "Rights to software, concepts, know-how, design",
     "privacy": "EU General Data Protection Regulation",
+    "privacy2": "Privacy impact assessments, DPIA, TIA, privacy policy, privacy by design",
     "outsourcing": "Agreements on outsourcing and various types of cloud services",
     "ecom": "General terms, advertising, social media, distribution",
     "domain": "Domain name registrations and domain name disputes",

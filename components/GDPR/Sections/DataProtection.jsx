@@ -5,7 +5,6 @@ const DataProtection = () => {
   const t = useTranslations("GDPR");
   return (
     <div>
-      <br />
       <p>{t("officer1")}</p> <br />
       <p>{t("officer2")}</p> <br />
       <p>{t("officer3")}</p>

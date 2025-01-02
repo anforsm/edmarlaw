@@ -106,7 +106,7 @@ const AreaOFExpertise = ({ size }) => {
     },
     {
       title: "Privacy Law",
-      description: "privacy",
+      description: "privacy2",
       image: "/techlogo.png",
       svg: (
         <svg
@@ -401,6 +401,8 @@ const AreaOFExpertise = ({ size }) => {
                 link={
                   item?.gdprLink
                     ? `/gdpr`
+                    : item?.description === "privacy2"
+                    ? `/expertise?section=privacy`
                     : `/expertise?section=${item.description}`
                 }
                 size={size}

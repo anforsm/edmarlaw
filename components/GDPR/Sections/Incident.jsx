@@ -5,7 +5,6 @@ const Incident = () => {
   const t = useTranslations("GDPR");
   return (
     <div>
-      <br />
       <p>{t("incident1")}</p>
       <br />
       <p>{t("incident2")}</p>

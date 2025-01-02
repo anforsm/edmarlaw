@@ -5,8 +5,7 @@ const Information = () => {
   const t = useTranslations("GDPR");
   return (
     <div>
-      <br />
-      <h3 className="font-semi text-[20px] pb-4">
+      <h3 className="font-bold text-[20px] pb-4 pt-4">
         {t("Requirements to provide information")}
       </h3>
       <p>{t("info1")}</p>

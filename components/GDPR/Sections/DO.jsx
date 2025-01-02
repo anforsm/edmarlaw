@@ -5,7 +5,6 @@ const DO = () => {
   const t = useTranslations("GDPR");
   return (
     <div>
-      <br />
       <p>{t("doDesc")}</p>
       <ul className="list-disc p-4">
         <li>{t("first")}</li>

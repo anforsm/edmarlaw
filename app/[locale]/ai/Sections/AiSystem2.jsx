@@ -6,7 +6,6 @@ const AiSystem2 = () => {
   const t = useTranslations("AiSystem2");
   return (
     <div className={styles.container}>
-      <br />
       <p>{t("AiSystem2Desc2")}</p>
       <br />
       <p>{t("AiSystem2Desc3")}</p>

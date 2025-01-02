@@ -28,7 +28,7 @@ const Publications = () => {
           )}
           {pathname === "/about-us/publications" ? (
             <ul className="list-disc">
-              <li className="list-disc">test Får man använda cookies?</li>
+              <li className="list-disc">Får man använda cookies?</li>
               <li>
                 För vilka personuppgifter krävs samtycke och när behöver man
                 inte be om lov för att lägga ut uppgifter?
@@ -67,7 +67,7 @@ const Publications = () => {
               href="https://shop.nj.se/products/internetpublicering-och-sociala-medier-1"
               target="_blank"
             >
-               Internetpublicering och sociala medier
+              Internetpublicering och sociala medier
             </Link>
           </p>
         </div>

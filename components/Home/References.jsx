@@ -76,8 +76,6 @@ const References = () => {
           {t("references_header")}
         </h1>
       </div>
-      {/* <div className="flex w-full"> */}
-      {/* <div>test</div> */}
       <Carousel
         opts={{ loop: true }}
         setApi={setApi}
@@ -150,8 +148,6 @@ const References = () => {
           />
         ))}
       </div>
-      {/* <div>test</div> */}
-      {/* </div> */}
     </div>
   );
 };
@@ -162,11 +158,9 @@ function CarouselSlide({ body, author, position, className }) {
   return (
     <CarouselItem className="">
       <div className="flex flex-col lg:justify-end h-full gap-y-11 w-full pl-1 p-2 lg:px-10 items-center">
-        {/* <div className="filler"></div> */}
         <div
           className={
             "flex flex-col gap-y-2 bg-white w-full rounded-[50px] shadow-lg p-10 lg:p-14 relative slide-class"
-            // "relative"
           }
         >
           <div className="absolute -bottom-[22px] drop-shadow left-1/2 -translate-x-1/2 speech-tail">

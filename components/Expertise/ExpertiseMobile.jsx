@@ -4,7 +4,7 @@ import { useSearchParams } from "next/navigation";
 import React, { useEffect, useRef } from "react";
 import { useState } from "react";
 
-export default function ExpertiseMobile({ data, translate }) {
+export default function ExpertiseMobile({ data, translate, mainPageTitle }) {
   const tExpertise = useTranslations("Index");
   const tCard = useTranslations("Cards");
   const t = useTranslations(translate);
@@ -13,12 +13,13 @@ export default function ExpertiseMobile({ data, translate }) {
   return (
     <div className="bg-[rgba(252,254,255,1)] w-full h-full px-4 py-14 flex flex-1 flex-col z-10 md:hidden">
       <h1 className="text-[32px] text-[#00ADEE] font-[300] pb-10">
-        {tExpertise("expertiseTitle")}
+        {tExpertise(mainPageTitle)}
       </h1>
       <ul className="flex flex-col gap-y-4 w-full flex-1">
         {data.map((item) => {
           return (
             <ExpandCard
+              page={mainPageTitle}
               subHeader={item?.subheader}
               subTitle={tCard(item?.subheader)}
               params={pathname.get("section")}
@@ -34,7 +35,15 @@ export default function ExpertiseMobile({ data, translate }) {
   );
 }
 
-function ExpandCard({ title, description, t, params, subHeader, subTitle }) {
+function ExpandCard({
+  title,
+  description,
+  t,
+  params,
+  subHeader,
+  subTitle,
+  page,
+}) {
   const [isOpen, setIsOpen] = useState(
     () => params?.toLowerCase() === subHeader?.toLowerCase()
   );
@@ -63,9 +72,22 @@ function ExpandCard({ title, description, t, params, subHeader, subTitle }) {
         className="flex items-center justify-between cursor-pointer"
         onClick={() => setIsOpen((prev) => !prev)}
       >
-        <h2 className="text-[22px] font-bold text-[#00ADEE]">{t(title)}</h2>
+        <h2
+          className="text-[22px] font-bold"
+          style={
+            title === "Ai1"
+              ? {
+                  color: "#000000",
+                }
+              : {
+                  color: "#000000",
+                }
+          }
+        >
+          {t(title)}
+        </h2>
         <svg
-          className={`w-5 h-5 text-gray-500 transform transition-transform duration-200 ${
+          className={`w-5 h-5 min-w-5 min-h-5 text-gray-500 transform transition-transform duration-200 ${
             isOpen ? "rotate-180" : ""
           }`}
           fill="none"
@@ -85,23 +107,22 @@ function ExpandCard({ title, description, t, params, subHeader, subTitle }) {
           isOpen ? "opacity-100 mt-4" : "max-h-0 opacity-0"
         }`}
       >
-        <h3
-          style={{
-            fontSize: 20,
-            padding: "0 16px 24px 0",
-            fontWeight: 400,
-            //styleName: Subheading;
-            fontSize: "22px",
-            fontWeight: 700,
-            color: "#1D1D1D",
-            lineHeight: "30.8px",
-            textAlign: "left",
-            textUnderlinePosition: "from-font",
-            textDecorationSkipInk: "none",
-          }}
-        >
-          {subTitle}
-        </h3>
+        {page === "Areas of Expertise" && (
+          <h3
+            style={{
+              fontSize: "18px",
+              padding: "18px 0",
+              fontWeight: 700,
+              color: "#1D1D1D",
+              lineHeight: "30.8px",
+              textAlign: "left",
+              textUnderlinePosition: "from-font",
+              textDecorationSkipInk: "none",
+            }}
+          >
+            {subTitle}
+          </h3>
+        )}
         <div className="">{description}</div>
       </div>
     </div>

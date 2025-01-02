@@ -256,16 +256,13 @@ const AreaOfExpertise = () => {
     setScrollIndex(index);
     const selectedAreaDiv = document.getElementById(`area2-${index}`);
     if (selectedAreaDiv) {
-      const offset = 100; // Adjust the offset value as needed
+      const offset = 100;
       const top = selectedAreaDiv.offsetTop - offset;
       window.scrollTo({
         top,
         behavior: "instant",
       });
     }
-    // setTimeout(() => {
-    //   setCheckScroll(true)
-    // }, 3000)
   };
 
   const [scrollIndex, setScrollIndex] = useState(0);
@@ -338,6 +335,7 @@ const AreaOfExpertise = () => {
   return (
     <>
       <ExpertiseMobile
+        mainPageTitle={"Areas of Expertise"}
         data={areasOfExpertise}
         translate={"Index"}
       ></ExpertiseMobile>

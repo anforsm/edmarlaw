@@ -5,7 +5,6 @@ const Deletion = () => {
   const t = useTranslations("GDPR");
   return (
     <div>
-      <br />
       <p>{t("delete1")}</p> <br />
       <p>{t("delete2")}</p>
     </div>

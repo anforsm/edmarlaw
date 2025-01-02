@@ -176,6 +176,7 @@ const AreaOfExpertise = () => {
   return (
     <>
       <ExpertiseMobile
+        mainPageTitle={"GDPR"}
         data={areasOfExpertise}
         translate={"GDPR"}
       ></ExpertiseMobile>
@@ -314,6 +315,7 @@ const AreaOfExpertise = () => {
               id={`area2-${index}`}
             >
               <h2
+                className="md:pb-4"
                 data-id={`container-${index}`}
                 ref={(el) => (containerRefs.current[index] = el)}
                 style={

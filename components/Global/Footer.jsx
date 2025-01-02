@@ -13,11 +13,16 @@ const Footer = () => {
 
       <div className={"px-4 z-10 w-full pt-16"}>
         <div className="flex flex-col md:gap-y-16 md:pt-16">
-          <div className="flex flex-col md:flex-row md:gap-x-14 gap-y-8">
-            <a style={{ color: "black" }} href="tel:+46767742220">
+          <div className="flex flex-col md:flex-row md:gap-x-10 gap-y-8">
+            <a
+              style={{ color: "black" }}
+              href="tel:+46767742220"
+              className="min-w-fit"
+            >
               +46 76-774 2220
             </a>
             <a
+              className="min-w-fit"
               style={{
                 color: "black",
                 display: "flex",
@@ -26,11 +31,23 @@ const Footer = () => {
               }}
               href="mailto:malin.edmar@edmarlaw.se"
             >
-              <AiOutlineMail /> malin.edmar@edmarlaw.se
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 3C1.4375 3 1 3.46875 1 4V5.25L7.09375 9.75C7.625 10.125 8.34375 10.125 8.875 9.75L15 5.25V4C15 3.46875 14.5312 3 14 3H2ZM1 6.5V12C1 12.5625 1.4375 13 2 13H14C14.5312 13 15 12.5625 15 12V6.5L9.46875 10.5625C8.59375 11.1875 7.375 11.1875 6.5 10.5625L1 6.5ZM0 4C0 2.90625 0.875 2 2 2H14C15.0938 2 16 2.90625 16 4V12C16 13.125 15.0938 14 14 14H2C0.875 14 0 13.125 0 12V4Z"
+                  fill="#1D1D1D"
+                />
+              </svg>
+              malin.edmar@edmarlaw.se
             </a>
-            <div>Advokatfirman EdmarLaw AB</div>
+            <div className="min-w-fit">Advokatfirman EdmarLaw AB</div>
             <a
-              className="pb-8 lg:pb-0"
+              className="pb-8 md:pb-0"
               style={{
                 color: "black",
                 display: "flex",
@@ -43,18 +60,17 @@ const Footer = () => {
               <FaLinkedinIn /> LinkedIn
             </a>
           </div>
-          {/* <hr /> */}
-          <div className="flex flex-col md:flex-row md:gap-x-16 pt-8 sm:pt-0 gap-y-8">
+          <div className="flex flex-col md:flex-row md:gap-x-10 pt-8 sm:pt-0 gap-y-8">
             <p>
               <Link style={{ color: "" }} href={"/terms"}>
-                {t("Terms and Conditions")}{" "}
-              </Link>{" "}
-              <span className="text-[]">&</span>{" "}
+                {t("Terms and Conditions")}
+              </Link>
+              <span className="text-[]"> & </span>
               <Link style={{ color: "" }} href={"/privacy-policy"}>
                 {t("Privacy Policy")}
               </Link>
             </p>
-            <p>© Advokatfirman EdmarLaw AB</p>
+            <p className="min-w-fit">© Advokatfirman EdmarLaw AB</p>
           </div>
           <div
             className={

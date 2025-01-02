@@ -5,7 +5,6 @@ const Process = () => {
   const t = useTranslations("GDPR");
   return (
     <div>
-      <br />
       <p>{t("process1")}</p> <br />
       <h3 className="text-[18px] !font-semibold">
         1. {t("Due diligence ur ett dataskyddsperspektiv")}
