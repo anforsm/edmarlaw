@@ -2,7 +2,6 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
@@ -62,13 +61,9 @@ const Footer = () => {
           </div>
           <div className="flex flex-col lg:flex-row lg:justify-center lg:gap-x-16 pt-8 sm:pt-0 gap-y-8">
             <p>
-              <Link style={{ color: "" }} href={"/terms"}>
-                {t("Terms and Conditions")}
-              </Link>
-              <span className="text-[]"> & </span>
-              <Link style={{ color: "" }} href={"/privacy-policy"}>
-                {t("Privacy Policy")}
-              </Link>
+              <Link href={"/terms"}>{t("Terms and Conditions")}</Link>
+              <span> & </span>
+              <Link href={"/privacy-policy"}>{t("Privacy Policy")}</Link>
             </p>
             <p className="min-w-fit">© Advokatfirman EdmarLaw AB</p>
           </div>
@@ -77,13 +72,6 @@ const Footer = () => {
               "w-full flex justify-center pt-16 items-end lg:px-0 px-10"
             }
           >
-            {/* <Image
-              className="w-full"
-              width={1000}
-              height={1000}
-              src="/logo2.png"
-              alt=""
-            /> */}
             <svg
               width="600"
               viewBox="0 0 1082 178"
@@ -135,11 +123,6 @@ const Footer = () => {
                 </clipPath>
               </defs>
             </svg>
-
-            {/* <div className="flex items-end">
-              <span className="">edmar</span>
-              <span className="text-[#00adee] text-[12px]">LAW</span>
-            </div> */}
           </div>
         </div>
       </div>
