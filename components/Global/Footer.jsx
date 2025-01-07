@@ -1,7 +1,6 @@
 "use client";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
