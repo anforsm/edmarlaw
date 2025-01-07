@@ -12,8 +12,8 @@ const Footer = () => {
       <div className="absolute h-full bg-gray-100 !max-w-none !w-screen"></div>
 
       <div className={"px-4 z-10 w-full pt-16"}>
-        <div className="flex flex-col md:gap-y-16 md:pt-16">
-          <div className="flex flex-col md:flex-row md:gap-x-10 gap-y-8">
+        <div className="flex flex-col lg:gap-y-16 lg:pt-16">
+          <div className="flex flex-col lg:flex-row lg:justify-center lg:gap-x-16 gap-y-8">
             <a
               style={{ color: "black" }}
               href="tel:+46767742220"
@@ -47,7 +47,7 @@ const Footer = () => {
             </a>
             <div className="min-w-fit">Advokatfirman EdmarLaw AB</div>
             <a
-              className="pb-8 md:pb-0"
+              className="pb-8 lg:pb-0"
               style={{
                 color: "black",
                 display: "flex",
@@ -60,7 +60,7 @@ const Footer = () => {
               <FaLinkedinIn /> LinkedIn
             </a>
           </div>
-          <div className="flex flex-col md:flex-row md:gap-x-10 pt-8 sm:pt-0 gap-y-8">
+          <div className="flex flex-col lg:flex-row lg:justify-center lg:gap-x-16 pt-8 sm:pt-0 gap-y-8">
             <p>
               <Link style={{ color: "" }} href={"/terms"}>
                 {t("Terms and Conditions")}
@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
           <div
             className={
-              "w-full flex justify-center pt-16 items-end md:px-0 px-10"
+              "w-full flex justify-center pt-16 items-end lg:px-0 px-10"
             }
           >
             {/* <Image
