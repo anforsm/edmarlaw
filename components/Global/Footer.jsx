@@ -7,10 +7,10 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   const t = useTranslations("Index");
   return (
-    <footer className={"relative w-full flex justify-center"}>
+    <footer className="relative w-full flex justify-center">
       <div className="absolute h-full bg-gray-100 !max-w-none !w-screen"></div>
 
-      <div className={"px-4 z-10 w-full pt-16"}>
+      <div className="px-4 z-10 w-full pt-16">
         <div className="flex flex-col lg:gap-y-16 lg:pt-16">
           <div className="flex flex-col lg:flex-row lg:justify-center lg:gap-x-16 gap-y-8">
             <a
@@ -67,11 +67,7 @@ const Footer = () => {
             </p>
             <p className="min-w-fit">© Advokatfirman EdmarLaw AB</p>
           </div>
-          <div
-            className={
-              "w-full flex justify-center pt-16 items-end lg:px-0 px-10"
-            }
-          >
+          <div className="w-full flex justify-center pt-16 items-end lg:px-0 px-10">
             <svg
               width="600"
               viewBox="0 0 1082 178"
