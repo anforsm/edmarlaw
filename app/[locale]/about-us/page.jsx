@@ -58,7 +58,7 @@ const Page = () => {
           </div>
           <div>
             <div className="lg:pt-36 pt-14">
-              <h4 className="text-[32px] font-bold">Erfarenhet</h4>
+              <h4 className="text-[32px] font-bold">{t("Experience")}</h4>
               <div className="flex flex-col gap-y-4 pt-8">
                 <TableRow company={"GitHub, Inc"} year={"2021-2023"} />
                 <TableRow company={"Advokatfirman EdmarLaw"} year={"2016 - "} />
@@ -87,14 +87,9 @@ const Page = () => {
                   year={"1996"}
                 />
               </div>
-
-              {/* internet sociala medier
-onlineutbildining 2015
-dommännamn köp på eng
-immatrielrättens */}
             </div>
             <div className="lg:pt-36 pt-14">
-              <h4 className="text-[32px] font-bold">Publikationer</h4>
+              <h4 className="text-[32px] font-bold">{t("Publications")}</h4>
               <div className="flex flex-col gap-y-4 pt-8">
                 <div className="flex flex-col">
                   <TableRow
@@ -105,7 +100,6 @@ immatrielrättens */}
                     linkHref={
                       "https://shop.nj.se/products/internetpublicering-och-sociala-medier-1"
                     }
-                    // swedishLink={"https://shop.nj.se/products/domannamn"}
                   />
                   <div className="lg:flex gap-x-2 underline hidden font-semibold">
                     <Link

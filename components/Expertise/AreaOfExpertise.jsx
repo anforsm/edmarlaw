@@ -465,7 +465,7 @@ const AreaOfExpertise = () => {
             <div
               className="watch border-b"
               style={{
-                padding: "80px 0",
+                padding: "40px 0",
               }}
               key={index}
               id={`area2-${index}`}

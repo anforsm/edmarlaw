@@ -77,7 +77,7 @@ const AreaOfExpertise = () => {
     if (indx && search) {
       const selectedAreaDiv = document.getElementById(`area2-${indx}`);
       if (selectedAreaDiv) {
-        const offset = 100; // Adjust the offset value as needed
+        const offset = 100;
         const top = selectedAreaDiv.offsetTop - offset;
         window.scrollTo({
           top,
@@ -94,16 +94,13 @@ const AreaOfExpertise = () => {
   const handleAreaClick = (area, index) => {
     const selectedAreaDiv = document.getElementById(`area2-${index}`);
     if (selectedAreaDiv) {
-      const offset = 100; // Adjust the offset value as needed
+      const offset = 100;
       const top = selectedAreaDiv.offsetTop - offset;
       window.scrollTo({
         top,
         behavior: "instant",
       });
     }
-    // setTimeout(() => {
-    //   setCheckScroll(true)
-    // }, 3000)
   };
 
   const [scrollIndex, setScrollIndex] = useState(0);
@@ -153,25 +150,6 @@ const AreaOfExpertise = () => {
       }
     }
   }, [visibleItems, checkScroll]);
-
-  useEffect(() => {
-    const onScroll = () => {
-      // if (!checkScroll) {
-      window.requestAnimationFrame(() => {
-        // setCheckScroll(true);
-      });
-      // Wait until scrolling is finished
-      // }
-    };
-
-    const contentContainer = document.querySelector(".Area_gridContent__66ewb");
-
-    contentContainer.addEventListener("scroll", onScroll);
-
-    return () => {
-      contentContainer.removeEventListener("scroll", onScroll);
-    };
-  }, [checkScroll]);
 
   return (
     <>
@@ -309,7 +287,7 @@ const AreaOfExpertise = () => {
             <div
               className="watch border-b"
               style={{
-                padding: "80px 0",
+                padding: "40px 0",
               }}
               key={index}
               id={`area2-${index}`}
@@ -326,7 +304,7 @@ const AreaOfExpertise = () => {
                         color: "#00ADEE",
                       }
                     : {
-                        fontSize: 20,
+                        fontSize: 22,
                         fontWeight: 700,
                       }
                 }

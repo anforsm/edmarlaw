@@ -15,7 +15,7 @@ import AiModels from "./Sections/aimodels";
 import AiOffice from "./Sections/AiOffice";
 import ExpertiseMobile from "@/components/Expertise/ExpertiseMobile";
 
-export const areasOfExpertise = [
+const areasOfExpertiseAi = [
   {
     title: "Ai1",
     subheader: "ai",
@@ -129,7 +129,6 @@ export const areasOfExpertise = [
   {
     shortHeader: "What is high-risk?",
     title: "AiSystem",
-    subheader: "aiSystem",
     image: "/techlogo.png",
     svg: (
       <svg
@@ -289,7 +288,7 @@ const AiPage = () => {
       });
     }
   };
-  //
+
   const [scrollIndex, setScrollIndex] = useState(0);
   const containerRefs = useRef([]);
   const [visibleItems, setVisibleItems] = useState([]);
@@ -357,7 +356,7 @@ const AiPage = () => {
     <>
       <ExpertiseMobile
         mainPageTitle={"AiPageTitle"}
-        data={areasOfExpertise}
+        data={areasOfExpertiseAi}
         translate={"AiPageHeaders"}
       ></ExpertiseMobile>
       <div className={"md:!flex !hidden gap-x-10 pl-4"}>
@@ -459,7 +458,7 @@ const AiPage = () => {
                     }}
                   ></div>
                 </div>
-                {areasOfExpertise.map((area, index) => (
+                {areasOfExpertiseAi.map((area, index) => (
                   <li
                     key={index}
                     onClick={() => handleAreaClick(area, index)}
@@ -481,11 +480,11 @@ const AiPage = () => {
           </div>
         </div>
         <div className={styles.gridContent}>
-          {areasOfExpertise.map((val, index) => (
+          {areasOfExpertiseAi.map((val, index) => (
             <div
               className="watch border-b"
               style={{
-                padding: "80px 0",
+                padding: "40px 0",
               }}
               key={index}
               id={`area2-${index}`}

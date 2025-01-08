@@ -20,8 +20,10 @@ export default function ExpertiseMobile({ data, translate, mainPageTitle }) {
           return (
             <ExpandCard
               page={mainPageTitle}
-              subHeader={item?.subheader}
-              subTitle={tCard(item?.subheader)}
+              subHeader={item.subheader ? item?.subheader : ""}
+              subTitle={
+                item?.subheader ? tCard(item?.subheader) : "no subheader"
+              }
               params={pathname.get("section")}
               t={t}
               key={item?.title}
@@ -47,12 +49,13 @@ function ExpandCard({
   const [isOpen, setIsOpen] = useState(
     () => params?.toLowerCase() === subHeader?.toLowerCase()
   );
+
   const cardRef = useRef(null);
 
   useEffect(() => {
     if (!params) return;
-    setIsOpen(params?.toLowerCase() === subHeader.toLowerCase());
-    if (params?.toLowerCase() === subHeader.toLowerCase()) {
+    setIsOpen(params?.toLowerCase() === subHeader?.toLowerCase());
+    if (params?.toLowerCase() === subHeader?.toLowerCase()) {
       setTimeout(() => {
         cardRef.current?.scrollIntoView({
           behavior: "smooth",

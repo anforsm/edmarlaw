@@ -8,7 +8,11 @@ const Description = () => {
     <div className={styles.container}>
       <p>
         {t("desc1")}
-        <a href=""> {t("desc2")} </a> {t("desc3")}
+        <a href="https://www.advokatsamfundet.com/rules-and-regulations/">
+          {" "}
+          {t("desc2")}{" "}
+        </a>{" "}
+        {t("desc3")}
       </p>
       <br />
       <p>{t("desc4")}</p>
