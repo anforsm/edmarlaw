@@ -449,7 +449,7 @@
   },
   "AiActSystem": {
     "header": "How does the AI Act differentiate between AI systems?",
-    "AiActSystemDesc": "The AI Act has a risk-based approach for it's rules",
+    "AiActSystemDesc": "The AI Act has a risk-based approach for it's rules.",
     "AiActSystemList1": "Unacceptable risk",
     "AiActSystemDesc2": "AI systems that violate fundamental rights are considered particularly harmful. Uses of such AI systems will be banned. Examples of such violation of fundamental rights are:",
     "AiActSystemDesc3": "Exploitation of vulnerabilities of persons, manipulation and use of subliminal techniques;",

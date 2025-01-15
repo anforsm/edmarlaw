@@ -141,7 +141,7 @@ const Faq = () => {
 
 export default Faq;
 
-function ExpandCardTerms({ title, template }) {
+export function ExpandCardTerms({ title, template }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const cardRef = useRef(null);
