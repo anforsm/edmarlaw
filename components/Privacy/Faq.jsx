@@ -455,28 +455,6 @@ const Faq = () => {
             <ExpandCardTerms
               title={
                 <span className="regular" style={{ fontWeight: "600" }}>
-                  {t("Cookies")}
-                </span>
-              }
-              template={
-                <div
-                  className={`b-faq_list_item_content ${
-                    expandedBullets[6] ? "accordinsp" : "accordinbacksp"
-                  }`}
-                >
-                  <div>
-                    <p className="regular grey">
-                      {t("cookie1")} <br /> <br />
-                      {t("cookie2")}
-                    </p>
-                  </div>
-                </div>
-              }
-            ></ExpandCardTerms>
-
-            <ExpandCardTerms
-              title={
-                <span className="regular" style={{ fontWeight: "600" }}>
                   {t("Changes to this data protection policy")}
                 </span>
               }
