@@ -19,12 +19,6 @@ const Faq = () => {
   const [expandedBullets, setExpanedBullets] = useState([...defaultExpanded]);
   const t = useTranslations("Privacy");
 
-  const setExpanded = (i) => {
-    let modifiedExpanded = [...defaultExpanded];
-    modifiedExpanded[i] = !expandedBullets[i];
-    setExpanedBullets(modifiedExpanded);
-  };
-
   return (
     <div className="b-faq">
       <div>
