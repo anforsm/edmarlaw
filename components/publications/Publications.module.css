@@ -1,7 +1,6 @@
 .container {
-  width: 75%;
   margin: auto;
-  padding: 4rem 0;
+  padding: 4rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -12,11 +11,11 @@
   color: #2d2d2d;
 }
 .container p {
-  color: #4f4f4f;
+  color: #000000;
   line-height: 26px;
 }
 .container li {
-  color: #4f4f4f;
+  color: #000000;
   line-height: 26px;
 }
 .button {
@@ -66,23 +65,23 @@
 .imageDiv {
   width: 125%;
 }
-@media only screen and (max-width:600px) {
-    .forwardFlex {
-        flex-direction: column;
-    }
-    .reverseFlex {
-        flex-direction: column;
-    }
-    .container {
-        width: 90%;
-    }
-    .imageDiv {
-        width: 100%;
-    }
-    .container h1 {
-        font-size: 24px;
-    }
-    .container p {
-        text-align: justify;
-    }
+@media only screen and (max-width: 600px) {
+  .forwardFlex {
+    flex-direction: column;
   }
+  .reverseFlex {
+    flex-direction: column;
+  }
+  .container {
+    width: 90%;
+  }
+  .imageDiv {
+    width: 100%;
+  }
+  .container h1 {
+    font-size: 24px;
+  }
+  .container p {
+    text-align: justify;
+  }
+}

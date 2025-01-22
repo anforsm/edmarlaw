@@ -1,8 +1,10 @@
 {
   "Index": {
-    "intro": "The law firm EdmarLaw primarily assists IT companies and technology intensive businesses and has 25 years of experience in IT Law, Data Protection (GDPR), Contract Law, Intellectual Property Law and E-commerce.",
+    "intro": "The law firm EdmarLaw primarily assists IT companies and technology intensive businesses and has more than 25 years of experience in IT Law, Data Protection (GDPR), Contract Law, Intellectual Property Law and E-commerce.",
     "references_header": "References",
     "expertiseTitle": "Areas of Expertise",
+    "aboutTitle": "About EdmarLaw",
+    "AI": "AI",
     "IT Law": "IT Law",
     "Contract Law": "Contract Law",
     "Privacy Law": "Privacy Law",
@@ -24,38 +26,33 @@
     "quote1": "Malin understands the technical aspects as well. That really adds to her excellent negotiating skills.",
     "author1": "Adam Berg",
     "position1": "Co-founding Partner, Looklet AB",
-
     "Terms and Conditions": "Terms and Conditions",
     "Privacy Policy": "Privacy Policy",
     "quote2": "With her background, Malin has in-depth knowledge about our core business, both the technology and the agreement structures. The fact that she is so easy to reach and shares the passion for new technology makes the collaboration particularly easy!",
     "author2": "Mathias Strand",
     "position2": "Head of legal Microsoft Western Europe",
-
     "quote3": "To have in-depth knowledge of intellectual property rights is just a prerequisite. You need to understand at a level which requires a genuine interest for the internet, gaming, esport and digital culture. Malin has this, and in combination with her legal skills, she delivers what is needed in our fast paced, complex and digital world.",
     "author3": "Stefan Magnusson",
     "position3": "Vice President DreamHack AB",
-
     "quote4": "Malin is so engaged; readily available with wise input in the midst of complicated negotiations. She gives us key questions to consider and is a great resource to discuss with. She reviews and analyses agreement documents for us and comes back with a simple bullet list for us to focus on.",
     "author4": "Mattias Unosson",
     "position4": "CEO Exmet AB",
-
     "quote5": "Malin has i.a. created our terms and conditions in Swedish as well as English for our cloud services. Her support in negotiations is highly appreciated as she is easy to reach, quick and pedagogical when answering our questions",
     "author5": "Patrik Andersson",
     "position5": "Product Manager Genero Solutions AB",
-
     "quote6": "Malin is a great resource in negotiations! With her background in IT, she is well prepared for the specific questions and understands in detail how various conditions and interpretations shall be handled. She also gives a solid impression when participating in negotiations.",
     "author6": "Anders Båth",
     "position6": "Sr VP eBuilder",
-
     "quote7": "The first thing Malin did for us was a source code analysis, to give us full control over our code. That has helped us immensely in customer negotiations, since customers need certain warranties. Because Malin understands the technical aspects as well, we’re talking the same language.",
     "author7": "Johan Gustafsson",
     "position7": "CEO Unomaly",
-
     "quote8": "It has been a pleasure working with you and your tremendous competence! I really hope we get to work together again soon! (not only because it means that we hopefully have increased our business:)",
     "author8": "Jakob Johansson",
-    "position8": "Sr VP eBuilder",
+    "position8": "CEO, Gleechi AB",
+    "quote9": "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her.",
     "publisherTitle": "Internet publishing and Social Media",
-    "publisherDescription": "The purpose of this book is to explain the rules regarding Internet publishing, social media and IT-related products and services in a concrete and easy way, and provide a practical application of the law on the Internet. The book is full of illustrative cases and explanations while providing a good understanding of how the traditional jurisprudence has evolved with digitization. One section consists of questions and answers on what to consider when publishing material online.",
+    "publisherDescription": "The purpose of this book is to explain the rules regarding Internet publishing, social media and IT-related products and services in a concrete and easy way, and provide a practical application of the law on the Internet.",
+    "publisherDescription2": "The book is full of illustrative cases and explanations while providing a good understanding of how the traditional jurisprudence has evolved with digitization. One section consists of questions and answers on what to consider when publishing material online.",
     "publisherViewAllPublications": "View all publications",
     "itDescription": "EdmarLaw has 25 years of experience from reviewing, analyzing, drafting and negotiating most types of agreements in the field of IT and high-tech. EdmarLaw has extensive experience of legal counseling regarding data protection, development or implementation of IT systems, licensing of cloud services (PaaS, SaaS etc.) and AI services, both embedded software (internet of things) and software, know-how and patents, as well as development, collaboration and distribution of products and services in the tech industry. EdmarLaw often provides its services in English since many of its clients are North American or European businesses.",
     "Typical assignments:": "Typical assignments:",
@@ -63,11 +60,9 @@
     "Terms of Use, Terms of Service": "Terms of Use, Terms of Service",
     "Privacy assessments": "Privacy assessments",
     "Privacy terms": "Privacy terms",
-
     "Joint Development": "Joint Development",
     "Online Services (PaaS, SaaS, cloud services etc)": "Online Services (PaaS, SaaS, cloud services etc)",
     "System Deliveries": "System Deliveries",
-
     "Maintenance of software, IoT, IT systems": "Maintenance of software, IoT, IT systems",
     "Copyright and other intellectual property rights": "Copyright and other intellectual property rights",
     "Processing, including transfer of Personal Data": "Processing, including transfer of Personal Data",
@@ -111,7 +106,19 @@
     "TelDesc2": "The Electronic Communication Law applies to telecom operators and other providers of electronic communication services and electronic communication networks. It requires data retention for crime prevention purposes (the data shall be deleted or de-identified after six months) and other types of data used for payment services or for marketing purposes (the data shall be deleted when no longer needed).",
     "TelDesc3": "Questions such as authentication, access control, communication security, routines for backup copying and protection against unauthorized traffic and harmful software does not merely apply to the operations of telecom operators, but to any cloud service providers.",
     "TelDesc4": "EdmarLaw has the competence, the industry knowledge and the experience to assist telecom and internet operators in i.a. contract negotiations and regulatory aspects, liability issues and freedom of speech.",
-    "References": "References"
+    "References": "References",
+    "expertiseTitleShort": "Expertise",
+    "aiHeader": "Artificiell Intelligens (AI)",
+    "aiDesc1": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognition software",
+    "aiDesc2": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg applikationer eller plattformar som använder dessa modeller för att utföra uppgifter. Vanliga typer av AI system är chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines och predictive analytics tools.",
+    "aiDesc3": "EdmarLaw kan hjälpa er oavsett om ni utvecklar AI-system eller vill använda dem i er arbetsmiljö. Vi har stor erfarenhet av licensiering av AI-teknik och hjälper till med juridiska frågor vid AI-utvecklingsarbetet och under dess livscykel.",
+    "aiDesc4": "EU:s AI Act om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter. I likhet med GDPR gäller AI-lagen för både offentliga och privata aktörer inom och utanför EU om AI-systemet släpps ut på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU. AI Act gäller för både leverantörer/providers (t.ex. en utvecklare av en chattrobot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
+    "aiLink": "Mer om EdmarLaw, AI och AI Act.",
+    "ReadMoreGdpr": "Read more about GDPR",
+    "MainTitle": "Navigating Legal Waters with Excellence",
+    "Vanliga uppdrag": "Common assignments",
+    "AiPageTitle": "Artificial Intelligence – AI",
+    "GDPRPageTitle": "GDPR"
   },
   "GDPR": {
     "What is GDPR?": "What is GDPR?",
@@ -125,7 +132,7 @@
     "fourth": "Do you have contracts in place with data processors (e.g.suppliers)?",
     "fifth": "Do you meet the requirements of information obligation to those whose personal data you process?",
     "sixth": "Have you performed and documented data protection impact assessments for your products and services?",
-    "seventh": " EdmarLaw has extensive experience in personal data management and is specialized in this area. We can assist you to fulfill the requirements of GDPR. Contact us",
+    "seventh": " EdmarLaw has extensive experience in personal data management and is specialized in this area. We can assist you to fulfill the requirements of GDPR.",
     "Information Obligation": "Information Obligation",
     "Requirements to provide information": "Requirements to provide information",
     "info1": "GDPR places significantly higher requirements on the information provided to the data subject than previously. The information shall be provided in connection with the collection of the personal data. It shall be easily accessible and written in a clear and plain language. The best thing is to provide the information in a data protection policy on the web page.",
@@ -150,7 +157,7 @@
     "delete1": "Personal data must be deleted or anonymized when it is no longer needed for the purpose for which it was originally collected. Already in connection with the collection of personal data, information must be provided on e.g. the categories of data collected, for what purposes they are processed and how long the data is stored. This information must also be documented in an internal register of personal data processing to be updated on an ongoing basis.",
     "delete2": "Processes for deleting personal data place high demands on both IT systems and staff. EdmarLaw assists in the establishment of such processes and often reviews IT systems and services to ensure that they meet the legal requirements.",
     "Incident Management": "Incident Management",
-    "incident1": "GDPR places high demands on an organization’s readiness to deal with incidents related to personal data management. A personal data breach must be reported to the Swedish Data Protection Authority within 72 hours unless the incident is unlikely to result in any risk to individuals’ rights and freedoms. What is a personal data breach? It is not only the loss of personal data in the event of unlawful hacking that must be reported. According to GDPR, any incident leading to accidental destruction or loss of personal data must be reported, unless the incident is unlikely to pose risks. A corporate computer lef behind or a stolen bag may need to be reported to the Swedish Data Protection Authority within 72 hours. Depending on the extent and sensitivity of the data, individuals affected by the incident shall also be informed. This places high demands on IT systems and procedures for incident management. It also requires an awareness among employees.",
+    "incident1": "GDPR places high demands on an organization’s readiness to deal with incidents related to personal data management. A personal data breach must be reported to the Swedish Authority for Privacy Protection within 72 hours unless the incident is unlikely to result in any risk to individuals’ rights and freedoms. What is a personal data breach? It is not only the loss of personal data in the event of unlawful hacking that must be reported. According to GDPR, any incident leading to accidental destruction or loss of personal data must be reported, unless the incident is unlikely to pose risks. A corporate computer left behind or a stolen bag may need to be reported to the Swedish Authority for Privacy Protection within 72 hours. Depending on the extent and sensitivity of the data, individuals affected by the incident shall also be informed. This places high demands on IT systems and procedures for incident management. It also requires an awareness among employees. EdmarLaw assists in creating a process for incident management and training staff.",
     "incident2": "EdmarLaw assists in creating a process for incident management and training staff.",
     "Data Processors": "Data Processors",
     "process1": "As a data controller, an organization is responsible not only for its own processing of personal data, but also for the processing carried out by suppliers, so-called data processors. The choice of supplier must therefore also be made on the basis of GDPR criteria. We at EdmarLaw usually talk about a three-step model to ensure that data processors maintain a high level of data protection.",
@@ -164,16 +171,18 @@
     "Data Protection Officer": "Data Protection Officer",
     "officer1": "Some types of organizations must appoint a data protection officer under GDPR, but all organizations really benefit from having assigned responsibility for personal data related matters to an individual (or group of individuals). Public services (e.g. public authorities), organizations whose core activities are to deal with large amounts of personal data, and organizations handling larger amounts of sensitive personal data must all have data protection officers appointed. The data protection officer can be an internal or external resource. It shall have the necessary professional qualifications, as well as expertise in data protection legislation and practices. The data protection officer must remain up to date in this area.",
     "officer2": "It is the responsibility of the board of directors and the management team to ensure that the data protection officer has the resources and opportunities to carry out its work objectively. GDPR emphasizes the importance of the data protection officers ability to work freely without risking criticism in connection with its checks and analyses of the personal data processing in the organization. Nevertheless, it can be difficult to make comments as an employee that entail delays and costs for the organization. While an employee may have good insight into the organization’s activities, it may shy away from coming up with unpopular objections. Therefore, it may be preferable to hire an external consultant as a data protection officer.",
-    "officer3": "The Data Protection Officer shall be involved in all matters relating to the protection of personal data, cooperate and consult with the supervisory authority, and inform and train employees in data protection."
+    "officer3": "The Data Protection Officer shall be involved in all matters relating to the protection of personal data, cooperate and consult with the supervisory authority, and inform and train employees in data protection.",
+    "GDPR Requirements": "GDPR Requirements",
+    "Data Retention": "Data Retention"
   },
   "REF": {
     "first": "Looklet is a Swedish company, world leader in digital display for fashion. The company invests a lot in innovation and development of its product and has the world’s largest fashion and e-commerce companies as customers. Looklet builds entire photo studios for its customers and has developed both the hardware and software itself.  Looklet has offices in Stockholm, Paris and New York.",
-    "second": "Microsoft AB is a wholly owned subsidiary to Microsoft Corporation, a multi national software business based in Redmond, Washington, USA. The corporation is one of the largest in the software industry today. Microsoft develops, manufactures and licenses many software products for a number of different computer systems, and Microsoft AB ensures that adaptations and support functions as well as launches of products and services are localized for the region. Microsoft AB has 600 employees and consultants with offices in Kista.",
-    "third": "DreamHack is the world’s largest computer festival. DreamHacks core and origin are the two huge festivals DreamHack Summer in June and DreamHack Winter in November with more than 20.000 computers connected in one LAN. DreamHack events are also organized in Spain, Rumania, France, Russia and England, during 2016 also in Germany and USA. During 2015, the events will have more than 130.000 visitors. DreamHack is also a production company focusing on gaming and esport, with close to 160 million viewers via TV and streams in 100 countries (2015).",
-    "exmet": "Exmet AB develops patented technology for additive manufacturing techniques (3D printing) of  amorphous metal alloys and nano composites. The company was founded in 2009.",
-    "genero": "Genero Solutions provides sales support and sales control as a cloud service to the largest players in  the Swedish food industry. The utility software of the company helps manage the entire sales process, including management, reporting, follow-up and optimization. The company has twenty employees at its Stockholm office.",
+    "second": "Microsoft AB is a wholly owned subsidiary to Microsoft Corporation, a multi national software business based in Redmond, Washington, USA. The corporation is one of the largest in the software industry today.",
+    "third": "DreamHack is the world’s largest computer festival. DreamHacks core and origin are the two huge festivals DreamHack Summer in June and DreamHack Winter in November with more than 20.000 computers connected in one LAN.",
+    "exmet": "Exmet AB develops patented technology for additive manufacturing techniques (3D printing) of  amorphous metal alloys and nano composites.",
+    "genero": "Genero Solutions provides sales support and sales control as a cloud service to the largest players in  the Swedish food industry. The utility software of the company helps manage the entire sales process, including management, reporting, follow-up and optimization.",
     "eBuilder": "eBuilder has developed a cloud service in ”Customer Care”, which makes it possible for customers to enhance and develop its customer relations. eBuilder has customers in more than 70 countries and its solution is applied by more than five million end users. The principal place of business is in Kista, Sweden, where fifty employees are located, although eBuilder has offices in China, Australia and Sri Lanka as well.",
-    "unomly": "Unomaly has developed a ground breaking solution for automating analysis of data created by IT systems. The product is data driven, self taught and discovers all IT incidents universally by proving a divergent pattern. This enables discovery of all incidents without rules and long before operational disturbances appear. The company was founded in 2011 and has fifteen employees and customers in 10 countries.",
+    "unomly": "Unomaly has developed a ground breaking solution for automating analysis of data created by IT systems. The product is data driven, self taught and discovers all IT incidents universally by proving a divergent pattern. This enables discovery of all incidents without rules and long before operational disturbances appear.",
     "gleechi": "Gleechi sells a software solution to animate hands in gaming and virtual reality which can move and interact realistically. The software is based on 8 years of research in robotics and solves a well-known problem in 3D animation.",
     "Examples of typical assignments where the legal counsel of EdmarLaw has been requested": "Examples of typical assignments where the legal counsel of EdmarLaw has been requested",
     "Licensing of software": "Licensing of software",
@@ -187,7 +196,7 @@
     "Drafting terms and conditions for customers and users": "Drafting terms and conditions for customers and users"
   },
   "About": {
-    "Publications":"Publications",
+    "Publications": "Publications",
     "About the law firm EdmarLaw": "About the law firm EdmarLaw",
     "first": "EdmarLaw has 25 years of experience from reviewing, analyzing, drafting and negotiating most types of agreements in the field of IT and high-tech. EdmarLaw has extensive experience of legal counseling regarding data protection, drafting of development agreements, customer agreements, terms of use, data protection assessments, and the overall processing of personal data, contracting around the development and implementation of IT systems, as well as all aspects of online services, cloud services (PaaS, SaaS) and e-commerce, licensing of software, know-how and patents .",
     "second": "EdmarLaw provides extensive services in English as many of its clients are North American or European businesses.",
@@ -195,10 +204,11 @@
     "fourth": "The founder of EdmarLaw and attorney-at-law Malin Edmar has worked at the headquarters of Microsoft Corporation in Redmond for four years and assisted the company for more than 12 years thereafter, in the field of commercial contracting, product development and product launches. She has also worked for GitHub, Inc. several years as Senior Commercial Counsel, focusing on drafting and negotiating commercially viable, easy-to-understand terms for i.a. PaaS, support services and collaboration work, as well as being their Senior Product Counsel, focusing on AI services and security features, PaaS, and joint development. This experience has not only given her a passion for new technology but also a very good understanding of the IT industry. She knows the typical product cycles of IT companies and understands their terminology – her curiosity in the operations of her clients therefore comes naturally.",
     "title": "Attorney-at-law and founder ",
     "desc1": "Malin Edmar has been practicing contract law, IT law and Intellectual Property Law since 1996. She often drives large and complicated negotiations in various fields, as well as mediation negotiations. Malin drafts and negotiates agreements in the IT or tech industries, or agreements relating to intellectual property rights. A majority of the agreements are drafted and negotiated in English, since most of the clients are either English speaking or have English speaking partners. She has worked at Microsoft’s headquarters for four years, providing legal advice in product development, product launches, and the launching of online services. She has also worked for GitHub, Inc. several years as Senior Commercial Counsel, focusing on drafting and negotiating commercially viable, easy-to-understand terms for i.a. PaaS, support services and collaboration work, as well as Senior Product Counsel, focusing on product licensing for AI products and security features, PaaS, and joint development. Malin has a passion for new technology and can’t stop herself from testing new gear.",
-    "desc2": "Malin has written four books, i.a. the Swedish book Internet publishing and social media, which is now in its seventh edition (Norstedts Juridik, 2021), and has been part of the Swedish governmental ICT committee for several years, where she got the opportunity to influence the implementation of laws on privacy, electronic communication and e-commerce. When Malin drafts agreements, negotiates or writes books, she always has the technology in focus, and makes sure that she understands the technology first, before applying the law to it. Malin is also passionate about making the law understandable. You shouldn’t need to hire lawyers to understand what you agreed on. That is probably one reason why her books are so popular and are used as course literature at several universities in Sweden.",
+    "desc2": "Malin has written four books, i.a. the Swedish book Internet publishing and social media, which is now in its seventh edition (Norstedts Juridik, 2021), and has been part of the Swedish governmental ICT committee for several years, where she got the opportunity to influence the implementation of laws on privacy, electronic communication and e-commerce.",
+    "desc3": "When Malin drafts agreements, negotiates or writes books, she always has the technology in focus, and makes sure that she understands the technology first, before applying the law to it. Malin is also passionate about making the law understandable. You shouldn’t need to hire lawyers to understand what you agreed on. That is probably one reason why her books are so popular and are used as course literature at several universities in Sweden.",
     "Education": "Education",
     "here": "here",
-    "Member of the following associations":"Member of the following associations",
+    "Member of the following associations": "Member of the following associations",
     "Experience": "Experience",
     "unii": "University of Uppsala and University of Stockholm. LLM 1996.",
     "Law firm EdmarLaw 2016-": "Law firm EdmarLaw 2016-",
@@ -297,7 +307,7 @@
     "protect2": "All changes to this policy will be published on our website. Please visit our website regularly to keep you informed of any changes.",
     "contact1": "For more information on EdmarLaws data protection management, or if you have any questions, please feel free to contact EdmarLaw at:",
     "contact2": "Advokatfirman EdmarLaw AB, Tegnérgatan 23 6 tr, 111 40 Stockholm or",
-    "contact3": "info@edmarlaw.se.",
+    "contact3": "malin.edmar@edmarlaw.se.",
     "contact4": "If you are dissatisfied with how we treat your personal information, you should contact EdmarLaw and let us know. You can also turn to the Data Inspection Board, + 46 8 657 61 00,",
     "contact5": "datainspektionen@datainspektionen.se,",
     "contact6": "Box 8114, 104 20 Stockholm."
@@ -324,5 +334,218 @@
     "twilight3": "In this book we highlight intellectual property at the border to other areas of law. The authors focus on the increased importance of intellectual property and the relationship to several neighboring jurisdictions. The book also touches on the different types of intellectual property, from copyright and trademarks to patents and plagiarism.",
     "In Swedish only": "In Swedish only",
     "Buy": "Buy"
+  },
+  "Cards": {
+    "ai": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognition software",
+    "law": "IT systems, cloud services, IoT, software, open source",
+    "contract": "All types of agreements for the IT industry, conditions according to industry practice",
+    "copyright": "Rights to software, concepts, know-how, design",
+    "privacy": "EU General Data Protection Regulation",
+    "privacy2": "Privacy impact assessments, DPIA, TIA, privacy policy, privacy by design",
+    "outsourcing": "Agreements on outsourcing and various types of cloud services",
+    "ecom": "General terms, advertising, social media, distribution",
+    "domain": "Domain name registrations and domain name disputes",
+    "readMore": "Read more"
+  },
+  "Ai": {
+    "subHeader": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognitionsoftware",
+    "p1": "While AI models are the underlying algorithms that process data, AI tools are applications or platforms that utilize these models to perform tasks. For instance, a machine learning model can be integrated into a software tool for predictive analytics, enabling businesses to forecast trends based on historical data. The data quality, the model you use and the deployment method you choose are all essential to create a good AI system.",
+    "p2": "EdmarLaw can assist you whether you develop AI systems or want to use them in your work environment. We have extensive experience licensing AI technology and help with legal issues in the AI development work and life cycle."
+  },
+  "AiAct": {
+    "subHeader": "AI Act",
+    "p1": "The EU AI Act is the world's first AI law. The purpose of it is to address risks to health, safety and fundamental rights. Similar to the GDPR, the AI Act applies to both public and private actors inside and outside the EU if the AI system is placed on the EU market, or its use has an impact on people located in the EU.",
+    "p2": "The obligations of the AI Act can affect both providers (e.g. a developer of a chatbot) and deployers of AI systems (e.g. a customer using this tool).",
+    "link": "More on EdmarLaw, AI and the AI Act."
+  },
+  "ItLaw": {
+    "subHeader": "IT systems, cloud services, IoT, software, open source",
+    "p1": "EdmarLaw has more than 25 years of experience from reviewing, analyzing, drafting and negotiating most types of agreements in the IT and tech industry. It could be development or implementation of IT systems, software, embedded software (internet of things), both open source and proprietary licenses, as well as know-how and concept licensing. EdmarLaw often provides its services in English since many of its clients are North American or European businesses.",
+    "listHeader": "Typical assignments:",
+    "list1": "Licenses",
+    "list2": "Terms of Use, Terms of Service",
+    "list3": "Outsourcing",
+    "list4": "Joint Development",
+    "list5": "Cloud services (PaaS, SaaS, etc.)",
+    "list6": "System Deliveries",
+    "list7": "E-commerce",
+    "list8": "Maintenance of software, IoT, IT systems",
+    "list9": "Copyright and other intellectual property rights",
+    "list10": "Processing, including transfer of Personal Data",
+    "list11": "Domain name strategies",
+    "list12": "Trademark rights"
+  },
+  "ContractLaw": {
+    "subHeader": "All types of agreements for the IT industry, conditions according to industry practice",
+    "p1": "EdmarLaw drafts, reviews, analyzes, revises and negotiates all types of agreements for the IT industry, such as licensing and outsourcing agreements, terms of use or terms of service, customer agreements, development agreements (both hardware and software), cooperation agreements, consultancy agreements and distribution agreements. EdmarLaw conducts its business in two languages, English and Swedish – a majority of the agreements drafted and negotiated are in English.",
+    "p2": "Except for a few exceptions, there are no formal requirements regarding the formation of a contract in Sweden, which means that a contract can be made in any way, shape or form, including verbally. There is no hindrance to electronic agreements either, as long as you can identify and verify the counter party in a reliable way; you must be able to prove the validity of the agreement.",
+    "p3": "Whether you are a purchaser or supplier, the agreement is key to a successful business. To try to recapture later what the parties’ intentions were at the time of contract entry (e.g. if a project or collaboration later fails), is extremely difficult for both parties. This increases the risk of a dispute immensely. In most cases, the parties are in agreement in the beginning, eager to get on board with their project. Both parties think they know and agree on what is being purchased and what is being delivered. To negotiate an agreement including all aspects of the project therefore may seem unnecessary at that time. But the agreement is not for when projects succeed – it is for the scenario when things start going wrong, getting delayed or when the parties begin to realize that they simply do not share the same view on the delivery. That is when the agreement shall function as a manual, and keep the parties moving forward even with some sidetracking. To negotiate the terms at a time when the parties are seemingly in agreement with positive spirits is key to a successful engagement with each other throughout their collaboration."
+  },
+  "Copyright": {
+    "subHeader": "Rights to software, concepts, know-how, design",
+    "p1": "Copyright assets such as software, databases, design, drawings, images, music and other types of works or concepts can represent extremely valuable assets in a company or organization. EdmarLaw has more than twenty-five years of experience in managing copyright and other intellectual property rights, and is well-equipped to deal with and secure various types of immaterial assets.",
+    "p2": "The digital environment, with a cluster of different types of media, fast and worldwide communication and distribution of equipment both at the workplace and at home, has made the copyright issues highly relevant. The market for computer games alone is far greater than that of the film industry. But it is not always a question of market growth; the very foundation for production and exploitation of protected works has changed thanks to the digitization.",
+    "p3": "EdmarLaw counsels copyright owners who want to protect or exploit their ideas, or manage infringement and infringement claims."
+  },
+  "PrivacyLaw": {
+    "subHeader": "Privacy impact assessments, DPIA, TIA, privacy policy, privacy by design",
+    "p1": "EdmarLaw assists companies in privacy related issues; everything from drafting a privacy policy, information texts or agreement terms in accordance with the General Data Protection Regulation EU 2016/679 (GDPR), to analyzing specific privacy law related aspects and providing legal opinions.",
+    "p2": "EdmarLaw is frequently a representative before the Swedish Authority for Privacy Protection, both formally and informally. EdmarLaw conducts reviews (due diligence) of a company’s processing of personal data, assists in data protection impact assessments (DPIAs), incident management and helps ensure that the processing of personal data is in accordance with GDPR as well as other Swedish and EU laws and regulations in this field.",
+    "p3": "Companies, authorities and other organizations have a need to extract knowledge from big data. This is constantly increasing as technology advances. At the same time, the processing of personal data is getting more and more regulated. EU already has one of the world’s toughest privacy regulations and the requirements get even tougher as the commercial value of personal data grows and is intensified. To process personal data, at the same time as you care for and respect employees’ and customers’ need for integrity, has become an increasingly important competitive advantage.",
+    "p4": "As an advisor to several global information services operations, EdmarLaw has in-depth knowledge and understanding of a company’s needs when it comes to processing personal data as part of its business.",
+    "p5": "Business opportunities should not be limited by the rules regulating processing personal data. Rather, one should seek to find ways to manage personal data processing in accordance with the GDPR at the same time as you fulfill your business purpose. EdmarLaw helps its clients to be proactive and not reactive in the privacy space.",
+    "p6": "",
+    "link": "Read more on EdmarLaw and the GDPR",
+    "listHeader": "Typical assignments:",
+    "list1": "Data protection impact assessment (DPIA)",
+    "list2": "Transfer impacts assessment (TIA)",
+    "list3": "How to process personal data",
+    "list4": "Draft or review of privacy policies",
+    "list5": "Privacy impact assessments",
+    "list6": "Privacy by default and privacy by design aspects",
+    "list7": "Legal bases for processing, when consent is needed",
+    "list8": "What information to provide to data subjects",
+    "list9": "How to handle cookies"
+  },
+  "Outsourcing": {
+    "subHeader": "Agreements on outsourcing and various types of cloud services",
+    "p1": "Outsourcing agreements are long life by character and often concern core aspects of the business. Both the outsourcing project and the law around it can be complex, and the legal guidance often spans over several legal areas. In order for the outsourcing to go well, the deal needs to be well construed and thoroughly prepared. Because it covers a long term relationship, it should be based on mutual trust. This can be created through a balance between the parties, common incentives and an excellent cooperative climate.",
+    "p2": "Outsourcing is by principle critical to the business and neither of the parties have time for misinterpretations and false expectations. The agreements therefore need to function as a manual for the cooperation, to be the documents setting out the expectations. This requires simple and concise terms, taking the entire project in consideration.",
+    "p3": "EdmarLaw knows that outsourcing projects require specialized legal competence as well as focus on the business needs. EdmarLaw has long experience from traditional outsourcing, off- or nearshoring and various types of cloud services."
+  },
+  "Ecom": {
+    "subHeader": "General terms, advertising, social media, distribution",
+    "p1": "The global aspect of e-commerce is quite an advantage for both small and large businesses to export its goods and services. Gone are the days when you approached one region at a time, since you can reach all markets at once. Going global all at once continue to be a factor for success – albeit laws regulating e-commerce both within the EU and outside of the EU keep growing and keep changing. An e-commerce player needs to have an understanding of the rules and regulations where it has its principal place of business, but almost equally important is to understand the practice, regulations and traditions in the target markets as well.",
+    "p2": "EdmarLaw assists e-commerce businesses with everything from terms and conditions and privacy issues to marketing law aspects of campaigns and the use of social media to communicate a message."
+  },
+  "Domains": {
+    "subHeader": "Domain name registrations and domain name disputes",
+    "p1": "Presence on the internet is essential to any business. Domain names are important marketing channels and encompass both security aspects and quality assurances. A company’s domain name(s) are therefore usually quite valuable to the company, and it is important to keep an ongoing strategic approach when dealing with domain names.",
+    "p2": "EdmarLaw provides assistance with domain name registrations, as well as domain name disputes and strategic advice with regards to domain names."
+  },
+  "AiPage": {
+    "header": "Artificial Intelligence – AI",
+    "aiDesc1": "Artificial intelligence (AI) has become a big part of everyday life. Businesses are realizing the power of AI to make work easier, boost productivity, and help enhance client and customer relationships. AI can help us with learning, reasoning, solving problems and making decisions – all tasks which until recently would require humans. Common examples of AI software are chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines and predictive analytics tools.",
+    "aiDesc2": "A chatbot is a software using artificial intelligence to simulate human conversation. ChatGPT by OpenAI is a well-known example of a chatbot. Businesses can integrate it with their existing systems through APIs, and customize it to better fit the specific industry or purpose of the business.",
+    "aiDescSubheader": "AI models and AI tools",
+    "aiDesc3": "While AI models are the underlying algorithms that process data, AI tools are applications or platforms that utilize these models to perform tasks. For instance, a machine learning model can be integrated into a software tool for predictive analytics, enabling businesses to forecast trends based on historical data. The data quality, the model you use and the deployment method you choose is essential to create a good AI system.",
+    "aiDesc4": "EdmarLaw can assist you whether you develop AI systems or want to use them at work. We have extensive experience licensing AI technology and helping with legal issues in the AI development work and life cycle."
+  },
+  "AiActEu1": {
+    "header": "What is the AI Act?",
+    "AiActEu1Desc": "The EU AI Act is the world's first AI law. The purpose of it is to address risks to health, safety and fundamental rights."
+  },
+  "AiActEu2": {
+    "header": "Why did the EU want to regulate use of Artificial Intelligence?",
+    "AiActEuDesc": "AI systems have a strong potential to bring societal benefits and economic growth to the world. That said, the European Union believes that certain AI systems may create new risks related to user safety and fundamental rights. Some powerful AI models that are widely used could even pose systemic risks.",
+    "AiActEuDesc2": "To avoid a lack of trust in AI technologies by public authorities, businesses and citizens, the EU concluded that legislation around AI was needed, where both benefits and risks were adequately addressed."
+  },
+  "AiActGdpr": {
+    "header": "Does the AI Act apply to our business?",
+    "AiActGdprDesc": "Similar to the GDPR, the AI Act applies to both public and private actors inside and outside the EU if the AI system is placed on the EU market, or its use has an impact on people located in the EU. The obligations of the AI Act can affect both providers (e.g., a developer of a chatbot) and deployers of AI systems (e.g., a customer using this tool).",
+    "AiActGdprDescListHeader": "There are some exceptions when the regulation does not apply:",
+    "AiActGdprDescList1": "if research, development and prototyping activities take place before an AI system is released on the market, or if AI systems are exclusively designed for military, defense or national security purposes.",
+    "AiActGdprDescList2": "if AI systems are exclusively designed for military, defense or national security purposes."
+  },
+  "AiActSystem": {
+    "header": "How does the AI Act differentiate between AI systems?",
+    "AiActSystemDesc": "The AI Act has a risk-based approach for it's rules.",
+    "AiActSystemList1": "Unacceptable risk",
+    "AiActSystemDesc2": "AI systems that violate fundamental rights are considered particularly harmful. Uses of such AI systems will be banned. Examples of such violation of fundamental rights are:",
+    "AiActSystemDesc3": "Exploitation of vulnerabilities of persons, manipulation and use of subliminal techniques;",
+    "AiActSystemDesc4": "Social scoring for public and private purposes;",
+    "AiActSystemDesc5": "Individual predictive policing based solely on profiling people;",
+    "AiActSystemDesc6": "Untargeted scraping of internet or CCTV for facial images to build-up or expand databases;",
+    "AiActSystemDesc7": "Emotion recognition in the workplace and education institutions, unless for medical or safety reasons (i.e., monitoring the tiredness levels of a pilot);",
+    "AiActSystemDesc8": "Biometric categorization of natural persons to deduce or infer their race, political opinions, trade union membership, religious or philosophical beliefs or sexual orientation. Labelling or filtering of datasets and categorizing data in the field of law enforcement will still be possible;",
+    "AiActSystemDesc9": "Real-time remote biometric identification in publicly accessible spaces by law enforcement, subject to narrow exceptions (see below).",
+    "AiActSystemList2Subheader": "High risk",
+    "AiActSystemList2Desc": "AI systems with an adverse impact on people’s safety or their fundamental rights are considered to be high-risk. There’s a list in the AI Act of these high-risk AI systems, and it is subject to frequent review based on technology advances. Examples are:",
+    "AiActSystemList2Desc2": "AI systems that assess whether somebody is able to receive a certain medical treatment (AI-based medical software),",
+    "AiActSystemList2Desc3": "AI systems that assess whether somebody is able to get a certain job or loan to buy an apartment.",
+    "AiActSystemList2Desc4": "AI systems used by the police for profiling people or assessing their risk of committing a crime",
+    "AiActSystemList2Desc5": "AI systems operating robots, drones, or medical devices.",
+    "AiActSystemList2Subheader2": "Minimal risk",
+    "AiActSystemList2Desc6": "The majority of AI systems today can be developed and used without particular obligations under the AI Act. But we recommend that you apply the requirements for trustworthy AI and implement an AI code of conduct when using AI technologies.",
+    "AiActSystemList2Desc7": "It is important to ensure transparency around the use of AI. The AI Act therefore includes transparency requirements for some AI applications, where there is a clear risk of manipulation or deep fakes. Chatbots and social media are typical examples where users should be made aware that they are interacting with a machine.",
+    "AiActSystemList2Subheader3": "General",
+    "AiActSystemList2Desc8": "It is important to ensure transparency around the use of AI. The AI Act therefore includes transparency requirements for some AI applications, where there is a clear risk of manipulation or deep fakes. Chatbots and social media are typical examples where users should be made aware that they are interacting with a machine. The transparency requirement is similar to that in GDPR, i.e. an information requirement, and we recommend that you document your use of AI and inform your users in the same way as you would regarding your business’ use of personal data. You can apply the same approach; would the user expect its personal data to be used for this purpose? Would the user expect AI to be used in this scenario? If not, then you should inform the users about this. The EU AI Office (see below) will provide further guidelines for labelling AI generated content."
+  },
+  "AiSystem": {
+    "header": "How do I know if an AI system is high-risk?",
+    "AiSystem1": "While this will be clarified over time, the risk classification is based on the intended purpose of an AI system, i.e., depending on the function performed by the AI system, its specific purpose and modalities the system is used in. Annex III of the AI Act describes areas where the use of AI can be particularly sensitive and therefore classified as high-risk:",
+    "AiList1": "AI systems used as safety components in certain critical infrastructures, for instance in the fields of road traffic and the supply of water, gas, heating and electricity.",
+    "AiList2": "AI systems used in education and vocational training, e.g., to evaluate learning outcomes and steer the learning process and monitoring of cheating.",
+    "AiList3": "AI systems used in employment and workers management and access to self-employment, e.g., to place targeted job advertisements, to analyze and filter job applications, and to evaluate candidates.",
+    "AiList4": "AI systems used in the access to essential private and public services and benefits (e.g., healthcare), creditworthiness evaluation of natural persons, and risk assessment and pricing in relation to life and health insurance.",
+    "AiList5": "AI systems used in the fields of law enforcement, migration and border control, insofar as not already prohibited, as well as in administration of justice and democratic processes.",
+    "AiList6": "AI systems used for biometric identification, biometric categorization and emotion recognition, insofar as not prohibited."
+  },
+  "AiSystem2": {
+    "header": "What are the obligations for providers of high-risk AI systems?",
+    "AiSystem2Desc": "What are the obligations for providers of high-risk AI systems?",
+    "AiSystem2Desc2": "Before placing a high-risk AI system on the EU market or otherwise putting it into service, providers must subject it to a conformity assessment, to demonstrate that the AI system complies with the mandatory requirements for trustworthy AI (e.g., data quality, documentation and traceability, transparency, human oversight, accuracy, cybersecurity and robustness).",
+    "AiSystem2Desc3": "AI systems that serve as safety components of products covered by the EU legislation listed in Annex I of the AI Act will always be deemed high-risk when subject to third-party conformity assessment under that legislation. And all biometric systems, regardless of their application, will require third-party conformity assessment.",
+    "AiSystem2Desc4": "Providers of high-risk AI systems will also have to implement quality and risk management systems to ensure their compliance with the new requirements and minimize risks for users and affected persons, even after a product is placed on the market."
+  },
+  "AiModels": {
+    "header": "How are general-purpose AI models regulated?",
+    "AiModelsDesc": "How are general-purpose AI models regulated?",
+    "AiModelsDesc2": "General-purpose AI models, including the large generative AI models, can be used for a variety of tasks and are becoming the basis for many AI systems in the EU. Consequently, the EU has concluded that it is crucial that a provider of an AI system integrating a general-purpose AI model has access to all necessary information to ensure the system is safe and compliant with the AI Act. The AI Act therefore obliges providers of such models to disclose certain information to downstream system providers. Such transparency enables a better understanding of these models. Model providers also need to have policies in place to ensure that that they respect copyright law when training their models.",
+    "AiModelsDesc3": "Some of these models could carry systemic risks if they are very capable or widely used. For example, powerful models could cause serious accidents or be misused for far-reaching cyberattacks. Many individuals could be affected if a model propagates harmful biases across many applications. This, in part, is what the EU AI Act aims to contain."
+  },
+  "AiOffice": {
+    "header": "AI Office",
+    "AiOfficeDesc": "The EU Commission has established an AI Office to ensure the implementation of the AI Act, supporting the authorities in member states. The staff includes both technology specialists, lawyers, policy specialists and economists. The AI Office will also directly enforce the rules for general-purpose AI models. In cooperation with AI developers, the scientific community and other stakeholders, the AI Office will coordinate the drafting of codes of practice, conduct testing and evaluation of general-purpose AI models, request information, as well as apply sanctions when necessary. Just like GDPR, the AI Act includes sanctions and considerable fines for breach of the AI Act requirements."
+  },
+  "AiPageHeaders": {
+    "Ai1": "Artificial Intelligence – AI",
+    "AiEu": "What is the AI Act?",
+    "AiEu2": "Why did the EU want to regulate use of Artificial Intelligence?",
+    "AiActGdpr": "Does the AI Act apply to our business?",
+    "AiActSystem": "How does the AI Act differentiate between AI systems?",
+    "AiSystem": "How do I know if an AI system is high-risk?",
+    "AiSystem2": "What are the obligations for providers of high-risk AI systems?",
+    "AiModels": "How are general-purpose AI models regulated?",
+    "AiOffice": "AI Office"
+  },
+  "AiHeadersNew": {
+    "AI": "Artificial Intelligence – AI",
+    "What is the AI Act?": "What is the AI Act?",
+    "Why regulate AI?": "Why regulate AI?",
+    "When does it apply?": "When does it apply?",
+    "Risk-based approach": "Risk-based approach",
+    "What is high-risk?": "What is high-risk?",
+    "What are the obligations?": "What are the obligations?",
+    "Gen-AI models": "Gen-AI models",
+    "AI Office": "AI Office"
+  },
+  "NewAbout": {
+    "p1": "The law firm EdmarLaw",
+    "p2": "EdmarLaw has more than 25 years of experience reviewing, analyzing, drafting and negotiating most types of agreements in the tech and IT industry.",
+    "p3": "The legal counseling of EdmarLaw often concerns GDPR, draft of development agreements, customer agreements, license agreements, terms of use, data protection assessments, and all aspects of cloud services (PaaS, SaaS) and e-commerce, software and AI services.",
+    "p4": "EdmarLaw provides most of its services in English since many of its clients are North American or European businesses. EdmarLaw has a well-established network of lawyers throughout the world, thanks to being a member of international networks, experiences from international assignments and assisting many international clients. EdmarLaw is therefore able to efficiently guide and assist in matters concerning several jurisdictions and business areas.",
+    "p5": "Malin Edmar",
+    "p6": "Attorney-at-law and founder",
+    "p7": "The founder and attorney-at-law Malin Edmar has been practicing contract law, IT law and intellectual property law since 1996. She often drives large and complex negotiations in various fields, as well as mediation negotiations.",
+    "p8": "Malin Edmar has worked at the headquarters of Microsoft Corporation in Redmond for several years and has continued assisting the company regarding commercial contracting, product development and product launches. She has also worked for GitHub, Inc., as Senior",
+    "p9": "Commercial Counsel, focusing on drafting and negotiating commercially viable, easy-to- understand terms for i.a. PaaS, support services and collaboration work, as well as Senior Product Counsel, focusing on AI services and security features, PaaS, and joint development.",
+    "p10": "This experience has not only made her passionate about new technology but also given her a very good understanding of the IT industry. She knows the typical product cycles of IT companies and understands their terminology – grasping the operations of her clients therefore comes naturally.",
+    "p11": "Malin has written four books, i.a. the Swedish book Internet publishing and social media, which is now in its seventh edition (Norstedts Juridik, 2021), and has been part of the Swedish governmental ICT committee for several years, where she got the opportunity to influence the implementation of laws on privacy, electronic communication and e-commerce.",
+    "p12": "When Malin drafts agreements, negotiates or writes books, she always has the technology in focus, and makes sure that she understands the technology first, before applying the law to it. Malin is also passionate about making the law understandable. You shouldn’t need to hire lawyers to understand what you agreed on. That is probably one reason why her books are so popular and are used as course literature at several universities in Sweden.",
+    "Medförfattare till boken": "Co-author of the book",
+    "Författare till boken": "Author of the book",
+    "Redaktör och medförfattare till boken": "Editor and co-author of the book"
+  },
+  "NewCardTitles": {
+    "AI": "Artificial Intelligence – AI",
+    "IT Law": "IT Law",
+    "Contract Law": "Contract Law",
+    "Licensing of Software": "Copyright",
+    "GDPR": "GDPR",
+    "Privacy Law": "Privacy Law",
+    "Outsourcing": "Outsourcing",
+    "E-commerce": "E-commerce",
+    "Domain Names": "Domain Names"
   }
 }

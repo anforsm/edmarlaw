@@ -1,11 +1,13 @@
 {
   "Index": {
-    "intro": "Advokatfirman EdmarLaw hjälper främst IT-bolag och teknikintensiva bolag, och har specialistkompetens sedan 25 år inom IT-rätt, dataskydd (GDPR), avtalsrätt, immaterialrätt och e-handel.",
+    "intro": "Advokatfirman EdmarLaw hjälper främst IT-bolag och teknikintensiva bolag, och har specialistkompetens sedan mer än 25 år inom IT-rätt, dataskydd (GDPR), avtalsrätt, immaterialrätt och e-handel.",
     "references_header": "Referenser",
     "expertiseTitle": "Verksamhetsområden",
+    "aboutTitle": "Om EdmarLaw",
+    "AI": "AI",
     "IT Law": "IT-rätt",
     "Contract Law": "Avtalsrätt",
-    "Privacy Law": "Dataskydd",
+    "Privacy Law": "Dataskydd (GDPR)",
     "Telecom Law": "Telekomlagstiftning",
     "Design Law": "Mönsterrätt och designskydd",
     "Trademark Law": "Varumärkesrätt och firmarätt",
@@ -23,45 +25,40 @@
     "quote2": "With her background, Malin has in-depth knowledge about our core business, both the technology and the agreement structures. The fact that she is so easy to reach and shares the passion for new technology makes the collaboration particularly easy!",
     "author2": "Mathias Strand",
     "position2": "Head of legal Microsoft Western Europe",
-
     "quote3": "Att kunna immaterialrätt är bara en grundförutsättning. Man måste förstå på en nivå som kräver ett genuint intresse för internet, dataspel, esport och digital kultur. Det gör Malin, och i kombination med sin juridiska skicklighet levererar hon vad som krävs i den snabbrörliga, komplexa och digitala värld som utgör vår affärsmiljö.",
     "author3": "Stefan Magnusson",
     "position3": "Vice President DreamHack AB",
-
     "quote4": "Malin is so engaged; readily available with wise input in the midst of complicated negotiations. She gives us key questions to consider and is a great resource to discuss with. She reviews and analyses agreement documents for us and comes back with a simple bullet list for us to focus on.",
     "author4": "Mattias Unosson",
     "position4": "CEO Exmet AB",
-
     "quote5": "Malin har bland annat tagit fram heltäckande allmänna villkor både på svenska och engelska för vår molntjänst. Hennes stöd i avtalsfrågor är mycket uppskattat då hon är lätt att nå, snabb och pedagogisk när hon svarar på frågor.",
     "author5": "Patrik Andersson",
     "position5": "Product Manager Genero Solutions AB",
-
     "quote6": "Malin är ett bra bollplank i förhandlingar! Med sin bakgrund inom IT, så är hon väl insatt i de specifika frågeställningarna och förstår i detalj hur olika skrivningar och tolkningar ska hanteras. Hon inger också ett solitt intryck när hon deltar i förhandlingar.",
     "author6": "Anders Båth",
     "position6": "Sr VP eBuilder",
-
     "quote7": "Det första Malin gjorde för oss var en källkodsanalys, så att vi fick full koll på vår kod. Det har hjälpt oss oerhört mycket i kundförhandlingar eftersom kunderna vill ha vissa garantier. Genom att Malin förstår de tekniska bitarna så är det lätt att prata samma språk.",
     "author7": "Johan Gustafsson",
     "position7": "CEO Unomaly",
-
     "quote8": "Det har varit en fröjd att arbeta med dig och din enorma kompetens! Jag hoppas verkligen att vi får chansen att jobba med dig mer inom kort! (inte bara för att det förhoppningsvis betyder att vi sålt mer :)",
     "author8": "Jakob Johansson",
-    "position8": "Sr VP eBuilder",
+    "position8": "CEO, Gleechi AB",
+    "quote9": "I’ve sought Malin’s advice on new initiatives in Nordic and European countries. She’s pragmatic, fast, and has excellent judgement when it comes to technology agreements and intellectual property. I highly recommend her.",
     "publisherTitle": "Internetpublicering och sociala medier",
-    "publisherDescription": "Syftet med denna bok är att på ett konkret och enkelt sätt förklara reglerna som rör internetpublicering, sociala medier och IT-relaterade produkter och tjänster samt ge en praktisk tillämpning av juridiken på internet. Boken är full av exemplifierande rättsfall och förklaringar och ger samtidigt en god förståelse för hur den traditionella juridiken har utvecklats i takt med digitaliseringen. Ett kapitel består dessutom av frågor och svar på om vad man ska tänka på när man publicerar material på nätet.",
+    "publisherDescription": "Syftet med denna bok är att på ett konkret och enkelt sätt förklara reglerna som rör internetpublicering, sociala medier och IT-relaterade produkter och tjänster samt ge en praktisk tillämpning av juridiken på internet.",
+    "publisherDescription2": "Boken är full av exemplifierande rättsfall och förklaringar och ger samtidigt en god förståelse för hur den traditionella juridiken har utvecklats i takt med digitaliseringen. Ett kapitel består dessutom av frågor och svar på om vad man ska tänka på när man publicerar material på nätet.",
     "publisherViewAllPublications": "Se alla publikationer",
     "Typical assignments:": "Vanliga frågor och uppdrag",
     "Area of Expertise": "Verksamhetsområden",
     "Areas of Expertise": "Verksamhetsområden",
     "GDPR": "GDPR",
     "REFERENCES": "Referenser",
-    "ABOUT": "Om oss",
+    "ABOUT": "Om EdmarLaw",
     "itDescription": "EdmarLaw har 25 års erfarenhet av att granska, upprätta och förhandla de flesta typer av avtal som förekommer på IT- och teknikområdet. EdmarLaw har omfattande erfarenhet av dataskydd, utveckling och implementering av IT-system, licensiering av molntjänster (PaaS, SaaS etc.) och AI-tjänster, såväl embedded software (internet of things), som software, know-how och patent, liksom utveckling, samarbete och distribution av produkter och tjänster inom teknikindustrin. Många av EdmarLaws klienter är amerikanska eller europeiska företag, vilket innebär att EdmarLaw bedriver en stor del av sin rådgivning, förhandling och upprättande av avtal på engelska.",
     "Licenses": "Licenser",
     "Terms of Use, Terms of Service": "Produktvillkor, tjänstevillkor",
     "Privacy assessments": "Dataskyddsanalyser och konsekvensbedömningar",
     "Privacy terms": "Personuppgiftspolicies",
-
     "Joint Development": "Utvecklingssamarbeten",
     "Online Services (PaaS, SaaS, cloud services etc)": "Onlinetjänster (PaaS, SaaS, molntjänster, etc.)",
     "System Deliveries": "Systemleverans",
@@ -108,12 +105,18 @@
     "TelDesc1": "Kommunikation av tal, musik, bild, text och andra data är ofta integrerade i olika tjänster på nätet. Även om telekommarknaden är avreglerad, finns ett omfattande och dynamiskt EU-rättsligt regelverk för elektronisk kommunikation. Huvuddelarna tas upp i den svenska lagen om elektronisk kommunikation.",
     "TelDesc2": "Lagen om elektronisk kommunikation gäller för teleoperatörer och andra tillhandahållare av elektroniska kommunikationstjänster och elektroniska kommunikationsnät. I lagen finns krav på lagring av trafikuppgifter för brottsbekämpningsändamål (de ska raderas eller avidentifieras efter sex månader), och andra typer av data som t.ex. behövs för betalning eller för marknadsföring (de ska tas bort när de inte längre behövs).",
     "TelDesc3": "Frågor som autentisering, behörighetskontroll, kommunikationssäkerhet, rutiner för säkerhetskopiering och skydd mot obehörig trafik och skadlig programvara berör inte bara telekomoperatörernas verksamhet utan även molntjänstleverantörer.",
-    "TelDesc4": "EdmarLaw har kunskapen, branschkännedomen och vanan att biträda telekom- och internetoperatörer vid bl.a. avtalsförhandlingar och regulatoriska frågor, ansvars- och yttrandefrihetsfrågor."
+    "TelDesc4": "EdmarLaw har kunskapen, branschkännedomen och vanan att biträda telekom- och internetoperatörer vid bl.a. avtalsförhandlingar och regulatoriska frågor, ansvars- och yttrandefrihetsfrågor.",
+    "expertiseTitleShort": "Expertis",
+    "ReadMoreGdpr": "Läs mer om GDPR",
+    "MainTitle": "Navigating Legal Waters with Excellence",
+    "Vanliga uppdrag": "Vanliga uppdrag",
+    "AiPageTitle": "Artificiell intelligens – AI",
+    "GDPRPageTitle": "GDPR"
   },
   "GDPR": {
     "What is GDPR?": "Vad är GDPR?",
     "what1": "Sverige var det första land i världen som antog en nationell datalag år 1973. Och skyddet av personuppgifter har inte blivit mindre aktuellt med åren! Idag är det den allmänna dataskyddsförordningen, GDPR, som ska skydda människor från att deras personliga integritet kränks när personuppgifter behandlas av andra. Den ersatte personuppgiftslagen (PUL) som gällde 1998-2018.",
-    "what2": "All slags behandling av uppgifter som direkt eller indirekt kan hänföras till en fysisk person omfattas av GDPRs regler, alltifrån loggning och lagring till överföring och radering – och all behandling däremellan. De flesta av GDPRs begrepp och principer är desamma som gällde enligt PUL. Men med GDPR kom bland annat nya krav på personuppgiftsbiträdet, betydligt utökad informationsskyldighet gentemot den registrerade, konsekvensbedömning vid viss behandling, incidenthantering och rapportering, privacy by design, krav på dataskyddsombud i vissa fall samt sanktionsavgifter. PULs undantag för behandling av personuppgifter i ostrukturerat material, den så kallade missbruksregeln, försvann också med GDPRs intåg.",
+    "what2": "All slags behandling av uppgifter som direkt eller indirekt kan hänföras till en fysisk person omfattas av GDPRs regler, alltifrån loggning och lagring till överföring och radering – och all behandling däremellan. De flesta av GDPRs begrepp och principer är desamma som gällde enligt PUL. Men med GDPR kom bland annat nya krav på personuppgiftsbiträdet, betydligt utökad informationsskyldighet gentemot den registrerade, konsekvensbedömning vid viss behandling, incidenthantering och rapportering, privacy by design, krav på dataskyddsombud i vissa fall och inte minst höga sanktionsavgifter.",
     "DO_YOU": "Uppfyller ni GDPRs krav?",
     "doDesc": "En stor del av arbetet med GDPR handlar om att dokumentera och analysera behandlingen av personuppgifter. Det är främst följande frågor som ni måste ta ställning till och åtgärda för att följa GDPR:",
     "first": "Vet ni vilka personuppgifter som hanteras, för vem, för vilket ändamål, med hjälp av vilka leverantörer, vilka de lämnas ut till och hur länge de bevaras?",
@@ -122,7 +125,7 @@
     "fourth": "Har ni avtal på plats med personuppgiftsbiträden (exempelvis leverantörer)?",
     "fifth": "Uppfyller ni kraven på informationsskyldighet till de personer vars uppgifter ni hanterar?",
     "sixth": "Har ni gjort och dokumenterat konsekvensbedömningar för era produkter och tjänster?",
-    "seventh": "EdmarLaw har omfattande erfarenhet av personuppgiftshantering och spetskompetens på området. Vi kan hjälpa er att uppfylla GDPRs krav. Kontakta oss",
+    "seventh": "EdmarLaw har omfattande erfarenhet av personuppgiftshantering och spetskompetens på området. Vi kan hjälpa er att uppfylla GDPRs krav.",
     "Information Obligation": "Informationsskyldighet",
     "Requirements to provide information": "Krav på att lämna information",
     "info1": "GDPR ställer väsentligt högre krav än tidigare på den information som lämnas till den registrerade. Informationen ska lämnas i samband med insamling av personuppgifterna. Den ska vara lättillgänglig och med ett klart och tydligt språk. Det bästa är att lämna informationen i en personuppgiftspolicy på webbsidan.",
@@ -145,9 +148,9 @@
     "privacy4": "EdmarLaw utbildar i privacy by design-aspekter och kan även hjälpa till med att se över er privacy by design i samband med att ni utvecklar eller implementerar nya IT-system och tjänster.",
     "Deletion of Personal Data and Keeping a Data Register": "Gallring och register",
     "delete1": "Personuppgifter måste raderas eller anonymiseras när de inte längre behövs för det syfte de ursprungligen samlades in för. Redan i samband med att personuppgifterna samlas in måste  information lämnas om vilka kategorier av uppgifter som samlas in, för vilka syften de behandlas och hur länge uppgifterna sparas. Den här informationen måste också dokumenteras i ett internt register över personuppgiftsbehandlingar som ska uppdateras löpande.",
-    "delete2": "Rutiner för gallring av personuppgifter ställer höga krav på både IT-system och personal. EdmarLaw biträder vid upprättande av gallringsrutiner och ser även över IT-system och tjänster så att de uppfyller kraven på gallring m.m. Registret kan visas för Datainspektionen i samband med en eventuell tillsyn eller presenteras för en potentiell investerare i samband med kapitalanskaffning.",
+    "delete2": "Rutiner för gallring av personuppgifter ställer höga krav på både IT-system och personal. EdmarLaw biträder vid upprättande av gallringsrutiner och ser även över IT-system och tjänster så att de uppfyller kraven på gallring m.m. Registret kan visas för Integritetsskyddsmyndigheten i samband med en eventuell tillsyn eller presenteras för en potentiell investerare i samband med kapitalanskaffning.",
     "Incident Management": "Incidenthantering",
-    "incident1": "GDPR ställer höga krav på en organisations beredskap att hantera incidenter i samband med personuppgiftshantering. En personuppgiftsincident måste anmälas till Datainspektionen inom 72 timmar om det inte är osannolikt att incidenten leder till några risker för enskildas fri- och rättigheter. Vad är en personuppgiftsincident? Det är inte bara förlust av personuppgifter vid dataintrång som måste anmälas. Enligt GDPR måste varje incident som leder till oavsiktlig förstöring eller förlust av personuppgifter anmälas, om det inte är osannolikt att incidenten medför risker. En glömd företagsdator eller en stulen väska kan behöva anmälas till Datainspektionen inom 72 timmar. Beroende på omfattning och uppgifternas känslighet ska även enskilda personer som drabbats av incidenten informeras. Det här ställer höga krav på IT-system och på rutiner för incidenthantering. Det kräver också en medvetenhet hos de anställda.",
+    "incident1": "GDPR ställer höga krav på en organisations beredskap att hantera incidenter i samband med personuppgiftshantering. En personuppgiftsincident måste anmälas till Integritetsskyddsmyndigheten inom 72 timmar om det inte är osannolikt att incidenten leder till några risker för enskildas fri- och rättigheter. Vad är en personuppgiftsincident? Det är inte bara förlust av personuppgifter vid dataintrång som måste anmälas. Enligt GDPR måste varje incident som leder till oavsiktlig förstöring eller förlust av personuppgifter anmälas, om det inte är osannolikt att incidenten medför risker. En glömd företagsdator eller en stulen väska kan behöva anmälas till integritetsmyndigheten inom 72 timmar. Beroende på omfattning och uppgifternas känslighet ska även enskilda personer som drabbats av incidenten informeras. Det här ställer höga krav på IT-system och på rutiner för incidenthantering. Det kräver också en medvetenhet hos de anställda.",
     "incident2": "EdmarLaw biträder med att skapa rutiner för incidenthantering och att utbilda personalen.",
     "Data Processors": "Personuppgiftsbiträden",
     "process1": "Som personuppgiftsansvarig är en organisation inte bara ansvarig för sin egen behandling av personuppgifter, utan även för den behandling som utförs av leverantörer, så kallade personuppgiftsbiträden. Valet av leverantör måste därför även göras utifrån GDPR-kriterier. Vi på EdmarLaw brukar tala om en trestegsmodell för att se till att personuppgiftsbiträden håller en hög dataskyddsnivå.",
@@ -159,27 +162,27 @@
     "processD4": "Den som är personuppgiftsansvarig bör också följa upp att personuppgiftsbiträdet faktiskt behandlar personuppgifterna i enlighet med instruktionerna i personuppgiftsbiträdesavtalet. Det kan man göra antingen genom ett besök hos personuppgiftsbiträdet, genom rapporter från personuppgiftsbiträdet eller genom löpande avstämning.",
     "processD3": "Det ställs många krav på den som är personuppgiftsansvarig. För att behandlingen av personuppgifter ska vara laglig krävs inte bara ett personuppgiftsbiträdesavtal. De registrerade måste också informeras, exempelvis i personuppgiftspolicyn, om att deras personuppgifter delas med personuppgiftsbiträden och vilka dessa biträden är. Information om personuppgiftsbiträden måste även dokumenteras i den personuppgiftsansvariges register över personuppgiftsbehandlingar. EdmarLaw kan assistera genom hela processen, från due diligence av personuppgiftsbiträden till upprättande av avtal och uppföljning.",
     "Data Protection Officer": "Dataskyddsombud",
-
     "officer1": "Vissa typer av organisationer måste tillsätta ett dataskyddsombud enligt GDPR, men alla organisationer tjänar på att ha tilldelat en person ansvaret för dessa frågor. Offentliga verksamheter (exempelvis myndigheter), organisationer vars kärnverksamhet består i att hantera stora mängder personuppgifter, och organisationer som hanterar större mängder av känsliga personuppgifter måste alla ha dataskyddsombud. Dataskyddsombudet kan vara en intern eller extern resurs. Det ska ha de yrkesmässiga kvalifikationer som krävs, liksom sakkunskap om lagstiftning och praxis kring dataskydd. Dataskyddsombudet måste hålla sig uppdaterad på området.",
     "officer2": "Det är styrelsens och ledningsgruppens ansvar att se till att dataskyddsombudet har resurser och möjligheter att på ett objektivt sätt utföra sitt arbete. GDPR är tydlig med att dataskyddsombudet ska kunna arbeta fritt utan att riskera kritik i samband med kontroller av personuppgiftsbehandlingen. Det kan ändå vara svårt att som anställd komma med synpunkter som medför förseningar och kostnader för organisationen. Samtidigt som en anställd kan ha god inblick i organisationens verksamhet, kan den dra sig för att komma med impopulära invändningar. Därför kan det vara att föredra att anlita en extern konsult som dataskyddsombud.",
-    "officer3": "Dataskyddsombudet ska involveras i alla frågor som rör skyddet av personuppgifter, samarbeta och samråda med tillsynsmyndigheten, samt informera och utbilda anställda i dataskydd."
+    "officer3": "Dataskyddsombudet ska involveras i alla frågor som rör skyddet av personuppgifter, samarbeta och samråda med tillsynsmyndigheten, samt informera och utbilda anställda i dataskydd.",
+    "GDPR Requirements": "Uppfyller ni GDPRs krav?",
+    "Data Retention": "Gallring och register"
   },
   "REF": {
     "first": "Looklet är ett svenskt bolag som är världsledande inom digital display för mode. Bolaget investerar mycket i innovation och utveckling av sin produkt och har världens största mode- och e-handelsföretag som kunder. Looklet bygger hela fotostudios från grunden till sina kunder och har utvecklat både hård- och mjukvaran själva.  Looklet har kontor i Stockholm, Paris och New York.",
-    "second": "Microsoft AB är ett helägt dotterbolag till Microsoft Corporation, ett multinationellt datorföretag baserat i Redmond, Washington, USA. Företaget är i dag världens största inom programvaruutveckling. Microsoft utvecklar, tillverkar och licensierar många programprodukter för ett flertal olika datorsystem, och Microsoft AB ser till att anpassningar, support, stödfunktioner liksom lanseringar av produkter och tjänster fungerar på den lokala marknaden. Microsoft AB har 600 anställda och konsulter med kontor i Kista.",
-    "third": "DreamHack är världens största datorfestival. DreamHacks kärna och ursprung är de två stora festivalerna DreamHack Summer i juni och DreamHack Winter i november med över 20.000 datorer sammankopplade i ett LAN. DreamHack-event finns också i Spanien, Rumänien, Frankrike, Ryssland och England, under 2016 även i Tyskland och USA. Under 2015 beräknas evenemangen ha över 130.000 besökare. DreamHack är också ett produktionsbolag med fokus på gaming och esport, med närmare 160 miljoner tittare via TV och streams i 100 länder (2015).",
-    "exmet": "Exmet AB utvecklar patentskyddad teknologi för additiv tillverkningsteknik (3D printing) av amorfa metallegeringar och nanokompositer. Bolaget grundades år 2009.",
-    "genero": "Genero Solutions tillhandahåller säljstöd och säljstyrning som molntjänst för de största aktörerna inom den svenska livsmedelshandeln. Bolagets verktyg hanterar hela säljprocessen, liksom styrning, rapportering, uppföljning och optimering. Företaget har ett tjugotal anställda vid kontoret i Stockholm.",
+    "second": "Microsoft AB är ett helägt dotterbolag till Microsoft Corporation, ett multinationellt datorföretag baserat i Redmond, Washington, USA. Företaget är i dag världens största inom programvaruutveckling.",
+    "third": "DreamHack är världens största datorfestival. DreamHacks kärna och ursprung är de två stora festivalerna DreamHack Summer i juni och DreamHack Winter i november med över 20.000 datorer sammankopplade i ett LAN.",
+    "exmet": "Exmet AB utvecklar patentskyddad teknologi för additiv tillverkningsteknik (3D printing) av amorfa metallegeringar och nanokompositer.",
+    "genero": "Genero Solutions tillhandahåller säljstöd och säljstyrning som molntjänst för de största aktörerna inom den svenska livsmedelshandeln. Bolagets verktyg hanterar hela säljprocessen, liksom styrning, rapportering, uppföljning och optimering.",
     "eBuilder": "eBuilder har utvecklat en molntjänst inom ”Customer Care” som gör det möjligt för dess kunder att förbättra och vidareutveckla sina kundrelationer. eBuilder har kunder i över 70 länder och deras lösning tillämpas av fler än fem miljoner slutanvändare. Bolagets säte är i Kista, där ett femtiotal anställda sitter, men de har även kontor i Kina, Australien och Sri Lanka.",
-    "unomly": "Unomaly har utvecklat en ny övervakningsteknik för kritiska IT-system. Produkten är datadriven, självlärande och upptäcker alla IT incidenter universellt genom att kunna visa deras avvikande beteende. Detta gör att man kan upptäcka samtliga incidenter utan regler och långt före driftstörningar blir ett faktum. Bolaget grundades 2011 och har idag ett femtontal anställda och kunder i 10 länder.",
+    "unomly": "Unomaly har utvecklat en ny övervakningsteknik för kritiska IT-system. Produkten är datadriven, självlärande och upptäcker alla IT incidenter universellt genom att kunna visa deras avvikande beteende. Detta gör att man kan upptäcka samtliga incidenter utan regler och långt före driftstörningar blir ett faktum.",
     "gleechi": "Gleechi säljer en mjukvarulösning för att animera händer i spel och virtual reality som kan röra sig och interagera realistiskt. Mjukvaran är baserad på 8 års forskning inom robotik och löser ett välkänt problem inom 3D animation.",
     "Examples of typical assignments where the legal counsel of EdmarLaw has been requested": "Exempel på typiska uppdrag där EdmarLaws juridiska råd har efterfrågats",
     "Licensing of software": "Licensiering av mjukvara",
-    "Licensing of AI services": "Licensiering av AI-tjänster-",
+    "Licensing of AI services": "Licensiering av AI-tjänster",
     "Licensing of security products and services": "Licensiering av säkerhetsprodukter och -tjänster",
     "Contracts regarding development and implementation of IT systems": "Avtal om utveckling och implementeringar av IT-system",
     "Outsourcing of IT services": "Outsourcing av IT-tjänster",
-
     "International joint development": "Internationella utvecklingssamarbeten",
     "Implementation of IT-system for payment solutions": "Implementering av IT-system för betaltjänster",
     "Regulations around technical platforms": "Regelverk kring tekniska plattformar",
@@ -223,8 +226,8 @@
     "In Swedish, Jure, 2012": "(Jure, 2012)"
   },
   "Terms": {
-    "desc1": "",
-    "desc2": "",
+    "desc1": "Dessa allmänna villkor gäller för alla uppdrag som Advokatfirman EdmarLaw AB (“EdmarLaw”) utför för sina klienter. I tillägg till dessa villkor gäller även",
+    "desc2": "Advokatsamfundet - Vägledande regler om god advokatsed.",
     "desc3": "",
     "desc4": "Dessa allmänna villkor kan komma att ändras från tid till annan, men den senaste versionen återfinns alltid på EdmarLaws webbsida, www.edmarlaw.se. En ändring i de allmänna villkoren gäller endast för uppdrag som påbörjats efter det att ändringen har publicerats på webbsidan. EdmarLaw skickar en kopia av den senaste versionen av de allmänna villkoren på er begäran.",
     "desc5": "Avtalet om uppdraget är ett avtal med EdmarLaw. EdmarLaws ägare/delägare och andra anställda har inte något personligt ansvar mot er utöver vad som kan följa av tvingande regler. Alla frågeställningar inom en tvist, en affärstransaktion eller ett affärsupplägg ska anses vara ett uppdrag. EdmarLaws rådgivning i uppdraget är anpassad till uppdraget och till de omständigheter som har presenterats för EdmarLaw. Ni kan därför varken använda er av eller förlita er på rådgivningen för något annat syfte eller i någon annan situation eller ändamål än för det som EdmarLaw lämnade råd i. Om EdmarLaw och ni inte har avtalat om annat, omfattar rådgivningen i uppdraget inte uppdragets möjliga skattekonsekvenser. EdmarLaws rådgivning i uppdraget avser endast svensk lag och den omfattar alltså inte lagen i någon annan jurisdiktion. Om och i den utsträckning som EdmarLaw uttalar sig om lagen i andra jurisdiktioner sker det endast med stöd av EdmarLaws allmänna erfarenhet om juridiska frågor i sådana jurisdiktioner. Sådana uttalanden är inte juridisk rådgivning. EdmarLaw biträder er emellertid gärna med att hämta in nödvändig rådgivning från jurister i andra jurisdiktioner än den svenska.",
@@ -296,14 +299,13 @@
     "protect2": "Alla ändringar i denna personuppgiftspolicy kommer att offentliggöras på vår webbplats. Vänligen besök vår webbplats regelbundet för att hålla dig underrättad om eventuella förändringar.",
     "contact1": "",
     "contact2": "För ytterligare information om EdmarLaws personuppgiftshantering, eller om du har frågor, är du välkommen att kontakta EdmarLaw på:",
-    "contact3": "info@edmarlaw.se.",
-    "contact4": "Är du missnöjd med hur vi behandlar dina personuppgifter bör du i första hand vända dig till EdmarLaw. Du kan även vända dig till Datainspektionen, +46 8 657 61 00,",
+    "contact3": "malin.edmar@edmarlaw.se.",
+    "contact4": "Är du missnöjd med hur vi behandlar dina personuppgifter bör du i första hand vända dig till EdmarLaw. Du kan även vända dig till Integritetsskyddsmyndigheten, +46 8 657 61 00,",
     "contact5": "datainspektionen@datainspektionen.se,",
     "contact6": "Box 8114, 104 20 Stockholm."
   },
   "Publication": {
     "BUY": "BUY",
-
     "gdpr": "Ny upplaga av Internetpublicering – med ett omfattande avsnitt om GDPR!",
     "Internet publishing and Social Media": "Internetpublicering och sociala medier",
     "purpose": "Norstedts Juridik har gett ut sjunde upplagan av Malin Edmars bok Internetpublicering och sociala medier. 1999 kom första upplagan och i denna sjunde omarbetade upplaga ingår 70 sidor om GDPR, skrivna på samma lättfattliga sätt som boken i övrigt, med många exempel och praktisk orientering.",
@@ -326,5 +328,209 @@
     "twilight3": "I denna bok lyfter vi fram immaterialrätten i gränslandet till andra rättsområden. Författarna, som samtliga är verksamma vid Advokatfirman Fylgia, har tagit fasta på immaterialrättens ökade betydelse och bredd, och tar upp immaterialrättens förhållande till flera angränsande rättsområden. Boken berör också olika typer av immateriella rättigheter, alltifrån upphovsrätt och varumärken till patent och likhetsavbildning.",
     "In Swedish only": "In Swedish only",
     "Buy": "Köp"
+  },
+  "Cards": {
+    "ai": "Chatbots, virtual assistants, predictive analytics tools, image eller speech recognition software",
+    "law": "IT-system, molntjänster, IoT, mjukvara, open source",
+    "contract": "Alla typer av avtal för IT-branschen, med stor insyn i branschpraxis",
+    "copyright": "Rättigheter till mjukvara, koncept, know-how, design",
+    "privacy": "EU:s dataskyddsförordning",
+    "privacy2": "Dataskyddsanalyser, DPIA, TIA, personuppgiftspolicy, privacy by design",
+    "outsourcing": "Avtal för outsourcing och olika typer av molntjänster",
+    "ecom": "Allmänna villkor, reklam, sociala medier, distribution",
+    "domain": "Domännamnsregistreringar och domännamnstvister",
+    "readMore": "Läs mer"
+  },
+  "Ai": {
+    "subHeader": "Chatbots, virtual assistants, predictive analytics tools, image or speech recognition software",
+    "p1": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg applikationer eller plattformar (t.ex. databaser, molnplattformar eller IoT-enheter) som använder dessa modeller för att utföra uppgifter. Vanliga typer av AI system är chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines och predictive analytics tools.",
+    "p2": "EdmarLaw kan hjälpa er oavsett om ni utvecklar AI-system eller vill använda dem i er arbetsmiljö. Vi har stor erfarenhet av licensiering av AI-teknik och hjälper till med juridiska frågor vid AI-utvecklingsarbetet och under dess livscykel."
+  },
+  "AiAct": {
+    "subHeader": "AI-förordningen",
+    "p1": "EU:s AI-förordning om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter. I likhet med GDPR gäller AI-lagen för både offentliga och privata aktörer inom och utanför EU om AI-systemet släpps ut på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU.",
+    "p2": "AI-förordningen gäller för både leverantörer/providers (t.ex. en utvecklare av en chattrobot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
+    "link": "Mer om EdmarLaw, AI och AI-förordningen"
+  },
+  "ItLaw": {
+    "subHeader": "IT-system, molntjänster, IoT, mjukvara, open source",
+    "p1": "EdmarLaw har över 25 års erfarenhet av att granska, upprätta och förhandla de flesta typer av avtal som förekommer på IT- och teknikområdet. Det kan gälla utveckling och implementering av IT-system, mjukvara, embedded software (internet of things), både open source och proprietära licenser, liksom know-how och konceptlicenser.",
+    "listHeader": "Vanliga frågor och uppdrag",
+    "list1": "Licenser",
+    "list2": "Produktvillkor, tjänstevillkor",
+    "list3": "Outsourcing",
+    "list4": "Utvecklingssamarbeten",
+    "list5": "Molntjänster (PaaS, SaaS, etc.)",
+    "list6": "Systemleveranser",
+    "list7": "E-handel",
+    "list8": "Underhåll av mjukvara, IoT, IT-system",
+    "list9": "Upphovsrätt och annan immaterialrätt",
+    "list10": "Behandling av personuppgifter, dataskyddsaspekter",
+    "list11": "Domännamnsstrategier",
+    "list12": "Varumärkesfrågor"
+  },
+  "ContractLaw": {
+    "subHeader": "Alla typer av avtal för IT-branschen, med stor insyn i branschpraxis",
+    "p1": "EdmarLaw upprättar, granskar, analyserar, reviderar och förhandlar alla typer av avtal för IT- branschen; såsom till exempel avtal om licenser och outsourcing, tjänstevillkor och produktvillkor liksom kundavtal, utvecklingsavtal (för såväl hårdvara som mjukvara), konsultavtal, samarbetsavtal och distributionsavtal. EdmarLaw bedriver sin verksamhet tvåspråkigt – mer än hälften av de avtal som upprättas och förhandlingar som bedrivs är på engelska.",
+    "p2": "Avtal kan i regel upprättas i vilken form som helst, även muntligt. Det finns inte heller några hinder för elektroniska avtal, så länge motparten kan identifieras på ett tillförlitligt sätt - avtalets juridiska giltighet måste kunna bevisas i efterhand. Men för att ett avtal ska vara både affärsmässigt och heltäckande är det avgörande att känna till praxis i branschen, och vilka villkor som är typiska. EdmarLaw kan med sin gedigna erfarenhet tillämpa branschpraxis vid upprättande och förhandling av avtal.",
+    "p3": "Oavsett om man är köpare eller säljare utgör avtalet grunden för en lyckad affär. Att i efterhand försöka reda ut vad parternas intentioner varit från början när ett projekt gått snett och avtalsvillkoren är svårtydda kan bli oerhört tungt för båda parter. En tvist kan lätt uppstå. I de flesta fall är parterna rörande överens i inledningsskedet av sin relation, och ivriga att sätta igång med samarbetet. Båda parter tycker att de vet vad som ska levereras respektive vad som ska köpas och betalas för. Att avtala om det kan därför kännas överflödigt i denna fas. Men avtalet är faktiskt inte till för situationen när allt går bra - avtalet är till för situationen när det riskerar att gå snett eller när man börjar inse att man tycker olika. Då ska avtalet fungera som ett rättesnöre, eller en manual, för parterna. Vikten av ett tydligt avtal som överenskoms i den fas när parterna är rörande överens och känner en positiv anda inför relationen är därför A och O för ett lyckat genomfört samarbete."
+  },
+  "Copyright": {
+    "subHeader": "Rättigheter till mjukvara, koncept, know-how, design",
+    "p1": "Upphovsrättsliga tillgångar som till exempel datorprogram, databaser, design, ritningar, bilder, musik och andra typer av verk eller koncept kan utgöra oerhört viktiga tillgångar i ett företag eller organisation. EdmarLaw har mer än tjugofem års erfarenhet av upphovsrättsliga och andra immaterialrättsliga frågor och är van att hantera och säkra upp olika typer av tillgångar.",
+    "p2": "Den digitala miljön, med en sammansmältning av olika medier, snabb och världsvid datorkommunikation och spridning av utrustning till både arbetsplatser och privata hem, har gjort att upphovsrättsfrågorna fått större betydelse. Bara marknaden för datorspel omsätter långt mer än filmbranschen. Men det handlar inte enbart om tillväxt av marknader; själva grundförutsättningarna för produktion och exploatering av skyddade verk har förändrats genom digitaliseringen.",
+    "p3": "EdmarLaw biträder upphovsmän och rättighetshavare som vill skydda eller exploatera sin rätt, liksom hanterar intrång och intrångspåståenden."
+  },
+  "PrivacyLaw": {
+    "subHeader": "Dataskyddsanalyser, DPIA, TIA, personuppgiftspolicy, privacy by design",
+    "p1": "EdmarLaw biträder ofta företag i dataskyddsfrågor; alltifrån att upprätta en personuppgiftspolicy, informations- och avtalstexter enligt GDPR liksom andra specifika dataskyddsrelaterade tjänster.",
+    "p2": "Företag, myndigheter och andra organisationers behov av att utvinna kunskap ur stora informationsmängder ökar ständigt. Samtidigt ökar kraven på behandlingen av personuppgifter. EU har redan en av världens hårdaste dataskyddslagstiftning. De ökade kraven kommer i takt med att det kommersiella värdet av personuppgifter växer. Att behandla personuppgifter och samtidigt värna om anställdas och kunders integritet och tydligt visa detta blir en allt tydligare konkurrensfördel.",
+    "p3": "EdmarLaw har en unik kombination av affärsförståelse, teknisk kompetens och juridiskt kunnande, som borgar för att tillsammans med er kunna skapa affärsnytta vid företagets eller organisationens användning av personuppgifter.",
+    "p4": "Som rådgivare åt flera av de största informationsleverantörerna på den svenska marknaden har EdmarLaw ett stort kunnande och förståelse för företags specifika behov när det gäller möjligheten att behandla personuppgifter i sin verksamhet.",
+    "p5": "Det är viktigt att verksamheten inte hindras av GDPRs hanteringskrav, utan att man kan se möjligheterna inom ramen för GDPR. EdmarLaw biträder ofta med att hitta praktiska lösningar på önskad personuppgiftsbehandling i en klients verksamhet. EdmarLaw hjälper sina klienter att vara proaktiva snarare än reaktiva när det gäller personuppgiftshantering.",
+    "p6": "EdmarLaw är även ombud vid såväl kontakter med Integritetsskyddsmyndigheten som i rättsliga processer vid domstol. På uppdrag av klienter genomför EdmarLaw konsekvensbedömningar, granskningar och analyser av företagens hantering av personuppgifter, liksom hjälper till att säkerställa att hanteringen sker i enlighet med gällande regler.",
+    "link": "Mer om EdmarLaw och GDPR här.",
+    "listHeader": "Vanliga frågor och uppdrag",
+    "list1": "dataskyddsanalyser och konsekvensbedömningar",
+    "list2": "hur man får använda personuppgifter",
+    "list3": "att upprätta eller granska personuppgiftspolicies",
+    "list4": "konsekvensbedömningar",
+    "list5": "inbyggt dataskydd (privacy by design) och dataskydd som standard (privacy by default)",
+    "list6": "legala grunder för behandling och när samtycke behövs",
+    "list7": "vilken information som ska lämnas till de registrerade",
+    "list8": "hur cookies ska hanteras",
+    "list9": ""
+  },
+  "Outsourcing": {
+    "subHeader": "Avtal för outsourcing och olika typer av molntjänster",
+    "p1": "Outsourcingavtal löper i allmänhet under lång tid och rör ofta tjänster som är mycket betydelsefulla för verksamheten. Såväl affären som juridiken kan vara komplex, och rådgivningen kan omfatta många olika rättsområden. För att outsourcingen ska bli bra krävs att affären är väl konstruerad och grundligt förberedd. Eftersom det är en långsiktig relation behöver utgångspunkten vara en balans mellan parterna, med gemensamma incitament präglat av ett gott samarbetsklimat.",
+    "p2": "Outsourcing är i princip alltid verksamhetskritiskt. Ingen av parterna har tid att lägga på feltolkningar och skeva förväntningar. Avtalen behöver därför vara en manual för samarbetet; det dokument som sätter förväntningarna på pränt. Det gör också att behovet av tydliga avtalsvillkor är särskilt stort vid outsourcing.",
+    "p3": "Outsourcingprojekt kräver såväl kompetens inom specialistområden som affärsmässigt fokus. EdmarLaw har gedigen erfarenhet av traditionell outsourcing och olika typer av molntjänster."
+  },
+  "Ecom": {
+    "subHeader": "allmänna villkor, reklam, sociala medier, distribution",
+    "p1": "Den globala aspekten på e-handel är gynnsam för såväl stora som små företag för att exportera sina varor och tjänster. Man behöver inte längre ta en marknad i taget utan når den globala marknaden på en gång. Samtidigt som e-handel erbjuder en enorm tillväxtpotential, så blir de olika lagarna som styr e-handeln både inom och utom EU fler och fler. Det är viktigt att ha förståelse för såväl de lagar och regler som gäller där bolaget har sitt säte, som den praxis, den reglering och de sedvanor som gäller i de länder e-handeln riktar sig mot.",
+    "p2": "EdmarLaw biträder e-handelsbolag med alltifrån distributionsavtal, allmänna villkor och personuppgiftshantering till marknadsrättsliga frågor inför kampanjer och användning av sociala medier för att nå fram med budskap."
+  },
+  "Domains": {
+    "subHeader": "Domännamnsregistreringar och domännamnstvister",
+    "p1": "Internetnärvaro är avgörande för all typ av verksamhet. Domännamnen är en betydelsefull marknadsföringskanal, en säkerhetsaspekt och en kvalitetsstämpel. Ett företags eller en organisations domännamn bär därför ofta på stora värden, både förtroendemässiga och ekonomiska, och det är viktigt att det finns en medvetenhet i hanteringen av dem.",
+    "p2": "EdmarLaw bistår såväl med domännamnsregistrering som hantering av domännamnstvister, liksom även i strategiska frågor kring användningen av domännamn."
+  },
+  "AiPage": {
+    "aiDesc1": "Artificiell intelligens (AI) är idag en del av vardagen. Många företag ser möjligheten att med hjälp av AI förenkla arbetet, öka produktiviteten och hjälpa till att förbättra kundrelationer. Vanliga typer av AI system är chatbots, virtual assistants, image recognition software, speech recognition software, recommendation engines och predictive analytics tools.",
+    "aiDesc2": "En chatbot är en programvara som använder artificiell intelligens för att simulera mänsklig konversation. ChatGPT från OpenAI är ett välkänt exempel på en chatbot. Företag kan integrera den med sina befintliga system genom API:er och anpassa den för att bättre passa den specifika branschen eller syftet med verksamheten.",
+    "aiDescSubheader": "AI-modeller och AI-verktyg",
+    "aiDesc3": "Medan AI-modeller är de underliggande algoritmerna som bearbetar data, är AI-verktyg applikationer eller plattformar (t.ex. databaser, molnplattformar eller IoT-enheter) som använder dessa modeller för att utföra uppgifter. Till exempel kan en maskininlärningsmodell integreras i ett verktyg för predictive analytics, vilket gör det möjligt för företag att förutsäga trender baserat på historiska data. Datakvaliteten, modellen du använder och den typ av deployment du väljer är avgörande för att skapa ett bra AI-system.",
+    "aiDesc4": "EdmarLaw kan hjälpa dig oavsett om du utvecklar AI-system eller vill använda dem i arbetet. Vi har lång erfarenhet av att licensiera AI-teknik och hjälpa till med juridiska frågor kring AI-utvecklingsarbetet och livscykeln."
+  },
+  "AiActEu1": {
+    "AiActEu1Desc": "EU:s förordning om artificiell intelligens är världens första AI-lag. Syftet med den är att hantera risker för hälsa, säkerhet och grundläggande rättigheter i samband med AI-utvecklingen."
+  },
+  "AiActEu2": {
+    "AiActEuDesc": "AI-system har en stark potential att skapa samhällsnytta och ekonomisk tillväxt i världen. EU anser dock att vissa AI-system kan skapa nya risker relaterade till användarnas säkerhet och grundläggande rättigheter. Vissa kraftfulla AI-modeller som används i stor utsträckning kan till och med utgöra systemrisker.",
+    "AiActEuDesc2": "För att undvika att myndigheter, företag och medborgare inte litar på AI-teknik drog EU slutsatsen att det behövs lagstiftning kring AI, där både fördelar och risker hanteras på lämpligt sätt."
+  },
+  "AiActGdpr": {
+    "AiActGdprDesc": "I likhet med GDPR gäller AI-förordningen för både offentliga och privata aktörer inom och utanför EU om AI-systemet görs tillgängligt på EU:s marknad eller om dess användning påverkar människor som befinner sig i EU. AI-förordningen gäller för både leverantörer/providers (t.ex. en utvecklare av en chatbot) och tillhandahållare/deployers av AI-system (t.ex. en kund som använder detta verktyg).",
+    "AiActGdprDescListHeader": "Det finns några undantag när förordningen inte är tillämplig:",
+    "AiActGdprDescList1": "om forskning, utveckling och prototypverksamhet äger rum innan ett AI-system släpps på marknaden, eller",
+    "AiActGdprDescList2": "om AI-system uteslutande är utformade för militära, försvarsrelaterade eller nationella säkerhetsändamål."
+  },
+  "AiActSystem": {
+    "AiActSystemDesc": "AI-förordningen är uppdelad utifrån ett riskbaserat synsätt.",
+    "AiActSystemList1": "Oacceptabel risk",
+    "AiActSystemDesc2": "AI-system som kränker de grundläggande rättigheterna anses vara särskilt skadliga. Användning av sådana AI-system kommer att förbjudas. Exempel på sådana brott mot de grundläggande rättigheterna är:",
+    "AiActSystemDesc3": "Utnyttjande av personers sårbarheter, manipulation och användning av subliminala tekniker;",
+    "AiActSystemDesc4": "Social poängsättning för offentliga och privata ändamål;",
+    "AiActSystemDesc5": "Individuellt prediktivt polisarbete som enbart bygger på profilering av människor;",
+    "AiActSystemDesc6": "Generell skrapning av internet av ansiktsbilder eller övervakningskameror för att bygga upp eller utöka databaser;",
+    "AiActSystemDesc7": "Igenkänning av känslor på arbetsplatsen och utbildningsinstitutioner, såvida det inte är av medicinska skäl eller säkerhetsskäl (t.ex. övervakning av tröttheten hos en pilot).",
+    "AiActSystemDesc8": "Biometrisk kategorisering av fysiska personer för att härleda ras, politiska åsikter, medlemskap i fackförening, religiös eller filosofisk övertygelse eller sexuell läggning. Men det kommer fortfarande vara möjligt att märka eller filtrera dataset och kategorisera data på brottsbekämpningsområdet.",
+    "AiActSystemDesc9": "Brottsbekämpande myndigheters biometriska identifiering på distans i realtid på allmän plats, med vissa undantag (där det anses högrisksystem).",
+    "AiActSystemList2Subheader": "Hög risk",
+    "AiActSystemList2Desc": "AI-system som har en negativ inverkan på människors säkerhet eller deras grundläggande rättigheter anses utgöra högrisksystem. Det finns en lista i AI-förordningen över dessa AI-system med hög risk (listan uppdateras löpande utifrån teknikutvecklingen). Exempel på högrisksystem är:",
+    "AiActSystemList2Desc2": "AI-system som bedömer om någon kan få en viss medicinsk behandling (AI-baserad medicinsk programvara),",
+    "AiActSystemList2Desc3": "AI-system som bedömer om någon kan få ett visst jobb eller lån för att köpa en lägenhet.",
+    "AiActSystemList2Desc4": "AI-system som används av polisen för att profilera människor eller bedöma deras risk för att begå ett brott",
+    "AiActSystemList2Desc5": "AI-system som driver robotar, drönare eller medicinsk utrustning.",
+    "AiActSystemList2Subheader2": "Minimal risk",
+    "AiActSystemList2Desc6": "Majoriteten av AI-systemen kan i dag utvecklas och användas utan särskilda skyldigheter enligt AI-förordningen. Men vi rekommenderar att man tillämpar kraven för trustworthy AI och implementerar en AI code of conduct när man använder AI-teknik.",
+    "AiActSystemList2Desc7": "Det är viktigt att säkerställa transparens kring användningen av AI. AI-förordningen innehåller därför krav på transparens för vissa AI-system där det finns en tydlig risk för manipulation eller deepfake. Chatbots och sociala medier är typiska exempel där användare bör göras medvetna om att de inte interagerar med en människa.",
+    "AiActSystemList2Subheader3": "Allmänt",
+    "AiActSystemList2Desc8": "Det är viktigt att säkerställa transparens kring användningen av AI. AI-förordningen innehåller därför krav på transparens för vissa AI-system där det finns en tydlig risk för manipulation eller deepfake. Chatbots och sociala medier är typiska exempel där användare bör göras medvetna om att de inte interagerar med en människa. Transparenskravet liknar det i GDPR, det vill säga ett informationskrav, och vi rekommenderar att ni dokumenterar er användning av AI och informerar era användare på samma sätt som ni skulle göra avseende verksamhetens användning av personuppgifter. Ni kan använda samma tillvägagångssätt; Skulle användaren förvänta sig att dess personuppgifter används för detta ändamål? Skulle användaren förvänta sig att AI används i det här scenariot? Om inte, bör du informera användarna om detta. EU:s AI Office (se nedan) kommer upprätta rekommendationer för hur man kan märka AI-genererat innehåll."
+  },
+  "AiSystem": {
+    "AiSystem1": "Riskklassificeringen utgår från det avsedda syftet med ett AI-system, dvs. utifrån den funktion AI-systemet har, dess specifika syfte och de modaliteter som systemet används i. I Annex III till AI-förordningen beskrivs de områden där användningen av AI kan vara särskilt känslig och därför klassificeras som högrisk:",
+    "AiList1": "AI-system som används som säkerhetskomponenter i viss kritisk infrastruktur, till exempel inom vägtrafik och försörjning av vatten, gas, värme och el.",
+    "AiList2": "AI-system som används inom utbildning och yrkesutbildning, t.ex. för att utvärdera läranderesultat och styra inlärningsprocessen och övervakning av fusk.",
+    "AiList3": "AI-system som används vid hantering av anställning och arbetstagare liksom i viss mån egenföretagande, t.ex. för att placera riktade platsannonser, för att analysera och filtrera jobbansökningar och för att utvärdera kandidater.",
+    "AiList4": "AI-system som används för tillgång till väsentliga privata och offentliga tjänster och förmåner (t.ex. hälso- och sjukvård), kreditprövning av fysiska personer samt riskbedömning och prissättning i förhållande till liv- och sjukförsäkringar.",
+    "AiList5": "AI-system som används på områdena brottsbekämpning, migration och gränskontroll, i den mån det inte redan är förbjudet, samt inom rättskipning och demokratiska processer.",
+    "AiList6": "AI-system som används för biometrisk identifiering, biometrisk kategorisering och känsloigenkänning, i den mån det inte är förbjudet."
+  },
+  "AiSystem2": {
+    "AiSystem2Desc": "Vilka skyldigheter har leverantörer av AI-system med hög risk?",
+    "AiSystem2Desc2": "Innan en leverantör gör ett AI-system med hög risk tillgängligt på EU-marknaden eller på annat sätt tar det i bruk måste en konsekvensbedömning göras för att visa att AI-systemet uppfyller de obligatoriska kraven på trustworthy AI (t.ex. kvaliteten på datan, dokumentation och spårbarhet, transparens, mänsklig tillsyn, noggrannhet, cybersäkerhet och robusthet).",
+    "AiSystem2Desc3": "AI-system som fungerar som säkerhetskomponenter i produkter som omfattas av den EU-lagstiftning som listas i Annex I till AI-förordningen kommer vid konsekvensbedömning alltid anses utgöra högrisksystem. Och alla biometriska system, oavsett tillämpning, kommer behöva genomgå en konsekvensbedömning av tredje part.",
+    "AiSystem2Desc4": "Leverantörer av AI-system med hög risk kommer också behöva införa kvalitets- och riskhanteringssystem för att säkerställa att de uppfyller kraven och minimerar riskerna för användare och berörda personer, även sedan en produkt har släppts på marknaden."
+  },
+  "AiModels": {
+    "AiModelsDesc": "Hur regleras AI-modeller?",
+    "AiModelsDesc2": "General purpose AI-modeller, inklusive de stora generativ AI-modellerna, kan användas för en mängd olika uppgifter och utgör idag grunden för många AI-system. EU har därför dragit slutsatsen att en leverantör av ett AI-system som integrerar en allmän AI-modell ska få tillgång till all information som behövs för att själv kunna säkerställa att systemet är säkert och förenligt med AI-förordningen. Enligt AI-förordningen är leverantörer av sådana modeller därför skyldiga att lämna ut information till systemleverantörer i senare led. En sådan transparens gör det möjligt att förstå modellerna bättre. Modell-leverantörer måste även ha processer på plats som visar att de följer upphovsrättslagen när de tränar sina modeller.",
+    "AiModelsDesc3": "Vissa av dessa modeller kan medföra systemrisker om de är mycket kapabla eller används i stor utsträckning. Kraftfulla modeller kan till exempel orsaka allvarliga olyckor eller missbrukas för långtgående cyberattacker. Många individer kan påverkas om en modell sprider skadlig information i många program. Detta är delvis vad EU:s AI-förordning syftar till att hantera."
+  },
+  "AiOffice": {
+    "AiOfficeDesc": "EU-kommissionen har inrättat ett AI Office för att säkerställa genomförandet av AI-förordningen och stötta medlemsländernas myndigheter i sin tillämpning av AI-förordningen. Alltifrån teknikspecialister till jurister och ekonomer arbetar där. AI Office kommer även se till att reglerna för General purpose AI-modeller efterlevs. I samarbete med AI-utvecklare, forskarsamhället och andra berörda parter kommer AI Office utarbeta code of conducts, genomföra testning och utvärdering av general purpose AI-modeller, begära information samt även tillämpa sanktioner vid behov. Precis som GDPR, innehåller AI-förordningen både åtgärdskrav och höga sanktionsavgifter vid brott mot AI-förordningen. Precis som GDPR, innehåller AI-förordningen både åtgärdskrav och höga sanktionsavgifter vid brott mot AI-förordningen."
+  },
+  "AiPageHeaders": {
+    "Ai1": "Artificiell intelligens – AI",
+    "AiEu": "Vad är AI-förordningen (AI Act)?",
+    "AiEu2": "Varför vill EU reglera användningen av artificiell intelligens?",
+    "AiActGdpr": "Gäller AI-förordningen för vår verksamhet?",
+    "AiActSystem": "Hur skiljer sig AI-förordningen för olika AI-system?",
+    "AiSystem": "Hur vet jag om ett AI-system är högrisk?",
+    "AiSystem2": "Vilka skyldigheter har leverantörer av AI-system med hög risk?",
+    "AiModels": "Hur regleras AI-modeller?",
+    "AiOffice": "AI Office"
+  },
+  "AiHeadersNew": {
+    "AI": "Artificiell intelligens – AI",
+    "What is the AI Act?": "AI-förordningen",
+    "Why regulate AI?": "Varför lagstifta?",
+    "When does it apply?": "Gäller den oss?",
+    "Risk-based approach": "Risk-baserad lag",
+    "What is high-risk?": "Högrisk AI-system",
+    "What are the obligations?": "Skyldigheter",
+    "Gen-AI models": "AI-modeller",
+    "AI Office": "AI Office"
+  },
+  "NewAbout": {
+    "p1": "Advokatfirman EdmarLaw ",
+    "p2": "Advokatfirman EdmarLaw har mer än 25 års erfarenhet av att granska, upprätta och förhandla de flesta typer av avtal som förekommer på IT-området.",
+    "p3": "Vanliga uppdrag för advokatfirman EdmarLaw gäller personuppgiftshantering, att upprätta utvecklingsavtal, kundavtal, licensavtal, allmänna villkor, genomföra dataskyddsanalyser, liksom alla aspekter av molntjänster (PaaS, SaaS) och e-handel, mjukvara och AI-tjänster. Många av EdmarLaws klienter är amerikanska eller europeiska företag, vilket innebär att en stor del av rådgivningen sker på engelska.",
+    "p4": " Genom internationella nätverk, utlandstjänstgöringar och utländska klienter har EdmarLaw dessutom ett väl etablerat nätverk av advokatbyråer i hela världen. EdmarLaw kan därför på ett effektivt sätt guida i ärenden som rör olika jurisdiktioner och rättsområden.",
+    "p5": "Malin Edmar",
+    "p6": "Advokat och grundare",
+    "p7": "Grundaren och advokaten Malin Edmar har arbetat med avtalsfrågor samt IT-rättsliga och immaterialrättsliga frågor sedan 1996. Hon driver ofta stora och komplicerade förhandlingar inom olika områden, inte sällan förlikningsförhandlingar i samband med uppgörelser.",
+    "p8": "Malin Edmar har tjänstgjort på Microsoft Corporations huvudkontor i Seattle i flera år och fortsatt biträda bolaget med kommersiella avtal, produktutveckling och produktlansering. Hon har även arbetat på GitHub, Inc., dels som Senior Commercial Counsel, med fokus på att upprätta och förhandla kommersiellt gångbara, lättfattliga villkor för till exempel PaaS, supporttjänster och samarbeten, dels som Senior Product Counsel, med fokus på utveckling inom AI, säkerhetstjänster, PaaS och utvecklingssamarbeten.",
+    "p9": "Dessa erfarenheter har inte bara gett henne ett passionerat intresse för ny teknik och innovation utan även mycket god branschkännedom. Hon förstår IT-bolagens typiska produktcykler och terminologi – en snabb insikt i klienternas verksamhet faller sig därför naturligt.",
+    "p10": "Malin har också skrivit fyra böcker, bland annat boken Internetpublicering och sociala medier som hittills har getts ut i sju upplagor (Norstedts Juridik, 2021), och var med i IT- kommissionens IT-rättsliga observatorium under flera år, där hon fick möjlighet att påverka ny lagstiftning inom personuppgiftshantering, telekom, sociala medier och e-handel.",
+    "p11": "När Malin upprättar avtal, förhandlar eller skriver böcker så har hon alltid tekniken i fokus, och ser till att förstå den först innan hon tillämpar juridiken. Dessutom brinner Malin för att göra juridiken begriplig – man ska inte behöva anlita jurister för att förstå vad man har kommit överens om. Det är förmodligen därför hennes böcker är så populära, och används som kurslitteratur vid flera universitet i Sverige.",
+    "p12": "",
+    "Medförfattare till boken": "Medförfattare till boken",
+    "Författare till boken": "Författare till boken",
+    "Redaktör och medförfattare till boken": "Redaktör och medförfattare till boken"
+  },
+  "NewCardTitles": {
+    "AI": "Artificiell intelligens – AI",
+    "IT Law": "IT-rätt",
+    "Contract Law": "Avtalsrätt",
+    "Licensing of Software": "Upphovsrätt",
+    "GDPR": "GDPR",
+    "Privacy Law": "Dataskydd",
+    "Outsourcing": "Outsourcing",
+    "E-commerce": "E-handel",
+    "Domain Names": "Domännamn"
   }
 }

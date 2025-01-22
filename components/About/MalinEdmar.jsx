@@ -22,30 +22,12 @@ const MalinEdmar = () => {
               <h2>Malin Edmar</h2>
               <span>malin.edmar@edmarlaw.se</span>
               <p>+46 76-774 22 20</p>
-              {/* <div className={styles.iconsRow}>
-                <FaFacebookF
-                  className={styles.icon}
-                  style={{ fill: "#b2b2b4", cursor: "pointer" }}
-                />
-                <FaTwitter
-                  className={styles.icon}
-                  style={{ fill: "#b2b2b4", cursor: "pointer" }}
-                />
-                <FaInstagramSquare
-                  className={styles.icon}
-                  style={{ fill: "#b2b2b4", cursor: "pointer" }}
-                />
-                <FaLinkedinIn
-                  className={styles.icon}
-                  style={{ fill: "#b2b2b4", cursor: "pointer" }}
-                />
-              </div> */}
             </div>
           </div>
           <div className={styles.descriptionDIv}>
             <h1>
               Malin Edmar <br /> {t("title")}
-            </h1>{" "}
+            </h1>
             <br />
             <p>{t("desc1")}</p>
             <br />
@@ -56,20 +38,18 @@ const MalinEdmar = () => {
           <div className={styles.education}>
             <div>
               <h1>{t("Education")}</h1> <br />
-              <p>
-                {t("unii")}
-              </p>
+              <p>{t("unii")}</p>
             </div>
             <div>
               <h1>{t("Publications")}</h1> <br />
               <p>
-                {t("Edmar, Malin; Author of the book")}{" "}
+                {t("Edmar, Malin; Author of the book")}
                 <a
                   href="https://shop.nj.se/products/internetpublicering-och-sociala-medier-1"
                   target="_blank"
                 >
-                  {"Internetpublicering och sociala medier"}{" "}
-                </a>{" "}
+                  {"Internetpublicering och sociala medier"}
+                </a>
                 <br />
                 {t(
                   "In Swedish, Norstedts Juridik, 7th edition, 2021"
@@ -79,27 +59,24 @@ const MalinEdmar = () => {
                   href="https://www.nj.se/ekurs-internetpublicering-och-sociala-medier"
                   target="_blank"
                 >
-                  {" "}
-                  {t("Online education on Internet publishing")}{" "}
-                </a>{" "}
+                  {t("Online education on Internet publishing")}
+                </a>
                 <br />
-                {t("In Swedish, Norstedts Juridik, 2015")} <br /> <br />{" "}
+                {t("In Swedish, Norstedts Juridik, 2015")} <br /> <br />
                 {t("Edmar, Malin; Co-author of the book")}
                 <a href="https://shop.nj.se/products/domannamn" target="_blank">
-                  {" "}
-                  {t("Domain Names – Strategies and Legal Aspects")}{" "}
+                  {t("Domain Names – Strategies and Legal Aspects")}
                 </a>
-                <br /> {t("In Swedish, Norstedts Juridik, 2014")}{" "}
+                <br /> {t("In Swedish, Norstedts Juridik, 2014")}
                 {t("Also available in English")}
                 <a
                   href="https://www.sweetandmaxwell.co.uk/Product/Dispute-Resolution/Domain-Names-Strategies-and-Legal-Aspects/Hardback-and-eBook-ProView/42960040"
                   target="_blank"
                 >
-                  {" "}
                   {t("here")}.
-                </a>{" "}
+                </a>
                 <br /> <br />
-                {t("Edmar, Malin; Editor and co-author to the book")}{" "}
+                {t("Edmar, Malin; Editor and co-author to the book")}
                 <a
                   href="https://www.jure.se/ns/default.asp?url=visatitel.asp?tuid=17706"
                   target="_blank"

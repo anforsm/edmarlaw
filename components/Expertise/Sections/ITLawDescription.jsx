@@ -1,41 +1,37 @@
-"use client"
+"use client";
 import React from "react";
 import styles from "./styles.module.css";
 import { useTranslations } from "next-intl";
 const ITLawDescription = () => {
-  const t = useTranslations("Index");
+  const t = useTranslations("ItLaw");
   return (
     <div className={styles.container}>
-      <p>{t("itDescription")}</p>
+      <p>{t("p1")}</p>
       <br />
       <p>
-        <strong>{t("Typical assignments:")}</strong>
+        <strong className="text-[20px] md:text-[20px] leading-[28px]">
+          {t("listHeader")}
+        </strong>
       </p>
       <br />
-      <ul>
-        <li>{t("Licenses")}</li>
-        <li>{t("Terms of Use, Terms of Service")}</li>
-        <li>{t("Privacy assessments")}</li>
-        <li>{t("Privacy terms")}</li>
-        <li>{t("Outsourcing")}</li>
-        <li>{t("Joint Development")}</li>
-        <li>{t("Online Services (PaaS, SaaS, cloud services etc)")}</li>
-        <li>{t("System Deliveries")}</li>
-        <li>{t("E-commerce")}</li>
-        <li>{t("Maintenance of software, IoT, IT systems")}</li>
-        <li>{t("Copyright and other intellectual property rights")}</li>
-        <li>{t("Processing, including transfer of Personal Data")}</li>
-        <li>{t("Domain names")}</li>
-        <li>{t("Trademark rights")}</li>
+      <ul className="list-disc pl-2">
+        <li>{t("list1")}</li>
+        <li>{t("list2")}</li>
+        <li>{t("list3")}</li>
+        <li>{t("list4")}</li>
+        <li>{t("list5")}</li>
+        <li>{t("list6")}</li>
+        <li>{t("list7")}</li>
+        <li>{t("list8")}</li>
+        <li>{t("list9")}</li>
+        <li>{t("list10")}</li>
+        <li>{t("list11")}</li>
+        <li>{t("list12")}</li>
       </ul>
+      {/* <br />
+      <p>{t("itDescription2")}</p>
       <br />
-      <p>
-        {t("itDescription2")}
-      </p>
-      <br />
-      <p>
-      {t("itDescription3")}
-      </p>
+      <p>{t("itDescription3")}</p> */}
     </div>
   );
 };

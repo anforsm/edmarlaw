@@ -1,0 +1,9 @@
+.container p {
+  /* color: #000000; */
+  line-height: 26px;
+}
+.container ul li {
+  /* color: #000000; */
+  line-height: 26px;
+  margin-left: 1rem;
+}

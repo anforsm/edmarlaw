@@ -1,22 +1,16 @@
-"use client"
+"use client";
 import React from "react";
 import styles from "./styles.module.css";
 import { useTranslations } from "next-intl";
 const ContractLawDescription = () => {
-    const t = useTranslations("Index")
+  const t = useTranslations("ContractLaw");
   return (
     <div className={styles.container}>
-      <p>
-        {t("contractDesc1")}
-      </p>{" "}
+      <p>{t("p1")}</p>
       <br />
-      <p>
-      {t("contractDesc2")}
-      </p>{" "}
+      <p>{t("p2")}</p>
       <br />
-      <p>
-      {t("contractDesc3")}
-      </p>
+      <p>{t("p3")}</p>
     </div>
   );
 };

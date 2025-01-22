@@ -3,11 +3,16 @@ import React from "react";
 import styles from "./Publications.module.css";
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 const Publications = () => {
   const t = useTranslations("Publication");
+  const tTitle = useTranslations("Index");
   const pathname = usePathname();
   return (
     <div className={styles.container}>
+      <h1 className="!text-[#00adee] !font-[300] !text-[60px] -ml-1">
+        {tTitle("Publications")}
+      </h1>
       <div className={styles.forwardFlex}>
         <div className={styles.imageDiv}>
           <img src="/firstbook.webp" alt="" />
@@ -22,8 +27,8 @@ const Publications = () => {
             </>
           )}
           {pathname === "/about-us/publications" ? (
-            <ul>
-              <li>Får man använda cookies?</li>
+            <ul className="list-disc">
+              <li className="list-disc">Får man använda cookies?</li>
               <li>
                 För vilka personuppgifter krävs samtycke och när behöver man
                 inte be om lov för att lägga ut uppgifter?
@@ -34,7 +39,7 @@ const Publications = () => {
               <li>Vilket lands lag gäller för en webbplats?</li>
             </ul>
           ) : (
-            <ul>
+            <ul className="list-disc">
               <li>{t("Who owns a web production?")}</li>
               <li>{t("What personal data requires consent?")}</li>
               <li>{t("What are the rules for marketing on the web?")}</li>
@@ -56,7 +61,14 @@ const Publications = () => {
             </>
           )}
           <p>
-            {t("Buy")} <a href="https://shop.nj.se/products/internetpublicering-och-sociala-medier-1" target="_blank"> Internetpublicering och sociala medier</a>
+            {t("Buy")}{" "}
+            <Link
+              className="text-black underline"
+              href="https://shop.nj.se/products/internetpublicering-och-sociala-medier-1"
+              target="_blank"
+            >
+              Internetpublicering och sociala medier
+            </Link>
           </p>
         </div>
       </div>
@@ -87,29 +99,38 @@ const Publications = () => {
             <>
               <p>
                 {t("Buy")}{" "}
-                <a
+                <Link
+                  className="text-black underline"
                   href="https://www.sweetandmaxwell.co.uk/Product/Dispute-Resolution/Domain-Names-Strategies-and-Legal-Aspects/Hardback-and-eBook-ProView/42960040"
                   target="_blank"
                 >
                   Domain Names – Strategies and Legal Aspects
-                </a>
+                </Link>
               </p>
               <br />
 
               <p>
                 (Buy it in Swedish{" "}
-                <a href="https://shop.nj.se/products/domannamn" target="_blank">
+                <Link
+                  className="text-black underline"
+                  href="https://shop.nj.se/products/domannamn"
+                  target="_blank"
+                >
                   Domännamn – Strategier och juridiska överväganden
-                </a>
+                </Link>
                 )
               </p>
             </>
           ) : (
             <p>
               {t("Buy")}{" "}
-              <a href="https://shop.nj.se/products/domannamn" target="_blank">
+              <Link
+                className="text-black underline"
+                href="https://shop.nj.se/products/domannamn"
+                target="_blank"
+              >
                 Domännamn – Strategier och juridiska överväganden
-              </a>
+              </Link>
             </p>
           )}
         </div>
@@ -132,12 +153,13 @@ const Publications = () => {
           )}
           <p>
             {t("Buy")}{" "}
-            <a
+            <Link
+              className="text-black underline"
               href="https://www.jure.se/ns/default.asp?url=visatitel.asp?tuid=17706"
               target="_blank"
             >
               I immaterialrättens gränsland
-            </a>
+            </Link>
           </p>
         </div>
       </div>

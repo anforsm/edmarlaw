@@ -1,22 +1,16 @@
-"use client"
+"use client";
 import React from "react";
 import styles from "./styles.module.css";
 import { useTranslations } from "next-intl";
 const OutsourcingDescription = () => {
-    const t = useTranslations("Index");
+  const t = useTranslations("Outsourcing");
   return (
     <div className={styles.container}>
-      <p>
-     {t("OutSource1")}
-      </p>
+      <p>{t("p1")}</p>
       <br />
-      <p>
-      {t("OutSource2")}
-      </p>
+      <p>{t("p2")}</p>
       <br />
-      <p>
-      {t("OutSource3")}
-      </p>
+      <p>{t("p3")}</p>
     </div>
   );
 };

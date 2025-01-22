@@ -1,0 +1,100 @@
+/* GridComponent.module.css */
+.gridContainer {
+  display: flex;
+  /* width: 90%; */
+  margin: auto;
+  gap: 4rem;
+  padding: 4rem 0;
+  height: 100%;
+}
+
+.gridList {
+  /* width: 30%; */
+  padding-right: 10px;
+  position: sticky;
+  top: 15%;
+  align-self: self-start;
+}
+
+.gridList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.gridList li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+}
+
+/* .gridList li:hover {
+    background-color: #f0f0f0;
+  } */
+.row {
+  line-height: 23.68px;
+  color: #1d1d1d;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.gridList li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.gridList li span {
+  /* font-size: 16px; */
+}
+
+.gridList li.active {
+  /* background-color: #01acef32; */
+
+  font-weight: bold;
+}
+
+.gridContent {
+  /* width: 70%; */
+  padding: 10px;
+  padding-bottom: 16rem;
+}
+/*
+  .gridContent h2 {
+    font-size: 32px;
+    color: #21212B;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .gridContent h1 {
+    margin-top: 2rem;
+  }
+  .gridContent p {
+    font-size: 16px;
+  } */
+
+.active {
+  font-size: 18px;
+  line-height: 23.4px;
+}
+.mobileContainer {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .gridContainer {
+    display: none;
+  }
+  .mobileContainer {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .mobileContainer li {
+    margin-left: 1rem;
+  }
+}

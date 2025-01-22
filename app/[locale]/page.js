@@ -8,15 +8,13 @@ import References from "@/components/Home/References";
 import Publisher from "@/components/Home/Publisher";
 import "slick-carousel/slick/slick.css";
 
-
 import "slick-carousel/slick/slick-theme.css";
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col gap-y-12 h-full min-h-screen">
       <Hero title={"edmar"} logoImg={"logo"} isEdmr={true} />
-      <Intro />
-      <AreaOFExpertise />
       <References />
+      <AreaOFExpertise />
       <Publisher />
     </main>
   );

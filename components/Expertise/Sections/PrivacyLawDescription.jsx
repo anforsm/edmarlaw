@@ -1,28 +1,37 @@
-"use client"
+"use client";
 import React from "react";
 import styles from "./styles.module.css";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 const PrivacyLawDescription = () => {
-  const t = useTranslations("Index");
+  const t = useTranslations("PrivacyLaw");
   return (
     <div className={styles.container}>
-      <p>{t("privacyDesc1")}</p> <br />
-      <p>{t("privacyDesc2")}</p> <br />
-      <p>{t("privacyDesc3")}</p> <br />
-      <p>{t("privacyDesc4")}</p> <br />
-      <p>
-        <strong>{t("Typical assignments:")}</strong>
-      </p>{" "}
+      <p>{t("p1")}</p> <br />
+      <p>{t("p2")}</p> <br />
+      <p>{t("p3")}</p> <br />
+      <p>{t("p4")}</p> <br />
+      <p>{t("p5")}</p> <br />
+      <p>{t("p6")}</p>
       <br />
-      <ul>
-        <li>{t("How to process personal data")}</li>
-        <li>{t("Draft or review of privacy policies")}</li>
-        <li>{t("Privacy impact assessments")}</li>
-        <li>{t("Privacy by default and security by design aspects")}</li>
-        <li>{t("Legal bases for processing, when consent is needed")}</li>
-        <li>{t("What information to provide to data subjects")}</li>
-        <li>{t("How to handle cookies")}</li>
+      <p className="font-bold text-[20px] leading-[28px]">{t("listHeader")}</p>
+      <ul className="list-disc pl-2">
+        <br />
+        <li>{t("list1")}</li>
+        <li>{t("list2")}</li>
+        <li>{t("list3")}</li>
+        <li>{t("list4")}</li>
+        <li>{t("list5")}</li>
+        <li>{t("list6")}</li>
+        <li>{t("list7")}</li>
+        <li>{t("list8")}</li>
+        {t("list9") && <li>{t("list9")}</li>}
       </ul>
+      <br />
+      <br />
+      <Link href={"/gdpr"} className="underline font-bold">
+        {t("link")}
+      </Link>
     </div>
   );
 };

@@ -1,16 +1,14 @@
-"use client"
-import React from 'react'
-import styles from './Hero.module.css'
-import { useTranslations } from 'next-intl'
+"use client";
+import React from "react";
+import styles from "./Hero.module.css";
+import { useTranslations } from "next-intl";
 const Hero = () => {
-    const t = useTranslations("Index")
+  const t = useTranslations("Index");
   return (
-    <section className={styles.hero}>
-    <div className={styles.container}>
-     <h1>{t("Privacy Policy")}</h1>
-    </div>
-  </section>
-  )
-}
+    <section>
+      <h1 className="text-3xl pl-6 pt-6">{t("Privacy Policy")}</h1>
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;

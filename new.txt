@@ -1,0 +1,12 @@
+#startsida - 2 nya knappar
+grej över bild
+textformat
+absolut pattern under bild
+
+snyggare karusell
+
+kort - dynamiskt
+
+expertis - scrollbar på sidan
+
+referenser - samma kort

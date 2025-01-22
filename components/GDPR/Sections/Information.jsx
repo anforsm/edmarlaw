@@ -5,14 +5,13 @@ const Information = () => {
   const t = useTranslations("GDPR");
   return (
     <div>
-      <h1 >{t("Information Obligation")}</h1>{" "}
-      <br />
-      <h2>{t("Requirements to provide information")}</h2>
+      <h3 className="font-bold text-[20px] pb-4 pt-4">
+        {t("Requirements to provide information")}
+      </h3>
       <p>{t("info1")}</p>
       <br />
-      <p>{t("info2")}</p>
-      <br />
-      <ul>
+      <p className="text-[20px] !font-semibold">{t("info2")}</p>
+      <ul className="list-disc p-4">
         <li>{t("infoList1")}</li>
         <li>{t("infoList2")}</li>
         <li>{t("infoList3")}</li>
@@ -21,10 +20,9 @@ const Information = () => {
         <li>{t("infoList6")}</li>
         <li>{t("infoList7")}</li>
       </ul>
-      <br />
       <p>{t("info3")}</p>
       <br />
-      <h2>{t("Data Records")}</h2>
+      <h2 className="text-[20px] !font-semibold">{t("Data Records")}</h2>
       <br />
       <p>
         {t("data1")} <br /> <br />
