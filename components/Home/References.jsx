@@ -141,6 +141,7 @@ const References = () => {
       <div className="flex justify-center gap-2 py-2 z-50 pb-8">
         {Array.from({ length: count }).map((_, i) => (
           <button
+            onClick={() => handleClick(i)}
             key={i}
             className={`w-2 h-2 rounded-full ${
               i !== current - 1 ? "bg-[#d1f1ff]" : "bg-[#00adee]"
