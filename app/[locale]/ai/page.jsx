@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import styles from "../../../components/Expertise/Area.module.css";
-import { AiOutlineRight } from "react-icons/ai";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import AiDescription from "./Sections/ai";
