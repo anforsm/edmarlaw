@@ -241,11 +241,6 @@ const Page = () => {
           </div>
         </div>
       </div>
-      {/* <Hero isEdmr={true} logoImg={"logo"} /> */}
-      {/* <About /> */}
-      {/* <MalinEdmar /> */}
-      {/* <Associations /> */}
-      {/* <AreaOFExpertise size={"sm"} /> */}
     </main>
   );
 };
