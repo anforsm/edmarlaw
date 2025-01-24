@@ -19,14 +19,14 @@ const Navbar = () => {
   const asPath = usePathname();
 
   const getNewPath = (locale) => {
-    if (locale === "en") {
-      return asPath.startsWith("/en/") || asPath.startsWith("/en")
+    if (locale === "se") {
+      return asPath.startsWith("/se/") || asPath.startsWith("/se")
         ? asPath.substring(3)
-        : asPath === "/en"
+        : asPath === "/se"
         ? "/"
         : asPath;
     } else {
-      return asPath.startsWith("/en/") || asPath.startsWith("/en")
+      return asPath.startsWith("/se/") || asPath.startsWith("/se")
         ? `/${locale}${asPath.substring(3)}`
         : `/${locale}${asPath}`;
     }
@@ -86,13 +86,13 @@ const Navbar = () => {
               </select>
             </div> */}
             <div className="text-[#00adee]">
-              {asPath.startsWith("/en") ? (
-                <LinkI href={getNewPath("se")} locale="se">
-                  <p>SE</p>
-                </LinkI>
-              ) : (
+              {asPath.startsWith("/se") ? (
                 <LinkI href={getNewPath("en")} locale="en">
                   <p>EN</p>
+                </LinkI>
+              ) : (
+                <LinkI href={getNewPath("se")} locale="se">
+                  <p>SE</p>
                 </LinkI>
               )}
             </div>
