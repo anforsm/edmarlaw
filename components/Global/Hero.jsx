@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import styles from "./Hero.module.css";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
